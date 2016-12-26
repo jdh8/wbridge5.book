@@ -1,1 +1,1 @@
-{ "plugins": "https://github.com/jdh8/gitbook-plugin-suits" }
+{ "plugins": "myplugin@git+https://github.com/jdh8/gitbook-plugin-suits" }
