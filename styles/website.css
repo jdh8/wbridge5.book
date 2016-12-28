@@ -2,3 +2,7 @@ body {
 	font-family: "DejaVu Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-stretch: condensed;
 }
+
+.redsuit {
+	color: #d33;
+}

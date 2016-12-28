@@ -1,0 +1,6 @@
+{% extends template.self %}
+
+{% block body %}
+{{ super() | replace("♥", "<span class='redsuit'>♥</span>") | replace("♦", "<span class='redsuit'>♦</span>") }}
+{% endblock %}
+{# vim: set filetype=liquid #}
