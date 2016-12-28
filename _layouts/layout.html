@@ -2,10 +2,10 @@
 
 {% block body %}
 {{ super()
-	| replace("<!S>", "♠")
-	| replace("<!H>", "<span class='redsuit'>♥</span>")
-	| replace("<!D>", "<span class='redsuit'>♦</span>")
-	| replace("<!C>", "♣")
+	| replace("!S", "♠")
+	| replace("!H", "<span class='redsuit'>♥</span>")
+	| replace("!D", "<span class='redsuit'>♦</span>")
+	| replace("!C", "♣")
 	| safe }}
 {% endblock %}
 {# vim: set filetype=liquid #}
