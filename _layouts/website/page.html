@@ -1,7 +1,6 @@
 {% extends template.self %}
 
 {% block page %}
-{{ page.content | replace("♥", "<span class='redsuit'>♥</span>") | replace("♦", "<span class='redsuit'>♦</span>") | safe }}
-<!-- This comment helps check if this layout is applied properly. -->
+{{ page.content | replace("&x2665;", "<span class='redsuit'>♥</span>") | replace("&x2666;", "<span class='redsuit'>♦</span>") | safe }}
 {% endblock %}
 {# vim: set filetype=liquid #}
