@@ -6,4 +6,4 @@ paragraph is vanilla.  The second paragraph is applied with the testing style.
 
 ♠ ♥ ♦ ♣
 
-<span>♠</span> <span>♥</span> <span>♦</span> <span>♣</span>
+<!S> <!H> <!D> <!C>
