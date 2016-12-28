@@ -1,0 +1,9 @@
+{% extends template.self %}
+
+{% block body %}
+{{ super()
+	| replace("&hearts;", "<span class='redsuit'>&hearts;</span>")
+	| replace("&diams;", "<span class='redsuit'>&diams;</span>")
+	| safe }}
+{% endblock %}
+{# vim: set filetype=liquid #}
