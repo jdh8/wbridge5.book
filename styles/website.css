@@ -1,4 +1,5 @@
-body {
+body,
+.book-summary {
 	font-family: Roboto, sans-serif;
 }
 
