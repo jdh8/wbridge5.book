@@ -1,6 +1,3 @@
-Glossary
-========
-
 2/1
 ---
 2/1 is a bidding system where a non-jump response in 2 of a new suit over 1 of
