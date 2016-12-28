@@ -1,7 +1,9 @@
-# My Awesome Book
+Test typesetting of suits
+=========================
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
-
-&spades; &hearts; &diams; &clubs;
+The following are paragraphs consisting of only symbols of suits.  The first
+paragraph is vanilla.  The second paragraph is applied with the testing style.
 
 ♠ ♥ ♦ ♣
+
+<span>♠</span> <span>♥</span> <span>♦</span> <span>♣</span>
