@@ -8,7 +8,7 @@ collate the bidding system in this book.  I have also done a [collation][bss]
 in [*Full Disclosure*][fd] format.
 
 The topic of this book is mainly bidding because playing is somewhat universal.
-Playing depends not on how to bid but on meaning of every bid.  There are so
+Playing depends not on how to bid but on meaning of every call.  There are so
 many experts and books for playing that writing one more book is infeasible for
 me.
 
