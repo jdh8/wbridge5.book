@@ -24,9 +24,8 @@ included in Wbridge5.
 
 Read & write
 ------------
-[This book is publicated on GitBook][pub].
-[The source code is hosted on GitHub][src].
-Feel free to share or improve this book.
+[This book][pub] is publicated on GitBook.  The [source code][src] is hosted on
+GitHub.  Feel free to share or improve this book.
 
 [pub]: https://jdh8.gitbooks.io/wbridge5/content/
 [src]: https://github.com/jdh8/wbridge5.book
