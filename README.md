@@ -7,6 +7,16 @@ system.  I dream of human pairs using a bidding system like Wbridge5, so I
 collate the bidding system in this book.  I have also done a [collation][bss]
 in [*Full Disclosure*][fd] format.
 
+The topic of this book is mainly bidding because playing is somewhat universal.
+Playing depends not on how to bid but on meaning of every bid.  There are so
+many experts and books for playing that writing one more book is infeasible for
+me.
+
+Wbridge5 has a 2/1 bidding system with French flavors, as it originates from
+France.  Some French conventions greatly improves bidding structure from *the*
+American, so Wbridge5 incorporates them.  Others not so profitable are not
+included in Wbridge5.
+
 [allevy]: https://allevybridge.com/allevy/computerbridge/index.htm
 [bss]: https://github.com/jdh8/Wbr5.bss
 [fd]: http://www.bridgebase.com/help/3/topics/fulldisclosurefileformat/text/intro.html
