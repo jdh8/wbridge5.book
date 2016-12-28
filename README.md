@@ -21,3 +21,20 @@ included in Wbridge5.
 [bss]: https://github.com/jdh8/Wbr5.bss
 [fd]: http://www.bridgebase.com/help/3/topics/fulldisclosurefileformat/text/intro.html
 [wbr5]: http://wbridge5.com/
+
+Read & write
+------------
+[This book is publicated on GitBook][pub].
+[The source code is hosted on GitHub][src].
+Feel free to share or improve this book.
+
+[pub]: https://jdh8.gitbooks.io/wbridge5/content/
+[src]: https://github.com/jdh8/wbridge5.book
+
+License
+-------
+This book is free software.  The content is released under [CC BY-SA 4.0][cc].
+The source code is released under [GPLv3+][gpl].
+
+[cc]: https://creativecommons.org/licenses/by-sa/4.0/
+[gpl]: https://www.gnu.org/licenses/gpl-3.0.html
