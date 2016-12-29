@@ -90,7 +90,7 @@ Right-hand opponent.
 
 shape
 -----
-An ordered list of lengths in the suits.  The order is `♠`, `♥`, `♦`, `♣` if
+An ordered list of lengths in the suits.  The order is `♠`-`♥`-`♦`-`♣` if
 unspecified.
 
 strain
