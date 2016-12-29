@@ -20,8 +20,8 @@ Do not consider suit quality.  In bridge **quantity** is more important than
 quality.
 
 <dl>
-   <dt>♠AKQ6 <span class="redsuit">♥</span>853 <span class="redsuit">♦</span>A102 ♣764</dt>
-   <dd>Open 1♣ as clubs is the only eligible suit.</dd>
+   <dt>♠10 <span class="redsuit">♥</span>1054 <span class="redsuit">♦</span>KJ52 ♣AKJ97</dt>
+   <dd>Open 1♣ because clubs is the longer eligible suit.</dd>
 
    <dt>♠J9864 <span class="redsuit">♥</span>A8654 <span class="redsuit">♦</span>A ♣KJ</dt>
    <dd>Open 1♠ because spades is the higher eligible suit.</dd>
