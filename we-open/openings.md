@@ -1,3 +1,5 @@
+{% import "../suits.liquid" as suits %}
+
 Openings
 ========
 A hand with 13+ DH or 12 H is sufficient for an opening.  If both hands in a
@@ -11,26 +13,25 @@ opponents from bidding a good contract.
 One-of-a-suit openings
 ----------------------
 One must bid 1 of a suit with an opening hand uneligible for a strong opening.
-Opening in a major requires 5+ cards, 1{{ ♦ }} for 4+ cards, 1{{ ♣ }} for 3+
-cards.  With the special shape 4-4-3-2, one opens 1{{ ♦ }} as a fallback.  If
-opener finds more than one eligible suit, bid the longest suit.  If more than
-one eligible suit is equally long, bid the highest suit.
+Opening in a major requires 5+ cards, 1{{ suits.♦ }} for 4+ cards,
+1{{ suits.♣ }} for 3+ cards.  With the special shape 4-4-3-2, one opens
+1{{ suits.♦ }} as a fallback.  If opener finds more than one eligible suit, bid
+the longest suit.  If more than one eligible suit is equally long, bid the
+highest suit.
 
 Do not consider suit quality.  In bridge, **quantity** is more important than
 quality.
 
 <dl>
-   <dt>{{ hand("10", "1054", "KJ52", "AKJ97") }}</dt>
-   <dd>Open 1♣ because clubs is the longer eligible suit.</dd>
+   <dt>{{ suits.hand("10", "1054", "KJ52", "AKJ97") }}</dt>
+   <dd>Open 1{{ suits.♣ }} because clubs is the longer eligible suit.</dd>
 
-   <dt>{{ hand("J9864", "A8654", "A", "KJ") }}</dt>
-   <dt>♠J9864 ♥A8654 ♦A ♣KJ</dt>
-   <dd>Open 1♠ because spades is the higher eligible suit.</dd>
+   <dt>{{ suits.hand("J9864", "A8654", "A", "KJ") }}</dt>
+   <dd>Open 1{{ suits.♠ }} because spades is the higher eligible suit.</dd>
 
-   <dt>{{ hand("AQ73", "Q1087", "A862", "K") }}</dt>
-   <dt>♠AQ73 ♥Q1087 ♦A862 ♣K</dt>
-   <dd>Open 1♦ because diamonds is the only eligible suit.</dd>
+   <dt>{{ suits.hand("AQ73", "Q1087", "A862", "K") }}</dt>
+   <dd>Open 1{{ suits.♦ }} because diamonds is the only eligible suit.</dd>
 
-   <dt>{{ hand("AK74", "AJ54", "J107", "72") }}</dt>
-   <dd>Open 1♦ because no suit is eligible.</dd>
+   <dt>{{ suits.hand("AK74", "AJ54", "J107", "72") }}</dt>
+   <dd>Open 1{{ suits.♦ }} because no suit is eligible.</dd>
 </dl>

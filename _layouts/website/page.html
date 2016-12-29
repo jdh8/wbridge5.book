@@ -24,18 +24,4 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:,i,b,bi&amp;subset=latin-ext" rel="stylesheet">
 {% endblock %}
 
-{% block page %}
-	{% set ♠ = "♠" %}
-	{% set ♥ = "<span class='redsuit'>♥</span>" %}
-	{% set ♦ = "<span class='redsuit'>♦</span>" %}
-	{% set ♣ = "♣" %}
-
-	{% macro hand(spades, hearts, diamonds, clubs) %}
-		{{ ♠ }}{{ spades }}
-		{{ ♥ }}{{ hearts }}
-		{{ ♦ }}{{ diamonds }}
-		{{ ♣ }}{{ clubs }}
-	{% endmacro %}
-{% endblock %}
-
 {# vim: set filetype=liquid #}
