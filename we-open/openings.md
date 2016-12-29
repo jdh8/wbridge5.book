@@ -20,15 +20,15 @@ Do not consider suit quality.  In bridge **quantity** is more important than
 quality.
 
 <dl>
-   <dt>`♠`AKQ6 `♥`853 `♦`A102 `♣`764</dt>
-   <dd>Open 1`♣` as clubs is the only eligible suit.</dd>
+   <dt>♠AKQ6 <span class="redsuit">♥</span>853 <span class="redsuit">♦</span>A102 ♣764</dt>
+   <dd>Open 1♣ as clubs is the only eligible suit.</dd>
 
-   <dt>`♠`J9864 `♥`A8654 `♦`A `♣`KJ</dt>
-   <dd>Open 1`♠` because spades is the higher eligible suit.</dd>
+   <dt>♠J9864 <span class="redsuit">♥</span>A8654 <span class="redsuit">♦</span>A ♣KJ</dt>
+   <dd>Open 1♠ because spades is the higher eligible suit.</dd>
 
-   <dt>`♠`AQ73 `♥`Q1087 `♦`A862 `♣`K</dt>
-   <dd>Open 1`♦` because diamonds is the only eligible suit.</dd>
+   <dt>♠AQ73 <span class="redsuit">♥</span>Q1087 <span class="redsuit">♦</span>A862 ♣K</dt>
+   <dd>Open 1<span class="redsuit">♦</span> because diamonds is the only eligible suit.</dd>
 
-   <dt>`♠`AK74 `♥`AJ54 `♦`J107 `♣`72</dt>
-   <dd>Open 1`♦` because no suit is eligible.</dd>
+   <dt>♠AK74 <span class="redsuit">♥</span>AJ54 <span class="redsuit">♦</span>J107 ♣72</dt>
+   <dd>Open 1<span class="redsuit">♦</span> because no suit is eligible.</dd>
 </dl>
