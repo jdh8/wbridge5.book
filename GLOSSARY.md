@@ -71,6 +71,10 @@ consecutive passes after another call ends the auction.
 
 Passing transfers the right to call to LHO unless the pass ends the auction.
 
+pattern
+-------
+An unordered list of lengths in the suits.
+
 redouble
 --------
 A bid that doubles effects of a previous double.  A redouble can be only made
@@ -83,6 +87,11 @@ Opener’s partner.
 RHO
 ---
 Right-hand opponent.
+
+shape
+-----
+An ordered list of lengths in the suits.  The order is `♠`, `♥`, `♦`, `♣` if
+unspecified.
 
 strain
 ------
