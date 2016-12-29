@@ -24,4 +24,13 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:,i,b,bi&amp;subset=latin-ext" rel="stylesheet">
 {% endblock %}
 
-{# vim: set filetype=liquid #}
+{% block page %}
+	{{ page.content
+		| replace("<em>&#x2660;</em>", "♠")
+		| replace("<em>&#x2665;</em>", "<span class='redsuit'>♥</span>")
+		| replace("<em>&#x2666;</em>", "<span class='redsuit'>♦</span>")
+		| replace("<em>&#x2663;</em>", "♣")
+		| safe }}
+{% endblock %}
+
+{# vim: set filetype=htmldjango: #}
