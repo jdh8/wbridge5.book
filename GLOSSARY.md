@@ -1,5 +1,3 @@
-{% import "suits.liquid" as suits %}
-
 2/1
 ---
 A 2/1 bidding system is a system where 2/1 bids are forcing to game.
@@ -17,7 +15,7 @@ A series of calls from the beginning of a deal.
 
 bid
 ---
-A specification of both level and strain, such as 3NT or 4{{ suits.♥ }}.
+A specification of both level and strain, such as 3NT or 4♥.
 
 call
 ----
@@ -92,18 +90,17 @@ Right-hand opponent.
 
 shape
 -----
-An ordered list of lengths in the suits.  The order is
-{{ suits.♠ }}-{{ suits.♥ }}-{{ suits.♦ }}-{{ suits.♣ }} if unspecified.
+An ordered list of lengths in the suits.  The order is ♠-♥-♦-♣ if unspecified.
 
 strain
 ------
-NT > {{ suits.♠ }} > {{ suits.♥ }} > {{ suits.♦ }} > {{ suits.♣ }}
+NT > ♠ > ♥ > ♦ > ♣
 
 Component of a bid that denotes the proposed trump suit or notrump.
 
 suit
 ----
-{{ suits.♠ }} > {{ suits.♥ }} > {{ suits.♦ }} > {{ suits.♣ }}
+♠ > ♥ > ♦ > ♣
 
 unpassed
 --------
