@@ -16,7 +16,7 @@ With the special shape 4-4-3-2, one opens 1`♦` as a fallback.  If opener finds
 more than one eligible suit, bid the longest suit.  If more than one eligible
 suit is equally long, bid the highest suit.
 
-Do not consider suit quality.  In bridge **quantity** is more important than
+Do not consider suit quality.  In bridge, **quantity** is more important than
 quality.
 
 <dl>
