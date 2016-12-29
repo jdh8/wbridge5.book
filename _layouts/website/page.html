@@ -25,12 +25,17 @@
 {% endblock %}
 
 {% block page %}
-	{{ page.content
-		| replace("<code>&#x2660;</code>", "♠")
-		| replace("<code>&#x2665;</code>", "<span class='redsuit'>♥</span>")
-		| replace("<code>&#x2666;</code>", "<span class='redsuit'>♦</span>")
-		| replace("<code>&#x2663;</code>", "♣")
-		| safe }}
+	{% set ♠ = "♠" %}
+	{% set ♥ = "<span class='redsuit'>♥</span>" %}
+	{% set ♦ = "<span class='redsuit'>♦</span>" %}
+	{% set ♣ = "♣" %}
+
+	{% macro hand(spades, hearts, diamonds, clubs) %}
+		{{ ♠ }}{{ spades }}
+		{{ ♥ }}{{ hearts }}
+		{{ ♦ }}{{ diamonds }}
+		{{ ♣ }}{{ clubs }}
+	{% endmacro %}
 {% endblock %}
 
 {# vim: set filetype=liquid #}
