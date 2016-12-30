@@ -49,3 +49,13 @@ semibalanced hands with specific strength should be opened in notrump.
 With 12--14 or 18--19 H, one should always open 1 of a suit.  A simple notrump
 rebid stands for weak notrump; a jump notrump rebid shows a hand between 1NT
 and 2NT openings.
+
+Strong 2*♣* & 2*♦* openings
+---------------------------
+The strong 2*♣* shows two kinds of **invitational** hands.  The 2*♣* is a limit
+bid, so the responder becomes the *captain*.
+
+* 21--23 DH or 4-loser hands unsuitable for a 2NT opening.
+* 22--23 H, 2--4 cards in each major, 2--5 cards in each minor.
+
+The strong 2*♦* shows a **game-forcing** hand, stronger than 2*♣*.
