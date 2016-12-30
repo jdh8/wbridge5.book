@@ -19,7 +19,7 @@ A series of calls from the beginning of a deal.
 
 bid
 ---
-A specification of both level and strain, such as 3NT or 4*♥*.
+A specification of both level and strain, such as 3NT or 4♡.
 
 call
 ----
@@ -94,18 +94,18 @@ Right-hand opponent.
 
 shape
 -----
-An ordered list of lengths in the suits.  The order is ♠-*♥*-*♦*-♣ if
+An ordered list of lengths in the suits.  The order is ♠-♡-♢-♣ if
 unspecified.
 
 strain
 ------
-NT, ♠, *♥*, *♦*, ♣.
+NT, ♠, ♡, ♢, ♣.
 
 Component of a bid that denotes the proposed trump suit or notrump.
 
 suit
 ----
-♠, *♥*, *♦*, ♣.
+♠, ♡, ♢, ♣.
 
 unpassed
 --------
