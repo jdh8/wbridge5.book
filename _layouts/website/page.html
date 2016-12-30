@@ -27,10 +27,8 @@
 {% block page %}
 	{% if page.glossary %} {# This variable is manually added into the glossary. #}
 		{{ page.content | replace("--", "–") | replace("-\-", "--")
-			| replace("&#x2661;", "<em>♥</em>")
-			| replace("&#x2662;", "<em>♦</em>")
-			| replace("<em>♥</em>", "<span class='redsuit'>♥</span>")
-			| replace("<em>♦</em>", "<span class='redsuit'>♦</span>")
+			| replace("&#x2661;", "<span>♥</span>")
+			| replace("&#x2662;", "<span>♦</span>")
 			| safe }}
 	{% else %}
 		{{ page.content | replace("--", "–") | replace("-\-", "--")
