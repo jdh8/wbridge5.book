@@ -28,10 +28,10 @@
 	{{ page.content
 		| replace("--", "–")
 		| replace("-\-", "--")
-		| replace("<em>&#x2660;</em>", "♠")
-		| replace("<em>&#x2665;</em>", "<span class='redsuit'>♥</span>")
-		| replace("<em>&#x2666;</em>", "<span class='redsuit'>♦</span>")
-		| replace("<em>&#x2663;</em>", "♣")
+		| replace("&#x2665;", "<span class='redsuit'>♥</span>")
+		| replace("&#x2666;", "<span class='redsuit'>♦</span>")
+		| replace("&#x2661;", "♥")
+		| replace("&#x2662;", "♦")
 		| safe }}
 {% endblock %}
 

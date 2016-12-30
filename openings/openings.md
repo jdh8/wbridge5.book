@@ -11,26 +11,26 @@ opponents from bidding a good contract.
 One-of-a-suit openings
 ----------------------
 One must bid 1 of a suit with an opening hand uneligible for a strong opening.
-Opening in a major requires 5+ cards, 1*♦* for 4+ cards, 1*♣* for 3+ cards.
-With the special shape 4-4-3-2, one opens 1*♦* as a fallback.  If opener finds
-more than one eligible suit, bid the longest suit.  If more than one eligible
-suit is equally long, bid the highest suit.
+Opening in a major requires 5+ cards, 1♦ for 4+ cards, 1♣ for 3+ cards.  With
+the special shape 4-4-3-2, one opens 1♦ as a fallback.  If opener finds more
+than one eligible suit, bid the longest suit.  If more than one eligible suit
+is equally long, bid the highest suit.
 
 Do not consider suit quality.  In bridge, **quantity** is more important than
 quality.
 
 <dl>
-   <dt><em>♠</em>10 <em>♥</em>1054 <em>♦</em>KJ52 <em>♣</em>AKJ97</dt>
-   <dd>Open 1<em>♣</em> because clubs is the longer eligible suit.</dd>
+   <dt>♠10 ♥1054 ♦KJ52 ♣AKJ97</dt>
+   <dd>Open 1♣ because clubs is the longer eligible suit.</dd>
 
-   <dt><em>♠</em>J9864 <em>♥</em>A8654 <em>♦</em>A <em>♣</em>KJ</dt>
-   <dd>Open 1<em>♠</em> because spades is the higher eligible suit.</dd>
+   <dt>♠J9864 ♥A8654 ♦A ♣KJ</dt>
+   <dd>Open 1♠ because spades is the higher eligible suit.</dd>
 
-   <dt><em>♠</em>AQ73 <em>♥</em>Q1087 <em>♦</em>A862 <em>♣</em>K</dt>
-   <dd>Open 1<em>♦</em> because diamonds is the only eligible suit.</dd>
+   <dt>♠AQ73 ♥Q1087 ♦A862 ♣K</dt>
+   <dd>Open 1♦ because diamonds is the only eligible suit.</dd>
 
-   <dt><em>♠</em>AK74 <em>♥</em>AJ54 <em>♦</em>J107 <em>♣</em>72</dt>
-   <dd>Open 1<em>♦</em> because no suit is eligible.</dd>
+   <dt>♠AK74 ♥AJ54 ♦J107 ♣72</dt>
+   <dd>Open 1♦ because no suit is eligible.</dd>
 </dl>
 
 Strong notrump openings
@@ -50,12 +50,12 @@ With 12--14 or 18--19 H, one should always open 1 of a suit.  A simple notrump
 rebid stands for weak notrump; a jump notrump rebid shows a hand between 1NT
 and 2NT openings.
 
-Strong 2*♣* & 2*♦* openings
----------------------------
-The strong 2*♣* shows two kinds of **invitational** hands.  The 2*♣* is a limit
+Strong 2♣ & 2♦ openings
+-----------------------
+The strong 2♣ shows two kinds of **invitational** hands.  The 2♣ is a limit
 bid, so the responder becomes the *captain*.
 
 * 21--23 DH or 4-loser hands unsuitable for a 2NT opening.
 * 22--23 H, 2--4 cards in each major, 2--5 cards in each minor.
 
-The strong 2*♦* shows a **game-forcing** hand, stronger than 2*♣*.
+The strong 2♦ shows a **game-forcing** hand, stronger than 2♣.
