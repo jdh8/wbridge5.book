@@ -29,8 +29,8 @@
 		{{ page.content | replace("--", "–") | replace("-\-", "--")
 			| replace("&#x2661;", "<em>♥</em>")
 			| replace("&#x2662;", "<em>♦</em>")
-			| replace("<em>&#x2665;</em>", "<span class='redsuit'>♥</span>")
-			| replace("<em>&#x2666;</em>", "<span class='redsuit'>♦</span>")
+			| replace("<em>♥</em>", "<span class='redsuit'>♥</span>")
+			| replace("<em>♦</em>", "<span class='redsuit'>♦</span>")
 			| safe }}
 	{% else %}
 		{{ page.content | replace("--", "–") | replace("-\-", "--")
