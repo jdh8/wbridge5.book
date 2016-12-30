@@ -94,3 +94,20 @@ singleton or a void.  These patterns are 4-4-4-1, 5-4-3-1, and 5-4-4-0.
 If the signleton in 4-4-4-1 is an ace or a king, take this hand as notrump
 distribution.  Bid 1 of the minor suit for the other controversial hands.  A
 wrong 1♦ is much easier to play than a wrong 3NT.
+
+<dl>
+  <dt>♠AKQ108 ♥J ♦AK1064 ♣K2</dt>
+  <dd>Open 2♣ and prepare to rebid 2♠.</dd>
+
+  <dt>♠K2 ♥A8 ♦AK1092 ♣AQ104</dt>
+  <dd>Open 2♣ and prepare to rebid 2NT.</dd>
+
+  <dt>♠K ♥AQ76 ♦AK65 ♣KQ104</dt>
+  <dd>Open 2NT.  A partially stopped 4-4-4-1 is deemed as a notrump distribution.</dd>
+
+  <dt>♠Q1064 ♥AK6 ♦Q ♣AKQ52</dt>
+  <dd>Open 1♣ because this hand is controversial.</dd>
+
+  <dt>♠AKJ6 ♥A93 ♦K ♣AKQJ9</dt>
+  <dd>Open 2♦ with such a blockbuster.  There is no controversy for a blockbuster, is there?</dd>
+</dl>
