@@ -30,10 +30,8 @@
 		| replace("-\-", "--")
 		| replace("<em>&#x2665;</em>", "<span class='redsuit'>♥</span>")
 		| replace("<em>&#x2666;</em>", "<span class='redsuit'>♦</span>")
-		| replace("&#x2665;", "<span class='redsuit'>♥</span>")
-		| replace("&#x2666;", "<span class='redsuit'>♦</span>")
-		| replace("&#x2661;", "♥")
-		| replace("&#x2662;", "♦")
+		| replace("&#x2661;", "<span class='redsuit'>♥</span>")
+		| replace("&#x2662;", "<span class='redsuit'>♦</span>")
 		| safe }}
 {% endblock %}
 
