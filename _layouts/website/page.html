@@ -26,6 +26,8 @@
 
 {% block page %}
 	{{ page.content
+		| replace("--", "–")
+		| replace("-\-", "--")
 		| replace("<em>&#x2660;</em>", "♠")
 		| replace("<em>&#x2665;</em>", "<span class='redsuit'>♥</span>")
 		| replace("<em>&#x2666;</em>", "<span class='redsuit'>♦</span>")
