@@ -26,12 +26,10 @@
 
 {% block page %}
 	{% set content = page.content | replace("--", "–") | replace("-\-", "--") %}
-	{% if file.path != glossary.path %}
-		{{ content
-			| replace("&#x2665;", "<span class='redsuit'>♥</span>")
-			| replace("&#x2666;", "<span class='redsuit'>♦</span>")
-			| safe }}
-	{% endif %}
+	{{ content
+		| replace("&#x2665;", "<span class='redsuit'>♥</span>")
+		| replace("&#x2666;", "<span class='redsuit'>♦</span>")
+		| safe }}
 {% endblock %}
 
 {# vim: set filetype=htmldjango: #}
