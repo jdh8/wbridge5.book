@@ -40,7 +40,7 @@ semibalanced hands with specific strength should be opened in notrump.
 
 <dl>
   <dt>1NT</dt>
-  <dd>15–17 H, 2–5 cards in each major, 2–6 cards in each minor.</dd>
+  <dd>15–17 H, balanced or pattern 5-4-2-2 or 6-3-2-2 lead by a minor.</dd>
 
   <dt>2NT</dt>
   <dd>20–21 H, 2–4 cards in each major, 2–5 cards in each minor.</dd>
@@ -49,6 +49,20 @@ semibalanced hands with specific strength should be opened in notrump.
 With 12–14 or 18–19 H, one should always open 1 of a suit.  A simple notrump
 rebid stands for weak notrump; a jump notrump rebid shows a hand between 1NT
 and 2NT openings.
+
+<dl>
+   <dt>♠54 ♥A863 ♦AQ986 ♣AJ</dt>
+   <dd>Open 1NT.  Although this hand is not balanced, it is acceptable.</dd>
+
+   <dt>♠K9 ♥AKJ84 ♦KJ92 ♣76</dt>
+   <dd>Open 1♥.  Always open the major with a major-dominant non-balanced hand.</dd>
+
+   <dt>♠A95 ♥KQ10 ♦AKJ6 ♣K102</dt>
+   <dd>Open 2NT.</dd>
+
+   <dt>♠A6 ♥KQ3 ♦K75 ♣AK987</dt>
+   <dd>Open 1♣.  This hand is too weak for 2NT but too strong for 1NT.</dd>
+</dl>
 
 Strong 2♣ & 2♦ openings
 -----------------------
