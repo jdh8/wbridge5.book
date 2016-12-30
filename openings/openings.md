@@ -88,7 +88,7 @@ a notrump hand stronger than 2NT opening.  The majors promise 5+ cards, minors
 6+.  Therefore, hands with 5-card major, 6-card minor, or 2NT distribution
 are noncontroversial.
 
-The controversial hands are hands with no 5-card major, no 5-card minor, and a
+The controversial hands are hands with no 5-card major, no 6-card minor, and a
 singleton or a void.  These patterns are 4-4-4-1, 5-4-3-1, and 5-4-4-0.
 
 If the signleton in 4-4-4-1 is an ace or a king, take this hand as notrump
