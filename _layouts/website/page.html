@@ -25,21 +25,10 @@
 {% endblock %}
 
 {% block page %}
-	{% set content = page.content | replace("--", "–") | replace("-\-", "--") %}
-
-	{% if page.glossary %}
-		{{ content
-			| replace("<em>&#x2665;</em>", "<span class='redsuit'>♥</span>")
-			| replace("<em>&#x2666;</em>", "<span class='redsuit'>♦</span>")
-			| safe }}
-	{% else %}
-		{{ content
-			| replace("<em>&#x2665;</em>", "♥")
-			| replace("<em>&#x2666;</em>", "♦")
-			| replace("&#x2665;", "<span class='redsuit'>♥</span>")
-			| replace("&#x2666;", "<span class='redsuit'>♦</span>")
-			| safe }}
-	{% endif %}
+	{{ page.content | replace("--", "–") | replace("-\-", "--")
+		| replace("&#x2665;", "<em class='redsuit'>♥</em>")
+		| replace("&#x2666;", "<em class='redsuit'>♦</em>")
+		| safe }}
 {% endblock %}
 
 {# vim: set filetype=htmldjango: #}
