@@ -7,7 +7,7 @@ in a constructive auction by an unpassed responder.
 
 advancer
 --------
-Overcaller’s partner.
+Overcaller's partner.
 
 auction
 -------
@@ -48,7 +48,7 @@ A member of the other pair or team.
 
 overcall
 --------
-The first bid or double made by opener’s opponents.
+The first bid or double made by opener's opponents.
 
 overcaller
 ----------
@@ -82,7 +82,7 @@ against an opposing double.
 
 responder
 ---------
-Opener’s partner.
+Opener's partner.
 
 RHO
 ---
