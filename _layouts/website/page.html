@@ -25,7 +25,7 @@
 {% endblock %}
 
 {% block page %}
-	{% if file.path == glossary.path %}
+	{% if page.glossary %} {# This variable is manually added into the glossary. #}
 		{{ page.content | replace("--", "–") | replace("-\-", "--")
 			| replace("&#x2661;", "<em>♥</em>")
 			| replace("&#x2662;", "<em>♦</em>")
