@@ -73,3 +73,24 @@ bid, so the responder becomes the *captain*.
 * 22–23 H, 2–4 cards in each major, 2–5 cards in each minor.
 
 The strong 2♦ shows a **game-forcing** hand, stronger than 2♣.
+
+### What to bid with a big hand ###
+There are three openings describing a hand with 21+ DH or 20+ H, *viz.* 2NT,
+2♣, and 2♦.  To better understand this section, it is recommended to revisit
+this section after understanding continuations after 2NT, 2♣, and 2♦.
+
+The chance to open 2♦ is slim.  Actually 2♦ is a garbage can for hands way too
+strong, clarifying other bids for hands with 21–23 points.  With 24+ DH, 24+ H,
+or 3&minus; losers, one must open 2♦.
+
+The frequent rebids of 2♣ openings are 2♥ through 3♦.  The 2NT rebid describes
+a notrump hand stronger than 2NT opening.  The majors promise 5+ cards, minors
+6+.  Therefore, hands with 5-card major, 6-card minor, or 2NT distribution
+are noncontroversial.
+
+The controversial hands are hands with no 5-card major, no 5-card minor, and a
+singleton or a void.  These patterns are 4-4-4-1, 5-4-3-1, and 5-4-4-0.
+
+If the signleton in 4-4-4-1 is an ace or a king, take this hand as notrump
+distribution.  Bid 1 of the minor suit for the other controversial hands.  A
+wrong 1♦ is much easier to play than a wrong 3NT.
