@@ -1,3 +1,7 @@
+---
+glossary: true
+---
+
 2/1
 ---
 A 2/1 bidding system is a system where 2/1 bids are forcing to game.
