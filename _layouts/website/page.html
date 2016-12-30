@@ -34,6 +34,8 @@
 			| safe }}
 	{% else %}
 		{{ content
+			| replace("<em>&#x2665;</em>", "♥")
+			| replace("<em>&#x2666;</em>", "♦")
 			| replace("&#x2665;", "<span class='redsuit'>♥</span>")
 			| replace("&#x2666;", "<span class='redsuit'>♦</span>")
 			| safe }}
