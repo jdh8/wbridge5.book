@@ -32,3 +32,20 @@ quality.
    <dt><em>♠</em>AK74 <em>♥</em>AJ54 <em>♦</em>J107 <em>♣</em>72</dt>
    <dd>Open 1<em>♦</em> because no suit is eligible.</dd>
 </dl>
+
+Strong notrump openings
+-----------------------
+The strong notrumps alleviate burden of suit openings.  Balanced and
+semibalanced hands with specific strength should be opened in notrump.
+
+<dl>
+  <dt>1NT</dt>
+  <dd>15--17 H, 2--5 cards in each major, 2--6 cards in each minor.</dd>
+
+  <dt>2NT</dt>
+  <dd>20--21 H, 2--4 cards in each major, 2--5 cards in each minor.</dd>
+</dl>
+
+With 12--14 or 18--19 H, one should always open 1 of a suit.  A simple notrump
+rebid stands for weak notrump; a jump notrump rebid shows a hand between 1NT
+and 2NT openings.
