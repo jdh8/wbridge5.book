@@ -1,1 +1,4 @@
-{ "plugins": "-fontsettings" }
+{
+    "language": "en",
+    "plugins": "-fontsettings"
+}
