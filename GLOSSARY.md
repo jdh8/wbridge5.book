@@ -30,6 +30,14 @@ double
 A call that magnifies score of the contract.  A double can be only made against
 an opposing bid.
 
+honor
+-----
+The top 5 cards, *viz.* A, K, Q, J, 10.
+
+lead
+----
+The first card played in a round.
+
 LHO
 ---
 Left-hand opponent.
@@ -37,6 +45,10 @@ Left-hand opponent.
 opening
 -------
 The first bid in the auction.
+
+opening lead
+------------
+The first lead in a deal.  Hence the first card played in a deal.
 
 opener
 ------
