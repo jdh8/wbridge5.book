@@ -6,7 +6,11 @@ with an opening hand, one must open to prevent a pass out.
 
 Moreover, some hands with good distribution but poor values are suitable for
 an opening as well.  These openings are preemptive, which focus on disturbing
-opponents from bidding a good contract.
+opponents from bidding a good contract.  Criteria for these openings depend
+on vulnerability and seat, so there is [a separate article][weak] to describe
+them.
+
+[weak]: openings/weak.md
 
 One-of-a-suit openings
 ----------------------
@@ -110,4 +114,18 @@ wrong 1♦ is much easier to play than a wrong 3NT.
 
   <dt>♠AKJ6 ♥A93 ♦K ♣AKQJ9</dt>
   <dd>Open 2♦ with such a blockbuster.  There is no controversy for a blockbuster, is there?</dd>
+</dl>
+
+Gambling 3NT
+------------
+Gambling 3NT shows a 7+-card minor lead by AKQ with no stopper in the side
+suits.  This is a pass-or-correct bid where the partner passes with 2 stopped
+suits.
+
+<dl>
+  <dt>♠642 ♥K ♦AKQ9652 ♣98</dt>
+  <dd>Open 3NT.  Singleton king is no stopper.</dd>
+
+  <dt>♠642 ♥9 ♦AKQ9652 ♣K8</dt>
+  <dd>Open 1♦.  Kx is half stopper.</dd>
 </dl>
