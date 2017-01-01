@@ -119,7 +119,7 @@ wrong 1♦ is much easier to play than a wrong 3NT.
 Gambling 3NT
 ------------
 Gambling 3NT shows a 7+-card minor lead by AKQ with no stopper in the side
-suits.  This is a pass-or-correct bid where the partner passes with 2 stopped
+suits.  This is a pass-or-correct bid where responder passes with 2 stopped
 suits.
 
 <dl>
