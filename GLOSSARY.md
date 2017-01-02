@@ -30,6 +30,22 @@ double
 A call that magnifies score of the contract.  A double can be only made against
 an opposing bid.
 
+DH
+---
+Distribution & honor points, used to assess values for suit contracts.  Bum-rap
+can replace the honor points here.
+
+See also [hand evaluation][eval].
+
+[eval]: evaluation.md
+
+H
+---
+Honor points, used to assess values for notrump contracts and defense.  Fifths
+can replace the honor points here.
+
+See also [hand evaluation][eval].
+
 honor
 -----
 The top 5 cards, *viz.* A, K, Q, J, 10.
@@ -41,6 +57,14 @@ The first card played in a round.
 LHO
 ---
 Left-hand opponent.
+
+major
+-----
+♠, *♡*.
+
+minor
+-----
+*♢*, ♣.
 
 opening
 -------
