@@ -17,13 +17,13 @@ with AKxxx or AQJxx.  The strength requirements are as follows.
 
 <dl>
   <dt>Vulnerable</dt>
-  <dd>9–13 DH</dd>
+  <dd>9+ DH</dd>
 
   <dt>None vulnerable</dt>
-  <dd>7–13 DH</dd>
+  <dd>7+ DH</dd>
 
   <dt>Non-vulnerable vs vulnerable</dt>
-  <dd>6–13 DH or any 7+ cards</dd>
+  <dd>6+ DH or any 7+ cards</dd>
 </dl>
 
 3 of a suit
@@ -32,17 +32,17 @@ Opening 3 of a suit promises 6+ cards with further requirements.
 
 ### First 2 seats ###
 If there are only 6 card in the suit, it shall be no weaker than KJ10xxx if
-minor or KQJxxx if major.  The required strength is 2 more points than weak 2.
+minor or KQ10xxx if major.  The required strength is 2 more points than weak 2.
 
 <dl>
   <dt>Vulnerable</dt>
-  <dd>11–15 DH and 8–11 H</dd>
+  <dd>11+ DH and 8+ H</dd>
 
   <dt>None vulnerable</dt>
-  <dd>9–14 DH</dd>
+  <dd>9+ DH</dd>
 
   <dt>Non-vulnerable vs vulnerable</dt>
-  <dd>8–14 DH</dd>
+  <dd>8+ DH</dd>
 </dl>
 
 ### The 3rd seat ###
@@ -53,14 +53,14 @@ for a 3NT.
 
 <dl>
   <dt>Vulnerable vs non-vulnerable</dt>
-  <dd>9–15 DH</dd>
+  <dd>9+ DH</dd>
 
   <dt>Both vulnerable</dt>
-  <dd>8–15 DH</dd>
+  <dd>8+ DH</dd>
 
   <dt>None vulnerable</dt>
-  <dd>7–14 DH</dd>
+  <dd>7+ DH</dd>
 
   <dt>Non-vulnerable vs vulnerable</dt>
-  <dd>6–14 DH.  6-card rubbish minor is acceptable here.</dd>
+  <dd>6+ DH.  6-card rubbish minor is acceptable here.</dd>
 </dl>
