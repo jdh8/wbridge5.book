@@ -1,9 +1,9 @@
 Preemptive openings
 ===================
 Preemptive bids are bids higher than usual to aggresively reach a contract,
-avoiding defending.  Below the game level, a preemptive opening shows
-< 12 H but some offensive values.  A game-level preemptive can be made with
-opening defensive values beacause a game is reached anyway.
+avoiding defending.  A preemptive opening shows **< 12 H**, which encourages
+reaching a suit contract and discourages reaching a notrump contract or
+defending.
 
 Preemptive openings are available to the first three seats only, where there
 is still an opponent to block.  The 3rd seat can make the most aggresive
