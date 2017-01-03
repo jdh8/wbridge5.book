@@ -9,9 +9,9 @@ Preemptive openings are available to the first three seats only, where there
 is still an opponent to block.  The 3rd seat can make the most aggresive
 openings because the partner has passed.
 
-Weak 2 majors
--------------
-The weak 2 requires 6+ cards for the first two seats, or 5+ cards for
+Weak 2s
+-------
+The weak 2s require 6+ cards for the first two seats, or 5+ cards for
 the 3rd seat.  If non-vulnerable, the first two seats can also open a weak 2
 with AKxxx or AQJxx.  The strength requirements are as follows.
 
@@ -26,8 +26,8 @@ with AKxxx or AQJxx.  The strength requirements are as follows.
   <dd>6+ DH or any 7+ cards</dd>
 </dl>
 
-3 of a suit
------------
+Preemptive 3s
+-------------
 Opening 3 of a suit promises 6+ cards with further requirements.
 
 ### First 2 seats ###
@@ -65,8 +65,8 @@ for a 3NT.
   <dd>6+ DH.  6-card rubbish minor is acceptable here.</dd>
 </dl>
 
-4 of a major
-------------
+Preemptive 4♥ & 4♠ {#preemptive-4M}
+------------------
 Opening 4 of a major promises 7+ cards.  If there are only 7 cards in the suit,
 it shall be no weaker than KQxxxxx.
 
