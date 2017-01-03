@@ -129,3 +129,7 @@ suits.
   <dt>♠642 ♥9 ♦AKQ9652 ♣K8</dt>
   <dd>Open 1♦.  Kx is half stopper.</dd>
 </dl>
+
+Unusual 4NT
+-----------
+Unusual 4NT shows 6+ cards in both minors.
