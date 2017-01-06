@@ -21,6 +21,18 @@ call
 ----
 A bid, pass, double, or redouble.
 
+constructive 1NT
+----------------
+The 1NT response in 1♣-1NT or after an overcall.  This 1NT requires
+7<sup>+</sup>~10 H, balanced distribution, and a stopper in the adverse suit if
+the overcall shows one suit.  This response still denies a biddable major suit
+because major contracts are often better.
+
+The 1NT under these circumstances are constructive because there are more
+suitable calls for 6~7 H hands.  For an 1♣ opening, responder can always bid a
+suit with these weak hands.  After an overcall, responder can pass because this
+pass will not cause a passing out.
+
 constructive auction
 --------------------
 An auction where nobody overcalls yet.
