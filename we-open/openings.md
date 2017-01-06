@@ -116,6 +116,14 @@ wrong 1♦ is much easier to play than a wrong 3NT.
   <dd>Open 2♦ with such a blockbuster.  There is no controversy for a blockbuster, is there?</dd>
 </dl>
 
+Suit openings from 2♥ on
+------------------------
+See [preemptive openings][pre] for the first 3 seats, [balancing openings][bal]
+for the 4th seat.
+
+[pre]: openings/weak.md
+[bal]: openings/balancing.md
+
 Gambling 3NT
 ------------
 Gambling 3NT shows a 7+-card minor lead by AKQ with no stopper in the side
