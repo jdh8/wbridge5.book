@@ -72,6 +72,33 @@ response is always constructive.
   <dd>Bid 1♦.  No skipping for a game-forcing hand.</dd>
 </dl>
 
+### Simple raise ###
+The 2♣ simple raise is not so simple.
+
+For preemption, responder raises to 2♣ with 4+ clubs and no 4-card major in a
+non-constructive hand.  This is the only case that 2♣ responder should has only
+4 clubs.
+
+For a constructive hand, responder always raises with 5+ clubs and an
+unbalanced distribution because constructive 1NT is preferred.
+
+<dl>
+  <dt>♠976 ♥965 ♦A109 ♣J1085</dt>
+  <dd>Bid 2♣.  This hand is too weak for constructive 1NT.</dd>
+
+  <dt>♠QJ6 ♥J5 ♦J932 ♣J987</dt>
+  <dd>Bid 1♦.  This hand is too weak for constructive 1NT.</dd>
+
+  <dt>♠964 ♥104 ♦AJ65 ♣A1094</dt>
+  <dd>Bid 1NT.  The constructive 1NT is preferred over a minor suit.</dd>
+
+  <dt>♠53 ♥K84 ♦432 ♣KQ765</dt>
+  <dd>Bid 1NT.  The constructive 1NT is preferred over a minor suit.</dd>
+
+  <dt>♠8 ♥J43 ♦Q762 ♣A6432</dt>
+  <dd>Bid 2♣.  Make a constructive raise with unbalanced distribution.</dd>
+</dl>
+
 ### Responses by a passed hand ###
 Since responder has made a limit pass, which denies stength of opening,
 new-suit responses are no longer forcing.
