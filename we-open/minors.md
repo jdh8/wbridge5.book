@@ -13,7 +13,79 @@ The minor openings can be made from three kinds of hands:
   5-card suit is a minor.  See also [the dedicated section][big].
 
 Opener probably has a 4-card major.  Therefore, responder should always think
-about bidding the major first.  The only situation where responder skips a
-major suit is to make a **reverse**.
+about bidding the major first.  A **notrump** or a **support in minor** always
+**denies** a biddable **major**.
 
 [big]: openings.md#what-to-bid-with-a-big-hand
+
+Responses to 1♣
+---------------
+Responder should be aware that opener can has only 3 cards of clubs.  The 1NT
+response is always constructive.
+
+<dl>
+  <dt>1♦, 1♥, 1♠</dt>
+  <dd>Forcing, 6+ points, 4+ cards.</dd>
+
+  <dt>1NT</dt>
+  <dd>Constructive 1NT, 7<sup>+</sup>~10 H, balanced.</dd>
+
+  <dt>2♣</dt>
+  <dd>Minimum (6~10 DH), 4+ support.</dd>
+
+  <dt>2♦, 2♥, 2♠</dt>
+  <dd>Strong jump shift, 17+ points, 4+ cards.</dd>
+
+  <dt>2NT</dt>
+  <dd>Invite to 3NT, 10~11 H, balanced.</dd>
+
+  <dt>3♣</dt>
+  <dd>Invite to 3NT or 5♣, 11~16 DH, 5+ support.</dd>
+
+  <dt>3♦, 3♥, 3♠</dt>
+  <dd>Splinter, 12~17 DH, <strong>0~1 card</strong>, 5+ support.</dd>
+
+  <dt>3NT</dt>
+  <dd>To play, 12~15 H, balanced.</dd>
+</dl>
+
+### Choice of new suit ###
+1. Choose the longest suit.
+2. To break a tie, bid the cheapest **call** for 4-4, the highest **suit** for
+   5-5 or above.
+3. Nevertheless, if responder cannot force to game, skip diamonds in 4-4.
+
+<dl>
+  <dt>♠KQ65 ♥653 ♦KJ86 ♣J9</dt>
+  <dd>Bid 1♠.  Skip diamonds because you cannot force to game.</dd>
+
+  <dt>♠10983 ♥9 ♦KQJ103 ♣J72</dt>
+  <dd>Bid 1♦.  Diamonds are longer than spades.</dd>
+
+  <dt>♠KQ93 ♥72 ♦AK73 ♣J63</dt>
+  <dd>Bid 1♦ because you can force to game.</dd>
+
+  <dt>♠KQ105 ♥7643 ♦J642 ♣10</dt>
+  <dd>Bid 1♥.  Skip diamonds, and then 1♥ is the cheaper call.</dd>
+
+  <dt>♠Q974 ♥A1062 ♦AQ108 ♣7</dt>
+  <dd>Bid 1♦.  No skipping for a game-forcing hand.</dd>
+</dl>
+
+### Responses by a passed hand ###
+Since responder has made a limit pass, which denies stength of opening,
+new-suit responses are no longer forcing.
+
+Jump shifts from 2♥ on are fit-showing because responder gave up preemptive
+opening.
+
+<dl>
+  <dt>1♦, 1♥, 1♠</dt>
+  <dd>Non-forcing, 6+ points, 4+ cards.</dd>
+
+  <dt>2♦</dt>
+  <dd>Weak jump shift, 8+ DH, 6+ cards.</dd>
+
+  <dt>2♥, 2♠, 3♦</dt>
+  <dd>Fit-showing, 11+ DH, 5+ cards, 5+ support.</dd>
+</dl>
