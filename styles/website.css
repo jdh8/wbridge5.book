@@ -30,24 +30,32 @@ body,
 
 @font-face {
 	font-family: "DejaVu Sans";
-	src: url(../fonts/DejaVuSans.ttf);
+	src: local("DejaVu Sans"),
+	     local(DejaVuSans),
+	     url(../fonts/DejaVuSans.ttf);
 }
 
 @font-face {
 	font-family: "DejaVu Sans";
 	font-style: oblique;
-	src: url(../fonts/DejaVuSans-Oblique.ttf);
+	src: local("DejaVu Sans Oblique"),
+	     local(DejaVuSans-Oblique),
+	     url(../fonts/DejaVuSans-Oblique.ttf);
 }
 
 @font-face {
 	font-family: "DejaVu Sans";
 	font-weight: bold;
-	src: url(../fonts/DejaVuSans-Bold.ttf);
+	src: local("DejaVu Sans Bold"),
+	     local(DejaVuSans-Bold),
+	     url(../fonts/DejaVuSans-Bold.ttf);
 }
 
 @font-face {
 	font-family: "DejaVu Sans";
 	font-weight: bold;
 	font-style: oblique;
-	src: url(../fonts/DejaVuSans-BoldOblique.ttf);
+	src: local("DejaVu Sans Bold Oblique"),
+	     local(DejaVuSans-BoldOblique),
+	     url(../fonts/DejaVuSans-BoldOblique.ttf);
 }
