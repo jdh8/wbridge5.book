@@ -16,14 +16,38 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 body {
-	font-family: Roboto, sans-serif;
 	hyphens: auto;
 }
 
+body,
 .book-summary {
-	font-family: Roboto, sans-serif;
+	font-family: Roboto, "DejaVu Sans", sans-serif;
 }
 
 .redsuit {
 	color: #d33;
+}
+
+@font-face {
+	font-family: "DejaVu Sans";
+	src: url(../fonts/DejaVuSans.ttf);
+}
+
+@font-face {
+	font-family: "DejaVu Sans";
+	font-style: oblique;
+	src: url(../fonts/DejaVuSans-Oblique.ttf);
+}
+
+@font-face {
+	font-family: "DejaVu Sans";
+	font-weight: bold;
+	src: url(../fonts/DejaVuSans-Bold.ttf);
+}
+
+@font-face {
+	font-family: "DejaVu Sans";
+	font-weight: bold;
+	font-style: oblique;
+	src: url(../fonts/DejaVuSans-BoldOblique.ttf);
 }
