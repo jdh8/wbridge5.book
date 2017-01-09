@@ -1,12 +1,12 @@
 Responses to 1♣
 ===============
-The 1♣ is a garbage-can opening.  Opener gives little information, but there
-are plenty of choices for responder.
+The 1♣ is a dustbin opening.  Opener gives little information, but there are
+plenty of choices for responder.
 
 Basic structure
 ---------------
 The 1NT response is always constructive because there is no suit below clubs.
-When 1NT acts as a garbage can, responder bids 1NT to show a suit below the
+When 1NT acts as a dustbin, responder bids 1NT to show a suit below the
 opening.  This is obviously not the case for 1♣.
 
 <dl>

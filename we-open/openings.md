@@ -83,7 +83,7 @@ There are three openings describing a hand with 21+ DH or 20+ H, *viz.* 2NT,
 2♣, and 2♦.  To better understand this section, it is recommended to revisit
 this section after understanding continuations after 2NT, 2♣, and 2♦.
 
-The chance to open 2♦ is slim.  Actually 2♦ is a garbage can for hands way too
+The chance to open 2♦ is slim.  Actually 2♦ is a dustbin for hands way too
 strong, clarifying other bids for hands with 21–23 points.  With 24+ DH, 24+ H,
 or 3&minus; losers, one must open 2♦.
 
