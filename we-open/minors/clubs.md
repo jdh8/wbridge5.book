@@ -26,7 +26,7 @@ opening.  This is obviously not the case for 1♣.
   <dd>Invite to 3NT, 10~11 H, balanced.</dd>
 
   <dt>3♣</dt>
-  <dd>Invite to 3NT or 5♣, 11~16 DH, 5+ support.</dd>
+  <dd>Limit raise, invite to 3NT or 5♣, 11~16 DH, 5+ support.</dd>
 
   <dt>3♦, 3♥, 3♠</dt>
   <dd>Splinter, 12~17 DH, <strong>0~1 card</strong>, 5+ support.</dd>
@@ -102,4 +102,38 @@ opening.
 
   <dt>2♥, 2♠, 3♦</dt>
   <dd>Fit-showing, 11+ DH, 5+ cards, 5+ support.</dd>
+</dl>
+
+Responses after a takeout double
+--------------------------------
+The takeout double shows opening values, so responder should bid more
+preemptively.  There are some adjustments to the basic structure.
+
+Playing 2NT or 3NT is infeasible now as 1♣xx is more profitable.  As a result,
+the meaning of 2NT is changed to a convention and 3NT is never used now.  For
+their original meanings, redouble instead.
+
+Jump shifts become **weak** if responder unpassed.  Redouble to show strength
+for original strong jump shifts.  Keep in mind that **fit-showing** by a passed
+responder are unadjusted because *the previous **pass denies both** jump
+shifts*.
+
+<dl>
+  <dt>XX</dt>
+  <dd>Invitational+ hands (11+ points) which do not qualify as a Truscott 2NT.</dd>
+
+  <dt>2♣</dt>
+  <dd>A simple raise can now be made with only 5 DH.</dd>
+
+  <dt>2♦, 2♥, 2♠</dt>
+  <dd><strong>Weak jump shift</strong> if unpassed, showing 8+ DH and 6+ cards.</dd>
+
+  <dt>2♥, 2♠, 3♦</dt>
+  <dd><strong>Fit-showing</strong> if passed.  These bids are unchanged.</dd>
+
+  <dt>2NT</dt>
+  <dd>Truscott 2NT, which shows a limit raise i.e. former 3♣.</dd>
+
+  <dt>3♣</dt>
+  <dd>Preemptive raise, 7~10 DH, 5+ support.</dd>
 </dl>
