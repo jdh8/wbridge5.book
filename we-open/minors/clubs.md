@@ -137,3 +137,16 @@ shifts*.
   <dt>3♣</dt>
   <dd>Preemptive raise, 7~10 DH, 5+ support.</dd>
 </dl>
+
+Responses after a simple suit overcall
+--------------------------------------
+Wbridge5 employs French convention for such low-level competitive auctions.
+These two auctions are highlighted for the surprised.
+
+<dl>
+  <dt>1♣ (1♦) X</dt>
+  <dd>Collante, negative double, 6+ DH with exactly 4 hearts.  No information given about spades.</dd>
+
+  <dt>1♣ (1♠) 2♣!</dt>
+  <dd>Rodrigue, negative free bid in <strong>hearts</strong>, 7~10 DH with 5+ cards in hearts.  No information given about clubs.</dd>
+</dl>
