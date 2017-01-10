@@ -150,3 +150,56 @@ These two auctions are highlighted for the surprised.
   <dt>1♣ (1♠) 2♣!</dt>
   <dd>Rodrigue, negative free bid in <strong>hearts</strong>, 7~10 DH with 5+ cards in hearts.  No information given about clubs.</dd>
 </dl>
+
+The French insist on showing length of hearts quickly to compete with
+opponents' latent spades.
+
+### Collante ###
+The French word *collante* means “sticky” in English.  This means that a
+negative double after a 1♦ or 1♥ overcall shows exactly 4 cards in **the next
+suit** *viz* ♥ or ♠ respectively.  As a consequence, the direct bid of the suit
+now shows 5+ cards.
+
+Be aware that Collante only affects one suit.  The meaning of 1♠ in 1♣ (1♦) 1♠
+is the same as 1♣-1♠, which shows 4+ cards in spades, because only hearts is
+affected for (1♦).
+
+<dl>
+  <dt>1♣ (1♦) X</dt>
+  <dd>Negative double, 6+ DH with exactly 4 hearts.</dd>
+
+  <dt>1♣ (1♦) 1♥</dt>
+  <dd>Free bid, 6+ DH with 5+ hearts.</dd>
+
+  <dt>1♣ (1♦) 1♠</dt>
+  <dd>Free bid, 6+ DH with 4+ spades.</dd>
+
+  <dt>1♣ (1♥) X</dt>
+  <dd>Negative double, 6+ DH with exactly 4 spades.</dd>
+
+  <dt>1♣ (1♥) 1♠</dt>
+  <dd>Free bid, 6+ DH with 5+ spades.</dd>
+</dl>
+
+### Rodrigue ###
+This convention is uncommon in France, but is used by Wbridge5.  After a 1♠
+overcall, we give up the simple raise for a negative free bid of hearts.  This
+bid differentiates with the negative double by showing 5+ cards of hearts,
+making the negative double show exactly 4 cards.
+
+Wbridge5 madly insists on showing length of hearts quickly to compete with
+opponents' spades.
+
+<dl>
+  <dt>1♣ (1♠) X</dt>
+  <dd>Negative double, 6+ DH with exactly 4 hearts.</dd>
+
+  <dt>1♣ (1♠) 2♣!</dt>
+  <dd>Negative free bid of <strong>hearts</strong>, 6~10 DH with 5+ hearts.</dd>
+
+  <dt>1♣ (1♠) 2♥</dt>
+  <dd>(Positive) free bid, 11+ DH with 5+ hearts.</dd>
+
+  <dt>1♣ (1♠) 3♣</dt>
+  <dd>Mixed raise, 9+ DH with 5+ support.</dd>
+</dl>
