@@ -24,6 +24,11 @@ body,
 	font-family: Roboto, "DejaVu Sans", sans-serif;
 }
 
+.markdown-section dl dt {
+	font-style: normal;
+	font-style: inherit;
+}
+
 .redsuit {
 	color: #d33;
 }
