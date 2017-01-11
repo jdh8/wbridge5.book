@@ -20,19 +20,25 @@ Find a major fit
 The 5-3 and 6-2 fits are discovered by a major opening.  The 4-4, 3-5, 2-6 fits
 are found after a minor opening.
 
-### 5-3 fits ###
-Responder raises the major with 3-card support, e.g. 1♠-2♠.
+<dl>
+  <dt>5-3 fits</dt>
+  <dd>Responder raises the major with 3-card support, e.g. 1♠-2♠.</dd>
 
-### 6-2 fits ###
-Opener rebids the major to show 6+ cards, e.g. 1♠-1NT; 2♠.
+  <dt>6-2 fits</dt>
+  <dd>Opener rebids the major to show 6+ cards, e.g. 1♠-1NT; 2♠.</dd>
 
-### 4-4 fits ###
-Responder bids the 4-card major.  Opener raises that suit afterwards,
-e.g. 1♣-1♥; 2♥.
+  <dt>4-4 fits</dt>
+  <dd>
+	Responder bids the 4-card major.  Opener raises that suit afterwards, e.g.
+	1♣-1♥; 2♥.
+  </dd>
 
-### 3-5 and 2-6 fits ###
-These fits are more tricky to find.  The procedures are somewhat complicated,
-so they are described after minor openings.
+  <dt>3-5 and 2-6 fits</dt>
+  <dd>
+	These fits are more tricky to find.  The procedures are somewhat
+	complicated, so they are described after minor openings.
+  </dd>
+</dl>
 
 Opener's strength
 -----------------
