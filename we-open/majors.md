@@ -54,6 +54,25 @@ Responses to 1♥ (pass)
 </dd>
 </dl>
 
+### Adjusted responses by a passed responder ###
+Responses from a passed responder are no longer forcing because the previous
+pass has limited the strength.  Some conventions are cancelled to make these
+bids passable.
+
+<dl>
+  <dt>1♠</dt>
+  <dd>Constructive, 6~12 points, 4+ cards.</dd>
+
+  <dt>2♣, 2♦</dt>
+  <dd>11~12 points, 5+ cards.</dd>
+
+  <dt>2♠, 3♣, 3♦</dt>
+  <dd>Fit-showing, 11~12 points, 5+ cards, 3+ support.</dd>
+
+  <dt>3♥</dt>
+  <dd>Limit raise, 11~12 points, 3+ support.</dd>
+</dl>
+
 Preemptive raise to the 4-level
 -------------------------------
 Such raise directly jumps to game, showing at most 8<sup>&minus;</sup> HCP and
