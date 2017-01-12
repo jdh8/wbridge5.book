@@ -18,7 +18,7 @@ Responses to 1♥ (pass)
 <dd>6~16 points, 4+ cards.</dd>
 
 <dt>1NT</dt>
-<dd>Dustbin 1NT, 6~10 HCP without another suitable bid.</dd>
+<dd>Dustbin 1NT, 6~11 HCP without another suitable bid.</dd>
 
 <dt>2♣, 2♦</dt>
 <dd>2/1, 12+ points, 4+ cards.</dd>
@@ -67,7 +67,7 @@ bids passable.
   <dd>Fit-showing, 11~12 points, 5+ cards, 3+ support.</dd>
 
   <dt>3♥</dt>
-  <dd>Limit raise, 11~12 points, 3+ support.</dd>
+  <dd>Limit raise, 11~12 points, 3+ support, some singleton or void.</dd>
 </dl>
 
 Preemptive raise to the 4-level
