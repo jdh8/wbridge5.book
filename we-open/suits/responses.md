@@ -48,3 +48,19 @@ tricks**.
   <dt>♠KJ84 ♥Q764 ♦103 ♣1097</dt>
   <dd>This is a <strong>preemptive raise</strong> for both majors.  Shut opponents up with 1♥ (X) 3♥.</dd>
 </dl>
+
+### Mixed raises ###
+When opponents bid too high and disable our simple raise, we have a 3-level
+raise only.  Although it is unwise to preempt opponents' preempt, but a limit
+raise is too conservative here because we should compete with half-a-deck
+strength and a fit.  Therefore, the **pushed** 3-level raise is a mixed raise
+of a simple raise and a limit raise.
+
+A mixed raise needs 8+ DH but unable to force to game, which is **3 points** (1
+trick) **lower than a limit raise**.  A mixed raise requies the **same cards as
+a limit raise** for safety on 3-level.
+
+<dl>
+  <dt>♠- ♥AJ3 ♦108753 ♣Q8742</dt>
+  <dd>Bid 3♥ after 1♥ (2♠).  This hand is a little too weak for a limit raise but perfect for a <strong>mixed raise</strong>.</dd>
+</dl>
