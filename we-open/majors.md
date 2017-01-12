@@ -15,7 +15,7 @@ Responses to 1♥ (pass)
 ----------------------
 <dl>
 <dt>1♠</dt>
-<dd>Forcing, 6~16 points, 4+ cards.</dd>
+<dd>6~16 points, 4+ cards.</dd>
 
 <dt>1NT</dt>
 <dd>Dustbin 1NT, 6~10 HCP without another suitable bid.</dd>
@@ -60,9 +60,6 @@ pass has limited the strength.  Some conventions are cancelled to make these
 bids passable.
 
 <dl>
-  <dt>1♠</dt>
-  <dd>Constructive, 6~12 points, 4+ cards.</dd>
-
   <dt>2♣, 2♦</dt>
   <dd>11~12 points, 5+ cards.</dd>
 
