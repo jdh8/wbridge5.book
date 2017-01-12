@@ -10,28 +10,28 @@ because their use highly depends on seats and the auction.
 
 <dl>
   <dt>1 of a new suit</dt>
-  <dd>Constructive, 6+ DH, 4+ cards in that suit.</dd>
+  <dd>Constructive, 6+ points, 4+ cards in that suit.</dd>
 
   <dt>1NT</dt>
-  <dd>Constructive 1NT, 7<sup>+</sup>~10 H, balanced.</dd>
+  <dd>Constructive 1NT, 7<sup>+</sup>~10 HCP, balanced.</dd>
 
   <dt>Non-jump 2 of a new suit</dt>
-  <dd>Invitational+, 11+ DH, 5+ cards in that suit.</dd>
+  <dd>Invitational+, 11+ points, 5+ cards in that suit.</dd>
 
   <dt>2 of the opened suit</dt>
-  <dd>Simple raise, 6~10 DH.  3+ cards to support a major; 4+ cards to support a minor.</dd>
+  <dd>Simple raise, 6~10 points.  3+ cards to support a major; 4+ cards to support a minor.</dd>
 
   <dt>2NT</dt>
-  <dd>Invite to 3NT, 10~11 H, balanced.</dd>
+  <dd>Invite to 3NT, 10~11 HCP, balanced.</dd>
 
   <dt>3 of the opened suit</dt>
-  <dd>Limit raise, 11+ DH but unable to force to game, found a fit of 8+ cards.</dd>
+  <dd>Limit raise, 11+ points but unable to force to game, found a fit of 8+ cards.</dd>
 
   <dt>3NT</dt>
-  <dd>To play, 12~15 H, balanced.</dd>
+  <dd>To play, 12~15 HCP, balanced.</dd>
 
   <dt>Double jump shift</dt>
-  <dd>Splinter, forcing to game, 12~16 DH, found a fit of 8+ cards.</dd>
+  <dd>Splinter, forcing to game, 12~16 points, found a fit of 8+ cards.</dd>
 </dl>
 
 Raises
@@ -46,7 +46,7 @@ As a result, delayed raises shows more strength, but they are not discussed
 here because the first-round responses are focused here.
 
 ### Simple raises ###
-A simple raise shows 6~10 DH.  To raise a major requires 3+ cards because
+A simple raise shows 6~10 points.  To raise a major requires 3+ cards because
 opener has shown 5+; to raise a minor requires 4+.  The requirement on strength
 is one point lower in a competitive auction.
 
@@ -56,7 +56,7 @@ is one point lower in a competitive auction.
 </dl>
 
 ### Limit raises ###
-Such raises show invitational values at 3-level, i.e. 11+ DH but unable to
+Such raises show invitational values at 3-level, i.e. 11+ points but unable to
 force to game.  The requirement on strength is one point lower in a competitive
 auction.  This is the default meaning of a 3-level jump raise.
 
@@ -70,7 +70,7 @@ support for clubs, to ensure that a 8-card fit is found (nearly always).
 </dl>
 
 ### Preemptive raises ###
-After a **takeout double**, 3-level raises are preemptive, showing 6~10 DH with
+After a **takeout double**, 3-level raises are preemptive, showing 6~10 points with
 one more card than a simple raise.  As a takeout double shows a strong hand, we
 preempt at 3-level with a likely 9-card fit according the **law of total
 tricks**.
@@ -87,7 +87,7 @@ raise is too conservative here because we should compete with half-a-deck
 strength and a fit.  Therefore, the **pushed** 3-level raise is a mixed raise
 of a simple raise and a limit raise.
 
-A mixed raise needs 8+ DH but unable to force to game, which is **3 points** (1
+A mixed raise needs 8+ points but unable to force to game, which is **3 points** (1
 trick) **lower than a limit raise**.  A mixed raise requies the **same cards as
 a limit raise** for safety on 3-level.
 

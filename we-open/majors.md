@@ -80,15 +80,15 @@ Such raise directly jumps to game, showing at most 8<sup>&minus;</sup> HCP and
 
 <dl>
   <dt>Vulnerable vs non-vulnerable</dt>
-  <dd>10+ DH</dd>
+  <dd>10+ points</dd>
 
   <dt>Both vulnerable</dt>
-  <dd>9+ DH</dd>
+  <dd>9+ points</dd>
 
   <dt>None vulnerable</dt>
-  <dd>8+ DH</dd>
+  <dd>8+ points</dd>
 
   <dt>Non-vulnerable vs vulnerable</dt>
-  <dd>7+ DH</dd>
+  <dd>7+ points</dd>
 </dl>
 

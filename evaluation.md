@@ -5,8 +5,8 @@ for notrump contracts and defensive values, with distribution points combined
 for suit contracts.  The losing trick count helps evaluate distributed hands
 for suit contracts.
 
-Honor points
-------------
+High card points
+----------------
 Wbridge5 employs the well-known 4-3-2-1 count.
 
 <dl>
@@ -48,11 +48,11 @@ good for other notrump contracts too.  Its [correlation][corr] to real notrump
 tricks is 0.931, near to Binky's 0.947.
 
 <dl>
-  <dt>Ace</dt>   <dd>4.0 points</dd>
-  <dt>King</dt>  <dd>2.8 points</dd>
-  <dt>Queen</dt> <dd>1.8 points</dd>
-  <dt>Jack</dt>  <dd>1.0 point</dt>
-  <dt>Ten</dt>   <dd>0.4 points</dt>
+  <dt>Ace</dt>   <dd>4.0 HCP</dd>
+  <dt>King</dt>  <dd>2.8 HCP</dd>
+  <dt>Queen</dt> <dd>1.8 HCP</dd>
+  <dt>Jack</dt>  <dd>1.0 HCP</dt>
+  <dt>Ten</dt>   <dd>0.4 HCP</dt>
 </dl>
 
 ### Bum-rap ###

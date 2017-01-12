@@ -1,6 +1,6 @@
 Openings
 ========
-A hand with 13+ DH or 12 H is sufficient for an opening.  If both hands in a
+A hand with 13+ points or 12 HCP is sufficient for an opening.  If both hands in a
 pair are opening hands, they can probably make a game contract.  Therefore,
 with an opening hand, one must open to prevent a pass out.
 
@@ -16,7 +16,7 @@ One-of-a-suit openings
 ----------------------
 One must bid 1 of a suit with an opening hand uneligible for a strong opening.
 Opening in a major requires 5+ cards, 1♦ for 4+ cards, 1♣ for 3+ cards.  With
-the special shape 4-4-3-2, one opens 1♦ as a fallback.  If opener finds more
+the special shape 4=4=3=2, one opens 1♦ as a fallback.  If opener finds more
 than one eligible suit, bid the longest suit.  If more than one eligible suit
 is equally long, bid the highest suit.
 
@@ -44,13 +44,13 @@ semibalanced hands with specific strength should be opened in notrump.
 
 <dl>
   <dt>1NT</dt>
-  <dd>15–17 H, balanced or pattern 5-4-2-2 or 6-3-2-2 lead by a minor.</dd>
+  <dd>15–17 HCP, balanced or pattern 5-4-2-2 or 6-3-2-2 lead by a minor.</dd>
 
   <dt>2NT</dt>
-  <dd>20–21 H, 2–4 cards in each major, 2–5 cards in each minor.</dd>
+  <dd>20–21 HCP, 2–4 cards in each major, 2–5 cards in each minor.</dd>
 </dl>
 
-With 12–14 or 18–19 H, one should always open 1 of a suit.  A simple notrump
+With 12–14 or 18–19 HCP, one should always open 1 of a suit.  A simple notrump
 rebid stands for weak notrump; a jump notrump rebid shows a hand between 1NT
 and 2NT openings.
 
@@ -73,18 +73,18 @@ Strong 2♣ & 2♦ openings
 The strong 2♣ shows two kinds of **invitational** hands.  The 2♣ is a limit
 bid, so the responder becomes the *captain*.
 
-* 21–23 DH or 4-loser hands unsuitable for a 2NT opening.
-* 22–23 H, 2–4 cards in each major, 2–5 cards in each minor.
+* 21–23 points or 4-loser hands unsuitable for a 2NT opening.
+* 22–23 HCP, 2–4 cards in each major, 2–5 cards in each minor.
 
 The strong 2♦ shows a **game-forcing** hand, stronger than 2♣.
 
 ### What to bid with a big hand ###
-There are three openings describing a hand with 21+ DH or 20+ H, *viz.* 2NT,
+There are three openings describing a hand with 21+ points or 20+ HCP, *viz.* 2NT,
 2♣, and 2♦.  To better understand this section, it is recommended to revisit
 this section after understanding continuations after 2NT, 2♣, and 2♦.
 
 The chance to open 2♦ is slim.  Actually 2♦ is a dustbin for hands way too
-strong, clarifying other bids for hands with 21–23 points.  With 24+ DH, 24+ H,
+strong, clarifying other bids for hands with 21–23 points.  With 24+ points, 24+ HCP,
 or 3&minus; losers, one must open 2♦.
 
 The frequent rebids of 2♣ openings are 2♥ through 3♦.  The 2NT rebid describes

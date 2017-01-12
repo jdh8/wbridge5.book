@@ -8,21 +8,21 @@ As a consequence, except 4♠ and 4♥, there are no more openings from 3NT on.
 
 Weak 2s
 -------
-The weak 2s are still preemptive, which shows **< 12 H** and 6+ cards.
+The weak 2s are still preemptive, which shows **< 12 HCP** and 6+ cards.
 However, a balancing weak 2 shows more offensive values than other seats.
 
 <dl>
   <dt>Vulnerable vs non-vulnerable</dt>
-  <dd>12+ DH</dd>
+  <dd>12+ points</dd>
 
   <dt>Both vulnerable</dt>
-  <dd>11+ DH</dd>
+  <dd>11+ points</dd>
 
   <dt>None vulnerable</dt>
-  <dd>10+ DH</dd>
+  <dd>10+ points</dd>
 
   <dt>Non-vulnerable vs vulnerable</dt>
-  <dd>9+ DH</dd>
+  <dd>9+ points</dd>
 </dl>
 
 Why not play strong 2s for the balancing seat?  Weak 2s greatly avoid shitty
@@ -31,11 +31,11 @@ auctions like 1♥-1NT; 2♥-3♥; pass.
 Preemptive 3s
 -------------
 Opening 3 of a suit shows 7+ cards and requires opening offensive values (13+
-DH) but no opening defensive values (< 12 H).
+points) but no opening defensive values (< 12 HCP).
 
 Signoff 4♥ & 4♠
 ---------------
 These two are the only openings beyond 3NT because major games are so
-profitable.  They now stand for [4♥ and 4♠ openings][4M] with 12+ H.
+profitable.  They now stand for [4♥ and 4♠ openings][4M] with 12+ HCP.
 
 [4M]: weak.md#preemptive-4M

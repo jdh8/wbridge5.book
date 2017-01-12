@@ -14,25 +14,25 @@ opening.  This is obviously not the case for 1♣.
   <dd>Forcing, 6+ points, 4+ cards.</dd>
 
   <dt>1NT</dt>
-  <dd>Constructive 1NT, 7<sup>+</sup>~10 H, balanced.</dd>
+  <dd>Constructive 1NT, 7<sup>+</sup>~10 HCP, balanced.</dd>
 
   <dt>2♣</dt>
-  <dd>Minimum (6~10 DH), 4+ support.</dd>
+  <dd>Minimum (6~10 points), 4+ support.</dd>
 
   <dt>2♦, 2♥, 2♠</dt>
   <dd>Strong jump shift, 17+ points, 4+ cards.</dd>
 
   <dt>2NT</dt>
-  <dd>Invite to 3NT, 10~11 H, balanced.</dd>
+  <dd>Invite to 3NT, 10~11 HCP, balanced.</dd>
 
   <dt>3♣</dt>
-  <dd>Limit raise, invite to 3NT or 5♣, 11~16 DH, 5+ support.</dd>
+  <dd>Limit raise, invite to 3NT or 5♣, 11~16 points, 5+ support.</dd>
 
   <dt>3♦, 3♥, 3♠</dt>
-  <dd>Splinter, 12~17 DH, <strong>0~1 card</strong>, 5+ support.</dd>
+  <dd>Splinter, 12~17 points, <strong>0~1 card</strong>, 5+ support.</dd>
 
   <dt>3NT</dt>
-  <dd>To play, 12~15 H, balanced.</dd>
+  <dd>To play, 12~15 HCP, balanced.</dd>
 </dl>
 
 ### Choice of new suit ###
@@ -98,10 +98,10 @@ opening.
   <dd>Non-forcing, 6+ points, 4+ cards.</dd>
 
   <dt>2♦</dt>
-  <dd>Weak jump shift, 8+ DH, 6+ cards.</dd>
+  <dd>Weak jump shift, 8+ points, 6+ cards.</dd>
 
   <dt>2♥, 2♠, 3♦</dt>
-  <dd>Fit-showing, 11+ DH, 5+ cards, 5+ support.</dd>
+  <dd>Fit-showing, 11+ points, 5+ cards, 5+ support.</dd>
 </dl>
 
 Responses after a takeout double
@@ -123,10 +123,10 @@ shifts*.
   <dd>Invitational+ hands (11+ points) which do not qualify as a Truscott 2NT.</dd>
 
   <dt>2♣</dt>
-  <dd>A simple raise can now be made with only 5 DH.</dd>
+  <dd>A simple raise can now be made with only 5 points.</dd>
 
   <dt>2♦, 2♥, 2♠</dt>
-  <dd><strong>Weak jump shift</strong> if unpassed, showing 8+ DH and 6+ cards.</dd>
+  <dd><strong>Weak jump shift</strong> if unpassed, showing 8+ points and 6+ cards.</dd>
 
   <dt>2♥, 2♠, 3♦</dt>
   <dd><strong>Fit-showing</strong> if passed.  These bids are unchanged.</dd>
@@ -135,7 +135,7 @@ shifts*.
   <dd>Truscott 2NT, which shows a limit raise i.e. former 3♣.</dd>
 
   <dt>3♣</dt>
-  <dd>Preemptive raise, 7~10 DH, 5+ support.</dd>
+  <dd>Preemptive raise, 7~10 points, 5+ support.</dd>
 </dl>
 
 Responses after a simple suit overcall
@@ -145,10 +145,10 @@ These two auctions are highlighted for the surprised.
 
 <dl>
   <dt>1♣ (1♦) X</dt>
-  <dd>Collante, negative double, 6+ DH with exactly 4 hearts.  No information given about spades.</dd>
+  <dd>Collante, negative double, 6+ points with exactly 4 hearts.  No information given about spades.</dd>
 
   <dt>1♣ (1♠) 2♣!</dt>
-  <dd>Rodrigue, negative free bid in <strong>hearts</strong>, 7~10 DH with 5+ cards in hearts.  No information given about clubs.</dd>
+  <dd>Rodrigue, negative free bid in <strong>hearts</strong>, 7~10 points with 5+ cards in hearts.  No information given about clubs.</dd>
 </dl>
 
 The French insist on showing length of hearts quickly to compete with
@@ -166,19 +166,19 @@ affected for (1♦).
 
 <dl>
   <dt>1♣ (1♦) X</dt>
-  <dd>Negative double, 6+ DH with exactly 4 hearts.</dd>
+  <dd>Negative double, 6+ points with exactly 4 hearts.</dd>
 
   <dt>1♣ (1♦) 1♥</dt>
-  <dd>Free bid, 6+ DH with 5+ hearts.</dd>
+  <dd>Free bid, 6+ points with 5+ hearts.</dd>
 
   <dt>1♣ (1♦) 1♠</dt>
-  <dd>Free bid, 6+ DH with 4+ spades.</dd>
+  <dd>Free bid, 6+ points with 4+ spades.</dd>
 
   <dt>1♣ (1♥) X</dt>
-  <dd>Negative double, 6+ DH with exactly 4 spades.</dd>
+  <dd>Negative double, 6+ points with exactly 4 spades.</dd>
 
   <dt>1♣ (1♥) 1♠</dt>
-  <dd>Free bid, 6+ DH with 5+ spades.</dd>
+  <dd>Free bid, 6+ points with 5+ spades.</dd>
 </dl>
 
 ### Rodrigue ###
@@ -192,14 +192,14 @@ opponents' spades.
 
 <dl>
   <dt>1♣ (1♠) X</dt>
-  <dd>Negative double, 6+ DH with exactly 4 hearts.</dd>
+  <dd>Negative double, 6+ points with exactly 4 hearts.</dd>
 
   <dt>1♣ (1♠) 2♣!</dt>
-  <dd>Negative free bid of <strong>hearts</strong>, 6~10 DH with 5+ hearts.</dd>
+  <dd>Negative free bid of <strong>hearts</strong>, 6~10 points with 5+ hearts.</dd>
 
   <dt>1♣ (1♠) 2♥</dt>
-  <dd>(Positive) free bid, 11+ DH with 5+ hearts.</dd>
+  <dd>(Positive) free bid, 11+ points with 5+ hearts.</dd>
 
   <dt>1♣ (1♠) 3♣</dt>
-  <dd>Mixed raise, 9+ DH with 5+ support.</dd>
+  <dd>Mixed raise, 9+ points with 5+ support.</dd>
 </dl>

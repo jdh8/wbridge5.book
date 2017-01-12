@@ -47,11 +47,11 @@ three intervals.  Opener's rebid would reveal the strength.
 
 <dl>
   <dt>Minimum</dt>
-  <dd>13~16 DH or 12~14 H.</dd>
+  <dd>13~16 points or 12~14 HCP.</dd>
 
   <dt>Medium</dt>
-  <dd>17~18 DH.</dd>
+  <dd>17~18 points.</dd>
 
   <dt>Maximum</dt>
-  <dd>19+ DH or 18~19 H.</dd>
+  <dd>19+ points or 18~19 HCP.</dd>
 </dl>

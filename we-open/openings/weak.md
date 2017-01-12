@@ -1,7 +1,7 @@
 Preemptive openings
 ===================
 Preemptive bids are bids higher than usual to aggresively reach a contract,
-avoiding defending.  A preemptive opening shows **< 12 H**, which encourages
+avoiding defending.  A preemptive opening shows **< 12 HCP**, which encourages
 reaching a suit contract and discourages reaching a notrump contract or
 defending.
 
@@ -17,13 +17,13 @@ with AKxxx or AQJxx.  The strength requirements are as follows.
 
 <dl>
   <dt>Vulnerable</dt>
-  <dd>9+ DH</dd>
+  <dd>9+ points</dd>
 
   <dt>None vulnerable</dt>
-  <dd>7+ DH</dd>
+  <dd>7+ points</dd>
 
   <dt>Non-vulnerable vs vulnerable</dt>
-  <dd>6+ DH or any 7+ cards</dd>
+  <dd>6+ points or any 7+ cards</dd>
 </dl>
 
 Preemptive 3s
@@ -36,13 +36,13 @@ minor or KQ10xxx if major.  The required strength is 2 more points than weak 2.
 
 <dl>
   <dt>Vulnerable</dt>
-  <dd>11+ DH and 8+ H</dd>
+  <dd>11+ points and 8+ HCP</dd>
 
   <dt>None vulnerable</dt>
-  <dd>9+ DH</dd>
+  <dd>9+ points</dd>
 
   <dt>Non-vulnerable vs vulnerable</dt>
-  <dd>8+ DH</dd>
+  <dd>8+ points</dd>
 </dl>
 
 ### The 3rd seat ###
@@ -53,16 +53,16 @@ for a 3NT.
 
 <dl>
   <dt>Vulnerable vs non-vulnerable</dt>
-  <dd>9+ DH</dd>
+  <dd>9+ points</dd>
 
   <dt>Both vulnerable</dt>
-  <dd>8+ DH</dd>
+  <dd>8+ points</dd>
 
   <dt>None vulnerable</dt>
-  <dd>7+ DH</dd>
+  <dd>7+ points</dd>
 
   <dt>Non-vulnerable vs vulnerable</dt>
-  <dd>6+ DH.  6-card rubbish minor is acceptable here.</dd>
+  <dd>6+ points.  6-card rubbish minor is acceptable here.</dd>
 </dl>
 
 Preemptive 4♥ & 4♠ {#preemptive-4M}
@@ -72,16 +72,16 @@ it shall be no weaker than KQxxxxx.
 
 <dl>
   <dt>Vulnerable vs non-vulnerable</dt>
-  <dd>14+ DH</dd>
+  <dd>14+ points</dd>
 
   <dt>Both vulnerable</dt>
-  <dd>13+ DH</dd>
+  <dd>13+ points</dd>
 
   <dt>None vulnerable</dt>
-  <dd>12+ DH</dd>
+  <dd>12+ points</dd>
 
   <dt>Non-vulnerable vs vulnerable</dt>
-  <dd>11+ DH</dd>
+  <dd>11+ points</dd>
 </dl>
 
 Namyats
