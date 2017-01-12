@@ -3,6 +3,37 @@ Responses
 The openings give little information.  As a result, responder now gives
 information about both strength and distribution to help opener make decisions.
 
+Default meaning of responses
+----------------------------
+The jump shift is a versatile tool of bidding.  They have no default meaning
+because their use highly depends on seats and the auction.
+
+<dl>
+  <dt>1 of a new suit</dt>
+  <dd>Constructive, 6+ DH, 4+ cards in that suit.</dd>
+
+  <dt>1NT</dt>
+  <dd>Constructive 1NT, 7<sup>+</sup>~10 H, balanced.</dd>
+
+  <dt>Non-jump 2 of a new suit</dt>
+  <dd>Invitational+, 11+ DH, 5+ cards in that suit.</dd>
+
+  <dt>2 of the opened suit</dt>
+  <dd>Simple raise, 6~10 DH.  3+ cards to support a major; 4+ cards to support a minor.</dd>
+
+  <dt>2NT</dt>
+  <dd>Invite to 3NT, 10~11 H, balanced.</dd>
+
+  <dt>3 of the opened suit</dt>
+  <dd>Limit raise, 11+ DH but unable to force to game, found a fit of 8+ cards.</dd>
+
+  <dt>3NT</dt>
+  <dd>To play, 12~15 H, balanced.</dd>
+
+  <dt>Double jump shift</dt>
+  <dd>Splinter, forcing to game, 12~16 DH, found a fit of 8+ cards.</dd>
+</dl>
+
 Raises
 ------
 A raise shows support in partner's suit.  All raises are non-forcing.  If
