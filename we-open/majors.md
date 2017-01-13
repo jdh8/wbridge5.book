@@ -11,8 +11,8 @@ explained first because
 2. There are fewer mediocre exceptional bids which are difficult for beginners.
 3. Some conventions designed for majors can also apply to minors.
 
-Responses to 1♥ (pass)
-----------------------
+Responses to 1♥
+---------------
 <dl>
 <dt>1♠</dt>
 <dd>6~16 points, 4+ cards.</dd>
@@ -70,8 +70,8 @@ bids passable.
   <dd>Limit raise, 11~12 points, 3+ support, some singleton or void.</dd>
 </dl>
 
-Responses to 1♠ (pass)
-----------------------
+Responses to 1♠
+---------------
 <dl>
 <dt>1NT</dt>
 <dd>Dustbin 1NT, 6~11 HCP without another suitable bid.</dd>

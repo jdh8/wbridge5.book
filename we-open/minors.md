@@ -18,8 +18,8 @@ about bidding the major first.  A **notrump** or a **support in minor** always
 
 [big]: openings.md#what-to-bid-with-a-big-hand
 
-Responses to 1♣ (pass)
-----------------------
+Responses to 1♣
+---------------
 The 1NT response is always constructive because there is no suit below clubs.
 When 1NT acts as a dustbin, responder bids 1NT to show a suit below the
 opening.  This is obviously not the case for 1♣.
