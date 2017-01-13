@@ -26,7 +26,7 @@ opening.  This is obviously not the case for 1♣.
 
 <dl>
   <dt>1♦, 1♥, 1♠</dt>
-  <dd>Forcing, 6+ points, 4+ cards.</dd>
+  <dd>6~16 points, 4+ cards.</dd>
 
   <dt>1NT</dt>
   <dd>Constructive 1NT, 7<sup>+</sup>~10 HCP, balanced.</dd>
@@ -108,9 +108,6 @@ Jump shifts from 2♥ on are fit-showing because responder gave up preemptive
 opening.
 
 <dl>
-  <dt>1♦, 1♥, 1♠</dt>
-  <dd>Non-forcing, 6+ points, 4+ cards.</dd>
-
   <dt>2♦</dt>
   <dd>Weak jump shift, 8+ points, 6+ cards.</dd>
 
