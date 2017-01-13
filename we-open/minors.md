@@ -32,7 +32,7 @@ opening.  This is obviously not the case for 1♣.
   <dd>Constructive 1NT, 7<sup>+</sup>~10 HCP, balanced.</dd>
 
   <dt>2♣</dt>
-  <dd>Minimum (6~10 points), 4+ support.</dd>
+  <dd>6~10 points, 4+ support.</dd>
 
   <dt>2♦, 2♥, 2♠</dt>
   <dd>Strong jump shift, 17+ points, 4+ cards.</dd>
@@ -44,7 +44,7 @@ opening.  This is obviously not the case for 1♣.
   <dd>Limit raise, invite to 3NT or 5♣, 11~16 points, 5+ support.</dd>
 
   <dt>3♦, 3♥, 3♠</dt>
-  <dd>Splinter, 12~17 points, <strong>0~1 card</strong>, 5+ support.</dd>
+  <dd>Splinter, 12~16 points, <strong>0~1 card</strong>, 5+ support.</dd>
 
   <dt>3NT</dt>
   <dd>To play, 12~15 HCP, balanced.</dd>
@@ -113,4 +113,49 @@ opening.
 
   <dt>2♥, 2♠, 3♦</dt>
   <dd>Fit-showing, 11+ points, 5+ cards, 5+ support.</dd>
+</dl>
+
+Responses to 1♦
+---------------
+<dl>
+  <dt>1♥, 1♠</dt>
+  <dd>6~16 points, 4+ cards.</dd>
+
+  <dt>1NT</dt>
+  <dd>Dustbin 1NT, 6~10 HCP, without another suitable call.</dd>
+
+  <dt>2♣</dt>
+  <dd>2/1, 12+ points, 4+ cards.</dd>
+
+  <dt>2♦</dt>
+  <dd>6~10 points, 4+ support.</dd>
+
+  <dt>2♥, 2♠</dt>
+  <dd>Strong jump shift, 17+ points, 4+ cards.</dd>
+
+  <dt>2NT</dt>
+  <dd>Invite to 3NT, 10~11 HCP, balanced.</dd>
+
+  <dt>3♣</dt>
+  <dd>Strong jump shift, 18+ points, 4+ cards.</dd>
+
+  <dt>3♦</dt>
+  <dd>Limit raise, invite to 3NT or 5♦, 11~16 points, 4+ support.</dd>
+
+  <dt>3♥, 3♠, 4♣</dt>
+  <dd>Splinter, 12~16 points, <strong>0~1 card</strong>, 5+ support.</dd>
+
+  <dt>3NT</dt>
+  <dd>To play, 12~15 HCP, balanced.</dd>
+</dl>
+
+### Choice of new suit ###
+1. Choose the longest suit.
+2. To break a tie, bid the cheapest **call** for 4-4, the highest **suit** for
+   5-5 or above.
+
+### Adjusted responses by a passed responder ###
+<dl>
+  <dt>2♥, 2♠, 3♣</dt>
+  <dd>Fit-showing, 11+ points, 5+ cards, 4+ support.</dd>
 </dl>

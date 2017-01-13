@@ -18,7 +18,7 @@ Responses to 1♥
 <dd>6~16 points, 4+ cards.</dd>
 
 <dt>1NT</dt>
-<dd>Dustbin 1NT, 6~11 HCP without another suitable bid.</dd>
+<dd>Dustbin 1NT, 6~11 HCP without another suitable call.</dd>
 
 <dt>2♣, 2♦</dt>
 <dd>2/1, 12+ points, 4+ cards.</dd>
@@ -74,7 +74,7 @@ Responses to 1♠
 ---------------
 <dl>
 <dt>1NT</dt>
-<dd>Dustbin 1NT, 6~11 HCP without another suitable bid.</dd>
+<dd>Dustbin 1NT, 6~11 HCP without another suitable call.</dd>
 
 <dt>2♣, 2♦</dt>
 <dd>2/1, 12+ points, 4+ cards.</dd>
