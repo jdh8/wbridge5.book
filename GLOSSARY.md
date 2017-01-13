@@ -12,13 +12,18 @@ pass will not cause a passing out.
 
 Dustbin 1NT
 -----------
-The 1NT response in 1♠/♥/♦ (pass) 1NT is dustbin, which shows a constructive
-1NT or 6~10 points without another suitable call.
+The 1NT response in 1♠/*♡*/*♢* (pass) 1NT is dustbin, which shows a
+constructive 1NT or 6~10 points without another suitable call.
 
 In a constructive auction, a pass to 1 of a suit can only be made from a hand
 with < 6 points to prevent a loss of game.  However, bidding on the 2 level
 shows at least invitational values.  Therefore, when responder holds a suit
 lower than the opening, they has to bid 1NT with a minimum responding hand.
+
+Garbage Stayman
+---------------
+A legitimized psychic Stayman with a weak 3~4♠ 3~4*♡* 4~5*♢* 0~1♣.  Responder
+passes opener's most frequent rebids *viz* 2*♢*, 2*♡*, 2♠.
 
 <script>
 (function(list)

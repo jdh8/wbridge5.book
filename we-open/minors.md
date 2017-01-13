@@ -38,7 +38,7 @@ opening.  This is obviously not the case for 1♣.
   <dd>Strong jump shift, 17+ points, 4+ cards.</dd>
 
   <dt>2NT</dt>
-  <dd>Invite to 3NT, 10~11 HCP, balanced.</dd>
+  <dd>Invitation to 3NT, 10~11 HCP, balanced.</dd>
 
   <dt>3♣</dt>
   <dd>Limit raise, invite to 3NT or 5♣, 11~16 points, 5+ support.</dd>
@@ -134,7 +134,7 @@ Responses to 1♦
   <dd>Strong jump shift, 17+ points, 4+ cards.</dd>
 
   <dt>2NT</dt>
-  <dd>Invite to 3NT, 10~11 HCP, balanced.</dd>
+  <dd>Invitation to 3NT, 10~11 HCP, balanced.</dd>
 
   <dt>3♣</dt>
   <dd>Strong jump shift, 18+ points, 4+ cards.</dd>

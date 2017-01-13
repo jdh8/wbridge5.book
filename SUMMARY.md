@@ -9,3 +9,4 @@ We open
 * [One-of-a-major openings](we-open/majors.md)
 * [One-of-a-minor openings](we-open/minors.md)
 	- [Competitive responses](we-open/minors/competitive-responses.md)
+* [Strong notrump openings](we-open/notrump.md)
