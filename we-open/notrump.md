@@ -56,6 +56,26 @@ Responses to 1NT
   <dd>To play, 19+ HCP.</dd>
 </dl>
 
+### Strong jump shifts ###
+If responder has not passed, jump shifts are **strong**.  These bids deny a
+4-card major side suit.  If there is a 4-card major side suit, bid Stayman 2♣
+instead because major slams score more than minor slams.
+
+<dl>
+  <dt>3♦, 3♥, 3♠</dt>
+  <dd>Strong jump shift, 16+ points, 5+ cards.</dd>
+
+  <dt>4♣</dt>
+  <dd>Strong jump shift, 16+ points, 6+ cards.</dd>
+</dl>
+
+### Takeout jump shifts ###
+If responder has passed, jump shifts are **takeout**, showing a maximum
+3-suiter with a signleton or void in the bid suit.
+
+These takeout jump shifts deny a 5-card major.  If there is a 5-card major,
+bid Stayman 2♣ for 5-4 majors or transfer for the only major.
+
 Responses to 2NT
 ----------------
 <dl>
