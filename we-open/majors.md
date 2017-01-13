@@ -164,3 +164,27 @@ Major raise structure
 <tr><th>20+ points</th>                                             <td>SJS or (2/1 then 3M)</td></tr>
 </tbody>
 </table>
+
+Choice of new suit
+------------------
+1. Choose the longest suit.
+2. To break a tie, bid the cheapest **call** for 4-4, the highest **suit** for
+   5-5 or above.
+
+In the following examples, your partner opened 1♥ and you have not passed.
+<dl>
+  <dt>♠9872 ♥A ♦65 ♣A76532</dt>
+  <dd>Bid 1♠.  This hand is too weak to bid 2♣.</dd>
+
+  <dt>♠J52 ♥AK ♦K983 ♣K874</dt>
+  <dd>Bid 2♣.  Bid the cheapest call for 4-4.</dd>
+
+  <dt>♠KJ10 ♥- ♦K10876 ♣K8764</dt>
+  <dd>Bid 2♦.  Bid the highest suit for 5-5.</dd>
+
+  <dt>♠K10543 ♥2 ♦J6 ♣AKQ62</dt>
+  <dd>Bid 1♠.  Bid the highest suit for 5-5.</dd>
+
+  <dt>♠AK8 ♥AJ86 ♦A83 ♣A86</dt>
+  <dd>Bid 2♣.  This hand is too strong for 3NT.  Feel free to lie about a minor with a blockbuster.</dd>
+</dl>
