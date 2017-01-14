@@ -29,22 +29,22 @@ Responses to 1♥
 <dt>2♠</dt>
 <dd>Strong jump shift, 17+ points, 4+ cards.</dd>
 
-<dt>2NT</dt>
+<dt>2NT!</dt>
 <dd>Special 2NT, 11~16 points, 3+ support, 2+ cards in each suit.</dd>
 
-<dt>3♣</dt>
+<dt>3♣!</dt>
 <dd>Bergen raise, mixed raise, 9~10 points, 4+ support.</dd>
 
-<dt>3♦</dt>
+<dt>3♦!</dt>
 <dd>Bergen raise, limit raise, 11~12 points, 4+ support.</dd>
 
 <dt>3♥</dt>
 <dd>Bergen raise, preemptive raise, 6~8 points, 4+ support.</dd>
 
-<dt>3NT</dt>
+<dt>3NT!</dt>
 <dd>Serious 3NT, 16~19 points, 4+ support, 2+ cards in each suit.</dd>
 
-<dt>3♠, 4♣, 4♦</dt>
+<dt>3♠!, 4♣!, 4♦!</dt>
 <dd>Splinter, 12~16 points, <strong>0~1 card</strong>, 4+ support.</dd>
 
 <dt>4♥</dt>
@@ -85,13 +85,13 @@ Responses to 1♠
 <dt>2♠</dt>
 <dd>Simple raise, 6~10 points, 3+ support.</dd>
 
-<dt>2NT</dt>
+<dt>2NT!</dt>
 <dd>Special 2NT, 11~16 points, 3+ support, 2+ cards in each suit.</dd>
 
-<dt>3♣</dt>
+<dt>3♣!</dt>
 <dd>Bergen raise, mixed raise, 9~10 points, 4+ support.</dd>
 
-<dt>3♦</dt>
+<dt>3♦!</dt>
 <dd>Bergen raise, limit raise, 11~12 points, 4+ support.</dd>
 
 <dt>3♥</dt>
@@ -100,10 +100,10 @@ Responses to 1♠
 <dt>3♠</dt>
 <dd>Bergen raise, preemptive raise, 6~8 points, 4+ support.</dd>
 
-<dt>3NT</dt>
+<dt>3NT!</dt>
 <dd>Serious 3NT, 16~19 points, 4+ support, 2+ cards in each suit.</dd>
 
-<dt>4♣, 4♦, 4♥</dt>
+<dt>4♣!, 4♦!, 4♥!</dt>
 <dd>Splinter, 12~16 points, <strong>0~1 card</strong>, 4+ support.</dd>
 
 <dt>4♠</dt>
@@ -188,3 +188,43 @@ In the following examples, your partner opened 1♥ and you have not passed.
   <dt>♠AK8 ♥AJ86 ♦A83 ♣A86</dt>
   <dd>Bid 2♣.  This hand is too strong for 3NT.  Feel free to lie about a minor with a blockbuster.</dd>
 </dl>
+
+Special 2NT
+-----------
+The special 2NT shows
+
+* Limit raise or better without slam interest (11~16 points, 3+ support).
+* Somewhat balanced (2+ cards in every suit).
+
+If responder has passed, this 2NT bid has given enough information for opener
+to sign off.
+
+### Puppet special 2NT ###
+If responder has not passed yet, this 2NT bid is a **puppet** forcing opener
+to bid an artificial relay 3♣.  Responder shows support and strength in the
+second round.
+
+The 3♥ response is also forcing to game because Bergen 3♦ already takes care of
+invitational hands.
+
+<dl>
+  <dt>3♦!</dt>
+  <dd>Minimum short, invitational+, 11~14 points, 3-card support</dd>
+
+  <dt>3♥!</dt>
+  <dd>Minimum long, forcing to game, 12~14 points, 4+-card support</dd>
+
+  <dt>3♠!</dt>
+  <dd>Maximum long, forcing to game, 14~16 points, 4+-card support</dd>
+
+  <dt>3NT!</dt>
+  <dd>Maximum short, forcing to game, 14~16 points, 3-card support</dd>
+</dl>
+
+This convention seems to be invented by Wbridge5.  I guess that this is an
+improvement from Jacoby 2NT.  This convention greatly improves 2/1 structure of
+Wbridge5.
+
+* Special 2NT handles 3-card limit raise, freeing dustbin 1NT from forcing.
+* Jacoby 2NT fits into special 2NT and serious 3NT, leaving no burden for other bids.
+* Responder shows.  Opener relays, hiding information from opponents.
