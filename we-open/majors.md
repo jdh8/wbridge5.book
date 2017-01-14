@@ -42,7 +42,7 @@ Responses to 1♥
 <dd>Bergen raise, preemptive raise, 6~8 points, 4+ support.</dd>
 
 <dt>3NT</dt>
-<dd>Special 3NT, 16~19 points, 4+ support, 2+ cards in each suit.</dd>
+<dd>Serious 3NT, 16~19 points, 4+ support, 2+ cards in each suit.</dd>
 
 <dt>3♠, 4♣, 4♦</dt>
 <dd>Splinter, 12~16 points, <strong>0~1 card</strong>, 4+ support.</dd>
@@ -101,7 +101,7 @@ Responses to 1♠
 <dd>Bergen raise, preemptive raise, 6~8 points, 4+ support.</dd>
 
 <dt>3NT</dt>
-<dd>Special 3NT, 16~19 points, 4+ support, 2+ cards in each suit.</dd>
+<dd>Serious 3NT, 16~19 points, 4+ support, 2+ cards in each suit.</dd>
 
 <dt>4♣, 4♦, 4♥</dt>
 <dd>Splinter, 12~16 points, <strong>0~1 card</strong>, 4+ support.</dd>
