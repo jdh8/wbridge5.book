@@ -25,19 +25,4 @@ Garbage Stayman
 A legitimized psychic Stayman with a weak 3~4♠ 3~4*♡* 4~5*♢* 0~1♣.  Responder
 passes opener's most frequent rebids *viz* 2*♢*, 2*♡*, 2♠.
 
-<script>
-(function(list)
-{
-	for (var k = list.length - 1; k >= 0; --k)
-	{
-		var element = list[k];
-
-		switch (element.firstChild.nodeValue)
-		{
-			case "♥":
-			case "♦":
-				element.classList.add("redsuit");
-		}
-	}
-})(document.getElementsByTagName("em"));
-</script>
+<script src="js/glossary.js"></script>

@@ -1,12 +1,13 @@
-* [Hand evaluation](evaluation.md)
-* [Defensive signals](signals.md)
+* [Hand evaluation](evaluation/README.md)
+* [Defensive signals](signal/README.md)
+* [Glossary](GLOSSARY.md)
 
 We open
 -------
-* [Openings](we-open/openings.md)
-	- [Preemptive openings](we-open/openings/weak.md)
-	- [Balancing openings](we-open/openings/balancing.md)
-* [One-of-a-major openings](we-open/majors.md)
-* [One-of-a-minor openings](we-open/minors.md)
-	- [Competitive responses](we-open/minors/competitive-responses.md)
-* [Strong notrump openings](we-open/notrump.md)
+* [Openings](we-open/README.md)
+	- [Preemptive openings](we-open/opening/preemptive/README.md)
+	- [Balancing openings](we-open/opening/balancing/README.md)
+* [One-of-a-major openings](we-open/major/README.md)
+* [One-of-a-minor openings](we-open/minor/README.md)
+	- [Competitive responses](we-open/minor/competitive-responses/README.md)
+* [Strong notrump openings](we-open/notrump/README.md)
