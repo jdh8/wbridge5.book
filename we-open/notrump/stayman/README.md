@@ -1,20 +1,28 @@
 Stayman
 =======
 Stayman is the most used relay in bridge.  This convention helps find 4-4 fit
-in a major.  This response requires an exactly 4-card major.
+in a major.
 
-A 5-card major is allowed as an 1NT opener in Wbridge5.  Hence, there are
-5-card major rebids after 1NT-2♣.
+The *vanilla* Stayman requires 9+ points to 1NT and 6+ points to 2NT in order
+to safely sign off at the next notrump when no major fit is found.  This also
+implies an exactly 4-card major and denies a 6-card major.  Transfer with a
+6-card major because a fit is already found.
 
-## Garbage Stayman ##
-As the most frequent rebids are simple ♠, ♥, and ♦, responder can bid a Stayman
-with a ♠-♥-♦ *3-suiter* with insufficient strength.  Such a legitimized psych
-is Garbage Stayman.
+Stayman is unlimited and gives no information about minors.  It is possible
+that responder pursues 6NT or bids a 5-card minor in later rounds.
+
+Garbage Stayman
+---------------
+As the most frequent rebids are simple ♠, ♥, and ♦, responder can psych a
+Stayman with a ♠-♥-♦ *3-suiter* with **insufficient strength**.  Such a
+legitimized psych is Garbage Stayman.
 
 Criteria for a *3-suiter* are less strict here.  The 5-4-3-1 pattern also
 counts as a *3-suiter*, which ironically provides 56% of hands to this
 convention.  However, a 5-card major is unacceptable because a transfer scores
 more.
+
+An 1NT opening is assumed in the following examples.
 
 <dl>
   <dt>♠Q83 ♥10984 ♦J10743 ♣2</dt>
@@ -27,7 +35,11 @@ more.
   <dd>Bid ♦ to transfer to hearts.</dd>
 </dl>
 
-## Rebids by 1NT opener ##
+Opener's rebids
+--------------------
+A 5-card major is allowed as an 1NT opener in Wbridge5.  Hence, there are
+5-card major rebids after 1NT-2♣.
+
 <dl>
   <dt>2♦</dt>
   <dd>No biddable major.</dd>
@@ -54,22 +66,11 @@ more.
   <dd>Maximum with 5 cards in spades.</dd>
 </dl>
 
-## Rebids by 2NT opener ##
-<dl>
-  <dt>3♦</dt>
-  <dd>No biddable major.</dd>
+There is no 5-card major in a 2NT opener.  The rebids after 2NT-3♣ are just one
+level up from 1NT-2♣.
 
-  <dt>3♥</dt>
-  <dd>Exactly 4 cards in hearts without biddable spades</dd>
-
-  <dt>3♠</dt>
-  <dd>Exactly 4 cards in spades without biddable hearts.</dd>
-
-  <dt>3NT</dt>
-  <dd>Exactly 4-4 in majors.</dd>
-</dl>
-
-## Responses to opener's notrump rebid ##
+Responses to opener's notrump rebid
+-----------------------------------
 Opener's notrump rebid shows both majors.  As a major fit is found, minor bids
 are South African transfers to clarify strength.
 
@@ -106,7 +107,8 @@ and 2NT-3♣; 3NT-4m! auctions.  Therefore, the responding structure is
   <dd>Sign off naturally.</dd>
 </dl>
 
-## With 5-4 in majors ##
+With 5-4 in majors
+------------------
 Since the difference between majors is one card, if opener has chosen one
 major, stick with it because it cannot have the shorter fit.
 
@@ -114,7 +116,8 @@ When opener shows indifference, show the longer major.  If opener rebids
 diamonds to deny a biddable major, bid the 5-card major on your own.  If opener
 rebids notrump to show 4-4, raise your 5-card major.
 
-## Slam try in notrump ##
+Slam try in notrump
+-------------------
 When no fit is found, we fall back to play in notrump.  Slam try in notrump is
 unaffected, as if no Stayman were made.
 
