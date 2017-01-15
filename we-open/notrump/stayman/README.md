@@ -69,59 +69,47 @@ A 5-card major is allowed as an 1NT opener in Wbridge5.  Hence, there are
 There is no 5-card major in a 2NT opener.  The rebids after 2NT-3♣ are just one
 level up from 1NT-2♣.
 
-Responses to opener's notrump rebid
------------------------------------
-Opener's notrump rebid shows both majors.  As a major fit is found, minor bids
-are South African transfers to clarify strength.
+Second responses to an 1NT opener
+---------------------------------
+### 1NT-2♣; 2♦ ###
+Opener denies a 4-card major.  As a consequence, the only possible major fits
+are 3-5, so a second response should show 5 cards.  A 5-card major implies 4
+cards in the other major as Stayman requires an exactly 4-card major.
 
 <dl>
-  <dt>♦/♣!</dt>
-  <dd>Transfer to ♠/♥, 4+ cards in the referred major suit.</dd>
+  <dt>Pass</dt>
+  <dd>Garbage Stayman.</dd>
 
-  <dt>♠/♥</dt>
-  <dd>Natural, 4+ cards.</dd>
+  <dt>Notrump</dt>
+  <dd>Showing strength as no Stayman.</dd>
+
+  <dt>2♥, 2♠</dt>
+  <dd>Invitational+, 5 cards (which implies 4 cards in the other major).</dd>
+
+  <dt>3♣, 3♦</dt>
+  <dd>Forcing to game, 5+ cards.</dd>
 </dl>
+
+### 1NT-2♣; 2NT ###
+Opener's notrump rebid shows both majors.  As a major fit is found, there is no
+need to find a minor fit.  Minor bids are South African transfers to clarify
+strength.
 
 For Garbage Stayman, the Wbridge5 program generates questionable 1NT-2♣; 2NT-3M
-and 2NT-3♣; 3NT-4m! auctions.  Therefore, the responding structure is
-**modified in this book**.
+auctions.  Therefore, the responding structure is **modified in this book**.
 
-### 1NT-2♣; 2NT-? ###
-<dl>
-  <dt>Game-forcing</dt>
-  <dd>Transfer then continue.</dd>
-
-  <dt>Invitational</dt>
-  <dd>Bid naturally.</dd>
-
-  <dt>Garbage Stayman</dt>
-  <dd>Transfer then pass.</dd>
-</dl>
-
-### 2NT-3♣; 3NT-? ###
-<dl>
-  <dt>Slam try</dt>
-  <dd><em>Transfer</em> but control bidding starts, so opener can bid a control instead of completing transfer.</dd>
-
-  <dt>No slam interest</dt>
-  <dd>Sign off naturally.</dd>
-</dl>
-
-With 5-4 in majors
-------------------
-Since the difference between majors is one card, if opener has chosen one
-major, stick with it because it cannot have the shorter fit.
-
-When opener shows indifference, show the longer major.  If opener rebids
-diamonds to deny a biddable major, bid the 5-card major on your own.  If opener
-rebids notrump to show 4-4, raise your 5-card major.
-
-Slam try in notrump
--------------------
-When no fit is found, we fall back to play in notrump.  Slam try in notrump is
-unaffected, as if no Stayman were made.
+The transfers are now **strong or weak**.  Garbage Stayman is moved to minors,
+prepared to pass as transfer completed.  Keeping bidding after transfer shows
+game-forcing strength.  This makes the natural bids exclusively invitational.
+Opener no longer bids an incorrect game when responder has garbage.
 
 <dl>
-  <dt>4NT, 5NT</dt>
-  <dd>Quantitative invitation to 6NT and 7NT respectively .</dd>
+  <dt>3♣!</dt>
+  <dd>Garbage Stayman or forcing to game, 4+ cards in hearts.</dd>
+
+  <dt>3♦!</dt>
+  <dd>Garbage Stayman or forcing to game, 4+ cards in spades.</dd>
+
+  <dt>3♥, 3♠</dt>
+  <dd>Invitational, 4+ cards.</dd>
 </dl>
