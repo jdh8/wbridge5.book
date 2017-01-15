@@ -10,10 +10,10 @@ High card points
 Wbridge5 employs the well-known 4-3-2-1 count.
 
 <dl>
-  <dt>Ace</dt>   <dd>4 points</dd>
-  <dt>King</dt>  <dd>3 points</dd>
-  <dt>Queen</dt> <dd>2 points</dd>
-  <dt>Jack</dt>  <dd>1 point</dt>
+  <dt>Ace</dt>   <dd>4 HCP</dd>
+  <dt>King</dt>  <dd>3 HCP</dd>
+  <dt>Queen</dt> <dd>2 HCP</dd>
+  <dt>Jack</dt>  <dd>1 HCP</dt>
 </dl>
 
 Distribution points
@@ -30,13 +30,6 @@ Wbridge5 makes some adjustments for 10s and unguarded honors, but I have not fig
 out its rules.  Luckily, [Thomas's Bridge Fantasia][thomas] provides precise evaluators
 friendly to humans.
 
-Notrump & defensive values
---------------------------
-To estimate notrump and defensive values, one counts honors only.  Wbridge5
-also makes some adjustments for 10s and unguarded honors, but I have not figure
-out its rules.  Luckily, [Thomas's Bridge Fantasia][thomas] provides a good
-adjustment easy for humans to count.
-
 ### Binky ###
 Binky is a theoretical evaluator impossible for a human player to use.  To
 obtain Binky points, one looks up an exhaustive table for every pattern and
@@ -49,10 +42,10 @@ tricks is 0.931, near to Binky's 0.947.
 
 <dl>
   <dt>Ace</dt>   <dd>4.0 HCP</dd>
-  <dt>King</dt>  <dd>2.8 HCP</dd>
-  <dt>Queen</dt> <dd>1.8 HCP</dd>
+  <dt>King</dt>  <dd>2.8 HCP (↓ 0.2)</dd>
+  <dt>Queen</dt> <dd>1.8 HCP (↓ 0.2)</dd>
   <dt>Jack</dt>  <dd>1.0 HCP</dt>
-  <dt>Ten</dt>   <dd>0.4 HCP</dt>
+  <dt>Ten</dt>   <dd>0.4 HCP (↑ 0.4)</dt>
 </dl>
 
 ### Bum-rap ###
@@ -60,11 +53,11 @@ The **Bum-rap** evaluator is good for suit contracts.  With distribution points
 added, its [correlation][corr] to real tricks is 0.914, near to Binky's 0.925.
 
 <dl>
-  <dt>Ace</dt>   <dd>4.5 points</dd>
+  <dt>Ace</dt>   <dd>4.5 points (↑ 1/2)</dd>
   <dt>King</dt>  <dd>3 points</dd>
-  <dt>Queen</dt> <dd>1.5 points</dd>
-  <dt>Jack</dt>  <dd>0.75 points</dt>
-  <dt>Ten</dt>   <dd>0.25 points</dt>
+  <dt>Queen</dt> <dd>1.5 points (↓ 1/2)</dd>
+  <dt>Jack</dt>  <dd>0.75 points (↓ 1/4)</dt>
+  <dt>Ten</dt>   <dd>0.25 points (↑ 1/4)</dt>
 </dl>
 
 [corr]:   http://bridge.thomasoandrews.com/valuations/binky-evaluated.html
