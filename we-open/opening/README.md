@@ -44,13 +44,13 @@ semibalanced hands with specific strength should be opened in notrump.
 
 <dl>
   <dt>1NT</dt>
-  <dd>15–17 HCP, balanced or pattern 5-4-2-2 or 6-3-2-2 lead by a minor.</dd>
+  <dd>15~17 HCP, balanced or pattern 5-4-2-2 or 6-3-2-2 lead by a minor.</dd>
 
   <dt>2NT</dt>
-  <dd>20–21 HCP, 2–4 cards in each major, 2–5 cards in each minor.</dd>
+  <dd>20~21 HCP, 2~4 cards in each major, 2~5 cards in each minor.</dd>
 </dl>
 
-With 12–14 or 18–19 HCP, one should always open 1 of a suit.  A simple notrump
+With 12~14 or 18~19 HCP, one should always open 1 of a suit.  A simple notrump
 rebid stands for weak notrump; a jump notrump rebid shows a hand between 1NT
 and 2NT openings.
 
@@ -73,8 +73,8 @@ Strong 2♣ & 2♦ openings
 The strong 2♣ shows two kinds of **invitational** hands.  The 2♣ is a limit
 bid, so the responder becomes the *captain*.
 
-* 21–23 points or 4-loser hands unsuitable for a 2NT opening.
-* 22–23 HCP, 2–4 cards in each major, 2–5 cards in each minor.
+* 21~23 points or 4-loser hands unsuitable for a 2NT opening.
+* 22~23 HCP, 2~4 cards in each major, 2~5 cards in each minor.
 
 The strong 2♦ shows a **game-forcing** hand, stronger than 2♣.
 
@@ -84,7 +84,7 @@ There are three openings describing a hand with 21+ points or 20+ HCP, *viz.* 2N
 this section after understanding continuations after 2NT, 2♣, and 2♦.
 
 The chance to open 2♦ is slim.  Actually 2♦ is a dustbin for hands way too
-strong, clarifying other bids for hands with 21–23 points.  With 24+ points, 24+ HCP,
+strong, clarifying other bids for hands with 21~23 points.  With 24+ points, 24+ HCP,
 or 3&minus; losers, one must open 2♦.
 
 The frequent rebids of 2♣ openings are 2♥ through 3♦.  The 2NT rebid describes
