@@ -90,6 +90,37 @@ cards in the other major as Stayman requires an exactly 4-card major.
   <dd>Forcing to game, 5+ cards.</dd>
 </dl>
 
+### 1NT-2♣; 2♥ ###
+Opener's major rebid denies the other major as in the French system.  Responder
+immediately knows if there is any major fit.  Opener can infer exactly 4 cards
+in the other major from a **misfit** second response.
+
+<dl>
+  <dt>Pass</dt>
+  <dd>Garbage Stayman.</dd>
+
+  <dt>2NT</dt>
+  <dd>Invitational, 0~3 support.</dd>
+
+  <dt>3♣, 3♦</dt>
+  <dd>Forcing to game, 5+ cards, 0~3 support, some singleton or void.</dd>
+
+  <dt>3♥</dt>
+  <dd>Invitational, 4+ support.</dd>
+
+  <dt>3NT</dt>
+  <dd>Signoff, 0~3 support.</dd>
+
+  <dt>3♠, 4♣, 4♦ (!)</dt>
+  <dd>Splinter, slam try (14+ points), 0~1 cards, 4+ support.</dd>
+
+  <dt>4♥</dt>
+  <dd>Signoff, 4+ support.</dd>
+</dl>
+
+The 2♠ response is unallocated in Wbridge5.  I think 2♠ should be used for slam
+try but I have not came up with a brilliant idea so far.
+
 ### 1NT-2♣; 2NT ###
 Opener's notrump rebid shows both majors.  As a major fit is found, there is no
 need to find a minor fit.  Minor bids are South African transfers to clarify
