@@ -210,3 +210,65 @@ Opener no longer bids an incorrect game when responder has garbage.
   <dt>3♥, 3♠</dt>
   <dd>Invitational, 4+ cards.</dd>
 </dl>
+
+### 1NT-2♣; 3♣! ###
+Because open has shown strength, quantitative invitation is no longer needed.
+
+<dl>
+  <dt>3♥</dt>
+  <dd>Signoff, 3+ cards.</dd>
+
+  <dt>3NT</dt>
+  <dd>Signoff, 0~2 cards in hearts.</dd>
+
+  <dt>4♥</dt>
+  <dd>Signoff in game, 3+ cards.</dd>
+
+  <dt>4NT</dt>
+  <dd>RKCB 0314</dt>
+</dl>
+
+### 1NT-2♣; 3♦! ###
+<dl>
+  <dt>3♠</dt>
+  <dd>Signoff, 3+ cards.</dd>
+
+  <dt>3NT</dt>
+  <dd>Signoff, 0~2 cards in spades.</dd>
+
+  <dt>4♠</dt>
+  <dd>Signoff in game, 3+ cards.</dd>
+
+  <dt>4NT</dt>
+  <dd>RKCB 0314</dt>
+</dl>
+
+### 1NT-2♣; 3♥ ###
+<dl>
+  <dt>Pass</dt>
+  <dd>Garbage Stayman.</dd>
+
+  <dt>3NT</dt>
+  <dd>Signoff, 0~2 cards in hearts.</dd>
+
+  <dt>4♥</dt>
+  <dd>Signoff, 3+ cards.</dd>
+
+  <dt>4NT</dt>
+  <dd>RKCB 0314</dt>
+</dl>
+
+### 1NT-2♣; 3♠ ###
+<dl>
+  <dt>Pass</dt>
+  <dd>Garbage Stayman.</dd>
+
+  <dt>3NT</dt>
+  <dd>Signoff, 0~2 cards in spades.</dd>
+
+  <dt>4♠</dt>
+  <dd>Signoff, 3+ cards.</dd>
+
+  <dt>4NT</dt>
+  <dd>RKCB 0314</dt>
+</dl>
