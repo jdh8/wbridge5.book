@@ -215,11 +215,17 @@ Opener no longer bids an incorrect game when responder has garbage.
 Because open has shown strength, quantitative invitation is no longer needed.
 
 <dl>
+  <dt>3♦</dt>
+  <dd>Forcing to game, 5+ cards, 0~2 cards in hearts.</dd>
+
   <dt>3♥</dt>
   <dd>Signoff, 3+ cards.</dd>
 
   <dt>3NT</dt>
   <dd>Signoff, 0~2 cards in hearts.</dd>
+
+  <dt>4♣</dt>
+  <dd>Forcing to game, 6+ cards, 0~2 cards in hearts.</dd>
 
   <dt>4♥</dt>
   <dd>Signoff in game, 3+ cards.</dd>
@@ -227,6 +233,9 @@ Because open has shown strength, quantitative invitation is no longer needed.
   <dt>4NT</dt>
   <dd>RKCB 0314</dt>
 </dl>
+
+I propose using the unallocated 3♠ as an artificial slam try which starts
+control bidding.
 
 ### 1NT-2♣; 3♦! ###
 <dl>
@@ -236,12 +245,18 @@ Because open has shown strength, quantitative invitation is no longer needed.
   <dt>3NT</dt>
   <dd>Signoff, 0~2 cards in spades.</dd>
 
+  <dt>4♣, 4♦</dt>
+  <dd>Forcing to game, 6+ cards, 0~2 cards in hearts.</dd>
+
   <dt>4♠</dt>
   <dd>Signoff in game, 3+ cards.</dd>
 
   <dt>4NT</dt>
   <dd>RKCB 0314</dt>
 </dl>
+
+I propose using the unallocated 3♥ as an artificial slam try which starts
+control bidding.
 
 ### 1NT-2♣; 3♥ ###
 <dl>
@@ -251,12 +266,18 @@ Because open has shown strength, quantitative invitation is no longer needed.
   <dt>3NT</dt>
   <dd>Signoff, 0~2 cards in hearts.</dd>
 
+  <dt>4♣, 4♦</dt>
+  <dd>Forcing to game, 6+ cards, 0~2 cards in hearts.</dd>
+
   <dt>4♥</dt>
   <dd>Signoff, 3+ cards.</dd>
 
   <dt>4NT</dt>
   <dd>RKCB 0314</dt>
 </dl>
+
+I propose using the unallocated 3♠ as an artificial slam try which starts
+control bidding.
 
 ### 1NT-2♣; 3♠ ###
 <dl>
@@ -266,9 +287,15 @@ Because open has shown strength, quantitative invitation is no longer needed.
   <dt>3NT</dt>
   <dd>Signoff, 0~2 cards in spades.</dd>
 
+  <dt>4♣, 4♦</dt>
+  <dd>Forcing to game, 6+ cards, 0~2 cards in hearts.</dd>
+
   <dt>4♠</dt>
   <dd>Signoff, 3+ cards.</dd>
 
   <dt>4NT</dt>
   <dd>RKCB 0314</dt>
 </dl>
+
+I propose using the unallocated 4♥ as an artificial slam try which starts
+control bidding.
