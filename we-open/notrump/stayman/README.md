@@ -299,3 +299,47 @@ control bidding.
 
 I propose using the unallocated 4♥ as an artificial slam try which starts
 control bidding.
+
+Second responses to an 2NT opener
+---------------------------------
+The 2NT opener has significantly more points, and a *vanilla* Stayman requires
+game-forcing strength now.  There are some adjustments to reflect this change.
+
+### 2NT-3♣; 3♦ ###
+<dl>
+  <dt>Pass</dt>
+  <dd>Garbage Stayman.</dd>
+
+  <dt>Notrump</dt>
+  <dd>Showing strength as no Stayman.</dd>
+
+  <dt>3♥!</dt>
+  <dd>Smolen, 5 cards in <strong>spades</strong>.</dd>
+
+  <dt>3♠!</dt>
+  <dd>Smolen, 5 cards in <strong>hearts</strong>.</dd>
+
+  <dt>4♣, 4♦</dt>
+  <dd>Slam try, 5+ cards.</dd>
+</dl>
+
+### 2NT-3♣; 3♠/♥ ###
+Structure is unchanged from 1NT-2♣; 2♠/♥.
+
+### 2NT-3♣; 3NT ###
+There is no invitation here, so direct 4-of-a-major bids become signoffs
+including Garbage Stayman.  As a logical consequence, the South African
+transfers become slam tries.  Nevertheless, they are not puppets because opener
+can bid a control instead of completing transfer, e.g. 2NT-3♣; 3NT-4♣; 4♦ shows
+a control in diamonds.
+
+<dl>
+  <dt>4♣!</dt>
+  <dd>Slam try, 4+ cards in hearts, starting control bidding.</dd>
+
+  <dt>4♦!</dt>
+  <dd>Slam try, 4+ cards in spades, starting control bidding.</dd>
+
+  <dt>4♥, 4♠</dt>
+  <dd>Signoff, 4+ cards.</dd>
+</dl>
