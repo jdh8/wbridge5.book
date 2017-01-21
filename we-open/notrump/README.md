@@ -89,7 +89,7 @@ Responses to 2NT
   <dd>Transfer, 5+ cards in spades.</dd>
 
   <dt>3♠!</dt>
-  <dd>Transfer, 6+ cards in clubs.</dd>
+  <dd>Transfer, 6+ cards in clubs or slam try with 5-5 in minors.</dd>
 
   <dt>3NT</dt>
   <dd>Signoff, 4<sup>+</sup>~9 HCP.</dd>
