@@ -12,3 +12,4 @@ We open
 	- [Competitive responses](we-open/minor/competitive-responses/README.md)
 * [Strong notrump openings](we-open/notrump/README.md)
 	- [Stayman](we-open/notrump/stayman/README.md)
+	- [Transfers](we-open/notrump/transfer/README.md)
