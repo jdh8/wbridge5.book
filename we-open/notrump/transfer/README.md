@@ -34,31 +34,20 @@ There is no super acceptance for diamonds due to lack of bidding space.
 
 ### 2NT opener's rebids ###
 Playing at 3-level with no 8-card fit is unacceptable.  In addition, opener may
-have a singleton with 4-4-4-1 shape.  As a result, a 2NT opener tries to reject
-a transfer with < 3 cards.
+have a singleton with 4-4-4-1 pattern.  As a result, a 2NT opener tries to
+reject a transfer with < 3 cards.
 
+#### 2NT-3♦ ####
 <dl>
-  <dt>Rejections, < 3 cards</dt>
-  <dd>2NT-3♦; 3NT</dd>
-  <dd>2NT-3♥; 3NT</dd>
-  <dd>2NT-3♠; 3NT</dd>
+  <dt>3♥</dt>
+  <dd>Acceptance.</dd>
 
-  <dt>Acceptances, 3+ cards</dt>
-  <dd>2NT-3♦; 3♥</dd>
-  <dd>2NT-3♥; 3♠</dd>
-  <dd>2NT-3♠; 4♣</dd>
-  <dd>2NT-4♣; 4♦</dd>
-
-  <dt>Super acceptances, 22+ points, 4+ cards</dt>
-  <dd>2NT-3♦; 4♥</dd>
-  <dd>2NT-3♥; 4♠</dd>
+  <dt>4♥</dt>
+  <dd>Super acceptance, 22+ points, 4+ cards.</dd>
 </dl>
 
-It is impossible to reject a transfer to diamonds because 3NT is already surpassed.
-There is no super acceptance for clubs, either, for that 3NT rebid is rejection
-instead.
-
-Again, watch out that 2NT-3♠; 3NT is different from 1NT-2♠; 2NT.
+Transfer to hearts is always accepted to protect the auction 2NT-3♦;
+3♥-3♠, which shows weak 5-5 majors.
 
 Second responses to an 1NT opener
 ---------------------------------
