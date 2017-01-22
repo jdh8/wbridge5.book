@@ -59,3 +59,62 @@ There is no super acceptance for clubs, either, for that 3NT rebid is rejection
 instead.
 
 Again, watch out that 2NT-3♠; 3NT is different from 1NT-2♠; 2NT.
+
+Second responses to an 1NT opener
+---------------------------------
+Opener always accepts transfer even with only 2-card support.  Therefore, 6
+cards are required for responder to assume a fit.
+
+### 1NT-2♦; 2♥ ###
+The special 1NT-2♦; 2♥-2♠ auction shows a weak hand with 5+ cards in both
+majors.
+
+<dl>
+  <dt>2♠</dt>
+  <dd>0~8 points, 5+ spades</dd>
+
+  <dt>2NT</dt>
+  <dd>Invitational, exactly 5 cards in hearts.</dd>
+
+  <dt>3♣, 3♦</dt>
+  <dd>Forcing to game, 4+ cards.</dd>
+
+  <dt>3♥</dt>
+  <dd>Invitational, 6+ cards.</dd>
+
+  <dt>3NT</dt>
+  <dd>Forcing to game without slam interest, exactly 5 cards in hearts.</dd>
+
+  <dt>3♠, 4♣, 4♦ !</dt>
+  <dd>Splinter, slam try (14+ points), 0~1 cards, 6+ cards in hearts.</dd>
+
+  <dt>4♥</dt>
+  <dd>Signoff, 6+ cards.</dd>
+</dl>
+
+### 1NT-2♥; 2♠ ###
+The special 1NT-2♥; 2♠-3♥ auction shows a slam try with 5+ cards in both
+majors.
+
+<dl>
+  <dt>2NT</dt>
+  <dd>Invitational, exactly 5 cards in spades.</dd>
+
+  <dt>3♣, 3♦</dt>
+  <dd>Forcing to game, 4+ cards.</dd>
+
+  <dt>3♥</dt>
+  <dd>Slam try, 5+ cards.</dd>
+
+  <dt>3♠</dt>
+  <dd>Invitational, 6+ cards.</dd>
+
+  <dt>3NT</dt>
+  <dd>Forcing to game without slam interest, exactly 5 cards in spades.</dd>
+
+  <dt>4♣, 4♦, 4♥ !</dt>
+  <dd>Splinter, slam try (14+ points), 0~1 cards, 6+ cards in spades.</dd>
+
+  <dt>4♠</dt>
+  <dd>Signoff, 6+ cards.</dd>
+</dl>
