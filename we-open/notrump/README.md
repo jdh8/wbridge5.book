@@ -26,7 +26,7 @@ Responses to 1NT
   <dd>Transfer, 5+ cards in spades.</dd>
 
   <dt>2♠!</dt>
-  <dd>Transfer, 6+ cards in clubs.</dd>
+  <dd>Transfer, 6+ cards in clubs or slam try with 5-5 in minors.</dd>
 
   <dt>2NT</dt>
   <dd>Invitation to 3NT, 8~9<sup>&minus;</sup> HCP.</dd>
@@ -131,3 +131,9 @@ Major transfer structure
 <tr><th>6-4 or more</th><td colspan="4">Ignore the shorter major</td></tr>
 </tbody>
 </table>
+
+Minor transfer structure
+------------------------
+As notrump games score more than minor games, a hand with no singleton nor void
+nor biddable major suit is a *notrump hand*.  One only transfers with **weak**
+*notrump hands*.  Invitational+ *notrump hands* are deemed as balanced.
