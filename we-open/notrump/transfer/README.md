@@ -120,6 +120,15 @@ majors.
   <dd>Signoff, 6+ cards.</dd>
 </dl>
 
+Wbridge5 AI assigns 4NT as RKCB, which is inaccessible because responder shall
+have bid a strong jump shift when there is no side suit.  Therefore, I
+**reassign** quantitative invitation to 4NT and 5NT.
+
+<dl>
+  <dt>4NT, 5NT</dt>
+  <dd>Quantitative invitation to 6NT and 7NT respectively.</dd>
+</dl>
+
 ### 1NT-2♥; 2♠ ###
 The special 1NT-2♥; 2♠-3♥ auction shows a slam try with 5+ cards in both
 majors.
@@ -145,4 +154,11 @@ majors.
 
   <dt>4♠</dt>
   <dd>Signoff, 6+ cards.</dd>
+</dl>
+
+Again, quantitative invitation is **reassigned** to 4NT and 5NT.
+
+<dl>
+  <dt>4NT, 5NT</dt>
+  <dd>Quantitative invitation to 6NT and 7NT respectively.</dd>
 </dl>
