@@ -33,11 +33,18 @@ responder.
 There is no super acceptance for diamonds due to lack of bidding space.
 
 ### 2NT opener's rebids ###
-Playing at 3-level with no 8-card fit is unacceptable.  In addition, opener may
-have a singleton with 4-4-4-1 pattern.  As a result, a 2NT opener tries to
-reject a transfer with < 3 cards.
+Opener may have a singleton with 4-4-4-1 pattern.  As a result, a 2NT opener
+tries to reject a transfer with a singleton.
+
+The Wbridge5 AI also tries to reject a transfer with a doubleton, but this
+mixes signletons and doubletons together.  Responder already rebids notrump
+to show exactly 5 cards, so there is no need to reject a transfer with a
+doubleton.  Rejection only with singleton helps responder make decisions.
 
 #### 2NT-3♦ ####
+Transfer to hearts is always accepted to protect the auction 2NT-3♦;
+3♥-3♠, which shows weak 5-5 majors.
+
 <dl>
   <dt>3♥</dt>
   <dd>Acceptance.</dd>
@@ -46,8 +53,40 @@ reject a transfer with < 3 cards.
   <dd>Super acceptance, 22+ points, 4+ cards.</dd>
 </dl>
 
-Transfer to hearts is always accepted to protect the auction 2NT-3♦;
-3♥-3♠, which shows weak 5-5 majors.
+#### 2NT-3♥ ####
+Responder will show if there are 6+ cards in the next round, so rejection shall
+show a singleton to dissuade partner early.
+
+<dl>
+  <dt>3♠</dt>
+  <dd>Acceptance, 2+ cards.</dd>
+
+  <dt>3NT</dt>
+  <dd>Rejection, singleton in spades.</dd>
+
+  <dt>4♠</dt>
+  <dd>Super acceptance, 22+ points, 4+ cards.</dd>
+</dl>
+
+#### 2NT-3♠ ####
+Rejection with doubleton makes sense because acceptance is a mediocre 4♣.
+
+<dl>
+  <dt>3NT</dt>
+  <dd>Rejection, singleton or doubleton in clubs.</dd>
+
+  <dt>4♣</dt>
+  <dd>Acceptance, 3+ cards.</dd>
+</dl>
+
+#### 2NT-4♣ ####
+There is no bidding space for other stuff.  Opener is forced to accept with a
+meaningless relay.
+
+<dl>
+  <dt>4♦</dt>
+  <dd>Relay, forced acceptance.</dd>
+</dl>
 
 Second responses to an 1NT opener
 ---------------------------------
