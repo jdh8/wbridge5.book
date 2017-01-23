@@ -41,7 +41,7 @@ mixes signletons and doubletons together.  Responder already rebids notrump
 to show exactly 5 cards, so there is no need to reject a transfer with a
 doubleton.  Rejection only with singleton helps responder make decisions.
 
-#### 2NT-3♦ ####
+#### Transfer to hearts 3♦ ####
 Transfer to hearts is always accepted to protect the auction 2NT-3♦;
 3♥-3♠, which shows weak 5-5 majors.
 
@@ -53,7 +53,7 @@ Transfer to hearts is always accepted to protect the auction 2NT-3♦;
   <dd>Super acceptance, 22+ points, 4+ cards.</dd>
 </dl>
 
-#### 2NT-3♥ ####
+#### Transfer to spades 3♥ ####
 Responder will show if there are 6+ cards in the next round, so rejection shall
 show a singleton to dissuade partner early.
 
@@ -68,7 +68,7 @@ show a singleton to dissuade partner early.
   <dd>Super acceptance, 22+ points, 4+ cards.</dd>
 </dl>
 
-#### 2NT-3♠ ####
+#### Transfer to clubs 3♠ ####
 Rejection with doubleton makes sense because acceptance is a mediocre 4♣.
 
 <dl>
@@ -79,7 +79,7 @@ Rejection with doubleton makes sense because acceptance is a mediocre 4♣.
   <dd>Acceptance, 3+ cards.</dd>
 </dl>
 
-#### 2NT-4♣ ####
+#### Transfer to diamonds 4♣ ####
 There is no bidding space for other stuff.  Opener is forced to accept with a
 meaningless relay.
 
@@ -93,7 +93,8 @@ Second responses to an 1NT opener
 Opener always accepts transfer even with only 2-card support.  Therefore, 6
 cards are required for responder to assume a fit.
 
-### 1NT-2♦; 2♥ ###
+### Transfer to hearts 2♦ ###
+#### Relay 2♥ ####
 The special 1NT-2♦; 2♥-2♠ auction shows a weak hand with 5+ cards in both
 majors.
 
@@ -129,7 +130,8 @@ have bid a strong jump shift when there is no side suit.  Therefore, I
   <dd>Quantitative invitation to 6NT and 7NT respectively.</dd>
 </dl>
 
-### 1NT-2♥; 2♠ ###
+### Transfer to spades 2♥ ###
+#### Relay 2♠ ####
 The special 1NT-2♥; 2♠-3♥ auction shows a slam try with 5+ cards in both
 majors.
 
