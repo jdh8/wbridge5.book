@@ -130,6 +130,27 @@ have bid a strong jump shift when there is no side suit.  Therefore, I
   <dd>Quantitative invitation to 6NT and 7NT respectively.</dd>
 </dl>
 
+#### Super acceptance 3♥ ####
+Responder shall bid game with all former invitational hands because opener has
+shown maximum.  Moreover, responder can upgrade some weak hands because of the
+9-card fit.
+
+Other bids are slam tries because a good major fit is already found.
+
+<dl>
+  <dt>3NT</dt>
+  <dd>Forcing to game, balanced.</dd>
+
+  <dt>3♠, 4♣, 4♦ !</dt>
+  <dd>Slam try, control bid.</dd>
+
+  <dt>4♥</dt>
+  <dd>Signoff, strong enough to play.</dd>
+
+  <dt>4NT</dt>
+  <dd>RKCB 0314.</dd>
+</dl>
+
 ### Transfer to spades 2♥ ###
 #### Relay 2♠ ####
 The special 1NT-2♥; 2♠-3♥ auction shows a slam try with 5+ cards in both
@@ -163,4 +184,19 @@ Again, quantitative invitation is **reassigned** to 4NT and 5NT.
 <dl>
   <dt>4NT, 5NT</dt>
   <dd>Quantitative invitation to 6NT and 7NT respectively.</dd>
+</dl>
+
+#### Super acceptance 3♠ ####
+<dl>
+  <dt>3NT</dt>
+  <dd>Forcing to game, balanced.</dd>
+
+  <dt>4♣, 4♦, 4♥ !</dt>
+  <dd>Slam try, control bid.</dd>
+
+  <dt>4♠</dt>
+  <dd>Signoff, strong enough to play.</dd>
+
+  <dt>4NT</dt>
+  <dd>RKCB 0314.</dd>
 </dl>
