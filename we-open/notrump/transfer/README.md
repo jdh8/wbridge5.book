@@ -137,9 +137,6 @@ Other bids are slam tries because a good major fit is already found.
 
   <dt>4♥</dt>
   <dd>Signoff, strong enough to play.</dd>
-
-  <dt>4NT</dt>
-  <dd>RKCB 0314.</dd>
 </dl>
 
 ### Transfer to spades 2♥ ###
@@ -180,9 +177,6 @@ majors.
 
   <dt>4♠</dt>
   <dd>Signoff, strong enough to play.</dd>
-
-  <dt>4NT</dt>
-  <dd>RKCB 0314.</dd>
 </dl>
 
 ### Transfer to clubs 2♠! ###
