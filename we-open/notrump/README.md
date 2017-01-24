@@ -118,7 +118,7 @@ Responses to 2NT
 
 Major transfer structure
 ------------------------
-<table style="text-align: center">
+<table class="center">
 <thead>
 <tr><th></th><th>Weak</th><th>Invitational</th><th>Game-forcing</th><th>Slam try</th></tr>
 </thead>
@@ -137,3 +137,25 @@ Minor transfer structure
 As notrump games score more than minor games, a hand with no singleton nor void
 nor biddable major suit is a *notrump hand*.  One only transfers with **weak**
 *notrump hands*.  Invitational+ *notrump hands* are deemed as balanced.
+
+<table class="center">
+<caption>Minor transfer structure with no singleton nor void</caption>
+<thead>
+<tr><th></th><th>Weak</th><th>Invitational</th><th>Game-forcing</th><th>Slam try</th></tr>
+</thead>
+<tbody>
+<tr><th>No singleton nor void</th><td>Transfer</td><td>2NT</td><td>3NT</td><td>SJS</td></tr>
+</tbody>
+</table>
+
+<table class="center">
+<caption>Minor transfer structure with a singleton or void</caption>
+<thead>
+<tr><th></th><th>Weak</th><th>Game-forcing</th><th>Slam try</th></tr>
+</thead>
+<tbody>
+<tr><th>One-suiter</th><td colspan="2">Transfer</td><td>SJS</td></tr>
+<tr><th>5-5 in minors</th><td>Pass</td><td rowspan="2">4♠!</td><td rowspan="2">♠! (→♣)</td></tr>
+<tr><th>6-6 in minors</th><td>♣! (→♦)</td></tr>
+</tbody>
+</table>

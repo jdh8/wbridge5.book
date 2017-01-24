@@ -29,6 +29,10 @@ body,
 	font-style: inherit;
 }
 
+.center {
+	text-align: center;
+}
+
 .redsuit {
 	color: #d33;
 }

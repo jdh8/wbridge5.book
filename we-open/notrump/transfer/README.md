@@ -209,7 +209,7 @@ minors.  This is the only possible case of only 5 cards in clubs.
 When dissatisfied with 3NT and having a major singleton or void, responder
 always has a chance to escape because opener is forced.  However, with 0~1 card
 in diamonds, opener may pass the 3NT response.  Therefore, dissatisfication
-must be shown beforehand at 4♣!
+must be shown beforehand at 4♦!
 
 <dl>
   <dt>3♦</dt>
@@ -224,8 +224,15 @@ must be shown beforehand at 4♣!
   <dt>3NT!</dt>
   <dd>Pass-or-correct, 0~1 card in <strong>diamonds</strong>.</dd>
 
-  <dt>4♣!</dt>
+  <dt>4♦!</dt>
   <dd>Forcing to game, dissatisfied with 3NT, 0~1 card in <strong>diamonds</strong>.</dd>
+</dl>
+
+Quantitative invitation is **reassigned** to 4NT and 5NT.
+
+<dl>
+  <dt>4NT, 5NT</dt>
+  <dd>Quantitative invitation to 6NT and 7NT respectively.</dd>
 </dl>
 
 ### Transfer to diamonds 3♣! ###
@@ -244,4 +251,11 @@ The only rebid of opener is relay 3♦ due to lack of bidding space.
 
   <dt>4♦!</dt>
   <dd>Forcing to game, dissatisfied with 3NT, 0~1 card in <strong>clubs</strong>.</dd>
+</dl>
+
+Quantitative invitation is **reassigned** to 4NT and 5NT.
+
+<dl>
+  <dt>4NT, 5NT</dt>
+  <dd>Quantitative invitation to 6NT and 7NT respectively.</dd>
 </dl>
