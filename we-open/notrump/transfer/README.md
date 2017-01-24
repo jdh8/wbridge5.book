@@ -206,6 +206,35 @@ must be shown beforehand at 4♦!
   <dd>Forcing to game, dissatisfied with 3NT, 0~1 card in <strong>diamonds</strong>.</dd>
 </dl>
 
+#### Super acceptance 2NT ####
+After a super acceptance, responder can upgrade some weak hands to game-forcing
+ones.
+
+<dl>
+  <dt>3♣, 3NT, 5♣</dt>
+  <dd>To play.</dd>
+
+  <dt>3♦</dt>
+  <dd>Slam try, 5+ cards.</dd>
+
+  <dt>3♥, 3♠</dt>
+  <dd>Forcing to 3NT, previously hidden 4+ cards.</dd>
+
+  <dt>4♣</dt>
+  <dd>Slam interest, starting control bidding.</dd>
+</dl>
+
+Nevertheless, I found 3♥ and 3♠ unhelpful.  I suggest **reverting** their
+meanings.  The old meanings help decide between 3NT and 5♣.
+
+<dl>
+  <dt>3♥!</dt>
+  <dd>Forcing to 3NT, 0~1 card in <strong>spades</strong>.</dd>
+
+  <dt>3♠!</dt>
+  <dd>Forcing to 3NT, 0~1 card in <strong>hearts</strong>.</dd>
+</dl>
+
 ### Transfer to diamonds 3♣! ###
 The only rebid of opener is relay 3♦ due to lack of bidding space.
 
