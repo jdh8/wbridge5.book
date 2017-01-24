@@ -121,15 +121,6 @@ majors.
   <dd>Signoff, 6+ cards.</dd>
 </dl>
 
-Wbridge5 AI assigns 4NT as RKCB, which is inaccessible because responder shall
-have bid a strong jump shift when there is no side suit.  Therefore, I
-**reassign** quantitative invitation to 4NT and 5NT.
-
-<dl>
-  <dt>4NT, 5NT</dt>
-  <dd>Quantitative invitation to 6NT and 7NT respectively.</dd>
-</dl>
-
 #### Super acceptance 3♥ ####
 Responder shall bid game with all former invitational hands because opener has
 shown maximum.  Moreover, responder can upgrade some weak hands because of the
@@ -179,13 +170,6 @@ majors.
   <dd>Signoff, 6+ cards.</dd>
 </dl>
 
-Again, quantitative invitation is **reassigned** to 4NT and 5NT.
-
-<dl>
-  <dt>4NT, 5NT</dt>
-  <dd>Quantitative invitation to 6NT and 7NT respectively.</dd>
-</dl>
-
 #### Super acceptance 3♠ ####
 <dl>
   <dt>3NT</dt>
@@ -228,13 +212,6 @@ must be shown beforehand at 4♦!
   <dd>Forcing to game, dissatisfied with 3NT, 0~1 card in <strong>diamonds</strong>.</dd>
 </dl>
 
-Quantitative invitation is **reassigned** to 4NT and 5NT.
-
-<dl>
-  <dt>4NT, 5NT</dt>
-  <dd>Quantitative invitation to 6NT and 7NT respectively.</dd>
-</dl>
-
 ### Transfer to diamonds 3♣! ###
 The only rebid of opener is relay 3♦ due to lack of bidding space.
 
@@ -251,11 +228,4 @@ The only rebid of opener is relay 3♦ due to lack of bidding space.
 
   <dt>4♦!</dt>
   <dd>Forcing to game, dissatisfied with 3NT, 0~1 card in <strong>clubs</strong>.</dd>
-</dl>
-
-Quantitative invitation is **reassigned** to 4NT and 5NT.
-
-<dl>
-  <dt>4NT, 5NT</dt>
-  <dd>Quantitative invitation to 6NT and 7NT respectively.</dd>
 </dl>
