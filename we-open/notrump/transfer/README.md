@@ -252,3 +252,15 @@ The only rebid of opener is relay 3♦ due to lack of bidding space.
   <dt>4♦!</dt>
   <dd>Forcing to game, dissatisfied with 3NT, 0~1 card in <strong>clubs</strong>.</dd>
 </dl>
+
+Second responses to a 2NT opener
+--------------------------------
+### Transfer to hearts 3♦ ###
+#### Relay 3♥ ####
+The special 2NT-3♦; 3♥-3♠ auction shows a weak hand with 5+ cards in both
+majors.  Opener always accepts transfer to protect this auction.
+
+<dl>
+  <dt>3♠</dt>
+  <dd>0~4 points, 5+ spades</dd>
+</dl>
