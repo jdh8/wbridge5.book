@@ -49,8 +49,11 @@ Transfer to hearts is always accepted to protect the auction 2NT-3♦;
   <dt>3♥</dt>
   <dd>Acceptance.</dd>
 
-  <dt>4♥</dt>
-  <dd>Super acceptance, 22+ points, 4+ cards.</dd>
+  <dt>3♠, 4♣, 4♦ !</dd>
+  <dd>Super acceptance, control bid, 22+ points, 4+ cards in hearts.</dd>
+
+  <dt>4♥!</dt>
+  <dd>Super acceptance, all suits controlled, 22+ points, 4+ cards.</dd>
 </dl>
 
 #### Transfer to spades 3♥ ####
@@ -64,8 +67,11 @@ show a singleton to dissuade partner early.
   <dt>3NT</dt>
   <dd>Rejection, singleton in spades.</dd>
 
-  <dt>4♠</dt>
-  <dd>Super acceptance, 22+ points, 4+ cards.</dd>
+  <dt>4♣, 4♦, 4♥ !</dd>
+  <dd>Super acceptance, control bid, 22+ points, 4+ cards in spades.</dd>
+
+  <dt>4♠!</dt>
+  <dd>Super acceptance, all suits controlled, 22+ points, 4+ cards.</dd>
 </dl>
 
 #### Transfer to clubs 3♠ ####
@@ -255,6 +261,9 @@ The only rebid of opener is relay 3♦ due to lack of bidding space.
 
 Second responses to a 2NT opener
 --------------------------------
+Since super acceptances are control bids, there is no need to discuss them
+here.  This section is focused on relays and rejections.
+
 ### Transfer to hearts 3♦ ###
 #### Relay 3♥ ####
 The special 2NT-3♦; 3♥-3♠ auction shows a weak hand with 5+ cards in both
@@ -262,5 +271,5 @@ majors.  Opener always accepts transfer to protect this auction.
 
 <dl>
   <dt>3♠</dt>
-  <dd>0~4 points, 5+ spades</dd>
+  <dd>Weak, 5+ spades</dd>
 </dl>
