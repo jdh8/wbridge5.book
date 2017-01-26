@@ -13,6 +13,22 @@ There are many transfers in the structure of notrump openings because
 Remind that opener has exposed much information.  Therefore, responder is the
 *captain*, who makes decisions.
 
+Delayed 2NT *opening*
+---------------------
+After a strong artificial 2♣ or 2♦, opener's 2NT rebid shows a hand stronger
+than 2NT with 2NT distribution.
+
+The bidding structure is identical to 2NT opening.  Responder simply takes
+opener's excessive points and then bids as if it were a 2NT opening.
+
+<dl>
+  <dt>2♣-2*; 2NT</dt>
+  <dd>22~23 HCP with 2NT distribution, 2 HCP stronger than 2NT opening.</dd>
+
+  <dt>2♦-2*; 2NT</dt>
+  <dd>24+ HCP with 2NT distribution, forcing to game and 4 HCP stronger.</dd>
+</dl>
+
 Responses to 1NT
 ----------------
 <dl>
