@@ -13,8 +13,8 @@ There are many transfers in the structure of notrump openings because
 Remind that opener has exposed much information.  Therefore, responder is the
 *captain*, who makes decisions.
 
-Delayed 2NT *opening*
----------------------
+Delayed 2NT *openings*
+----------------------
 After a strong artificial 2♣ or 2♦, opener's 2NT rebid shows a hand stronger
 than 2NT with 2NT distribution.
 
