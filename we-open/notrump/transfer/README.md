@@ -186,7 +186,7 @@ majors.
 </dl>
 
 ### Transfer to clubs 2♠! ###
-The special 1NT-2♠; \*-3♦ auctions shows a slam try with 5+ cards in both
+The special 1NT-2♠; \*-3♦ auctions show a slam try with 5+ cards in both
 minors.  This is the only possible case of only 5 cards in clubs.
 
 #### Relay 3♣ ####
@@ -272,4 +272,40 @@ majors.  Opener always accepts transfer to protect this auction.
 <dl>
   <dt>3♠</dt>
   <dd>Weak, 5+ spades</dd>
+
+  <dt>3NT</dt>
+  <dd>Forcing to game without slam interest, exactly 5 cards in hearts.</dd>
+
+  <dt>4♣, 4♦</dt>
+  <dd>Dissatisfied with 3NT, 4+ cards.</dd>
+
+  <dt>4♥</dt>
+  <dd>Signoff, 6+ cards.</dd>
 </dl>
+
+### Transfer to spades 3♥ ###
+The special 2NT-3♥; 3\*-4♥ auctions show a slam try with 5+ cards in both
+majors.
+
+#### Relay 3♠ ####
+<dl>
+  <dt>3NT</dt>
+  <dd>Forcing to game without slam interest, exactly 5 cards in hearts.</dd>
+
+  <dt>4♣, 4♦</dt>
+  <dd>Dissatisfied with 3NT, 4+ cards.</dd>
+
+  <dt>4♥</dt>
+  <dd>Slam try, 5+ cards.</dd>
+
+  <dt>4♠</dt>
+  <dd>Signoff, 6+ cards.</dd>
+</dl>
+
+#### Rejection 3NT ####
+The Wbridge5 AI rejects with a doubleton, but I suggest opener only reject with
+a singleton.  This rejection generally does not affect bidding structure.  The
+4♠ signoff usualy promises 7+ cards due to opener's singleton.
+
+### Transfer to minors ###
+New suits are control bids because there cannot be a major side suit.
