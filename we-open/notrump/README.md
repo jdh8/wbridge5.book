@@ -175,3 +175,20 @@ nor biddable major suit is a *notrump hand*.  One only transfers with **weak**
 <tr><th>6-6 in minors</th><td>♣! (→♦)</td></tr>
 </tbody>
 </table>
+
+Quantitative invitations
+------------------------
+After a strong notrump opening or a delayed 2NT *opening*, the 4NT and 5NT
+responses are quantitative invitations if there is **no agreed trump**.
+
+<dl>
+  <dt>4NT</dt>
+  <dd>Opener bids a small slam if maximum or signs off otherwise.</dd>
+
+  <dt>6NT</dt>
+  <dd>Opener bids a grand slam if maximum or a small slam otherwise.</dd>
+</dl>
+
+Quantitative invitation only applies to notrump **openings**, not **rebids**.
+To ask opener for strength, bid clubs for **Roudi**, the French variation of
+Checkback Stayman.
