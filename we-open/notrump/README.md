@@ -139,9 +139,8 @@ Major transfer structure
 <tr><th></th><th>Weak</th><th>Invitational</th><th>Game-forcing</th><th>Slam try</th></tr>
 </thead>
 <tbody>
-<tr><th>One 4-card major</th><td rowspan="2">Pass</td><td rowspan="2" colspan="3">Stayman ♣</td></tr>
-<tr><th>4-4 in majors</th></tr>
-<tr><th>One 5+-card major</th><td colspan="3">Transfer ♥/♦ (→ ♠/♥)</td><td>SJS or transfer</td></tr>
+<tr><th>4-card major</th><td>Pass</td><td colspan="3">Stayman ♣</td></tr>
+<tr><th>5+-card major</th><td colspan="3">Transfer ♥/♦ (→ ♠/♥)</td><td>SJS or transfer</td></tr>
 <tr><th>5-4 in majors</th><td>Transfer</td><td colspan="3">Stayman ♣</td></tr>
 <tr><th>5-5 or 6-6</th><td>♦ (→♥)</td><td colspan="2">4♦!</td><td>♥ (→♠)</td></tr>
 <tr><th>6-4 or more</th><td colspan="4">Ignore the shorter major</td></tr>
@@ -185,7 +184,7 @@ responses are quantitative invitations if there is **no agreed trump**.
   <dt>4NT</dt>
   <dd>Opener bids a small slam if maximum or signs off otherwise.</dd>
 
-  <dt>6NT</dt>
+  <dt>5NT</dt>
   <dd>Opener bids a grand slam if maximum or a small slam otherwise.</dd>
 </dl>
 
