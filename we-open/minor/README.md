@@ -156,6 +156,9 @@ Responses to 1♦
 
 ### Adjusted responses by a passed responder ###
 <dl>
+  <dt>2♣</dt>
+  <dd>Invitational, 11+ points, 5+ cards.</dd>
+
   <dt>2♥, 2♠, 3♣</dt>
   <dd>Fit-showing, 11+ points, 5+ cards, 4+ support.</dd>
 </dl>
