@@ -76,6 +76,8 @@ show a singleton to dissuade partner early.
 
 #### Transfer to clubs 3♠ ####
 Rejection with doubleton makes sense because acceptance is a mediocre 4♣.
+There is no super acceptance because a normal acceptance already shows 3+
+cards with which responder seldom passes.
 
 <dl>
   <dt>3NT</dt>
@@ -86,12 +88,14 @@ Rejection with doubleton makes sense because acceptance is a mediocre 4♣.
 </dl>
 
 #### Transfer to diamonds 4♣ ####
-There is no bidding space for other stuff.  Opener is forced to accept with a
-meaningless relay.
+Opener is forced to accept due to lack of bidding space.
 
 <dl>
   <dt>4♦</dt>
   <dd>Relay, forced acceptance.</dd>
+
+  <dt>5♦</dt>
+  <dd>Super acceptance, 23+ points, 3+ cards in diamonds.</dd>
 </dl>
 
 Second responses to an 1NT opener
@@ -261,8 +265,8 @@ The only rebid of opener is relay 3♦ due to lack of bidding space.
 
 Second responses to a 2NT opener
 --------------------------------
-Since super acceptances are control bids, there is no need to discuss them
-here.  This section is focused on relays and rejections.
+Since major super acceptances are control bids, there is no need to discuss
+them here.  This section is focused on relays and rejections.
 
 ### Transfer to hearts 3♦ ###
 #### Relay 3♥ ####
@@ -281,6 +285,12 @@ majors.  Opener always accepts transfer to protect this auction.
 
   <dt>4♥</dt>
   <dd>Signoff, 6+ cards.</dd>
+
+  <dt>4NT</dt>
+  <dd>RKCB 0314, 6+ cards in hearts.</dd>
+
+  <dt>5NT</dt>
+  <dd>Balanced slam force.  Opener shall choose between 6♥ and 6NT.  Responder may raise to 7.</dd>
 </dl>
 
 ### Transfer to spades 3♥ ###
@@ -300,12 +310,76 @@ majors.
 
   <dt>4♠</dt>
   <dd>Signoff, 6+ cards.</dd>
+
+  <dt>4NT</dt>
+  <dd>RKCB 0314, 6+ cards in spades.</dd>
+
+  <dt>5NT</dt>
+  <dd>Balanced slam force.  Opener shall choose between 6♠ and 6NT.  Responder may raise to 7.</dd>
 </dl>
 
 #### Rejection 3NT ####
 The Wbridge5 AI rejects with a doubleton, but I suggest opener only reject with
-a singleton.  This rejection generally does not affect bidding structure.  The
-4♠ signoff usualy promises 7+ cards due to opener's singleton.
+a singleton.  This rejection generally does not affect bidding structure.
+However, responder now needs 7+ cards to assume a fit to bid 4♠ or 4NT.
 
-### Transfer to minors ###
+### Transfer to clubs 3♠! ###
 New suits are control bids because there cannot be a major side suit.
+
+It is safe to transfer with a slam try with 5-5 minors because opener rejects
+transfer with 1~2 cards in clubs.
+
+#### Acceptance 4♣ ####
+An acceptance promises 3+ cards, so a good fit is found.
+
+<dl>
+  <dt>4♦</dt>
+  <dd>Control bid or slam try with 5+ cards.</dd>
+
+  <dt>4♥, 4♠</dt>
+  <dd>Control bid.</dd>
+
+  <dt>4NT</dt>
+  <dd>RKCB 0314.</dd>
+
+  <dt>5♣</dt>
+  <dd>Signoff.</dd>
+</dl>
+
+#### Rejection 3NT ####
+A rejection shows a singleton or doubleton in clubs.  Responder passes or signs
+off at 4♣ with a weak hand.
+
+<dl>
+  <dt>4♣, 5♣</dt>
+  <dd>Signoff, 7+ cards.</dd>
+
+  <dt>4♦</dt>
+  <dd>Control bid with 7+ cards in clubs or slam try with 5+ cards in diamonds.</dd>
+
+  <dt>4♥, 4♠</dt>
+  <dd>Control bid with 7+ cards in clubs.</dd>
+
+  <dt>4NT</dt>
+  <dd>Blackwood.  No fit is found but responder may assume a fit in diamonds with 5+ cards.</dd>
+</dl>
+
+### Transfer to diamonds 4♣! ###
+#### Relay 4♦ ####
+Although opener has a singleton in the worst case, there is no way to sign off
+at 4NT.
+
+<dl>
+  <dt>4♥, 4♠</dt>
+  <dd>Control bid.</dd>
+
+  <dt>4NT</dt>
+  <dd>RKCB 0314.</dd>
+
+  <dt>5♦</dt>
+  <dd>Signoff.</dd>
+</dl>
+
+#### Super acceptance 5♦ ####
+This bid prevents responder from passing the 4♦ relay but consumes too much
+bidding space.  Responder can only bid quantitatively now.

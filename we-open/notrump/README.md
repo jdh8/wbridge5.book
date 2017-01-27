@@ -147,6 +147,8 @@ Major transfer structure
 </tbody>
 </table>
 
+Strong jump shifts, only available for 1NT opening, require < 4 cards in all other suits.
+
 Minor transfer structure
 ------------------------
 As notrump games score more than minor games, a hand with no singleton nor void
