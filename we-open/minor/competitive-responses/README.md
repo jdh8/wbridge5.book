@@ -17,44 +17,44 @@ shifts*.
 
 ### Responses to 1♣x ###
 <dl>
-  <dt>1♣ (X) XX</dt>
+  <dt>XX</dt>
   <dd>Invitational+ hands (11+ points) which do not qualify as a Truscott 2NT.</dd>
 
-  <dt>1♣ (X) 2♣</dt>
+  <dt>2♣</dt>
   <dd>A simple raise can now be made with only 5 points.</dd>
 
-  <dt>1♣ (X) 2♦, 2♥, 2♠</dt>
+  <dt>2♦, 2♥, 2♠</dt>
   <dd><strong>Weak jump shift</strong> if unpassed, showing 8+ points and 6+ cards.</dd>
 
-  <dt>1♣ (X) 2♥, 2♠, 3♦</dt>
+  <dt>2♥, 2♠, 3♦</dt>
   <dd><strong>Fit-showing</strong> if passed.  These bids are unchanged.</dd>
 
-  <dt>1♣ (X) 2NT</dt>
+  <dt>2NT</dt>
   <dd>Truscott 2NT, which shows a limit raise i.e. former 3♣.</dd>
 
-  <dt>1♣ (X) 3♣</dt>
+  <dt>3♣</dt>
   <dd>Preemptive raise, 7~10 points, 5+ support.</dd>
 </dl>
 
 ### Responses to 1♦x ###
 <dl>
-  <dt>1♦ (X) XX</dt>
+  <dt>XX</dt>
   <dd>Invitational+ hands (11+ points) without another suitable call.</dd>
 
-  <dt>1♦ (X) 2♣</dt>
+  <dt>2♣</dt>
   <dd>Invitational+ hands (11+ points) with 5+ cards.</dd>
 
-  <dt>1♦ (X) 2♦</dt>
+  <dt>2♦</dt>
   <dd>A simple raise can now be made with only 5 points.</dd>
 
-  <dt>1♦ (X) 2♥, 2♠, 3♣</dt>
+  <dt>2♥, 2♠, 3♣</dt>
   <dd><strong>Weak jump shift</strong> if unpassed, showing 8+ points and 6+ cards.</dd>
   <dd><strong>Fit-showing</strong> if passed.  These bids are unchanged.</dd>
 
-  <dt>1♦ (X) 2NT</dt>
+  <dt>2NT</dt>
   <dd>Truscott 2NT, which shows a limit raise i.e. former 3♣.</dd>
 
-  <dt>1♦ (X) 3♦</dt>
+  <dt>3♦</dt>
   <dd>Preemptive raise, 7~10 points, 5+ support.</dd>
 </dl>
 
