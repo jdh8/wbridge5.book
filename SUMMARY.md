@@ -13,3 +13,7 @@ We open
 * [Strong notrump openings](we-open/notrump/README.md)
 	- [Stayman](we-open/notrump/stayman/README.md)
 	- [Transfers](we-open/notrump/transfer/README.md)
+
+They open
+---------
+* [Constructive suits](they-open/constructive-suit/README.md)
