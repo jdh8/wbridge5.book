@@ -17,3 +17,4 @@ We open
 They open
 ---------
 * [Constructive suits](they-open/constructive-suit/README.md)
+	- [Precise Michaels](they-open/constructive-suit/precise-michaels/README.md)
