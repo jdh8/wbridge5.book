@@ -111,7 +111,7 @@ in the other major from a **misfit** second response.
   <dt>3NT</dt>
   <dd>Signoff, 0~3 support.</dd>
 
-  <dt>3♠, 4♣, 4♦ !</dt>
+  <dt>3♠!, 4♣!, 4♦!</dt>
   <dd>Splinter, slam try (14+ points), 0~1 cards, 4+ support.</dd>
 
   <dt>4♥</dt>
@@ -160,7 +160,7 @@ After opener puppets to 2NT, responder would bid a control or RKCB.
   <dt>3NT</dt>
   <dd>Signoff, 0~3 support.</dd>
 
-  <dt>4♣, 4♦, 4♥ !</dt>
+  <dt>4♣!, 4♦!, 4♥!</dt>
   <dd>Splinter, slam try (14+ points), 0~1 cards, 4+ support.</dd>
 
   <dt>4♠</dt>
