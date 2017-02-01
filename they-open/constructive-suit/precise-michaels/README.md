@@ -16,4 +16,9 @@ Opponents opened 1 of a minor
 The French determine to eliminate weak 2♦, both opening and overcall.
 
 ### Majors 2♦ ###
-The bid to show majors is always 2♦ regardless of opponents' minor.
+The bid to show majors is always 2♦ regardless of opponents' minor.  The (1♣)
+2♣ bid is natural instead, making clubs no longer adverse.
+
+The minimum strength is the same as 1♠ and 1♥ overcalls.  Therefore, one can
+simply take this overcall as a hybrid of 1♠ and 1♥.  However, this overcall
+is unlimited.
