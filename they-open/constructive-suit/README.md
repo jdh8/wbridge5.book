@@ -15,7 +15,7 @@ French system.  However, these conventions are quite familiar in France.
   <dd>Natural, 14~19 points, 6+ cards.</dd>
 
   <dt>(1♣) 2♦!</dt>
-  <dd>Michaels cuebid is moved here.</dd>
+  <dd>Michaels cue bid is moved here.</dd>
 
   <dt>(1m) 3m</dt>
   <dd>The other minor and spades, the 2-suiter uncovered by Michaels and unusual notrump.</dd>
