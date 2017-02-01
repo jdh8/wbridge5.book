@@ -22,3 +22,14 @@ The bid to show majors is always 2♦ regardless of opponents' minor.  The (1♣
 The minimum strength is the same as 1♠ and 1♥ overcalls.  Therefore, one can
 simply take this overcall as a hybrid of 1♠ and 1♥.  However, this overcall
 is unlimited.
+
+<dl>
+  <dt>♠Q10743 ♥109874 ♦QJ8 ♣-</dt>
+  <dd>Pass.  This hand is too weak.</dd>
+
+  <dt>♠AQJ102 ♥Q10874 ♦86 ♣4</dt>
+  <dd>Bid 2♦.  This hand qualifies both 1♠ and 1♥.</dd>
+
+  <dt>♠AKJ652 ♥A8743 ♦AJ ♣-</dt>
+  <dd>Bid 2♦ although this hand is too strong for 1♠ and 1♥.</dd>
+</dl>
