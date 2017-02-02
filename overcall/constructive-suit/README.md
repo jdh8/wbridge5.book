@@ -58,7 +58,7 @@ mere 8 points because of score and accessibility of a major contract.
 
 ### Opponents opened 1 of a minor ###
 <dl>
-  <dt>2♦</dt>
+  <dt>2♦(!)</dt>
   <dd>Michaels, majors</dd>
 
   <dt>2NT</dt>
@@ -76,7 +76,7 @@ mere 8 points because of score and accessibility of a major contract.
   <dt>2NT</dt>
   <dd>Unusual notrump, two lowest unbid suits <em>viz</em> minors</dd>
 
-  <dt>3♣</dt>
+  <dt>3♣!</dt>
   <dd>The <em>inaccessible</em> 2-suiter i.e. <strong>diamonds</strong> and the other major</dd>
 
   <dt>Jump cue bid</dt>
