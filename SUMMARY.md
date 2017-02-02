@@ -2,19 +2,22 @@
 * [Defensive signals](signal/README.md)
 * [Glossary](GLOSSARY.md)
 
-We open
--------
-* [Openings](we-open/README.md)
-	- [Preemptive openings](we-open/opening/preemptive/README.md)
-	- [Balancing openings](we-open/opening/balancing/README.md)
-* [One-of-a-major openings](we-open/major/README.md)
-* [One-of-a-minor openings](we-open/minor/README.md)
-	- [Competitive responses](we-open/minor/competitive-responses/README.md)
-* [Strong notrump openings](we-open/notrump/README.md)
-	- [Stayman](we-open/notrump/stayman/README.md)
-	- [Transfers](we-open/notrump/transfer/README.md)
+Constructive
+------------
+* [Openings](constructive/README.md)
+	- [Preemptive openings](constructive/opening/preemptive/README.md)
+	- [Balancing openings](constructive/opening/balancing/README.md)
+* [One-of-a-major openings](constructive/major/README.md)
+* [One-of-a-minor openings](constructive/minor/README.md)
+* [Strong notrump openings](constructive/notrump/README.md)
+	- [Stayman](constructive/notrump/stayman/README.md)
+	- [Transfers](constructive/notrump/transfer/README.md)
 
-They open
+Competitive
+-----------
+* [After 1 of a minor](competitive/minor/README.md)
+
+Overcalls
 ---------
-* [Constructive suits](they-open/constructive-suit/README.md)
-	- [Precise Michaels](they-open/constructive-suit/precise-michaels/README.md)
+* [Constructive suits](overcall/constructive-suit/README.md)
+	- [Precise Michaels](overcall/constructive-suit/precise-michaels/README.md)

@@ -1,5 +1,5 @@
-Competitive responses
-=====================
+After 1 of a minor
+==================
 
 Responses after a takeout double
 --------------------------------
