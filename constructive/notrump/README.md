@@ -142,7 +142,7 @@ Major transfer structure
 <tr><th>4-card major</th><td>Pass</td><td colspan="3">Stayman ♣</td></tr>
 <tr><th>5+-card major</th><td colspan="3">Transfer ♥/♦ (→ ♠/♥)</td><td>SJS or transfer</td></tr>
 <tr><th>5-4 in majors</th><td>Transfer</td><td colspan="3">Stayman ♣</td></tr>
-<tr><th>5-5 or 6-6</th><td>♦ (→♥)</td><td colspan="2">4♦!</td><td>♥ (→♠)</td></tr>
+<tr><th>5-5 or 6-6</th><td>♦ (→♥)</td><td colspan="2">4♦</td><td>♥ (→♠)</td></tr>
 <tr><th>6-4 or more</th><td colspan="4">Ignore the shorter major</td></tr>
 </tbody>
 </table>
@@ -172,8 +172,8 @@ nor biddable major suit is a *notrump hand*.  One only transfers with **weak**
 </thead>
 <tbody>
 <tr><th>One-suiter</th><td colspan="2">Transfer</td><td>SJS</td></tr>
-<tr><th>5-5 in minors</th><td>Pass</td><td rowspan="2">4♠!</td><td rowspan="2">♠! (→♣)</td></tr>
-<tr><th>6-6 in minors</th><td>♣! (→♦)</td></tr>
+<tr><th>5-5 in minors</th><td>Pass</td><td rowspan="2">4♠</td><td rowspan="2">♠ (→♣)</td></tr>
+<tr><th>6-6 in minors</th><td>♣ (→♦)</td></tr>
 </tbody>
 </table>
 

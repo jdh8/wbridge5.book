@@ -12,6 +12,24 @@ them.
 
 [weak]: openings/weak.md
 
+Alertable openings
+------------------
+These conventional openings are unexpected for a random bridge player.
+
+<dl>
+  <dt>2♦(!)</dt>
+  <dd>Game forcing (24+), any distribution.  This is standard in France but unexpected outside.</dd>
+
+  <dt>3NT!</dt>
+  <dd>Gambling 3NT, solid 7+-card minor.  The standard meaning is a strong balanced hand.</dd>
+
+  <dt>4♣!, 4♦!</dt>
+  <dd>Namyats, preemptive 4♥ and 4♠ with excessive values.</dd>
+
+  <dt>4NT!</dt>
+  <dd>Unusual notrump, 6+ cards in each minor.</dd>
+</dl>
+
 One-of-a-suit openings
 ----------------------
 One must bid 1 of a suit with an opening hand uneligible for a strong opening.
@@ -140,4 +158,4 @@ suits.
 
 Unusual 4NT
 -----------
-Unusual 4NT shows 6+ cards in both minors.
+Unusual 4NT shows 6+ cards in each minor.

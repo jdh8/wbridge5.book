@@ -38,7 +38,7 @@ Responses to 1♥
 <dt>3♦!</dt>
 <dd>Bergen raise, limit raise, 11~12 points, 4+ support.</dd>
 
-<dt>3♥</dt>
+<dt>3♥!</dt>
 <dd>Bergen raise, preemptive raise, 6~8 points, 4+ support.</dd>
 
 <dt>3NT!</dt>
@@ -47,7 +47,7 @@ Responses to 1♥
 <dt>3♠!, 4♣!, 4♦!</dt>
 <dd>Splinter, 12~16 points, <strong>0~1 card</strong>, 4+ support.</dd>
 
-<dt>4♥</dt>
+<dt>4♥!</dt>
 <dd>
   Preemptive raise, at most 8<sup>&minus;</sup> HCP, 4+ support.
   <a href="#preemptive-raise-to-the-4-level">Strength depends on vulnerability</a>.
@@ -63,7 +63,7 @@ bids passable.
   <dt>2♣, 2♦</dt>
   <dd>11~12 points, 5+ cards.</dd>
 
-  <dt>2♠, 3♣, 3♦</dt>
+  <dt>2♠!, 3♣!, 3♦!</dt>
   <dd>Fit-showing, 11~12 points, 5+ cards, 3+ support.</dd>
 
   <dt>3♥</dt>
@@ -97,7 +97,7 @@ Responses to 1♠
 <dt>3♥</dt>
 <dd>Strong jump shift, 17+ points, 4+ cards.</dd>
 
-<dt>3♠</dt>
+<dt>3♠!</dt>
 <dd>Bergen raise, preemptive raise, 6~8 points, 4+ support.</dd>
 
 <dt>3NT!</dt>
@@ -106,7 +106,7 @@ Responses to 1♠
 <dt>4♣!, 4♦!, 4♥!</dt>
 <dd>Splinter, 12~16 points, <strong>0~1 card</strong>, 4+ support.</dd>
 
-<dt>4♠</dt>
+<dt>4♠!</dt>
 <dd>
   Preemptive raise, at most 8<sup>&minus;</sup> HCP, 4+ support.
   <a href="#preemptive-raise-to-the-4-level">Strength depends on vulnerability</a>.
@@ -122,7 +122,7 @@ bids passable.
   <dt>2♣, 2♦, 2♥</dt>
   <dd>11~12 points, 5+ cards.</dd>
 
-  <dt>3♣, 3♦, 3♥</dt>
+  <dt>3♣!, 3♦!, 3♥!</dt>
   <dd>Fit-showing, 11~12 points, 5+ cards, 3+ support.</dd>
 
   <dt>3♠</dt>

@@ -15,7 +15,7 @@ for original strong jump shifts.  Keep in mind that **fit-showing** by a passed
 responder are unadjusted because *the previous **pass denies both** jump
 shifts*.
 
-### Responses to 1♣x ###
+### Responses to 1♣ (Dbl) ###
 <dl>
   <dt>XX</dt>
   <dd>Invitational+ hands (11+ points) which do not qualify as a Truscott 2NT.</dd>
@@ -26,17 +26,17 @@ shifts*.
   <dt>2♦, 2♥, 2♠</dt>
   <dd><strong>Weak jump shift</strong> if unpassed, showing 8+ points and 6+ cards.</dd>
 
-  <dt>2♥, 2♠, 3♦</dt>
+  <dt>2♥!, 2♠!, 3♦!</dt>
   <dd><strong>Fit-showing</strong> if passed.  These bids are unchanged.</dd>
 
-  <dt>2NT</dt>
+  <dt>2NT!</dt>
   <dd>Truscott 2NT, which shows a limit raise i.e. former 3♣.</dd>
 
   <dt>3♣</dt>
   <dd>Preemptive raise, 7~10 points, 5+ support.</dd>
 </dl>
 
-### Responses to 1♦x ###
+### Responses to 1♦ (Dbl) ###
 <dl>
   <dt>XX</dt>
   <dd>Invitational+ hands (11+ points) without another suitable call.</dd>
@@ -51,8 +51,8 @@ shifts*.
   <dd><strong>Weak jump shift</strong> if unpassed, showing 8+ points and 6+ cards.</dd>
   <dd><strong>Fit-showing</strong> if passed.  These bids are unchanged.</dd>
 
-  <dt>2NT</dt>
-  <dd>Truscott 2NT, which shows a limit raise i.e. former 3♣.</dd>
+  <dt>2NT!</dt>
+  <dd>Truscott 2NT, which shows a limit raise i.e. former 3♦.</dd>
 
   <dt>3♦</dt>
   <dd>Preemptive raise, 7~10 points, 5+ support.</dd>
@@ -61,16 +61,6 @@ shifts*.
 Responses after a simple suit overcall
 --------------------------------------
 Wbridge5 employs French convention for such low-level competitive auctions.
-These 3 auctions are highlighted for the surprised.
-
-<dl>
-  <dt>1♣ (1♦) X</dt>
-  <dd>Collante, negative double, 6+ points with exactly 4 hearts.  No information given about spades.</dd>
-
-  <dt>1m (1♠) 2m!</dt>
-  <dd>Rodrigue, negative free bid in <strong>hearts</strong>, 7~10 points with 5+ cards in hearts.  No information given about the minor.</dd>
-</dl>
-
 The French insist on showing length of hearts quickly to compete with
 opponents' latent spades.
 
@@ -85,19 +75,19 @@ is the same as 1♣-1♠, which shows 4+ cards in spades, because only hearts is
 affected by (1♦).
 
 <dl>
-  <dt>(1♦) X</dt>
+  <dt>1m (1♦) X</dt>
   <dd>Negative double, 6+ points with exactly 4 hearts.</dd>
 
-  <dt>(1♦) 1♥</dt>
+  <dt>1m (1♦) 1♥</dt>
   <dd>Free bid, 6+ points with 5+ hearts.</dd>
 
-  <dt>(1♦) 1♠</dt>
+  <dt>1m (1♦) 1♠</dt>
   <dd>Free bid, 6+ points with 4+ spades.</dd>
 
-  <dt>(1♥) X</dt>
+  <dt>1m (1♥) X</dt>
   <dd>Negative double, 6+ points with exactly 4 spades.</dd>
 
-  <dt>(1♥) 1♠</dt>
+  <dt>1m (1♥) 1♠</dt>
   <dd>Free bid, 6+ points with 5+ spades.</dd>
 </dl>
 

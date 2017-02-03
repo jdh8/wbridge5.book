@@ -43,7 +43,7 @@ opening.  This is obviously not the case for 1♣.
   <dt>3♣</dt>
   <dd>Limit raise, invite to 3NT or 5♣, 11~16 points, 5+ support.</dd>
 
-  <dt>3♦, 3♥, 3♠</dt>
+  <dt>3♦!, 3♥!, 3♠!</dt>
   <dd>Splinter, 12~16 points, <strong>0~1 card</strong>, 5+ support.</dd>
 
   <dt>3NT</dt>
@@ -111,7 +111,7 @@ opening.
   <dt>2♦</dt>
   <dd>Weak jump shift, 8+ points, 6+ cards.</dd>
 
-  <dt>2♥, 2♠, 3♦</dt>
+  <dt>2♥!, 2♠!, 3♦!</dt>
   <dd>Fit-showing, 11+ points, 5+ cards, 5+ support.</dd>
 </dl>
 
@@ -142,7 +142,7 @@ Responses to 1♦
   <dt>3♦</dt>
   <dd>Limit raise, invite to 3NT or 5♦, 11~16 points, 4+ support.</dd>
 
-  <dt>3♥, 3♠, 4♣</dt>
+  <dt>3♥!, 3♠!, 4♣!</dt>
   <dd>Splinter, 12~16 points, <strong>0~1 card</strong>, 5+ support.</dd>
 
   <dt>3NT</dt>
@@ -159,6 +159,6 @@ Responses to 1♦
   <dt>2♣</dt>
   <dd>Invitational, 11+ points, 5+ cards.</dd>
 
-  <dt>2♥, 2♠, 3♣</dt>
+  <dt>2♥!, 2♠!, 3♣!</dt>
   <dd>Fit-showing, 11+ points, 5+ cards, 4+ support.</dd>
 </dl>

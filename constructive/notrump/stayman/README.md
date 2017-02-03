@@ -50,21 +50,24 @@ A 5-card major is allowed as an 1NT opener in Wbridge5.  Hence, there are
   <dt>2♠</dt>
   <dd>Exactly 4 cards in spades without biddable hearts.</dd>
 
-  <dt>2NT</dt>
+  <dt>2NT(!)</dt>
   <dd>Exactly 4-4 in majors.</dd>
 
-  <dt>3♣</dt>
+  <dt>3♣!</dt>
   <dd>Minimum with 5 cards in hearts.</dd>
 
-  <dt>3♦</dt>
+  <dt>3♦!</dt>
   <dd>Minimum with 5 cards in spades.</dd>
 
-  <dt>3♥</dt>
+  <dt>3♥!</dt>
   <dd>Maximum with 5 cards in hearts.</dd>
 
-  <dt>3♠</dt>
+  <dt>3♠!</dt>
   <dd>Maximum with 5 cards in spades.</dd>
 </dl>
+
+The notrump response showing majors is French standard but unexpected outside.
+Therefore, it requires an alert in most countries.
 
 There is no 5-card major in a 2NT opener.  The rebids after 2NT-3♣ are just one
 level up from 1NT-2♣.
@@ -187,7 +190,7 @@ control or RKCB.
   <dd>Quantitative invitation, 0~3 support.</dt>
 </dl>
 
-### 1NT-2♣; 2NT ###
+### 1NT-2♣; 2NT(!) ###
 Opener's notrump rebid shows both majors.  As a major fit is found, there is no
 need to find a minor fit.  Minor bids are South African transfers to clarify
 strength.
@@ -258,7 +261,7 @@ control bidding.
 I propose using the unallocated 3♥ as an artificial slam try which starts
 control bidding.
 
-### 1NT-2♣; 3♥ ###
+### 1NT-2♣; 3♥! ###
 <dl>
   <dt>Pass</dt>
   <dd>Garbage Stayman.</dd>
@@ -279,7 +282,7 @@ control bidding.
 I propose using the unallocated 3♠ as an artificial slam try which starts
 control bidding.
 
-### 1NT-2♣; 3♠ ###
+### 1NT-2♣; 3♠! ###
 <dl>
   <dt>Pass</dt>
   <dd>Garbage Stayman.</dd>
@@ -326,7 +329,7 @@ game-forcing strength now.  There are some adjustments to reflect this change.
 ### 2NT-3♣; 3♠/♥ ###
 Structure is unchanged from 1NT-2♣; 2♠/♥.
 
-### 2NT-3♣; 3NT ###
+### 2NT-3♣; 3NT(!) ###
 There is no invitation here, so direct 4-of-a-major bids become signoffs
 including Garbage Stayman.  As a logical consequence, the South African
 transfers become slam tries.  Nevertheless, they are not puppets because opener

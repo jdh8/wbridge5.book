@@ -74,7 +74,7 @@ show a singleton to dissuade partner early.
   <dd>Super acceptance, all suits controlled, 22+ points, 4+ cards.</dd>
 </dl>
 
-#### Transfer to clubs 3♠ ####
+#### Transfer to clubs 3♠! ####
 Rejection with doubleton makes sense because acceptance is a mediocre 4♣.
 There is no super acceptance because a normal acceptance already shows 3+
 cards with which responder seldom passes.
@@ -87,7 +87,7 @@ cards with which responder seldom passes.
   <dd>Acceptance, 3+ cards.</dd>
 </dl>
 
-#### Transfer to diamonds 4♣ ####
+#### Transfer to diamonds 4♣! ####
 Opener is forced to accept due to lack of bidding space.
 
 <dl>
