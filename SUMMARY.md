@@ -19,5 +19,5 @@ Competitive
 
 Overcalls
 ---------
-* [Constructive suits](overcall/constructive-suit/README.md)
-	- [Precise Michaels](overcall/constructive-suit/precise-michaels/README.md)
+* [Over 1 of a suit](overcall/suit/README.md)
+	- [Precise Michaels](overcall/suit/precise-michaels/README.md)

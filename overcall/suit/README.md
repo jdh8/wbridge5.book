@@ -1,9 +1,10 @@
-Constructive suits
-==================
-Constructive suit openings show at least average strength and length in the
-bid suit.  One-of-a-suit openings are constructive in a natural bidding system.
-Constructive minor openings may move to the 2-level in a strong club or diamond
-system.
+Over 1 of a suit
+================
+An 1-of-a-suit opening usually shows at least average strength and length in
+the suit.  Defense against conventions is not discussed here.
+
+Opponents' auction deprives little bidding space and shows strength.
+Therefore, we shall be more preemptive than in our constructive auction.
 
 Simple overcalls
 ----------------
@@ -17,7 +18,7 @@ the bid suit.  Their strength depends on their level.
   <dt>1♥, 1♠</dt>
   <dd>8+ points</dd>
 
-  <dt>2♣, 2♦, 2♥, 2♠</dt>
+  <dt>2♣, 2♦, 2♥</dt>
   <dd>11+ points</dd>
 </dl>
 
@@ -56,7 +57,7 @@ mere 8 points because of score and accessibility of a major contract.
 
 [michaels]: precise-michaels/README.md
 
-### Opponents opened 1 of a minor ###
+### Opponents opened a minor ###
 <dl>
   <dt>2♦(!)</dt>
   <dd>Michaels, majors</dd>
@@ -71,7 +72,7 @@ mere 8 points because of score and accessibility of a major contract.
 Being unexpected, (1♣) 2♦ requires an alert, but (1♦) 2♦ is not alertable
 because this is the expected meaning of a cue bid.
 
-### Opponents opened 1 of a major ###
+### Opponents opened a major ###
 <dl>
   <dt>Cue bid</dt>
   <dd>Precise Michaels, <strong>clubs</strong> and the other major</dd>
