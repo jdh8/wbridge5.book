@@ -4,7 +4,7 @@
 
 Constructive
 ------------
-* [Openings](constructive/README.md)
+* [Openings](constructive/opening/README.md)
 	- [Preemptive openings](constructive/opening/preemptive/README.md)
 	- [Balancing openings](constructive/opening/balancing/README.md)
 * [One-of-a-major openings](constructive/major/README.md)
