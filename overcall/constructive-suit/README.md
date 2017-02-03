@@ -68,6 +68,9 @@ mere 8 points because of score and accessibility of a major contract.
   <dd>The <em>inaccessible</em> 2-suiter i.e. spades and the other minor</dd>
 </dl>
 
+Being unexpected, (1♣) 2♦ requires an alert, but (1♦) 2♦ is not alertable
+because this is the expected meaning of a cue bid.
+
 ### Opponents opened 1 of a major ###
 <dl>
   <dt>Cue bid</dt>
