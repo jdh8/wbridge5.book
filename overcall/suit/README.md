@@ -55,7 +55,7 @@ strength depends on seat and vulnerability, which is described in a [separate
 article][michaels] in details.  Nevertheless, 2♦ for majors always requires
 mere 8 points because of score and accessibility of a major contract.
 
-[michaels]: precise-michaels/README.md
+[michaels]: michaels/README.md
 
 ### Opponents opened a minor ###
 <dl>
