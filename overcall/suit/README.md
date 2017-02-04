@@ -40,7 +40,7 @@ Precise Michaels
 French system.  However, these conventions are quite familiar in France.
 
 Precise Michaels is a combination of Michaels cuebids and unusual notrumps and
-a modification from Ghestem.  They show two overcallable suits.
+a modification from Ghestem.  They are shortcuts showing 5+ cards in 2 suits.
 
 To precisely show all 3 combinations of 2-suiters, 3 bids are needed.
 Therefore, one of the 3 of minors would be made a Michaels and no longer a weak
@@ -52,8 +52,7 @@ is moved to 2♦, leaving 2♣ a natural simple overcall.
 
 Although unlimited, Michaels cubids are somewhat competitive.  Therefore, their
 strength depends on seat and vulnerability, which is described in a [separate
-article][michaels] in details.  Nevertheless, 2♦ for majors always requires
-mere 8 points because of score and accessibility of a major contract.
+article][michaels] in details.
 
 [michaels]: michaels/README.md
 
