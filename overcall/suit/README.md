@@ -136,6 +136,15 @@ takeout double.  However, a takeout double takes precedence over a simple
 overcall because overcall can bid the suit after the double, which makes a more
 specific auction.
 
+### Shape of a minimum takeout double ###
+The hand must be in shape to double with < 16 HCP.  Distribution points from
+the adverse suit is reconsidered as -1, 1, 3, 5 to upgrade 3-suiters and to
+downgrade flat hands.
+
+* 0~3 cards in the adverse suit
+* 3~4 cards in each nonadverse major
+* 2~5 cards in each nonadverse minor
+
 Weak jump overcalls
 -------------------
 A jump in a new suit is always a weak jump overcall by default.  This also
