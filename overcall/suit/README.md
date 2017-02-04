@@ -36,57 +36,74 @@ make such a turning bid.
 
 Precise Michaels
 ----------------
-**Precise Michaels** provide surprising auctions for those who have played no
-French system.  However, these conventions are quite familiar in France.
+Precise Michaels aka **Michaëls précisés** are Michaels cuebids which show
+both suits.  These bids are shortcuts to show **5+ cards in 2 suits**.
 
-Precise Michaels is a combination of Michaels cuebids and unusual notrumps and
-a modification from Ghestem.  They are shortcuts showing 5+ cards in 2 suits.
+Precise Michaels are unlimited.  Advancer is unlikely to pass out because the
+strain is never a held suit.  Precise Michaels take precedence over takeout
+doubles because they are precise in distribution.
 
-To precisely show all 3 combinations of 2-suiters, 3 bids are needed.
-Therefore, one of the 3 of minors would be made a Michaels and no longer a weak
-jump overcall.
+### Unusual notrump ###
+Unusual notrump shows the 2 lowest unbid suits.  The following notrump
+overcalls are unusual.
 
-Moreover, because (1♣) may be short and 2♦ is not so preemptive, the French
-also eliminate weak 2♦ overcall.  The major-showing Michaels against clubs
-is moved to 2♦, leaving 2♣ a natural simple overcall.
+<dl>
+  <dt>2NT</dt>
+  <dd>There is no need to express a natural 2NT.  Takeout double takes care of such strong hands.</dd>
 
-Although unlimited, Michaels cubids are somewhat competitive.  Therefore, their
-strength depends on seat and vulnerability, which is described in a [separate
-article][michaels] in details.
-
-[michaels]: michaels/README.md
+  <dt>1NT by a passed hand</dt>
+  <dd>One cannot have passed a strong notrump, so this bid is also unusual.</dd>
+</dl>
 
 ### Opponents opened a minor ###
 <dl>
   <dt>2♦(!)</dt>
-  <dd>Michaels, majors</dd>
+  <dd>Michaels, majors, 8+ points</dd>
 
-  <dt>2NT</dt>
-  <dd>Unusual notrump, two lowest unbid suits <em>viz</em> hearts and the other minor</dd>
+  <dt>Unusual notrump</dt>
+  <dd>Two lowest unbid suits <em>viz</em> hearts and the other minor</dd>
 
   <dt>Jump cuebid</dt>
   <dd>The <em>inaccessible</em> 2-suiter i.e. spades and the other minor</dd>
 </dl>
 
-Being unexpected, (1♣) 2♦ requires an alert, but (1♦) 2♦ is not alertable
-because this is the expected meaning of a cuebid.
+Being unexpected, (1♣) 2♦ requires an alert outside of France, but (1♦) 2♦ is
+not alertable because this is the expected meaning of a cuebid.
 
 ### Opponents opened a major ###
 <dl>
-  <dt>Cue bid</dt>
+  <dt>Cuebid</dt>
   <dd>Precise Michaels, <strong>clubs</strong> and the other major</dd>
 
-  <dt>2NT</dt>
-  <dd>Unusual notrump, two lowest unbid suits <em>viz</em> minors</dd>
+  <dt>Unusual notrump</dt>
+  <dd>Two lowest unbid suits <em>viz</em> minors</dd>
 
   <dt>3♣!</dt>
   <dd>The <em>inaccessible</em> 2-suiter i.e. <strong>diamonds</strong> and the other major</dd>
 
   <dt>Jump cuebid</dt>
-  <dd>Cue bid with 20+ points</dd>
+  <dd>Cuebid with 20+ points</dd>
 
   <dt>4NT</dt>
   <dd>Super unusual notrump which requres 6+ cards in each minor and 5 more points than 2NT</dd>
+</dl>
+
+### Strength ###
+Most bids above lack description of strength because their strength depends on
+seat and vulnerability.
+
+<dl>
+  <dt>Vulnerable vs non-vulnerable</dt>
+  <dd>13+ points but 11+ if passed</dd>
+
+  <dt>Both vulnerable</dt>
+  <dd>12+ points but 11+ if passed</dd>
+
+  <dt>None vulnerable</dt>
+  <dd>11+ points</dd>
+
+  <dt>Non-vulnerable vs vulnerable</dt>
+  <dd>10+ points</dd>
 </dl>
 
 Natural 1NT overcall

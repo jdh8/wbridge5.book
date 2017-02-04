@@ -20,4 +20,3 @@ Competitive
 Overcalls
 ---------
 * [Over 1 of a suit](overcall/suit/README.md)
-	- [Precise Michaels](overcall/suit/michaels/README.md)
