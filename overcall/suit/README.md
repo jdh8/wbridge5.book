@@ -25,7 +25,7 @@ the bid suit.  Their strength depends on their level.
 Hands with 16+ **HCP** are too strong for simple overcalls.  Double first and
 then bid the suit in the next round.
 
-In our bidding system, (1♣) 2♣ is natural instead of a Michaels cue bid.
+In our bidding system, (1♣) 2♣ is natural instead of a Michaels cuebid.
 However, clubs was indeed an adverse suit, so a stronger hand is required to
 make such a turning bid.
 
@@ -39,7 +39,7 @@ Precise Michaels
 **Precise Michaels** provide surprising auctions for those who have played no
 French system.  However, these conventions are quite familiar in France.
 
-Precise Michaels is a combination of Michaels cue bids and unusual notrumps and
+Precise Michaels is a combination of Michaels cuebids and unusual notrumps and
 a modification from Ghestem.  They show two overcallable suits.
 
 To precisely show all 3 combinations of 2-suiters, 3 bids are needed.
@@ -65,12 +65,12 @@ mere 8 points because of score and accessibility of a major contract.
   <dt>2NT</dt>
   <dd>Unusual notrump, two lowest unbid suits <em>viz</em> hearts and the other minor</dd>
 
-  <dt>Jump cue bid</dt>
+  <dt>Jump cuebid</dt>
   <dd>The <em>inaccessible</em> 2-suiter i.e. spades and the other minor</dd>
 </dl>
 
 Being unexpected, (1♣) 2♦ requires an alert, but (1♦) 2♦ is not alertable
-because this is the expected meaning of a cue bid.
+because this is the expected meaning of a cuebid.
 
 ### Opponents opened a major ###
 <dl>
@@ -83,7 +83,7 @@ because this is the expected meaning of a cue bid.
   <dt>3♣!</dt>
   <dd>The <em>inaccessible</em> 2-suiter i.e. <strong>diamonds</strong> and the other major</dd>
 
-  <dt>Jump cue bid</dt>
+  <dt>Jump cuebid</dt>
   <dd>Cue bid with 20+ points</dd>
 
   <dt>4NT</dt>
@@ -141,7 +141,7 @@ If opponents opened a minor, one bids 3NT always with the other minor, so
 advancer corrects to the assumed minor if they have not enough stoppers to
 play 3NT.
 
-The 4-level cue bids
+The 4-level cuebids
 --------------------
-The 4-level cue bids are blockbuster takeouts, showing 20+ points and 4+ cards
-in every nonadverse suit.  What a cunning way to use 4-level cue bids!
+The 4-level cuebids are blockbuster takeouts, showing 20+ points and 4+ cards
+in every nonadverse suit.  What a cunning way to use 4-level cuebids!

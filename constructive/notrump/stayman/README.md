@@ -179,7 +179,7 @@ After opener puppets to 2NT, responder would bid a control or RKCB.
 #### 3♥ as a fitted slam try puppet ####
 Again, why abandon quantitative invitations?  I would artificialize 3♥ to a
 puppet, freeing 4NT.  There is no need to find a fit in hearts, so one can
-treat 3♥ like a cue bid.  After opener puppets to 3♠, responder would bid a
+treat 3♥ like a cuebid.  After opener puppets to 3♠, responder would bid a
 control or RKCB.
 
 <dl>
