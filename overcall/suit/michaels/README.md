@@ -5,9 +5,9 @@ both suits.  These bids are shortcuts to show 5+ cards in 2 suits.  Wbridge5
 takes Michaels somewhat constructive, so they are never weaker than simple
 overcalls.
 
-Precise Michaels are unlimited and forcing.  Overcaller can safely bid a strong
-hand because the strain is never a held suit.  Precise Michaels take precedence
-over takeout doubles because they are precise in distribution.
+Precise Michaels are unlimited.  Advancer is unlikely to pass out because the
+strain is never a held suit.  Precise Michaels take precedence over takeout
+doubles because they are precise in distribution.
 
 Opponents opened 1 of a minor
 -----------------------------
