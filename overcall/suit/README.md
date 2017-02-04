@@ -43,8 +43,21 @@ Precise Michaels are unlimited.  Advancer is unlikely to pass out because the
 strain is never a held suit.  Precise Michaels take precedence over takeout
 doubles because they are precise in distribution.
 
+To avoid bidding an actual suit, Wbridge5 allocates bidding space as follows.
+
+<table class="center">
+<thead>
+<tr><th></th><th>(1♠)</th><th>(1♥)</th><th>(1♦)</th><th>(1♣)</th></tr>
+</thead>
+<tbody>
+<tr><th>Highest</th><td colspan="2">3♣</td><td colspan="2">2♦</td></tr>
+<tr><th>Top & bottom</th><td>2♠</td><td>2♥</td><td>3♦</td><td>3♣</td></tr>
+<tr><th>Lowest</th><td colspan="4">2NT</td></tr>
+</tbody>
+</table>
+
 ### Unusual notrump ###
-Unusual notrump shows the 2 lowest unbid suits.  The following notrump
+Unusual notrump shows the lowest 2 unbid suits.  The following notrump
 overcalls are unusual.
 
 <dl>
@@ -58,13 +71,13 @@ overcalls are unusual.
 ### Opponents opened a minor ###
 <dl>
   <dt>2♦(!)</dt>
-  <dd>Michaels, majors, 8+ points</dd>
+  <dd>Highest 2 unbid suits, majors, 8+ points</dd>
 
   <dt>Unusual notrump</dt>
-  <dd>Two lowest unbid suits <em>viz</em> hearts and the other minor</dd>
+  <dd>Lowest 2 unbid suits, hearts and the other minor</dd>
 
   <dt>Jump cuebid</dt>
-  <dd>The <em>inaccessible</em> 2-suiter i.e. spades and the other minor</dd>
+  <dd>Top & bottom, spades and the other minor</dd>
 </dl>
 
 Being unexpected, (1♣) 2♦ requires an alert outside of France, but (1♦) 2♦ is
@@ -73,13 +86,13 @@ not alertable because this is the expected meaning of a cuebid.
 ### Opponents opened a major ###
 <dl>
   <dt>Cuebid</dt>
-  <dd>Precise Michaels, <strong>clubs</strong> and the other major</dd>
+  <dd>Top & bottom, clubs and the other major</dd>
 
   <dt>Unusual notrump</dt>
-  <dd>Two lowest unbid suits <em>viz</em> minors</dd>
+  <dd>Lowest 2 unbid suits, minors</dd>
 
   <dt>3♣!</dt>
-  <dd>The <em>inaccessible</em> 2-suiter i.e. <strong>diamonds</strong> and the other major</dd>
+  <dd>Highest 2 unbid suits, diamonds and the other major</dd>
 
   <dt>Jump cuebid</dt>
   <dd>Cuebid with 20+ points</dd>
