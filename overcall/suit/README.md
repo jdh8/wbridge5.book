@@ -56,8 +56,19 @@ To avoid bidding an actual suit, Wbridge5 allocates bidding space as follows.
 </tbody>
 </table>
 
+<dl>
+  <dt>Highest 2 nonadverse suits</dt>
+  <dd>Transfer, the bid below the lower suit.</dd>
+
+  <dt>Top & bottom nonadverse suits</dt>
+  <dd>Cuebid or jump cuebid.</dd>
+
+  <dt>Lowest 2 nonadverse suits</dt>
+  <dd>Unusual notrump.</dd>
+</dl>
+
 ### Unusual notrump ###
-Unusual notrump shows the lowest 2 unbid suits.  The following notrump
+Unusual notrump shows the lowest 2 nonadverse suits.  The following notrump
 overcalls are unusual.
 
 <dl>
@@ -71,13 +82,13 @@ overcalls are unusual.
 ### Opponents opened a minor ###
 <dl>
   <dt>2♦(!)</dt>
-  <dd>Highest 2 unbid suits, majors, 8+ points</dd>
+  <dd>Highest 2 nonadverse suits, majors, 8+ points</dd>
 
   <dt>Unusual notrump</dt>
-  <dd>Lowest 2 unbid suits, hearts and the other minor</dd>
+  <dd>Lowest 2 nonadverse suits, hearts and the other minor</dd>
 
   <dt>Jump cuebid</dt>
-  <dd>Top & bottom, spades and the other minor</dd>
+  <dd>Top & bottom cuebid, spades and the other minor</dd>
 </dl>
 
 Being unexpected, (1♣) 2♦ requires an alert outside of France, but (1♦) 2♦ is
@@ -86,13 +97,13 @@ not alertable because this is the expected meaning of a cuebid.
 ### Opponents opened a major ###
 <dl>
   <dt>Cuebid</dt>
-  <dd>Top & bottom, clubs and the other major</dd>
+  <dd>Top & bottom cuebid, clubs and the other major</dd>
 
   <dt>Unusual notrump</dt>
-  <dd>Lowest 2 unbid suits, minors</dd>
+  <dd>Lowest 2 nonadverse suits, minors</dd>
 
   <dt>3♣!</dt>
-  <dd>Highest 2 unbid suits, diamonds and the other major</dd>
+  <dd>Highest 2 nonadverse suits, diamonds and the other major</dd>
 
   <dt>Jump cuebid</dt>
   <dd>Cuebid with 20+ points</dd>
