@@ -21,7 +21,7 @@ body {
 
 body,
 .book-summary {
-	font-family: Roboto, "DejaVu Suits", "DejaVu Sans", sans-serif;
+	font-family: Roboto, "DejaVu Sans", "DejaVu Suits", sans-serif;
 }
 
 .markdown-section dl dt {
