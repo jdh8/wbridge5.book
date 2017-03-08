@@ -21,7 +21,7 @@ body {
 
 body,
 .book-summary {
-	font-family: Roboto, "DejaVu Sans", sans-serif;
+	font-family: Roboto, "DejaVu Suits", "DejaVu Sans", sans-serif;
 }
 
 .markdown-section dl dt {
@@ -38,33 +38,29 @@ body,
 }
 
 @font-face {
-	font-family: "DejaVu Sans";
-	src: local("DejaVu Sans"),
-	     local(DejaVuSans),
-	     url(../fonts/DejaVuSans.ttf);
+	font-family: "DejaVu Suits";
+	src: url(../fonts/DejaVuSuits.woff2) format(woff2),
+	     url(../fonts/DejaVuSuits.woff) format(woff);
 }
 
 @font-face {
-	font-family: "DejaVu Sans";
+	font-family: "DejaVu Suits";
 	font-style: oblique;
-	src: local("DejaVu Sans Oblique"),
-	     local(DejaVuSans-Oblique),
-	     url(../fonts/DejaVuSans-Oblique.ttf);
+	src: url(../fonts/DejaVuSuits.woff2) format(woff2),
+	     url(../fonts/DejaVuSuits.woff) format(woff);
 }
 
 @font-face {
-	font-family: "DejaVu Sans";
+	font-family: "DejaVu Suits";
 	font-weight: bold;
-	src: local("DejaVu Sans Bold"),
-	     local(DejaVuSans-Bold),
-	     url(../fonts/DejaVuSans-Bold.ttf);
+	src: url(../fonts/DejaVuSuits.woff2) format(woff2),
+	     url(../fonts/DejaVuSuits.woff) format(woff);
 }
 
 @font-face {
-	font-family: "DejaVu Sans";
+	font-family: "DejaVu Suits";
 	font-weight: bold;
 	font-style: oblique;
-	src: local("DejaVu Sans Bold Oblique"),
-	     local(DejaVuSans-BoldOblique),
-	     url(../fonts/DejaVuSans-BoldOblique.ttf);
+	src: url(../fonts/DejaVuSuits.woff2) format(woff2),
+	     url(../fonts/DejaVuSuits.woff) format(woff);
 }
