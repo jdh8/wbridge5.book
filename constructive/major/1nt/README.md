@@ -7,8 +7,8 @@ The 1NT response to a major opening is semiforcing.  In Wbridge5, the 1NT is
 * A 4-card lower-ranking side suit is never passed by suit
 quality.
 
-When does open pass
--------------------
+When does opener pass
+---------------------
 As usual, opener passes when no bid describes.  However, we try hard to bid,
 so there are only few hands left for the pass.
 
