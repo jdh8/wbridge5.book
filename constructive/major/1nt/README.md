@@ -19,3 +19,12 @@ so there are only few hands left for the pass.
   <dt>Flannery opening hands with no biddable minor</dt>
   <dd>These 4=5=2=2 and 4=5=3=1 hands are inherently hard to bid.</dd>
 </dl>
+
+Opener's rebids
+---------------
+### After 1♠-1NT ###
+Keep in mind that 2♣ is the most frequent call and hence conveys least
+information.  Most of the time, responder signs off in 2♠.  Responder must have
+a real club suit i.e. 4+ cards to pass 2♣.
+
+Other rebids contain no surprise.
