@@ -21,7 +21,7 @@ body {
 
 body,
 .book-summary {
-	font-family: Roboto, "DejaVu Sans", "DejaVu Suits", sans-serif;
+	font-family: Roboto, "DejaVu Suits", sans-serif;
 }
 
 .markdown-section dl dt {
@@ -39,24 +39,28 @@ body,
 
 @font-face {
 	font-family: "DejaVu Suits";
-	src: url(../fonts/DejaVuSuits.woff);
+	src: url(../fonts/DejaVuSuits.woff2) format(woff2),
+	     url(../fonts/DejaVuSuits.woff) format(woff);
 }
 
 @font-face {
 	font-family: "DejaVu Suits";
 	font-style: oblique;
-	src: url(../fonts/DejaVuSuits.woff);
+	src: url(../fonts/DejaVuSuits.woff2) format(woff2),
+	     url(../fonts/DejaVuSuits.woff) format(woff);
 }
 
 @font-face {
 	font-family: "DejaVu Suits";
 	font-weight: bold;
-	src: url(../fonts/DejaVuSuits.woff);
+	src: url(../fonts/DejaVuSuits.woff2) format(woff2),
+	     url(../fonts/DejaVuSuits.woff) format(woff);
 }
 
 @font-face {
 	font-family: "DejaVu Suits";
 	font-weight: bold;
 	font-style: oblique;
-	src: url(../fonts/DejaVuSuits.woff);
+	src: url(../fonts/DejaVuSuits.woff2) format(woff2),
+	     url(../fonts/DejaVuSuits.woff) format(woff);
 }
