@@ -22,12 +22,9 @@ so there are only few hands left for the pass.
 Opener's rebids
 ---------------
 ### Choice of strain ###
-The strain-choosing algorithm is universal (which also applies to minor
-openers) but 3 cards of clubs inhibit pass here.
-
 1. Rebid original suit with 7+ cards.
 2. Bid a side suit with 4+ cards and sufficient strength.
-3. Rebid original suit if unbalanced. (This ensures 6 cards here.)
+3. Rebid original suit with 6 cards.
 4. Bid notrump if stronger than 1NT.
 5. **Bid the 3-card clubs.**
 6. Pass
