@@ -21,12 +21,81 @@ so there are only few hands left for the pass.
 
 Opener's rebids
 ---------------
-### After 1♠-1NT ###
-Keep in mind that 2♣ is the most frequent call and hence conveys least
-information.  Most of the time, responder signs off in 2♠.  Responder must have
-a real club suit i.e. 4+ cards to pass 2♣.
+### Choice of strain ###
+The strain-choosing algorithm is universal (which also applies to minor
+openers) but 3 cards of clubs inhibit pass here.
 
-Other rebids contain no surprise.
+1. Rebid original suit with 7+ cards.
+2. Bid a side suit with 4+ cards and sufficient strength.
+3. Rebid original suit if unbalanced. (This ensures 6 cards here.)
+4. Bid notrump if stronger than 1NT.
+5. **Bid the 3-card clubs.**
+6. Pass
+
+### Choice of level ###
+Unlike minor openers, there is no jump reverse here for the possibility to stop
+at 2 of a major.
+
+<table>
+<thead>
+<tr><th></th><th>-</th><th>Reverse</th></tr>
+</thead>
+<tbody>
+<tr><th>-</th><td>minimum, medium</td><td>medium, maximum</td></tr>
+<tr><th>Jump</th><td>maximum</td><td>-</td></tr>
+</tbody>
+</table>
+
+### After 1♥-1NT ###
+<dl>
+  <dt>2♣</dt>
+  <dd>Minimum or medium, 3+ cards.</dd>
+
+  <dt>2♦</dt>
+  <dd>Minimum or medium, 4+ cards.</dd>
+
+  <dt>2♥</dt>
+  <dd>Minimum or medium, 6+ cards.</dd>
+
+  <dt>2♠</dt>
+  <dd>Medium or maximum, 4+ cards.</dd>
+
+  <dt>2NT</dt>
+  <dd>18~19 HCP, balanced.</dd>
+
+  <dt>3♣, 3♦</dt>
+  <dd>Maximum, 4+ cards.</dd>
+
+  <dt>3♥</dt>
+  <dd>Maximum, 6+ cards.</dd>
+
+  <dt>3NT</dt>
+  <dd>20~21 HCP, balanced.</dd>
+</dl>
+
+### After 1♠-1NT ###
+<dl>
+  <dt>2♣</dt>
+  <dd>Minimum or medium, 3+ cards.</dd>
+
+  <dt>2♦, 2♥</dt>
+  <dd>Minimum or medium, 4+ cards.</dd>
+
+  <dt>2♠</dt>
+  <dd>Minimum or medium, 6+ cards.</dd>
+
+  <dt>2NT</dt>
+  <dd>18~19 HCP, balanced.</dd>
+
+  <dt>3♣, 3♦, 3♥</dt>
+  <dd>Maximum, 4+ cards.</dd>
+
+  <dt>3♠</dt>
+  <dd>Maximum, 6+ cards.</dd>
+
+  <dt>3NT</dt>
+  <dd>20~21 HCP, balanced.</dd>
+</dl>
 
 Comparison to American semiforcing 1NT
 --------------------------------------
