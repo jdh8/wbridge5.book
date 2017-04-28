@@ -97,16 +97,16 @@ at 2 of a major.
 Comparison to American semiforcing 1NT
 --------------------------------------
 I think that Wbridge5's 1NT is an eligible **semi**forcing 1NT because 2♣ rebid
-is more frequent than pass.  American *semi*forcing 1NT is questionable because
-pass is still the most frequent call.  Such 1NT should be called nonforcing
-instead.
+is more frequent than pass.  Naming of American *semi*forcing 1NT is
+questionable because pass is still the most frequent call.  Such 1NT should be
+called **nonforcing** instead.
 
 The following is analysis after a minimum opening.
 
 <table>
 <caption>Minimum 1♥-1NT; ?</caption>
 <thead>
-<tr><th></th><th>American</th><th>Wbridge5</th></tr>
+<tr><th></th><th>Nonforcing</th><th>Wbridge5</th></tr>
 </thead>
 <tbody class="center">
 <tr><th>Pass</th><td>35.3%</td><td>16.4%</td></tr>
@@ -119,7 +119,7 @@ The following is analysis after a minimum opening.
 <table>
 <caption>Minimum 1♠-1NT; ?</caption>
 <thead>
-<tr><th></th><th>American</th><th>Wbridge5</th></tr>
+<tr><th></th><th>Nonforcing</th><th>Wbridge5</th></tr>
 </thead>
 <tbody class="center">
 <tr><th>Pass</th><td>22.5%</td><td>7.5%</td></tr>
