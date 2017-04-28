@@ -94,38 +94,38 @@ at 2 of a major.
   <dd>20~21 HCP, balanced.</dd>
 </dl>
 
-Comparison to American semiforcing 1NT
---------------------------------------
+Comparison to other 1NT treatments
+----------------------------------
 I think that Wbridge5's 1NT is an eligible **semi**forcing 1NT because 2♣ rebid
 is more frequent than pass.  Naming of American *semi*forcing 1NT is
 questionable because pass is still the most frequent call.  Such 1NT should be
-called **nonforcing** instead.
+called **non**forcing instead.
 
 The following is analysis after a minimum opening.
 
 <table>
 <caption>Minimum 1♥-1NT; ?</caption>
 <thead>
-<tr><th></th><th>Nonforcing</th><th>Wbridge5</th></tr>
+<tr><th></th><th>Nonforcing</th><th>Wbridge5</th><th>Forcing</th></tr>
 </thead>
 <tbody class="center">
-<tr><th>Pass</th><td>35.3%</td><td>16.4%</td></tr>
-<tr><th>2♣</th><td>20.3%</td><td>39.2%</td></tr>
-<tr><th>2♦</th><td colspan="2">20.9%</td></tr>
-<tr><th>2♥</th><td colspan="2">23.5%</td></tr>
+<tr><th>Pass</th><td>35.3%</td><td>16.4%</td><td>-</td></tr>
+<tr><th>2♣</th><td>20.3%</td><td>39.2%</td><td>44.5%</td></tr>
+<tr><th>2♦</th><td colspan="2">20.9%</td><td>32.0%</td></tr>
+<tr><th>2♥</th><td colspan="3">23.5%</td></tr>
 </tbody>
 </table>
 
 <table>
 <caption>Minimum 1♠-1NT; ?</caption>
 <thead>
-<tr><th></th><th>Nonforcing</th><th>Wbridge5</th></tr>
+<tr><th></th><th>Nonforcing</th><th>Wbridge5</th><th>Forcing</th></tr>
 </thead>
 <tbody class="center">
-<tr><th>Pass</th><td>22.5%</td><td>7.5%</td></tr>
-<tr><th>2♣</th><td>18.9%</td><td>33.9%</td></tr>
-<tr><th>2♦</th><td colspan="2">19.5%</td></tr>
-<tr><th>2♥</th><td colspan="2">20.1%</td></tr>
-<tr><th>2♠</th><td colspan="2">19.0%</td></tr>
+<tr><th>Pass</th><td>22.5%</td><td>7.5%</td><td>-</td></tr>
+<tr><th>2♣</th><td>18.9%</td><td colspan="2">33.9%</td></tr>
+<tr><th>2♦</th><td colspan="2">19.5%</td><td>27.0%</td></tr>
+<tr><th>2♥</th><td colspan="3">20.1%</td></tr>
+<tr><th>2♠</th><td colspan="3">19.0%</td></tr>
 </tbody>
 </table>
