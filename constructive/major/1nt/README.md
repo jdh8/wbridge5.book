@@ -94,6 +94,13 @@ at 2 of a major.
   <dd>20~21 HCP, balanced.</dd>
 </dl>
 
+Second responses to an 1♠ opener
+--------------------------------
+These 1♠ continuations are mentioned first to derive 1♥ counterparts because
+this way is easier than vice versa.  Both bids in 1♠-1NT contain more shapes
+than in 1♥-1NT.  Derivation of 1♥ rules from 1♠ ones is simple generalization
+except opener's reverse.
+
 Comparison to other 1NT treatments
 ----------------------------------
 I think that Wbridge5's 1NT is an eligible **semi**forcing 1NT because 2♣ rebid
