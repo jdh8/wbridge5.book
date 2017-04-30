@@ -1,10 +1,38 @@
 Semiforcing 1NT
 ===============
-The 1NT response to a major opening is semiforcing.  In Wbridge5, the 1NT is
-*more* forcing than an American semiforcing 1NT.
+The 1NT response to a major opening is semiforcing.  The semiforcing 1NT is a
+dustbin for hands with 6~11 HCP and no other available bid.  However, with
+a flat hand, 3-card support, and exactly 6 or 11 HCP, it is better to bid 1NT
+instead of direct support.
+
+In Wbridge5, the 1NT is *more* forcing than an American semiforcing 1NT.
 
 * Opener always rebids 2♣ with 3 cards if balanced.
 * A 4-card lower-ranking side suit is never passed by suit quality.
+
+Flat raises
+-----------
+The 4-3-3 side suits make it awkward to play a suit contract.  The original
+raise system brings things too far with 6 and 11 HCP flat raises.  One should
+back off by bidding 1NT to guide opener better.
+
+Such 1NT is a bet on opener's usual rebidding.  Opener's rebid provides good
+continuations like forcing 1NT.  Opener's pass leads to a mediocre but
+acceptable result.  Wbridge5 requires opener with 3 clubs to bid to dissuade
+opener from passing.
+
+### Flat weak raise ###
+Try to sign off in 2M.
+
+With flat 6 HCP, simple support may lead to disastrous 1M-2M; 3m-3M.  Since 2M
+is usually the best contract and 1NT is no worse than 3M, bid 1NT and hope
+opener not pass.
+
+### Flat limit raise ###
+Invite minimum opener in the next round.
+
+Our special 2NT enforces major fit and never results in a notrump contract.
+Bid 1NT to let opener reconsider notrump contracts.
 
 When does opener pass
 ---------------------
@@ -100,6 +128,27 @@ These 1♠ continuations are mentioned first to derive 1♥ counterparts because
 this way is easier than vice versa.  Both bids in 1♠-1NT contain more shapes
 than in 1♥-1NT.  Derivation of 1♥ rules from 1♠ ones is simple generalization
 except opener's reverse.
+
+### After 1♠-1NT; 2♣ ###
+<dl>
+  <dt>2♦, 2♥</dt>
+  <dd>5+ cards.</dd>
+
+  <dt>2♠</dt>
+  <dd>Signoff, 2~3 cards.</dd>
+
+  <dt>2NT</dt>
+  <dd>Invitational, 10~11 HCP.</dd>
+
+  <dt>3♣</dt>
+  <dd>Invitational, 9~11 points, 5+ cards.</dd>
+
+  <dt>3♦, 3♥</dt>
+  <dd>Invitational, 10~11 points, 6+ cards.</dd>
+
+  <dt>3♠</dt>
+  <dd>Flat limit raise, 11 HCP, 3 cards with 4-3-3 side suits.</dd>
+</dl>
 
 Comparison to other 1NT treatments
 ----------------------------------

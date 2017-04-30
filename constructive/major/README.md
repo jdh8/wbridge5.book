@@ -150,18 +150,24 @@ Such raise directly jumps to game, showing at most 8<sup>&minus;</sup> HCP and
 
 Major raise structure
 ---------------------
+The **12 points** are intentionally duplicated in this table.  It is difficult
+to find clear-cut game-forcing hands with only points.
+
+With a flat hand, 3-card support, and 6 or 11 HCP, bid 1NT for better
+continuations.
+
 <table>
 <caption>Major raise structure for an unpassed responder</caption>
 <thead>
 <tr><th></th><th>3-card support</th><th>4+-card support</th></tr>
 </thead>
 <tbody>
-<tr><th> 6~8 points</th>  <td rowspan="2">2M</td>                   <td>3M (or 4M if possible)</td></tr>
-<tr><th> 9~10 points</th>                                           <td>3♣ (or 4M if possible)</td></tr>
-<tr><th>11~12 points</th> <td rowspan="2">2NT or (2/1 then 4M)</td> <td>3♦ (or 4M if possible)</td></tr>
-<tr><th>12~16 points</th>                                           <td>2NT or Splinter</td></tr>
-<tr><th>16~19 points</th> <td rowspan="2">SJS or (2/1 then 3M)</td> <td>3NT or SJS or (2/1 then 3M)</td></tr>
-<tr><th>20+ points</th>                                             <td>SJS or (2/1 then 3M)</td></tr>
+<tr><th> 6~8  points</th> <td>2M, 1NT</td>              <td>4M, 3M, 2M</td></tr>
+<tr><th> 9~10 points</th> <td>2M</td>                   <td>4M, 3♣</td></tr>
+<tr><th>11~12 points</th> <td>2NT, 1NT, 2M</td>         <td>4M, 3♦</td></tr>
+<tr><th>12~16 points</th> <td>2NT, 2/1</td>             <td>2NT, Splinter</td></tr>
+<tr><th>16~19 points</th> <td rowspan="2">SJS, 2/1</td> <td>3NT, SJS, 2/1</td></tr>
+<tr><th>20+ points</th>                                 <td>SJS, 2/1</td></tr>
 </tbody>
 </table>
 
