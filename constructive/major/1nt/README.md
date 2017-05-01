@@ -132,7 +132,7 @@ except opener's reverse.
 ### After 1♠-1NT; 2♣ ###
 <dl>
   <dt>2♦, 2♥</dt>
-  <dd>5+ cards.</dd>
+  <dd>Constructive, 5+ cards.</dd>
 
   <dt>2♠</dt>
   <dd>Signoff, 2~3 cards.</dd>
