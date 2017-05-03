@@ -50,76 +50,63 @@ so there are only few hands left for the pass.
 Opener's rebids
 ---------------
 ### Choice of strain ###
-1. Rebid original suit with 7+ cards.
-2. Bid a side suit with 4+ cards and sufficient strength.
-3. Rebid original suit with 6 cards.
-4. Bid notrump if stronger than 1NT.
-5. **Bid the 3-card clubs.**
-6. Pass
+<dl>
+  <dt>Notrump vs suit</dt>
+  <dd>Major > notrump > minor</dd>
 
-### Choice of level ###
-Unlike minor openers, there is no jump reverse here for the possibility to stop
-at 2 of a major.
-
-<table>
-<thead>
-<tr><th></th><th>-</th><th>Reverse</th></tr>
-</thead>
-<tbody>
-<tr><th>-</th><td>minimum, medium</td><td>medium, maximum</td></tr>
-<tr><th>Jump</th><td>maximum</td><td>-</td></tr>
-</tbody>
-</table>
+  <dt>Original suit vs side suit</dt>
+  <dd>7-card original suit > 4-card side suit > 6-card original suit > 3-card 2♣</dd>
+</dl>
 
 ### After 1♥-1NT ###
 <dl>
   <dt>2♣</dt>
-  <dd>Minimum or medium, 3+ cards.</dd>
+  <dd>13~18 points, 3+ cards.</dd>
 
   <dt>2♦</dt>
-  <dd>Minimum or medium, 4+ cards.</dd>
+  <dd>13~18 points, 4+ cards.</dd>
 
   <dt>2♥</dt>
-  <dd>Minimum or medium, 6+ cards.</dd>
+  <dd>13~18 points, 6+ cards.</dd>
 
   <dt>2♠</dt>
-  <dd>Medium or maximum, 4+ cards.</dd>
+  <dd>18~21 points, 4+ cards.</dd>
 
   <dt>2NT</dt>
-  <dd>18~19 HCP, balanced.</dd>
+  <dd>17~18 HCP, no void nor singleton.</dd>
 
   <dt>3♣, 3♦</dt>
-  <dd>Maximum, 4+ cards.</dd>
+  <dd>19~21 points, 4+ cards.</dd>
 
   <dt>3♥</dt>
-  <dd>Maximum, 6+ cards.</dd>
+  <dd>19~21 points, 6+ cards.</dd>
 
   <dt>3NT</dt>
-  <dd>20~21 HCP, balanced.</dd>
+  <dd>19~21 HCP, no void nor singleton.</dd>
 </dl>
 
 ### After 1♠-1NT ###
 <dl>
   <dt>2♣</dt>
-  <dd>Minimum or medium, 3+ cards.</dd>
+  <dd>13~18 points, 3+ cards.</dd>
 
   <dt>2♦, 2♥</dt>
-  <dd>Minimum or medium, 4+ cards.</dd>
+  <dd>13~18 points, 4+ cards.</dd>
 
   <dt>2♠</dt>
-  <dd>Minimum or medium, 6+ cards.</dd>
+  <dd>13~18 points, 6+ cards.</dd>
 
   <dt>2NT</dt>
-  <dd>18~19 HCP, balanced.</dd>
+  <dd>17~18 HCP, no void nor singleton.</dd>
 
   <dt>3♣, 3♦, 3♥</dt>
-  <dd>Maximum, 4+ cards.</dd>
+  <dd>19~21 points, 4+ cards.</dd>
 
   <dt>3♠</dt>
-  <dd>Maximum, 6+ cards.</dd>
+  <dd>19~21 points, 6+ cards.</dd>
 
   <dt>3NT</dt>
-  <dd>20~21 HCP, balanced.</dd>
+  <dd>19~21 HCP, no void nor singleton.</dd>
 </dl>
 
 Second responses to an 1♠ opener
