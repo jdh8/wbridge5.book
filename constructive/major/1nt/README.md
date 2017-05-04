@@ -119,7 +119,7 @@ except opener's reverse.
 ### After 1♠-1NT; 2♣ ###
 <dl>
   <dt>2♦, 2♥</dt>
-  <dd>Constructive, 5+ cards.</dd>
+  <dd>Constructive, 5+ cards, 8~11 HCP if only 5 cards.</dd>
 
   <dt>2♠</dt>
   <dd>Signoff, 2~3 cards.</dd>
@@ -130,8 +130,44 @@ except opener's reverse.
   <dt>3♣</dt>
   <dd>Invitational, 9~11 points, 5+ cards.</dd>
 
-  <dt>3♦, 3♥</dt>
-  <dd>Invitational, 10~11 points, 6+ cards.</dd>
+  <dt>3♠</dt>
+  <dd>Flat limit raise, 11 HCP, 3 cards with 4-3-3 side suits.</dd>
+</dl>
+
+### After 1♠-1NT; 2♦ ###
+<dl>
+  <dt>2♥</dt>
+  <dd>Constructive, 5+ cards, 8~11 HCP if only 5 cards.</dd>
+
+  <dt>2♠</dt>
+  <dd>Signoff, 2~3 cards.</dd>
+
+  <dt>2NT</dt>
+  <dd>Invitational, 10~11 HCP.</dd>
+
+  <dt>3♣</dt>
+  <dd>6+ cards.</dd>
+
+  <dt>3♦</dt>
+  <dd>Invitational, 9~11 points, 4+ cards.</dd>
+
+  <dt>3♠</dt>
+  <dd>Flat limit raise, 11 HCP, 3 cards with 4-3-3 side suits.</dd>
+</dl>
+
+### After 1♠-1NT; 2♥ ###
+<dl>
+  <dt>2♠</dt>
+  <dd>Signoff, 2~3 cards.</dd>
+
+  <dt>2NT</dt>
+  <dd>Invitational, 10~11 HCP.</dd>
+
+  <dt>3♣, 3♦</dt>
+  <dd>6+ cards.</dd>
+
+  <dt>3♥</dt>
+  <dd>Invitational, 9~11 points, 4+ cards.</dd>
 
   <dt>3♠</dt>
   <dd>Flat limit raise, 11 HCP, 3 cards with 4-3-3 side suits.</dd>
