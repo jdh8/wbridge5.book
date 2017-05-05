@@ -122,10 +122,10 @@ except opener's reverse.
   <dd>Constructive, 5+ cards, 8~11 HCP if only 5 cards.</dd>
 
   <dt>2♠</dt>
-  <dd>Signoff, 2~3 cards.</dd>
+  <dd>Preference, usually 2~3 cards.</dd>
 
   <dt>2NT</dt>
-  <dd>Invitational, 10~11 HCP.</dd>
+  <dd>Invitational, 9~11 HCP.</dd>
 
   <dt>3♣</dt>
   <dd>Invitational, 9~11 points, 5+ cards.</dd>
@@ -140,10 +140,10 @@ except opener's reverse.
   <dd>Constructive, 5+ cards, 8~11 HCP if only 5 cards.</dd>
 
   <dt>2♠</dt>
-  <dd>Signoff, 2~3 cards.</dd>
+  <dd>Preference, usually 2~3 cards.</dd>
 
   <dt>2NT</dt>
-  <dd>Invitational, 10~11 HCP.</dd>
+  <dd>Invitational, 9~11 HCP.</dd>
 
   <dt>3♣</dt>
   <dd>6+ cards.</dd>
@@ -158,10 +158,10 @@ except opener's reverse.
 ### After 1♠-1NT; 2♥ ###
 <dl>
   <dt>2♠</dt>
-  <dd>Signoff, 2~3 cards.</dd>
+  <dd>Preference, usually 2~3 cards.</dd>
 
   <dt>2NT</dt>
-  <dd>Invitational, 10~11 HCP.</dd>
+  <dd>Invitational, 9~11 HCP.</dd>
 
   <dt>3♣, 3♦</dt>
   <dd>6+ cards.</dd>
@@ -171,6 +171,44 @@ except opener's reverse.
 
   <dt>3♠</dt>
   <dd>Flat limit raise, 11 HCP, 3 cards with 4-3-3 side suits.</dd>
+</dl>
+
+### After 1♠-1NT; 2♠ ###
+<dl>
+  <dt>2NT</dt>
+  <dd>Invitational, 9~11 HCP, 0~2 spades.</dd>
+
+  <dt>3♣, 3♦, 3♥</dt>
+  <dd>Intolerance to 2♠, 6+ cards.</dd>
+
+  <dt>3♠</dt>
+  <dd>Invitational, 9~11 points, 2~3 cards.</dd>
+</dl>
+
+Second responses to an 1♥ opener
+--------------------------------
+Most responses can be deduced from 1♠ continuations.  This section lists only
+discrepancies.  There are 2 sources of discrepancies, both related 2♠.
+
+* Opener has reverse 2♠.
+* Responder denied spades, which makes 2♠ good for a forcing convention.
+
+### After 1♥-1NT; 2♣ ###
+<dl>
+  <dt>2♠!</dt>
+  <dd>Super invitation, 9~11 HCP, 5+ clubs, stopper in spades.</dd>
+</dl>
+
+### After 1♥-1NT; 2♦ ###
+<dl>
+  <dt>2♠!</dt>
+  <dd>Super invitation, 9~11 HCP, 4+ diamonds, stopper in spades.</dd>
+</dl>
+
+### After 1♥-1NT; 2♥ ###
+<dl>
+  <dt>2♠!</dt>
+  <dd>Super invitation, 9~11 HCP, 2+ hearts, balanced with stopper in spades.</dd>
 </dl>
 
 Comparison to other 1NT treatments
