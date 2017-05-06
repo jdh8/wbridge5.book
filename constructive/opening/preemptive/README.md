@@ -11,9 +11,10 @@ openings because the partner has passed.
 
 Weak 2s
 -------
-The weak 2s require 6+ cards for the first two seats, or 5+ cards for
-the 3rd seat.  If non-vulnerable, the first two seats can also open a weak 2
-with AKxxx or AQJxx.  The strength requirements are as follows.
+The weak 2s require 6+ cards in general, but 5 cards is accepted for the 3rd
+seat unless vulnerable vs non-vulnerable.  If non-vulnerable, the first two
+seats can also open a weak 2 with AKxxx or AQJxx.  The strength requirements
+are as follows.
 
 <dl>
   <dt>Vulnerable</dt>
