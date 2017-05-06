@@ -54,14 +54,15 @@ opening.  This is obviously not the case for 1♣.
 1. Choose the longest suit.
 2. To break a tie, bid the cheapest **call** for 4-4, the highest **suit** for
    5-5 or above.
-3. Nevertheless, if responder cannot force to game, skip diamonds in 4-4.
+3. Nevertheless, if responder has a biddable major and cannot force to game,
+   **skip diamonds** unless 6+ cards or at least AJxxx or KQJxx.
 
 <dl>
-  <dt>♠KQ65 ♥653 ♦KJ86 ♣J9</dt>
+  <dt>♠K965 ♥65 ♦KJ863 ♣98</dt>
   <dd>Bid 1♠.  Skip diamonds because you cannot force to game.</dd>
 
   <dt>♠10983 ♥9 ♦KQJ103 ♣J72</dt>
-  <dd>Bid 1♦.  Diamonds are longer than spades.</dd>
+  <dd>Bid 1♦.  These diamonds are eligible.</dd>
 
   <dt>♠KQ93 ♥72 ♦AK73 ♣J63</dt>
   <dd>Bid 1♦ because you can force to game.</dd>
