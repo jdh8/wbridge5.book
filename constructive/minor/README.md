@@ -26,7 +26,7 @@ opening.  This is obviously not the case for 1♣.
 
 <dl>
   <dt>1♦, 1♥, 1♠</dt>
-  <dd>6~16 points, 4+ cards.</dd>
+  <dd>6~16 points or void clubs, 4+ cards.</dd>
 
   <dt>1NT</dt>
   <dd>Constructive 1NT, 7<sup>+</sup>~10 HCP, balanced.</dd>
@@ -54,8 +54,14 @@ opening.  This is obviously not the case for 1♣.
 1. Choose the longest suit.
 2. To break a tie, bid the cheapest **call** for 4-4, the highest **suit** for
    5-5 or above.
-3. Nevertheless, if responder has a biddable major and cannot force to game,
-   **skip diamonds** unless 6+ cards or at least AJxxx or KQJxx.
+3. Nevertheless, if responder cannot force to game but has normal responding
+   strength (5~11 HCP) and a biddable major, **skip diamonds** unless 6+ cards
+   or at least AJxxx or KQJxx.
+
+We can usually make 2 of a suit and sometimes 1NT with normal responding
+strength.  Bypassing diamonds slightly preempts in a partscore dog fight.
+However, when responding with void clubs and insufficient strength, bid
+1♦ to seek 1 of a major.
 
 <dl>
   <dt>♠K965 ♥65 ♦KJ863 ♣98</dt>
@@ -120,7 +126,7 @@ Responses to 1♦
 ---------------
 <dl>
   <dt>1♥, 1♠</dt>
-  <dd>6~16 points, 4+ cards.</dd>
+  <dd>6~16 points or void diamonds, 4+ cards.</dd>
 
   <dt>1NT</dt>
   <dd>Dustbin 1NT, 6~10 HCP, without another suitable call.</dd>
