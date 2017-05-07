@@ -25,4 +25,12 @@ Garbage Stayman
 A legitimized psychic Stayman with a weak 3~4♠ 3~4*♡* 4~5*♢* 0~1♣.  Responder
 passes opener's most frequent rebids *viz* 2*♢*, 2*♡*, 2♠.
 
+Semiforcing 1NT
+---------------
+The 1NT response to a major opening is semiforcing.  The actual convention is
+opener's 2♣, which is biddable with only 3 clubs if RHO did not overcall.
+
+The 1NT is still semiforcing even if the major opening is intervened, i.e. such
+intervention only affects responder.
+
 <script src="js/glossary.js"></script>
