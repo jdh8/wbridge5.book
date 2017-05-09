@@ -54,9 +54,9 @@ opening.  This is obviously not the case for 1♣.
 1. Choose the longest suit.
 2. To break a tie, bid the cheapest **call** for 4-4, the highest **suit** for
    5-5 or above.
-3. Nevertheless, if responder cannot force to game but has normal responding
-   strength (5~11 HCP) and a biddable major, **skip diamonds** unless 6+ cards
-   or at least AJxxx or KQJxx.
+3. Nevertheless, if responder cannot invite but has normal responding strength
+   (5~10 HCP) and a biddable major, **skip diamonds** unless 6+ cards or at
+   least AJxxx or KQJxx.
 
 We can usually make 2 of a suit and sometimes 1NT with normal responding
 strength.  Bypassing diamonds slightly preempts in a partscore dog fight.
