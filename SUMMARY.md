@@ -10,6 +10,7 @@ Constructive
 * [One-of-a-major openings](constructive/major/README.md)
 	- [Semiforcing 1NT](constructive/major/semiforcing-notrump/README.md)
 * [One-of-a-minor openings](constructive/minor/README.md)
+	- [1♦ response](constructive/minor/diamonds/README.md)
 * [Strong notrump openings](constructive/notrump/README.md)
 	- [Stayman](constructive/notrump/stayman/README.md)
 	- [Transfers](constructive/notrump/transfer/README.md)
