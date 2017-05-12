@@ -10,6 +10,6 @@ Wbridge5 is no exception.  We adjust 1♦ according to responder's strength.
   <dt>6~11 points</dt>
   <dd>With a biddable major, <strong>skip diamonds</strong> unless 6+ cards or at least AJxxx or KQJxx.</dd>
 
-  <dt>16+ points</dt>
-  <dd>Bid 1♦ with 3 diamonds if Splinter and strong jump shifts fail to describe your hand.</dd>
+  <dt>17+ points</dt>
+  <dd>Bid strategic 1♦ with some hands indescribable by strong jump shifts.</dd>
 </dl>
