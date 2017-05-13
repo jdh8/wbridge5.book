@@ -1,8 +1,8 @@
 Openings
 ========
-A hand with 13+ points or 12 HCP is sufficient for an opening.  If both hands in a
-pair are opening hands, they can probably make a game contract.  Therefore,
-with an opening hand, one must open to prevent a pass out.
+A hand with 12+ HCP or 13+ points and 11 HCP is sufficient for an opening.  If
+both hands in a pair are opening hands, they can probably make a game contract.
+Therefore, with an opening hand, one must open to prevent a pass out.
 
 Moreover, some hands with good distribution but poor values are suitable for
 an opening as well.  These openings are preemptive, which focus on disturbing
