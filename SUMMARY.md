@@ -14,7 +14,6 @@ Constructive
 * [Strong notrump openings](constructive/notrump/README.md)
 	- [Stayman](constructive/notrump/stayman/README.md)
 	- [Transfers](constructive/notrump/transfer/README.md)
-* [Miscellaneous relays](constructive/relays/README.md)
 
 Competitive
 -----------

@@ -25,6 +25,31 @@ Garbage Stayman
 A legitimized psychic Stayman with a weak 3~4♠ 3~4*♡* 4~5*♢* 0~1♣.  Responder
 passes opener's most frequent rebids *viz* 2*♢*, 2*♡*, 2♠.
 
+Puppet bid
+----------
+A puppet bid is technically a relay but conceptually makes the bidder puppet
+instead of captain.  The puppet forces or semiforces their partner to bid a
+relay.
+
+If the captain has other options than the relay, the puppet bid is called a
+**marionette**.
+
+Relay
+-----
+A relay is a conventional asking bid.  The relay bidding system is based on
+the idea that one player precisely describes their hand while their parter
+locates the final contract.
+
+The relayer, who bids the relay, becomes the **captain**.  The captain provides
+little information about their hand and makes the final decision.  Their parter
+is the **puppet**, who describes hand when the captain asks.
+
+Usage of 1-level relay opening is [restricted in competitions][wbf], but relays
+as responses and rebids are okay.  Stayman and Blackwood are ubiquitous relays
+in modern bidding systems.
+
+[wbf]: http://www.worldbridge.org/rules-regulations/competitions/systems/
+
 Semiforcing 1NT
 ---------------
 The 1NT response to a major opening is semiforcing.  The actual convention is
