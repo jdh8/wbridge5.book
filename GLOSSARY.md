@@ -50,6 +50,32 @@ in modern bidding systems.
 
 [wbf]: http://www.worldbridge.org/rules-regulations/competitions/systems/
 
+Roudy
+-----
+Roudy (*aka* Roudi) is a club relay to ask notrump bidder's strength and length
+of captain's suit.  The puppet answers artificially in
+**short-long-long-short** coding.  This convention is in place of Checkback
+Stayman.
+
+The short-long-long-short coding which not only helps find suit contracts but
+also occasionally leads to an optimal 3NT signoff.
+
+<table>
+<thead>
+<tr><th></th><th>Short</th><th>Long</th></tr>
+</thead>
+<tbody class="center">
+<tr><th>Minimum</th><td>♦</td><td>♥</td></tr>
+<tr><th>Maximum</th><td>NT</td><td>♠</td></tr>
+</tbody>
+</table>
+
+This convention is popular in France, its origin.  Originally, this convention
+is \*-\*; 1NT-2♣.  Wbridge5 generalizes it to some \*-2NT-3♣ auctions.
+
+* 1\*-(non-♣ new suit); 2NT-3♣
+* 1M-<a title="Puppet special 2NT" href="constructive/major/#puppet-special-2nt">2NT</a>; 3♣
+
 Semiforcing 1NT
 ---------------
 The 1NT response to a major opening is semiforcing.  The actual convention is
