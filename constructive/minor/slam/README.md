@@ -1,14 +1,20 @@
 Slam bidding
 ============
-In this section, responder is assumed to have strength sufficient for a strong
-jump shift.  However, a strong jump shift is not always the best move.  The
-1♣-1♦ and 1♦-2♣ responses and Splinter come to help when strong jump shifts ill
-describe the hand.
+In this section, responder is assumed to have strength sufficient for a
+strong jump shift.  However, a SJS is not always the best move.  The 1♣-1♦ and
+1♦-2♣ responses and Splinter come to help when SJS ill describes the hand.
 
-After 1♣
---------
 Slams are games after all, so the seeking process is definitely major > notrump
-\> minor.
+\> minor.  Always bid a SJS when a 4-card major is present although the SJS
+itself can be a minor.
+
+Special auctions after 1♣
+-------------------------
+Slam bidding becomes tricky when there is no side suit to jump.  Moreover,
+4-card support is not a fit.  Therefore, there must be some continuations to
+show **notrump** to handle 3=3=3=4 at least.  **Notrump continuations** exist
+anyway then, they take precedence over a *pure* 2♦ for 3-2=4=4 because notrump
+games are considered before minor games.
 
 ### Quantitative invitation to 6NT ###
 With 17~18 HCP and 2~3♠ 2~3♥ 2~4♦ 4+♣, invite to 6NT quantitatively.  Bid 1♦

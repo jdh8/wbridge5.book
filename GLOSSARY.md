@@ -84,4 +84,13 @@ opener's 2♣, which is biddable with only 3 clubs if RHO did not overcall.
 The 1NT is still semiforcing even if the major opening is intervened, i.e. such
 intervention only affects responder.
 
+SJS
+---
+Strong jump shift.
+
+Strong jump shift
+-----------------
+Jump to a new suit over 1-of-a-suit opening in a constructive auction, showing
+17+ points and 4+ cards.  This is an important constructive slam bidding tool.
+
 <script src="js/glossary.js"></script>
