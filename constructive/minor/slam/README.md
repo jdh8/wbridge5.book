@@ -8,7 +8,7 @@ Slams are games after all, so the seeking process is definitely major > notrump
 \> minor.  Always bid a SJS when a 4-card major is present although the SJS
 itself can be a minor.
 
-After 1♣
+Special auctions after 1♣
 -------------------------
 Slam bidding becomes tricky when there is no side suit to jump.  Moreover,
 4-card support is not a fit.  Therefore, there must be some continuations to
@@ -17,20 +17,23 @@ anyway then, they take precedence over a *pure* 2♦ for 3-2=4=4 because notrump
 games are considered before minor games.
 
 ### Precedence of bids ###
-1. SJS if 4+ cards in any major
+RKCB is unlisted because only unusual hands deserve that 4NT.  RKCB in later
+rounds is better most of the time.
+
+1. Any SJS with a 4-card major
 2. Quantitative invitation
 3. SJS 2♦
-4. Downgrade to a direct Splinter if any void or singleton
+4. Splinter
 5. Catchall 1♦
 
-We would rather bid a downgraded Splinter because only GF 3♣ would be available
-if opener rebids 1♥ or 1♠ after our catchall 1♦.
+It is too risky to delay Splinter after 1♦ because opener is likely to bid a
+major.
 
 ### Quantitative invitation to 6NT ###
-With 17~18 HCP and 2~3♠ 2~3♥ 2~4♦ 4+♣, invite to 6NT quantitatively.  Bid 1♦
-first because direct 4NT is reserved for RKCB.  If the auction is interfered,
-cuebid or redouble to show a generic slam try.  The following show reactions
-to opener's rebids in a constructive auction.
+With 17~18 HCP and 2~3♠ 2~3♥ 2~4♦ 4+♣, invite to 6NT quantitatively.  Fake a
+catchall 1♦ first because direct 4NT is reserved for RKCB.  If the auction is
+interfered, cuebid or redouble to show a generic slam try.  The following show
+reactions to opener's rebids in a constructive auction.
 
 <dl>
   <dt>Opener rebids 1♥ or 1♠</dt>
