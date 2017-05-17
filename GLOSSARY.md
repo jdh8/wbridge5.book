@@ -10,6 +10,45 @@ suitable calls for 6~7 HCP hands.  For an 1♣ opening, responder can always bid
 suit with these weak hands.  After an overcall, responder can pass because this
 pass will not cause a passing out.
 
+Delayed raise
+-------------
+A delayed raise shows game-forcing values by intentional violation of contract
+seeking rules.  A raise can be delayed by time or by level.  If such raise is
+made under game in an already game-forcing auction, the raise starts a slam
+try.
+
+This mechanism saves bidding space for strong hands by recycling inaccessible
+auctions.
+
+<dl>
+  <dt>1♣-1♥; 1NT-3♣</dt>
+  <dd>This is a usual invitational raise.</dd>
+
+  <dt>1♣-1♦; 1NT-3♣</dt>
+  <dd>This is a <strong>delayed raise</strong> because there is no point to bid diamonds when a club fit is already found.</dd>
+
+  <dt>1♣-1♦; 2♣-3♣</dt>
+  <dd>This is a usual invitational raise because the fit may be newly found.</dd>
+
+  <dt>1♦-2♣; 2NT-3♦</dt>
+  <dd>This is a <strong>delayed raise</strong> showing slam interest.</dd>
+
+  <dt>1♦-2♣; 2♦-3♦</dt>
+  <dd>This is a simple announcement of fit to give a chance to stop at 3NT.</dd>
+
+  <dt>1♦-2♣; 2♦-4♦</dt>
+  <dd>This is a <strong>delayed raise</strong> showing slam interest because minimum is shown by 3♦ or a direct game.</dd>
+
+  <dt>1♥-1♠; 1NT-2♥</dt>
+  <dd>This is suit preference to evade 1NT.</dd>
+
+  <dt>1♠-2♣; 2♠-4♠</dt>
+  <dd>This is a normal <strong>delayed raise</strong> showing real values, freeing 1♠-4♠ as a preempt.</dd>
+
+  <dt>1♠-2♣; 2♠-3♠</dt>
+  <dd>This is a <strong>delayed raise</strong> showing slam interest because minimum is shown by 4♠.</dd>
+</dl>
+
 Dustbin 1NT
 -----------
 The 1NT response in 1♠/*♡*/*♢* (pass) 1NT is dustbin, which shows a
