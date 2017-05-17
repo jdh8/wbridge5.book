@@ -92,5 +92,11 @@ Strong jump shift
 -----------------
 Jump to a new suit over 1-of-a-suit opening in a constructive auction, showing
 17+ points and 4+ cards.  This is an important constructive slam bidding tool.
+Wbridge5 SJS is more aggressive than Soloway jump shift.
+
+Side suit restriction like Soloway only applies to 3 of minors because 2/1
+better handles the side suit.  Bergen raise is also employed in Wbridge5, so
+the only Soloway-restricted jump shift is 1♦-3♣, but Soloway rebids are still
+never used.
 
 <script src="js/glossary.js"></script>
