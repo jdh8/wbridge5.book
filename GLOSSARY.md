@@ -18,7 +18,9 @@ made under game in an already game-forcing auction, the raise starts a slam
 try.
 
 This mechanism saves bidding space for strong hands by recycling inaccessible
-auctions.
+auctions.  This treatment is rather necessary for a decent bidding system,
+which makes good use of bidding space and conforms principle of fast arrival.
+The same reason applies to also cuebids and takeout doubles.
 
 <dl>
   <dt>1♣-1♥; 1NT-3♣</dt>
