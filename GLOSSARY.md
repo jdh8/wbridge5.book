@@ -140,4 +140,8 @@ better handles the side suit.  Bergen raise is also employed in Wbridge5, so
 the only Soloway-restricted jump shift is 1♦-3♣, but Soloway rebids are still
 never used.
 
+One in favor of weak jump shifts might think SJS of waste of bidding space, but
+Soloway jump shifts are actually more frequent than weak jump shifts, let alone
+Wbridge5 SJS.
+
 <script src="js/glossary.js"></script>
