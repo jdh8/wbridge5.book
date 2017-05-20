@@ -8,6 +8,34 @@ Slams are games after all, so the seeking process is definitely major > notrump
 \> minor.  Always bid a SJS when a 4-card major is present although the SJS
 itself can be a minor.
 
+Strong jump shifts
+------------------
+SJS is a frequent slam bidding utility.  SJS in Wbridge5 shows 17+ points and
+4+ cards.  There are few other requirements, even fewer than Soloway jump
+shifts.  This practically confines 1-over-1 responses to 6~16 points, except
+that 1♦ catches strong hands unsuitable for SJS.
+
+### Opener's rebids over a major SJS ###
+<dl>
+  <dt>2NT</dt>
+  <dd>Balanced minimum, 11~14 HCP.</dd>
+
+  <dt>Own suit</dt>
+  <dd>6+ cards.</dd>
+
+  <dt>Raise or new suit</dt>
+  <dd>4+ cards.</dd>
+
+  <dt>3NT</dt>
+  <dd>Balanced maximum, 18~21 HCP.</dd>
+
+  <dt>Jump to own suit</dt>
+  <dd>Fit-showing, 6+ cards, 4+ support.</dd>
+
+  <dt>Jump to new suit</dt>
+  <dd>Splinter, 15+ points, 0~1 card, 4+ support.</dd>
+</dl>
+
 Special auctions after 1♣
 -------------------------
 Slam bidding becomes tricky when there is no side suit to jump.  Moreover,
