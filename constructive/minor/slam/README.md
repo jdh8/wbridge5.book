@@ -102,3 +102,27 @@ club fit.  This 5NT rebid is discouraged because it is too aggressive for a
 grand slam.
 
 Opener signs off because responder has precisely described the hand.
+
+Special auctions after 1♦
+-------------------------
+There are fewer exceptions than 1♣.  There is no need for a notrump strain
+because responder can raise with mere 4 diamonds.  The 1♦-2♣; \*-3♦ is a
+natural *SJS in diamonds*, the assumed meaning of a delayed raise after 2/1.
+
+The only possible responses of a responder with 17+ points are as follows.
+
+<dl>
+  <dt>2♣</dt>
+  <dd>2/1, 12+ points, 4+ cards but may be short if 17+ points.</dd>
+
+  <dt>2♥, 2♠</dt>
+  <dd>Strong jump shift, 17+ points, 4+ cards.</dd>
+
+  <dt>3♣</dt>
+  <dd>Strong jump shift, 18+ points, 6+ clubs or 4+ clubs with 6+ diamonds.</dd>
+</dl>
+
+### Precedence of bids ###
+1. Bid 3♣ if clubs is longer than each major
+2. Choose among 2♠, 2♥, 2♣ as if they were 1♠, 1♥, 2♣ respectively.
+3. Bid 2♣ since only diamonds is biddable.
