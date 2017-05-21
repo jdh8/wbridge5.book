@@ -93,3 +93,12 @@ reactions to opener's rebids in a constructive auction.
   <dt>Opener rebids 2♥ or above</dt>
   <dd>Seek a grand slam, e.g. bid 5NT to invite to both 7NT and 7♣.</dd>
 </dl>
+
+### Quantitative invitation to 7NT ###
+Direct 5NT is quantitative invitation to 7NT.  Bidding a grand slam requires
+about 2/3 probability, so stricter rules apply.  Quantitatively invite to 7NT
+with 20~22 HCP and 3=3=3=4.  Bid a SJS for any side suit.  Bid 1♦ or 4NT for a
+club fit.  This 5NT rebid is discouraged because it is too aggressive for a
+grand slam.
+
+Opener signs off because responder has precisely described the hand.
