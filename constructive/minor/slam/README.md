@@ -15,7 +15,13 @@ SJS is a frequent slam bidding utility.  SJS in Wbridge5 shows 17+ points and
 shifts.  This practically confines 1-over-1 responses to 6~16 points, except
 that 1♦ catches strong hands unsuitable for SJS.
 
-### Opener's rebids over a major SJS ###
+### Opener's rebids over major SJS ###
+SJS is forcing and opener rebids below the major game.  Most of the time,
+responder has 17~19 points, so opener shall be eager to describe distribution
+instead of strength.  Opener is the captain unless a notrump is bid.  Notrump
+shows strength as well as balancedness because there are 2NT and 3NT to choose
+from.
+
 <dl>
   <dt>2NT</dt>
   <dd>Balanced minimum, 11~14 HCP.</dd>
