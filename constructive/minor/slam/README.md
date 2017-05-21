@@ -63,6 +63,17 @@ rounds is better most of the time.
 It is too risky to delay Splinter after 1♦ because opener is likely to bid a
 major.
 
+### SJS 2♦ ###
+Because minor games are cheaper and at least 5-level, be weary of them and
+manage to find a major game.  The 3♥ and 3♠ rebids are reserved for 5-card
+majors skipped in opening due to a longer minor, which is clubs here.  Other
+rebids have the same meanings as rebids to major SJS, but a major rebid is
+considered first.
+
+Opener still rebids below 4♦ because it wastes too much space to bid a Spliner
+from 4♥ on.  The 3♦ rebid catches unbalanced diamond fits with no biddable
+major.
+
 ### Quantitative invitation to 6NT ###
 With 17~18 HCP and 2~3♠ 2~3♥ 2~4♦ 4+♣, invite to 6NT quantitatively.  Fake a
 catchall 1♦ first because direct 4NT is reserved for RKCB.  If the auction is
