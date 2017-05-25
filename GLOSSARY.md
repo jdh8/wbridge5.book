@@ -99,7 +99,11 @@ of captain's suit.  The puppet answers artificially in
 Stayman.
 
 The short-long-long-short coding which not only helps find suit contracts but
-also occasionally leads to an optimal 3NT signoff.
+also occasionally leads to an optimal 3NT signoff.  The **short** answers
+indicate the **minimum length**, 2 cards for opener's notrump rebid, 3 cards
+for a [puppet special 2NT][s2n].
+
+[s2n]: constructive/major/#puppet-special-2nt
 
 <table>
 <thead>
@@ -112,7 +116,9 @@ also occasionally leads to an optimal 3NT signoff.
 </table>
 
 This convention is popular in France, its origin.  Originally, this convention
-is \*-\*; 1NT-2♣.  Wbridge5 generalizes it to some \*-2NT-3♣ auctions.
+is \*-\*; 1NT-2♣.  Wbridge5 generalizes it to some \*-2NT-3♣ auctions.  The
+notrump bids in these auctions are somewhat natural, which sets reasonable
+minimum length of every suit.
 
 * 1\*-(non-♣ new suit); 2NT-3♣
 * 1M-<a title="Puppet special 2NT" href="constructive/major/#puppet-special-2nt">2NT</a>; 3♣
