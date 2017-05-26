@@ -66,6 +66,18 @@ Garbage Stayman
 A legitimized psychic Stayman with a weak 3~4♠ 3~4*♡* 4~5*♢* 0~1♣.  Responder
 passes opener's most frequent rebids *viz* 2*♢*, 2*♡*, 2♠.
 
+Lebensohl
+---------
+Lebensohl is a conventional puppet bid 2NT after an intervened 1NT opening.
+This convention is also applied after a takeout double over opponents' weak 2.
+Usually the captain bids 3♣ relay and the puppet then rebids at 3-level.
+This convention effectively duplicates 3-level bidding space at the expense of
+the possibility to stop at 2NT.
+
+Wbridge5 Lebensohl implementation is very different from the outside world.
+Our Lebensohl accepts 4-card suit but shows exact invitational strength over
+1NT.  There are also other deviation from the commonly used Lebensohl.
+
 Puppet bid
 ----------
 A puppet bid is technically a relay but conceptually makes the bidder puppet
