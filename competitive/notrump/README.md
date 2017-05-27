@@ -18,3 +18,18 @@ across all overcalls.
   <dt>Immutable structure</dt>
   <dd>Our bidding structure depends on the overcall itself instead of their actual suit.</dd>
 </dl>
+
+### Over double ###
+We have no conventional runout because 1NTx is often good enough.  Opponents
+are worried about the double, too.  Opener only runs to a suit with 5+ cards.
+
+<dl>
+  <dt>XX</dt>
+  <dd>Invitational+.</dd>
+
+  <dt>2♣, 2♦, 2♥, 2♠</dt>
+  <dd>Signoff, 5+ cards, too weak to invite.</dd>
+
+  <dt>2NT</dt>
+  <dd>Unusual, 5+ cards in each minor, too weak to invite.</dd>
+</dl>
