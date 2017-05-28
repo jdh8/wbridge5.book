@@ -15,8 +15,8 @@ across all overcalls.
   <dt>System off</dt>
   <dd>There is no more Stayman nor transfers.</dd>
 
-  <dt>Immutable structure</dt>
-  <dd>Our bidding structure depends on the overcall itself instead of their actual suit.</dd>
+  <dt>Catchall structure</dt>
+  <dd>Artificiality may introduce conventions but seldom changes bidding strcture.</dd>
 </dl>
 
 ### Over double ###
@@ -32,4 +32,22 @@ are worried about the double, too.  Opener only runs to a suit with 5+ cards.
 
   <dt>2NT</dt>
   <dd>Unusual, 5+ cards in each minor, too weak to invite.</dd>
+</dl>
+
+### Over 2 of a suit ###
+<dl>
+  <dt>X</dt>
+  <dd>Optional double, invitational+, 2~4 cards in the overcalled suit, 3~4 cards in the other suits.</dd>
+
+  <dt>2 of a new suit</dt>
+  <dd>Signoff, 5+ cards, too weak to invite.</dd>
+
+  <dt>2NT!</dt>
+  <dd>Lebensohl, invitational strength, puppet to 3♣.</dd>
+
+  <dt>3 of a new suit</dt>
+  <dd>Forcing to game, 5+ cards.</dd>
+
+  <dt>3NT</dt>
+  <dd>Signoff</dd>
 </dl>
