@@ -96,3 +96,31 @@ delayed cuebid denies any stopped adverse suit, where passing out is tolerable.
   <dt>Pass then cuebid</dt>
   <dd>Game-forcing values, both adverse suits unstopped.</dd>
 </dl>
+
+### Over 2NT ###
+The 2NT overcall is a cuebid and notrump contracts are hard to play, so this
+call is innately forcing.  The force gives responder a second chance to bid,
+which makes up the loss of our Lebensohl 2NT.
+
+<dl>
+  <dt>X</dt>
+  <dd>Invitational+, 4-3-3-3 in align with the optional double.</dd>
+
+  <dt>New suit</dt>
+  <dd>Forcing to game, 5+ cards.</dd>
+
+  <dt>4♦!</dt>
+  <dd>Forcing to game, 5-5 or 6-6 in majors.</dd>
+</dl>
+
+#### Responses in the next round ####
+Penalty is often better than 3NT if responder has strength but no biddable
+suit.  If we can make 3NT, their 3-level contract often goes -3 or more.
+
+<dl>
+  <dt>X</dt>
+  <dd>Penalty</dd>
+
+  <dt>New suit</dt>
+  <dd>Invitational, 5+ cards.</dd>
+</dl>
