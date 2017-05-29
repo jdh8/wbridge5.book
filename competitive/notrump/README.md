@@ -35,22 +35,12 @@ are worried about the double, too.  Opener only runs to a suit with 5+ cards.
 </dl>
 
 ### Over 2 of a suit ###
-An adverse suit is a suit known to be held by opponents, *aka* an anchor suit.
-An overcall introduces 0~2 adverse suits.  For example, Cappelletti 2♣
-introduces no adverse suit, natural 2♣ one (♣), Landy 2♣ two (♠, ♥).  A takeout
-is deemed suitless as a takeout double.
-
 The optional double is not changed for artificial overcalls.  This may be
 counterintuitive, but Lebensohl already takes care of the overcalled suit.
 It is better to still use the double to find a 4-4 fit.
 
-A cuebid anytime shows a hand with game-forcing values but unsuitable to bid
-3NT.  Detailed meanings of cuebids are introdcued in the following subsections
-by the number of adverse suits.
-
-Lebensohl is the only alertable convention here.  Our doubles and cuebids are
-too usual to alert.  Conventions at 4-level (4♦!, 4♠!) are cancelled because
-these 2-suiters can be expressed at 3-level first.
+Lebensohl is the only alertable convention here.  Conventions at 4-level (4♦!,
+4♠!) are cancelled because these 2-suiters can be expressed at 3-level first.
 
 <dl>
   <dt>X</dt>
@@ -68,6 +58,14 @@ these 2-suiters can be expressed at 3-level first.
   <dt>3NT</dt>
   <dd>Signoff with all adverse suits stopped.</dd>
 </dl>
+
+An adverse suit is a suit known to be held by opponents, *aka* an anchor suit.
+An overcall introduces 0~2 adverse suits.  For example, Cappelletti 2♣
+introduces no adverse suit, natural 2♣ one (♣), Landy 2♣ two (♠, ♥).  A takeout
+is deemed suitless as a takeout double.
+
+Cuebids show game-forcing values but unsuitable to bid 3NT.  Detailed meanings
+are introduced in the following subsections.
 
 #### Cuebids with 1 adverse suit ####
 If the overcall is nonforcing, a pass may end the auction.  Therefore, hands
