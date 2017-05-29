@@ -35,6 +35,15 @@ are worried about the double, too.  Opener only runs to a suit with 5+ cards.
 </dl>
 
 ### Over 2 of a suit ###
+An adverse suit is a suit known to be held by opponents, *aka* an anchor suit.
+An overcall introduces 0~2 adverse suits.  For example, Cappelletti 2♣
+introduces no adverse suit, natural 2♣ one (♣), Landy 2♣ two (♠, ♥).  A takeout
+is deemed suitless as a takeout double.
+
+The optional double is not changed for artificial overcalls.  This may be
+counterintuitive, but Lebensohl already takes care of the overcalled suit.
+It is better to still use the double to find a 4-4 fit.
+
 <dl>
   <dt>X</dt>
   <dd>Optional double, invitational+, 2~4 cards in the overcalled suit, 3~4 cards in the other suits.</dd>
@@ -49,5 +58,28 @@ are worried about the double, too.  Opener only runs to a suit with 5+ cards.
   <dd>Forcing to game, 5+ cards.</dd>
 
   <dt>3NT</dt>
-  <dd>Signoff</dd>
+  <dd>Signoff with all adverse suits stopped.</dd>
+</dl>
+
+#### With 1 adverse suit ####
+The direct cuebid seeks a major game more than 3NT.  The delayed cuebid seeks
+3NT.
+
+<dl>
+  <dt>Cuebid</dt>
+  <dd>Game-forcing takeout, 4+ cards in every nonadverse suit.</dd>
+
+  <dt>Pass then cuebid</dt>
+  <dd>Game-forcing values, adverse suit unstopped.</dd>
+</dl>
+
+#### With 2 adverse suits ####
+Dedicated takeout is less useful.  Cuebids seek 3NT.
+
+<dl>
+  <dt>Cuebid</dt>
+  <dd>Game-forcing values, stopper, the other adverse suit unstopped.</dd>
+
+  <dt>Pass then cuebid</dt>
+  <dd>Game-forcing values, both adverse suits unstopped.</dd>
 </dl>
