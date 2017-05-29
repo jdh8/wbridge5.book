@@ -44,6 +44,14 @@ The optional double is not changed for artificial overcalls.  This may be
 counterintuitive, but Lebensohl already takes care of the overcalled suit.
 It is better to still use the double to find a 4-4 fit.
 
+A cuebid anytime shows a hand with game-forcing values but unsuitable to bid
+3NT.  Detailed meanings of cuebids are introdcued in the following subsections
+by the number of adverse suits.
+
+Lebensohl is the only alertable convention here.  Our doubles and cuebids are
+too usual to alert.  Conventions at 4-level (4♦!, 4♠!) are cancelled because
+these 2-suiters can be expressed at 3-level first.
+
 <dl>
   <dt>X</dt>
   <dd>Optional double, invitational+, 2~4 cards in the overcalled suit, 3~4 cards in the other suits.</dd>
@@ -61,20 +69,27 @@ It is better to still use the double to find a 4-4 fit.
   <dd>Signoff with all adverse suits stopped.</dd>
 </dl>
 
-#### With 1 adverse suit ####
-The direct cuebid seeks a major game more than 3NT.  The delayed cuebid seeks
-3NT.
+#### Cuebids with 1 adverse suit ####
+If the overcall is nonforcing, a pass may end the auction.  Therefore, hands
+with more game aspect deserve a direct cuebid.  The delayed cuebid denies
+stopper in the adverse suit, making it tolerable to pass out.
+
+If the overcall is transfer, there may be 2 available cuebids below 3NT.  The
+direct cuebid is mapped at 3-level, the delayed at 2-level, to achieve the same
+safety without passing out.
 
 <dl>
-  <dt>Cuebid</dt>
+  <dt>Direct 3-level cuebid</dt>
   <dd>Game-forcing takeout, 4+ cards in every nonadverse suit.</dd>
 
-  <dt>Pass then cuebid</dt>
+  <dt>Delayed or 2-level cuebid</dt>
   <dd>Game-forcing values, adverse suit unstopped.</dd>
 </dl>
 
-#### With 2 adverse suits ####
-Dedicated takeout is less useful.  Cuebids seek 3NT.
+#### Cuebids with 2 adverse suits ####
+Because there are 4 possible stopper combinations, 3 cuebid patterns are needed
+to seek 3NT.  The 2 direct cuebids shows the only stopped adverse suit.  The
+delayed cuebid denies any stopped adverse suit, where passing out is tolerable.
 
 <dl>
   <dt>Cuebid</dt>
