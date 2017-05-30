@@ -109,6 +109,9 @@ The 2NT overcall usually shows both minors, which is not only practical but
 also logical.  A convention skipping 2 of majors is usually minor-oriented, and
 1-suited hands can be shown at 3-level.
 
+The double seems useless.  It dissuades opener from bidding, letting responder
+penalize opponents in the next round.
+
 <dl>
   <dt>X</dt>
   <dd>Invitational+, 4-3-3-3 in align with the optional double.</dd>
@@ -120,7 +123,7 @@ also logical.  A convention skipping 2 of majors is usually minor-oriented, and
   <dd>Forcing to game, 5-5 or 6-6 in majors.</dd>
 </dl>
 
-### Responses in the next round ###
+### In the next round ###
 Penalty is often better than 3NT if responder has strength but no biddable
 suit.  If we can make 3NT, their 3-level contract often goes -3 or more.
 
@@ -130,4 +133,22 @@ suit.  If we can make 3NT, their 3-level contract often goes -3 or more.
 
   <dt>New suit</dt>
   <dd>Invitational, 5+ cards.</dd>
+</dl>
+
+Responses over (3 of a suit)
+----------------------------
+The bidding structure is the same as competition on 2-level, but tactics are
+slightly changed.  After an optional double, opener is reluctant to bid over
+3NT.  Therefore, doubling a major suit, especially 3♠, is more penal and off
+shape.  Responder usually doubles 3 of a major instead of signing off at 3NT.
+
+<dl>
+  <dt>X</dt>
+  <dd>Optional double, invitational+, 3~4 cards in higher suits, 2~4 cards in the other suits.</dd>
+
+  <dt>3 of a new suit</dt>
+  <dd>Forcing to game, 5+ cards.</dd>
+
+  <dt>3NT</dt>
+  <dd>Signoff with all adverse suits stopped.</dd>
 </dl>
