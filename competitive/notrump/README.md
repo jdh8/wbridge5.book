@@ -53,7 +53,7 @@ Lebensohl is the only alertable convention here.  Conventions at 4-level (4♦!,
   <dd>Lebensohl, invitational strength, puppet to 3♣.</dd>
 
   <dt>3 of a new suit</dt>
-  <dd>Forcing to game, 5+ cards.</dd>
+  <dd>Game-forcing values, 5+ cards.</dd>
 
   <dt>3NT</dt>
   <dd>Signoff with all adverse suits stopped.</dd>
@@ -80,7 +80,7 @@ safety without passing out.
 
 <dl>
   <dt>Direct 3-level cuebid</dt>
-  <dd>Game-forcing takeout, 4+ cards in every nonadverse suit.</dd>
+  <dd>Takeout with game-forcing values, 4+ cards in every nonadverse suit.</dd>
 
   <dt>Delayed or 2-level cuebid</dt>
   <dd>Game-forcing values, adverse suit unstopped.</dd>
@@ -117,10 +117,10 @@ penalize opponents in the next round.
   <dd>Invitational+, 4-3-3-3 in align with the optional double.</dd>
 
   <dt>New suit</dt>
-  <dd>Forcing to game, 5+ cards.</dd>
+  <dd>Game-forcing values, 5+ cards.</dd>
 
   <dt>4♦!</dt>
-  <dd>Forcing to game, 5-5 or 6-6 in majors.</dd>
+  <dd>Game-forcing values, 5-5 or 6-6 in majors.</dd>
 </dl>
 
 ### In the next round ###
@@ -147,7 +147,7 @@ shape.  Responder usually doubles 3 of a major instead of signing off at 3NT.
   <dd>Optional double, invitational+, 3~4 cards in higher suits, 2~4 cards in the other suits.</dd>
 
   <dt>3 of a new suit</dt>
-  <dd>Forcing to game, 5+ cards.</dd>
+  <dd>Game-forcing values, 5+ cards.</dd>
 
   <dt>3NT</dt>
   <dd>Signoff with all adverse suits stopped.</dd>
