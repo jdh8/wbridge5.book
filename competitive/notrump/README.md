@@ -6,8 +6,6 @@ competitive auctions beginning with strong notrump openings.
 In a world of emerging defenses of 1NT, it is urgent to devise a set of
 counteractions.  Luckily, Wbridge5 has come up with a good solution.
 
-Responses over an overcall
---------------------------
 Although strategies may vary according to the overcall, there are 2 principles
 across all overcalls.
 
@@ -19,7 +17,8 @@ across all overcalls.
   <dd>Artificiality may introduce conventions but seldom changes bidding strcture.</dd>
 </dl>
 
-### Over double ###
+Responses over (Dbl)
+--------------------
 We have no conventional runout because 1NTx is often good enough.  Opponents
 are worried about the double, too.  Opener only runs to a suit with 5+ cards.
 
@@ -34,7 +33,8 @@ are worried about the double, too.  Opener only runs to a suit with 5+ cards.
   <dd>Unusual, 5+ cards in each minor, too weak to invite.</dd>
 </dl>
 
-### Over 2 of a suit ###
+Responses over (2 of a suit)
+----------------------------
 The optional double is not changed for artificial overcalls.  This may be
 counterintuitive, but Lebensohl already takes care of the overcalled suit.
 It is better to still use the double to find a 4-4 fit.
@@ -59,15 +59,17 @@ Lebensohl is the only alertable convention here.  Conventions at 4-level (4♦!,
   <dd>Signoff with all adverse suits stopped.</dd>
 </dl>
 
+### Cuebids ###
 An adverse suit is a suit known to be held by opponents, *aka* an anchor suit.
 An overcall introduces 0~2 adverse suits.  For example, Cappelletti 2♣
 introduces no adverse suit, natural 2♣ one (♣), Landy 2♣ two (♠, ♥).  A takeout
 is deemed suitless as a takeout double.
 
-Cuebids show game-forcing values but unsuitable to bid 3NT.  Detailed meanings
-are introduced in the following subsections.
+Cuebidding is to bid an adverse suit.  Cuebids show game-forcing values but
+unsuitable to bid 3NT.  Detailed meanings are introduced in the following
+subsections.
 
-#### Cuebids with 1 adverse suit ####
+#### With 1 adverse suit ####
 If the overcall is nonforcing, a pass may end the auction.  Therefore, hands
 with more game aspect deserve a direct cuebid.  The delayed cuebid denies
 stopper in the adverse suit, making it tolerable to pass out.
@@ -84,7 +86,7 @@ safety without passing out.
   <dd>Game-forcing values, adverse suit unstopped.</dd>
 </dl>
 
-#### Cuebids with 2 adverse suits ####
+#### With 2 adverse suits ####
 Because there are 4 possible stopper combinations, 3 cuebid patterns are needed
 to seek 3NT.  The 2 direct cuebids shows the only stopped adverse suit.  The
 delayed cuebid denies any stopped adverse suit, where passing out is tolerable.
@@ -97,10 +99,15 @@ delayed cuebid denies any stopped adverse suit, where passing out is tolerable.
   <dd>Game-forcing values, both adverse suits unstopped.</dd>
 </dl>
 
-### Over 2NT ###
+Responses over (2NT)
+--------------------
 The 2NT overcall is a cuebid and notrump contracts are hard to play, so this
 call is innately forcing.  The force gives responder a second chance to bid,
 which makes up the loss of our Lebensohl 2NT.
+
+The 2NT overcall usually shows both minors, which is not only practical but
+also logical.  A convention skipping 2 of majors is usually minor-oriented, and
+1-suited hands can be shown at 3-level.
 
 <dl>
   <dt>X</dt>
@@ -113,7 +120,7 @@ which makes up the loss of our Lebensohl 2NT.
   <dd>Forcing to game, 5-5 or 6-6 in majors.</dd>
 </dl>
 
-#### Responses in the next round ####
+### Responses in the next round ###
 Penalty is often better than 3NT if responder has strength but no biddable
 suit.  If we can make 3NT, their 3-level contract often goes -3 or more.
 
