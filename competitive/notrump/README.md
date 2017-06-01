@@ -124,15 +124,22 @@ penalize opponents in the next round.
 </dl>
 
 ### In the next round ###
-Penalty is often better than 3NT if responder has strength but no biddable
-suit.  If we can make 3NT, their 3-level contract often goes -3 or more.
+Unless vulerability is unfavorable, penalty is often better than 3NT if
+responder has strength but no biddable suit.  If we can make 3NT, their 3-level
+contract often goes -3 or more.
 
 <dl>
   <dt>X</dt>
   <dd>Penalty</dd>
 
+  <dt>Cuebid</dt>
+  <dd>Game-forcing values, the bid suit unstopped.</dd>
+
   <dt>New suit</dt>
   <dd>Invitational, 5+ cards.</dd>
+
+  <dt>3NT</dt>
+  <dd>Signoff with all adverse suits stopped.</dd>
 </dl>
 
 Responses over (3 of a suit)
