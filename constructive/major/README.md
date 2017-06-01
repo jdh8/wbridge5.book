@@ -135,7 +135,7 @@ Such raise directly jumps to game, showing at most 8<sup>&minus;</sup> HCP and
 4+ support.  Its minimum strength is determined by vulnerability.
 
 <dl>
-  <dt>Vulnerable vs non-vulnerable</dt>
+  <dt>Unfavorable</dt>
   <dd>10+ points</dd>
 
   <dt>Both vulnerable</dt>
@@ -144,7 +144,7 @@ Such raise directly jumps to game, showing at most 8<sup>&minus;</sup> HCP and
   <dt>None vulnerable</dt>
   <dd>8+ points</dd>
 
-  <dt>Non-vulnerable vs vulnerable</dt>
+  <dt>Favorable</dt>
   <dd>7+ points</dd>
 </dl>
 

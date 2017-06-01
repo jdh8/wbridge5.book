@@ -117,7 +117,7 @@ Most bids above lack description of strength because their strength depends on
 seat and vulnerability.
 
 <dl>
-  <dt>Vulnerable vs non-vulnerable</dt>
+  <dt>Unfavorable</dt>
   <dd>13+ points but 11+ if passed</dd>
 
   <dt>Both vulnerable</dt>
@@ -126,7 +126,7 @@ seat and vulnerability.
   <dt>None vulnerable</dt>
   <dd>11+ points</dd>
 
-  <dt>Non-vulnerable vs vulnerable</dt>
+  <dt>Favorable</dt>
   <dd>10+ points</dd>
 </dl>
 

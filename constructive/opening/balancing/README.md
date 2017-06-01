@@ -12,7 +12,7 @@ The weak 2s are still preemptive, which shows **< 12 HCP** and 6+ cards.
 However, a balancing weak 2 shows more offensive values than other seats.
 
 <dl>
-  <dt>Vulnerable vs non-vulnerable</dt>
+  <dt>Unfavorable</dt>
   <dd>12+ points</dd>
 
   <dt>Both vulnerable</dt>
@@ -21,7 +21,7 @@ However, a balancing weak 2 shows more offensive values than other seats.
   <dt>None vulnerable</dt>
   <dd>10+ points</dd>
 
-  <dt>Non-vulnerable vs vulnerable</dt>
+  <dt>Favorable</dt>
   <dd>9+ points</dd>
 </dl>
 

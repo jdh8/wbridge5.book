@@ -12,7 +12,7 @@ openings because the partner has passed.
 Weak 2s
 -------
 The weak 2s require 6+ cards in general, but 5 cards is accepted for the 3rd
-seat unless vulnerable vs non-vulnerable.  If non-vulnerable, the first two
+seat unless vulnerability is unfavorable.  If non-vulnerable, the first two
 seats can also open a weak 2 with AKxxx or AQJxx.  The strength requirements
 are as follows.
 
@@ -23,7 +23,7 @@ are as follows.
   <dt>None vulnerable</dt>
   <dd>7+ points</dd>
 
-  <dt>Non-vulnerable vs vulnerable</dt>
+  <dt>Favorable</dt>
   <dd>6+ points or any 7+ cards</dd>
 </dl>
 
@@ -42,7 +42,7 @@ minor or KQ10xxx if major.  The required strength is 2 more points than weak 2.
   <dt>None vulnerable</dt>
   <dd>9+ points</dd>
 
-  <dt>Non-vulnerable vs vulnerable</dt>
+  <dt>Favorable</dt>
   <dd>8+ points</dd>
 </dl>
 
@@ -53,7 +53,7 @@ more requirements on defensive values because we will never have enough values
 for a 3NT.
 
 <dl>
-  <dt>Vulnerable vs non-vulnerable</dt>
+  <dt>Unfavorable</dt>
   <dd>9+ points</dd>
 
   <dt>Both vulnerable</dt>
@@ -62,7 +62,7 @@ for a 3NT.
   <dt>None vulnerable</dt>
   <dd>7+ points</dd>
 
-  <dt>Non-vulnerable vs vulnerable</dt>
+  <dt>Favorable</dt>
   <dd>6+ points.  6-card rubbish minor is acceptable here.</dd>
 </dl>
 
@@ -72,7 +72,7 @@ Opening 4 of a major promises 7+ cards.  If there are only 7 cards in the suit,
 it shall be no weaker than KQxxxxx.
 
 <dl>
-  <dt>Vulnerable vs non-vulnerable</dt>
+  <dt>Unfavorable</dt>
   <dd>14+ points</dd>
 
   <dt>Both vulnerable</dt>
@@ -81,7 +81,7 @@ it shall be no weaker than KQxxxxx.
   <dt>None vulnerable</dt>
   <dd>12+ points</dd>
 
-  <dt>Non-vulnerable vs vulnerable</dt>
+  <dt>Favorable</dt>
   <dd>11+ points</dd>
 </dl>
 
