@@ -2,7 +2,7 @@ Openings
 ========
 A hand with 12+ HCP or 13+ points and 11 HCP is sufficient for an opening.  If
 both hands in a pair are opening hands, they can probably make a game contract.
-Therefore, with an opening hand, one must open to prevent a pass out.
+Therefore, with an opening hand, we must open to prevent a pass out.
 
 Moreover, some hands with good distribution but poor values are suitable for
 an opening as well.  These openings are preemptive, which focus on disturbing
@@ -32,9 +32,9 @@ These conventional openings are unexpected for a random bridge player.
 
 One-of-a-suit openings
 ----------------------
-One must bid 1 of a suit with an opening hand uneligible for a strong opening.
+We must bid 1 of a suit with an opening hand uneligible for a strong opening.
 Opening in a major requires 5+ cards, 1♦ for 4+ cards, 1♣ for 3+ cards.  With
-the special shape 4=4=3=2, one opens 1♦ as a fallback.  If opener finds more
+the special shape 4=4=3=2, we open 1♦ as a fallback.  If opener finds more
 than one eligible suit, bid the longest suit.  If more than one eligible suit
 is equally long, bid the highest suit.
 
@@ -68,7 +68,7 @@ semibalanced hands with specific strength should be opened in notrump.
   <dd>20~21 HCP, 2~4 cards in each major, 2~5 cards in each minor.</dd>
 </dl>
 
-With 12~14 or 18~19 HCP, one should always open 1 of a suit.  A simple notrump
+With 12~14 or 18~19 HCP, we should always open 1 of a suit.  A simple notrump
 rebid stands for weak notrump; a jump notrump rebid shows a hand between 1NT
 and 2NT openings.
 
@@ -103,7 +103,7 @@ this section after understanding continuations after 2NT, 2♣, and 2♦.
 
 The chance to open 2♦ is slim.  Actually 2♦ is a dustbin for hands way too
 strong, clarifying other bids for hands with 21~23 points.  With 24+ points, 24+ HCP,
-or 3&minus; losers, one must open 2♦.
+or 3&minus; losers, we must open 2♦.
 
 The frequent rebids of 2♣ openings are 2♥ through 3♦.  The 2NT rebid describes
 a notrump hand stronger than 2NT opening.  The majors promise 5+ cards, minors

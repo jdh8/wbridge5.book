@@ -28,7 +28,7 @@ The opening lead against a suit contract is identical to the defensive carding.
 
 The opening lead against a notrump is more complicated.  If leading to a
 partner's suit, it is also the same as the defensive carding.  However,
-different rules apply when leading from one's own suit.
+different rules apply when leading from our own suit.
 
 * Leading an honor shows 3+ honors in that suit, and the card played is the
   highest in a series of consecutive honors.

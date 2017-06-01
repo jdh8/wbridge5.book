@@ -76,7 +76,7 @@ overcalls are unusual.
   <dd>There is no need to express a natural 2NT.  Takeout double takes care of such strong hands.</dd>
 
   <dt>1NT by a passed hand</dt>
-  <dd>One cannot have passed a strong notrump, so this bid is also unusual.</dd>
+  <dd>We cannot have passed a strong notrump, so this bid is also unusual.</dd>
 </dl>
 
 ### Opponents opened a minor ###
@@ -177,16 +177,16 @@ applies to high-level jumps such as (1♣) 4♥.
 Weak jump overcalls share the same criteria as preemptive openings.  For
 example, (1♣) 2♥ shows the same length and strength as a 2♥ opening.
 
-If partner has passed, one shall preempt as aggressive as 3th-seat opening, for
+If partner has passed, we shall preempt as aggressive as 3th-seat opening, for
 strength is concentrated in a known opponent.
 
 Gambling 3NT overcall
 ---------------------
-To *gamble* when opponents opened, one must have a **stopper** in the adverse
+To *gamble* when opponents opened, we must have a **stopper** in the adverse
 suit.  This overcall still shows a 7+-card minor lead by AKQ with no stopper in
 the **other** side suits.
 
-If opponents opened a minor, one bids 3NT always with the other minor, so
+If opponents opened a minor, we bid 3NT always with the other minor, so
 advancer corrects to the assumed minor if they have not enough stoppers to
 play 3NT.
 

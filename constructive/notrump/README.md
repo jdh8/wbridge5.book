@@ -152,7 +152,7 @@ Strong jump shifts, only available for 1NT opening, require < 4 cards in all oth
 Minor transfer structure
 ------------------------
 As notrump games score more than minor games, a hand with no singleton nor void
-nor biddable major suit is a *notrump hand*.  One only transfers with **weak**
+nor biddable major suit is a *notrump hand*.  We only transfer with **weak**
 *notrump hands*.  Invitational+ *notrump hands* are deemed as balanced.
 
 <table class="center">

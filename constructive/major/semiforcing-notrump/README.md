@@ -13,7 +13,7 @@ In Wbridge5, the 1NT is *more* forcing than an American semiforcing 1NT.
 Flat raises
 -----------
 The 4-3-3 side suits make it awkward to play a suit contract.  The original
-raise system brings things too far with 6 and 11 HCP flat raises.  One should
+raise system brings things too far with 6 and 11 HCP flat raises.  We should
 back off by bidding 1NT to guide opener better.
 
 Such 1NT is a bet on opener's usual rebidding.  Opener's rebid provides good
