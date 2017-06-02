@@ -16,6 +16,9 @@ seat unless vulnerability is unfavorable.  If non-vulnerable, the first two
 seats can also open a weak 2 with AKxxx or AQJxx.  The strength requirements
 are as follows.
 
+In the first 2 seats, **pass** with 4+ cards in the other major.  This prevents
+losing a 4-4 fit if partner has an opening hand.
+
 <dl>
   <dt>Vulnerable</dt>
   <dd>9+ points</dd>
