@@ -20,6 +20,7 @@ Competitive
 -----------
 * [After 1 of a minor](competitive/minor/README.md)
 * [After 1NT](competitive/notrump/README.md)
+	- [Optional double](competitive/notrump/double/README.md)
 
 Overcalls
 ---------
