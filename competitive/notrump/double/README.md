@@ -19,18 +19,23 @@ This cooperative double shows 8+ points, i.e. invitational+ values.
   <dd>We can defend even if opponents have an 8-card fit.</dd>
 </dl>
 
-Opener often passes to convert the double to penalty.  However, opener runs
-with
+Opener often passes to convert the double to penalty.  However, opener
+sometimes runs.  The Wbridge5 program runs if there are 5+ cards in any suit.
+I found this strategy too naïve, which occasionally produces disasters when
+opponents have a 9-card fit.  I suggest the runout strategy below.
 
 <dl>
-  <dt>5-card major or 6-card minor</dt>
+  <dt>Run with 5-card major or 6-card minor</dt>
   <dd>It is likely better to play our own suit contract.</dd>
 
-  <dt>Doubleton in the called suit</dt>
+  <dt>Try to run with doubleton called suit</dt>
   <dd>Opponents may have a 9-card fit.</dd>
+
+  <dt>3-level runouts require 5+ cards</dt>
+  <dd>2NT is often better if there is only 7-card fit.</dd>
 </dl>
 
-Running out to 3-level requires 5+ cards in that suit.  If opener has no suit
-to bid, 2NT is also a valid runout.   It is good to sit with doubleton if
-opponents are doubled at 3-level and there is nowhere to run.  Opener may also
-bid 3NT if this is probably optimal, e.g. with unfavorable vulnerability.
+If opener has no suit to bid, 2NT is also a valid runout.   It is good to sit
+with doubleton if opponents are doubled at 3-level and there is nowhere to run.
+Opener may also bid 3NT if this is probably optimal, e.g. with unfavorable
+vulnerability.
