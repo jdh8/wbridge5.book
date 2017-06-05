@@ -35,7 +35,7 @@ are worried about the double, too.  Opener only runs to a suit with 5+ cards.
 
 Responses over (2 of a suit)
 ----------------------------
-The optional double is not changed for artificial overcalls.  This may be
+The cooperative double is not changed for artificial overcalls.  This may be
 counterintuitive, but Lebensohl already takes care of the overcalled suit.
 It is better to still use the double to find a 4-4 fit.
 
@@ -44,7 +44,7 @@ Lebensohl is the only alertable convention here.  Conventions at 4-level (4♦!,
 
 <dl>
   <dt>X</dt>
-  <dd>Optional double, invitational+, 2~4 cards in the overcalled suit, 3~4 cards in the other suits.</dd>
+  <dd>Cooperative double, invitational+, 2~4 cards in the overcalled suit, 3~4 cards in the other suits.</dd>
 
   <dt>2 of a new suit</dt>
   <dd>Signoff, 5+ cards, too weak to invite.</dd>
@@ -114,7 +114,7 @@ penalize opponents in the next round.
 
 <dl>
   <dt>X</dt>
-  <dd>Invitational+, 4-3-3-3 in align with the optional double.</dd>
+  <dd>Invitational+, 4-3-3-3 in align with the cooperative double.</dd>
 
   <dt>New suit</dt>
   <dd>Game-forcing values, 5+ cards.</dd>
@@ -145,13 +145,13 @@ contract often goes -3 or more.
 Responses over (3 of a suit)
 ----------------------------
 The bidding structure is the same as competition on 2-level, but tactics are
-slightly changed.  After an optional double, opener is reluctant to bid over
+slightly changed.  After an cooperative double, opener is reluctant to bid over
 3NT.  Therefore, doubling a major suit, especially 3♠, is more penal and off
 shape.  Responder usually doubles 3 of a major instead of signing off at 3NT.
 
 <dl>
   <dt>X</dt>
-  <dd>Optional double, invitational+, 3~4 cards in higher suits, 2~4 cards in the other suits.</dd>
+  <dd>Cooperative double, invitational+, 3~4 cards in higher suits, 2~4 cards in the other suits.</dd>
 
   <dt>3 of a new suit</dt>
   <dd>Game-forcing values, 5+ cards.</dd>
