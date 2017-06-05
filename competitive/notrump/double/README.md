@@ -18,3 +18,19 @@ This cooperative double shows 8+ points, i.e. invitational+ values.
   <dt>As penalty</dt>
   <dd>We can defend even if opponents have an 8-card fit.</dd>
 </dl>
+
+Opener often passes to convert the double to penalty.  However, opener runs
+with
+
+<dl>
+  <dt>5-card major or 6-card minor</dt>
+  <dd>It is likely better to play our own suit contract.</dd>
+
+  <dt>Doubleton in the called suit</dt>
+  <dd>Opponents may have a 9-card fit.</dd>
+</dl>
+
+Running out to 3-level requires 5+ cards in that suit.  If opener has no suit
+to bid, 2NT is also a valid runout.   It is good to sit with doubleton if
+opponents are doubled at 3-level and there is nowhere to run.  Opener may also
+bid 3NT if this is probably optimal, e.g. with unfavorable vulnerability.
