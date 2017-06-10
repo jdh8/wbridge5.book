@@ -32,10 +32,16 @@ Opener's rebids
 
 Second responses to 3♣
 ----------------------
-<dl>
-  <dt>Pass, 3NT</dt>
-  <dd>To play</dd>
+Consider calls other a than new suit only if clubs is the only biddable
+nonadverse suit.
 
+<dl>
   <dt>3 of a new suit</dt>
   <dd>4+ cards</dd>
+
+  <dt>Cuebid</dt>
+  <dd>Invite to 3NT with this suit unstopped</dd>
+
+  <dt>3NT</dt>
+  <dd>Signoff</dd>
 </dl>
