@@ -62,7 +62,7 @@ Responses after a simple suit overcall
 --------------------------------------
 Wbridge5 employs French convention for such low-level competitive auctions.
 The French insist on showing length of hearts quickly to compete with
-opponents' latent spades.
+latent adverse spades.
 
 ### Collante ###
 The French word *collante* means “sticky” in English.  This means that a
@@ -98,7 +98,7 @@ bid differentiates with the negative double by showing 5+ cards of hearts,
 making the negative double show exactly 4 cards.
 
 Wbridge5 madly insists on showing length of hearts quickly to compete with
-opponents' spades.
+latent adverse spades.
 
 <dl>
   <dt>1m (1♠) X</dt>

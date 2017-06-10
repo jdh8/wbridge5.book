@@ -69,7 +69,7 @@ passes opener's most frequent rebids *viz* 2*♢*, 2*♡*, 2♠.
 Lebensohl
 ---------
 Lebensohl is a conventional puppet bid 2NT after an intervened 1NT opening.
-This convention is also applied after a takeout double over opponents' weak 2.
+This convention is also applied after a takeout double over an opponent weak 2.
 Usually the captain bids 3♣ relay and the puppet then rebids at 3-level.
 This convention effectively duplicates 3-level bidding space at the expense of
 the possibility to stop at 2NT.
