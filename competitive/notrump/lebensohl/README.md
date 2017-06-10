@@ -1,5 +1,8 @@
 Lebensohl
 =========
+Lebensohl 2NT over 1NT opening shows an invitational hand which both double and
+pass ill describe.
+
 Lebensohl is an ambiguous competitive convention.  Lebensohl is active when the
 only bid from opponents is 2 of a suit.  In this case, playing 2NT is
 infeasible because opponent contracts usually go down if we can make 2NT.
@@ -16,3 +19,20 @@ This novel approach makes good use of nonforcing bids and finally creates a
 Lebensohl variant comparable to Rubensohl.  Rubensohl is based on transfers,
 which makes it perfect for 5-card suits.  Our method allows competition with
 4-card suits like a Lebensohl over weak 2.
+
+Opener's rebids
+---------------
+<dl>
+  <dt>3♣</dt>
+  <dd>Relay, the default rebid</dd>
+
+  <dt>3♥, 3♠</dt>
+  <dd>Nonadverse suit with 5+ cards</dd>
+</dl>
+
+Second responses to 3♣
+----------------------
+<dl>
+  <dt>3 of a new suit</dt>
+  <dd>4+ cards</dd>
+</dl>
