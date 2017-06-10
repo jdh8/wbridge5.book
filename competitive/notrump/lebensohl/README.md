@@ -33,6 +33,9 @@ Opener's rebids
 Second responses to 3♣
 ----------------------
 <dl>
+  <dt>Pass, 3NT</dt>
+  <dd>To play</dd>
+
   <dt>3 of a new suit</dt>
   <dd>4+ cards</dd>
 </dl>
