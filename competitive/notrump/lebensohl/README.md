@@ -32,9 +32,9 @@ Opener's rebids
 
 Second responses to 3♣
 ----------------------
-Consider calls other a than new suit only if clubs is the only biddable
-nonadverse suit.  These suitless calls (pass, cuebid, 3NT) make premature
-decisions before opener reacts.
+Consider calls other a than new suit only if clubs is the highest longest
+biddable nonadverse suit.  These suitless calls (pass, cuebid, 3NT) make
+premature decisions before opener reacts.
 
 <dl>
   <dt>3 of a new suit</dt>
