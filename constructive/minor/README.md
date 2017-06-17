@@ -1,5 +1,5 @@
-One-of-a-minor openings
-=======================
+1♦ and 1♣ openings
+==================
 The minor openings are the most frequent openings.  Particularly, 1♣ is the
 most frequent, 1♦ the second.  Therefore, it is important to learn the
 continuation of these openings.
@@ -61,7 +61,7 @@ opening.  This is obviously not the case for 1♣.
 We can usually make 2 of a suit and sometimes 1NT with normal responding
 strength.  Bypassing diamonds slightly preempts in a partscore dog fight.
 However, when responding with void clubs and insufficient strength, bid
-1♦ to seek 1 of a major.
+1♦ to seek 1♠/♥.
 
 <dl>
   <dt>♠K965 ♥65 ♦KJ863 ♣98</dt>

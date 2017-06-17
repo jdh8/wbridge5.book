@@ -7,9 +7,9 @@ Constructive
 * [Openings](constructive/opening/README.md)
 	- [Preemptive openings](constructive/opening/preemptive/README.md)
 	- [Balancing openings](constructive/opening/balancing/README.md)
-* [One-of-a-major openings](constructive/major/README.md)
+* [1♠ and 1♥ openings](constructive/major/README.md)
 	- [Semiforcing 1NT](constructive/major/semiforcing-notrump/README.md)
-* [One-of-a-minor openings](constructive/minor/README.md)
+* [1♦ and 1♣ openings](constructive/minor/README.md)
 	- [1♦ response](constructive/minor/diamonds/README.md)
 	- [Slam bidding](constructive/minor/slam/README.md)
 * [Strong notrump openings](constructive/notrump/README.md)
@@ -18,8 +18,8 @@ Constructive
 
 Competitive
 -----------
-* [After 1 of a minor](competitive/minor/README.md)
-* [After 1NT](competitive/notrump/README.md)
+* [Opened 1♦/♣](competitive/minor/README.md)
+* [Opened 1NT](competitive/notrump/README.md)
 	- [Cooperative double](competitive/notrump/double/README.md)
 	- [Lebensohl](competitive/notrump/lebensohl/README.md)
 

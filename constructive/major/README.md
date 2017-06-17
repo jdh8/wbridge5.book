@@ -1,5 +1,5 @@
-One-of-a-major openings
-=======================
+1♠ and 1♥ openings
+==================
 Modern bidding systems often require 5+ cards to open in a major.  This is
 somewhat *conventional* because usually a 4-card suit is biddable in bridge,
 but this greatly improves search of 5-3 and 6-2 major fits.

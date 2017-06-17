@@ -330,7 +330,7 @@ game-forcing strength now.  There are some adjustments to reflect this change.
 Structure is unchanged from 1NT-2♣; 2♠/♥.
 
 ### 2NT-3♣; 3NT(!) ###
-There is no invitation here, so direct 4 of majors become signoffs
+There is no invitation here, so direct 4♠/♥ become signoffs
 including Garbage Stayman.  As a logical consequence, the South African
 transfers become slam tries.  Nevertheless, they are not puppets because opener
 can bid a control instead of completing transfer, e.g. 2NT-3♣; 3NT-4♣; 4♦ shows

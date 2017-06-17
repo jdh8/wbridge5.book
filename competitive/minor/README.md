@@ -1,5 +1,5 @@
-After 1 of a minor
-==================
+Opened 1♦/♣
+===========
 
 Responses after a takeout double
 --------------------------------

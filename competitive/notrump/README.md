@@ -1,5 +1,5 @@
-After 1NT
-=========
+Opened 1NT
+==========
 The 2NT is supposed to be too strong to overcall, so this is the only entry for
 competitive auctions beginning with strong notrump openings.
 
@@ -106,7 +106,7 @@ call is innately forcing.  The force gives responder a second chance to bid,
 which makes up the loss of our Lebensohl 2NT.
 
 The 2NT overcall usually shows both minors, which is not only practical but
-also logical.  A convention skipping 2 of majors is usually minor-oriented, and
+also logical.  A convention skipping majors is usually minor-oriented, and
 1-suited hands can be shown at 3-level.
 
 The double seems useless.  It dissuades opener from bidding, letting responder
@@ -147,7 +147,7 @@ Responses over (3 of a suit)
 The bidding structure is the same as competition on 2-level, but tactics are
 slightly changed.  After an cooperative double, opener is reluctant to bid over
 3NT.  Therefore, doubling a major suit, especially 3♠, is more penal and off
-shape.  Responder usually doubles 3 of a major instead of signing off at 3NT.
+shape.  Responder usually doubles 3♠/♥ instead of signing off at 3NT.
 
 <dl>
   <dt>X</dt>

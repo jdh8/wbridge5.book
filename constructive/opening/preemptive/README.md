@@ -69,9 +69,9 @@ for a 3NT.
   <dd>6+ points.  6-card rubbish minor is acceptable here.</dd>
 </dl>
 
-Preemptive 4♥ & 4♠ {#preemptive-4M}
-------------------
-Opening 4 of a major promises 7+ cards.  If there are only 7 cards in the suit,
+Preemptive 4♠/♥ {#preemptive-4M}
+---------------
+Opening 4♠/♥ promises 7+ cards.  If there are only 7 cards in the suit,
 it shall be no weaker than KQxxxxx.
 
 <dl>
@@ -91,8 +91,8 @@ it shall be no weaker than KQxxxxx.
 Namyats
 -------
 Namyats uses 4♣ and 4♦ for strong 4♥ and 4♠ openers respectively.  Besides
-criteria from 4-of-a-major openings, there are further requirements for a
-Namyats opening.
+criteria from 4♠/♥ openings, there are further requirements for a Namyats
+opening.
 
 <dl>
   <dt>Suit quality</dt>
