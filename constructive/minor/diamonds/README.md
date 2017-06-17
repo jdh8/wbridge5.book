@@ -16,6 +16,15 @@ Wbridge5 is no exception.  We adjust 1♦ according to responder's strength.
 
 Opener's rebids
 ---------------
+In Wbridge5, an 1NT rebid always denies biddable major because 1NT is difficult
+to make with average strength.  Moreover, no singleton is allowed in the 1NT
+rebid.  Therefore, responder can buy 2♠/♥ with only 5 cards.
+
+In contrast, the 2NT rebid shows a balanced hand or 2=2=4=5.  A 4-card major is
+allowed in a balanced hand.  So descriptive can 2NT be because there is almost
+always 23+ HCP in our partnership.  Since 2NT collects all balanced hands, the
+strong jump shifts 2♠/♥ contain 5+ clubs unless 2♥ with 4-4-4-1.
+
 <dl>
   <dt>1♥, 1♠</dt>
   <dd>13~18 points, 4+ cards.</dd>
@@ -27,7 +36,7 @@ Opener's rebids
   <dd>13~18 points, 5+ cards, unbalanced.</dd>
 
   <dt>2♦</dt>
-  <dd>4+ cards, some singleton or void.</dd>
+  <dd>13~21 points, 4+ cards, some singleton or void.</dd>
 
   <dt>2♥, 2♠</dt>
   <dd>19~21 points, 4+ cards, unbalanced or 5-4-2-2.</dd>
@@ -44,3 +53,7 @@ Opener's rebids
 
 A hand with 20 HCP and 6-3-2-2 is strong enough to open 2♣.  Therefore, the 3NT
 still shows 18~19 HCP.
+
+The 2♦ rebid is surprisingly unlimited.  This unusual treatment produces good
+results in practice.  Tactics are described in a dedicated subsection [not yet
+written].
