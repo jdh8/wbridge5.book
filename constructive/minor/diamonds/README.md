@@ -25,6 +25,9 @@ allowed in a balanced hand.  So descriptive can 2NT be because there is almost
 always 23+ HCP in our partnership.  Since 2NT collects all balanced hands, the
 strong jump shifts 2♠/♥ contain 5+ clubs unless 2♥ with 4-4-4-1.
 
+Beware that all these rebids are **nonforcing**.  Responder can always pass
+when a game is unlikely.
+
 <dl>
   <dt>1♥, 1♠</dt>
   <dd>13~18 points, 4+ cards.</dd>
