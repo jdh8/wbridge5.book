@@ -36,16 +36,16 @@ strong jump shifts 2♠/♥ contain 5+ clubs unless 2♥ with 4-4-4-1.
   <dd>13~18 points, 5+ cards, unbalanced.</dd>
 
   <dt>2♦</dt>
-  <dd>13~21 points, 4+ cards, some singleton or void.</dd>
+  <dd>4+ cards, some singleton or void.</dd>
 
   <dt>2♥, 2♠</dt>
-  <dd>19~21 points, 4+ cards, unbalanced or 5-4-2-2.</dd>
+  <dd>19+ points, 4+ cards, unbalanced or 5-4-2-2.</dd>
 
   <dt>2NT</dt>
   <dd>18~19 HCP, balanced or 2=2=4=5.</dd>
 
   <dt>3♣</dt>
-  <dd>19~21 points, 6+ cards.</dd>
+  <dd>19+ points, 6+ cards.</dd>
 
   <dt>3NT!</dt>
   <dd>18~19 HCP, 6-3-2-2.</dd>
