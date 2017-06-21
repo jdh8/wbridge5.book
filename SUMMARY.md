@@ -11,6 +11,7 @@ Constructive
 	- [Semiforcing 1NT](constructive/major/semiforcing-notrump/README.md)
 * [1♦ and 1♣ openings](constructive/minor/README.md)
 	- [1♦ response](constructive/minor/diamonds/README.md)
+	- [1♠/♥ responses](constructive/minor/major/README.md)
 	- [Slam bidding](constructive/minor/slam/README.md)
 * [Strong notrump openings](constructive/notrump/README.md)
 	- [Stayman](constructive/notrump/stayman/README.md)
