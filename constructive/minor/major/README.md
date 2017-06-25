@@ -108,3 +108,37 @@ has at most 3 cards in the responded major.
   <dt>3NT!</dt>
   <dd>18~19 HCP, 6-3-2-2 where the responded major is doubleton.</dd>
 </dl>
+
+### Summary of rebidding strategy ###
+This strategy also applies to 1♣-1♦, but there are different considerations
+between over 1♦ and over a major rebid, so they deserve different pages.
+
+#### Minimum ####
+There are strict requirements for 1NT to make it balanced and specific,
+enabling more evasion from 1NT with weak hands.
+
+1. Try to bid a major.
+2. Bid 1NT if balanced or 5-4-2-2.
+3. Bid a minor.
+
+The tradeoff is that opener sometimes rebids a minor with short opened minor,
+but this situation shall not cause problems because bidding structure is
+unaffected.
+
+Rebidding the opened suit usually shows 6+ cards, but only 5 cards with 5-4-3-1
+or 5-4-4-0 where the 4-card suits is blocked.  Responder may still pass to play
+the 5-2 fit.
+
+The 1♦-1♠; 2♣ auction occcasionally contains only 4 diamonds due to 1=4=4=4.
+Responder still choose diamonds with equal preference because opener's diamonds
+is no shorter than clubs.
+
+#### Medium ####
+Bid a suit at the cheapest level.  Opener must have an unbalanced hand and thus
+an eligible suit to bid, or 1NT would have been opened.
+
+#### Maximum ####
+1. Bid 2NT if balanced.
+2. Show a major fit if present.
+3. Bid 3NT with 6-3-3-2 but avoid missing a 3-5 major fit.
+4. Bid a minor.

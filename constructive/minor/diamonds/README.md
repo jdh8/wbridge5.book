@@ -28,6 +28,12 @@ strong jump shifts 2♠/♥ contain 5+ clubs unless 2♥ with 4-4-4-1.
 Beware that all these rebids are **nonforcing**.  Responder can always pass
 when a game is unlikely.
 
+[The rebidding strategy][stra] is the same for all suit responses.  The
+strategy is described in the page of major rebids for frequency and a more
+general overview.
+
+[stra]: ../major/README.md#summary-of-rebidding-strategy
+
 <dl>
   <dt>1♥, 1♠</dt>
   <dd>13~18 points, 4+ cards.</dd>
