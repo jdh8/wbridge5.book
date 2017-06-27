@@ -152,8 +152,8 @@ of the two kinds of hands.
 Because this call usually implies shortness in the adverse suit, advancer only
 passes with length in the adverse suit, converting the double into penalty.
 Otherwise, advancer is forced to bid a suit as cheap as possible with a weak
-hand.  Since overcaller has tolerance if minimum, they can safely pass,
-completing the competition.
+hand.  Opener with minimum hand can safely pass to complete the competition
+because of tolerance to each nonadverse suit.
 
 Since a notrump and Michaels are far more specific, they take precedence over a
 takeout double.  However, a takeout double takes precedence over a simple
@@ -187,8 +187,7 @@ suit.  This overcall still shows a 7+-card minor lead by AKQ with no stopper in
 the **other** side suits.
 
 If opponents opened a minor, we bid 3NT always with the other minor, so
-advancer corrects to the assumed minor if they have not enough stoppers to
-play 3NT.
+advancer without enough stoppers to play 3NT corrects to the assumed minor.
 
 The 4-level cuebids
 --------------------

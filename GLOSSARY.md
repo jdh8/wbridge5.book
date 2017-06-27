@@ -58,8 +58,8 @@ constructive 1NT or 6~10 points without another suitable call.
 
 In a constructive auction, a pass to 1 of a suit can only be made from a hand
 with < 6 points to prevent a loss of game.  However, bidding on the 2 level
-shows at least invitational values.  Therefore, when responder holds a suit
-lower than the opening, they have to bid 1NT with a minimum responding hand.
+shows at least invitational values.  Therefore, responder holding a suit
+lower than the opening has to bid 1NT with a minimum responding hand.
 
 Garbage Stayman
 ---------------
@@ -81,7 +81,7 @@ Our Lebensohl accepts 4-card suit but shows exact invitational strength over
 Puppet bid
 ----------
 A puppet bid is technically a relay but conceptually makes the bidder puppet
-instead of captain.  The puppet forces or semiforces their partner to bid a
+instead of captain.  The puppet forces or semiforces the captain to bid a
 relay.
 
 If the captain has other options than the relay, the puppet bid is called a
@@ -89,13 +89,13 @@ If the captain has other options than the relay, the puppet bid is called a
 
 Relay
 -----
-A relay is a conventional asking bid.  The relay bidding system is based on
-the idea that one player precisely describes their hand while their parter
-locates the final contract.
+A relay is a conventional asking bid.  The relay bidding system is based on the
+idea that one precisely describes one's hand while one's parter locates the
+final contract.
 
 The relayer, who bids the relay, becomes the **captain**.  The captain provides
-little information about their hand and makes the final decision.  Their parter
-is the **puppet**, who describes hand when the captain asks.
+little information and makes the final decision.  The captain's parter is the
+**puppet**, who describes hand when the captain asks.
 
 Usage of 1-level relay opening is [restricted in competitions][wbf], but relays
 as responses and rebids are okay.  Stayman and Blackwood are ubiquitous relays
