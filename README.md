@@ -27,7 +27,7 @@ Read & write
 [This book][pub] is publicated on GitBook.  The [source code][src] is hosted on
 GitHub.  Feel free to share or improve this book.
 
-[pub]: https://jdh8.gitbooks.io/wbridge5/content/
+[pub]: https://jdh8.gitbooks.io/wbridge5/
 [src]: https://github.com/jdh8/wbridge5.book
 
 License
