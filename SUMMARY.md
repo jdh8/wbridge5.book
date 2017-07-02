@@ -2,8 +2,8 @@
 * [Defensive signals](signal/README.md)
 * [Glossary](GLOSSARY.md)
 
-Constructive
-------------
+Partnership bidding
+-------------------
 * [Openings](constructive/opening/README.md)
 	- [Preemptive openings](constructive/opening/preemptive/README.md)
 	- [Balancing openings](constructive/opening/balancing/README.md)
@@ -17,13 +17,13 @@ Constructive
 	- [Stayman](constructive/notrump/stayman/README.md)
 	- [Transfers](constructive/notrump/transfer/README.md)
 
-Competitive
------------
+Competitive bidding
+-------------------
 * [Opened 1♦/♣](competitive/minor/README.md)
 * [Opened 1NT](competitive/notrump/README.md)
 	- [Cooperative double](competitive/notrump/double/README.md)
 	- [Lebensohl](competitive/notrump/lebensohl/README.md)
 
-Overcalls
----------
+Defensive bidding
+-----------------
 * [Over 1 of a suit](overcall/suit/README.md)
