@@ -13,23 +13,20 @@ pass will not cause a passing out.
 Delayed raise
 -------------
 A delayed raise shows game-forcing values by intentional violation of contract
-seeking rules.  A raise can be delayed by time or by level.  If such raise is
-made under game in an already game-forcing auction, the raise starts a slam
-try.
+seeking rules.  Such a raise must be at least 3-level to leave 2-level raises
+as natural suit preference.  If a delayed raise is under game in an already
+game-forcing auction, the raise starts a slam try.
 
-This mechanism saves bidding space for strong hands by recycling inaccessible
-auctions.  This treatment is rather necessary for a decent bidding system,
-which makes good use of bidding space and conforms principle of fast arrival.
-The same reason applies to also cuebids and takeout doubles.
+This mechanism saves bidding space for strong hands.  This treatment, which
+conforms fast arrival and useful space principles, is rather necessary for a
+decent bidding system.  The same reason applies to also cuebids and takeout
+doubles.
 
 <dl>
   <dt>1♣-1♥; 1NT-3♣</dt>
-  <dd>This is a usual invitational raise.</dd>
+  <dd>This is a <strong>delayed raise</strong>.  With an invitational hand, responder bids Roudy 2♣ instead.</dd>
 
-  <dt>1♣-1♦; 1NT-3♣</dt>
-  <dd>This is a <strong>delayed raise</strong> because there is no point to bid diamonds when a club fit is already found.</dd>
-
-  <dt>1♣-1♦; 2♣-3♣</dt>
+  <dt>1♣-1♥; 2♣-3♣</dt>
   <dd>This is a usual invitational raise because the fit may be newly found.</dd>
 
   <dt>1♦-2♣; 2NT-3♦</dt>
@@ -40,9 +37,6 @@ The same reason applies to also cuebids and takeout doubles.
 
   <dt>1♦-2♣; 2♦-4♦</dt>
   <dd>This is a <strong>delayed raise</strong> showing slam interest because minimum is shown by 3♦ or a direct game.</dd>
-
-  <dt>1♥-1♠; 1NT-2♥</dt>
-  <dd>This is suit preference to evade 1NT.</dd>
 
   <dt>1♠-2♣; 2♠-4♠</dt>
   <dd>This is a normal <strong>delayed raise</strong> showing real values, freeing 1♠-4♠ as a preempt.</dd>
