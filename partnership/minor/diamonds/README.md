@@ -35,6 +35,9 @@ general overview.
 [stra]: ../major/README.md#summary-of-rebidding-strategy
 
 <dl>
+  <dt>Pass</dt>
+  <dd>Responder passed, 11~12 HCP, exactly 3 diamonds.</dd>
+
   <dt>1♥, 1♠</dt>
   <dd>13~18 points, 4+ cards.</dd>
 

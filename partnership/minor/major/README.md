@@ -59,7 +59,13 @@ has at most 3 cards in the responded major.
 </dl>
 
 #### Opened 1♣ ####
+Opener always raises with 4-card support even at the last 2 seats to silence
+balancing overcalls.
+
 <dl>
+  <dt>Pass</dt>
+  <dd>Responder passed, 11~12 HCP, exact 3-card support.</dd>
+
   <dt>1♠</dt>
   <dd>13~18 points, 4+ cards.</dd>
 
@@ -84,6 +90,9 @@ has at most 3 cards in the responded major.
 
 #### Opened 1♦ ####
 <dl>
+  <dt>Pass</dt>
+  <dd>Responder passed, 11~12 HCP, exact 3-card support.</dd>
+
   <dt>1♠</dt>
   <dd>13~18 points, 4+ cards.</dd>
 
