@@ -109,7 +109,7 @@ also occasionally leads to an optimal 3NT signoff.  The **short** answers
 indicate the **minimum length**, 2 cards for opener's notrump rebid, 3 cards
 for a [puppet special 2NT][s2n].
 
-[s2n]: constructive/major/#puppet-special-2nt
+[s2n]: partnership/major/#puppet-special-2nt
 
 <table>
 <thead>
@@ -127,7 +127,7 @@ notrump bids in these auctions are somewhat natural, which sets reasonable
 minimum length of every suit.
 
 * 1\*-(non-♣ new suit); 2NT-3♣
-* 1M-<a title="Puppet special 2NT" href="constructive/major/#puppet-special-2nt">2NT</a>; 3♣
+* 1M-<a title="Puppet special 2NT" href="partnership/major/#puppet-special-2nt">2NT</a>; 3♣
 
 Semiforcing 1NT
 ---------------

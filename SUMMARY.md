@@ -4,18 +4,18 @@
 
 Partnership bidding
 -------------------
-* [Openings](constructive/opening/README.md)
-	- [Preemptive openings](constructive/opening/preemptive/README.md)
-	- [Balancing openings](constructive/opening/balancing/README.md)
-* [1♠ and 1♥ openings](constructive/major/README.md)
-	- [Semiforcing 1NT](constructive/major/semiforcing-notrump/README.md)
-* [1♦ and 1♣ openings](constructive/minor/README.md)
-	- [1♦ response](constructive/minor/diamonds/README.md)
-	- [1♠/♥ responses](constructive/minor/major/README.md)
-	- [Slam bidding](constructive/minor/slam/README.md)
-* [Strong notrump openings](constructive/notrump/README.md)
-	- [Stayman](constructive/notrump/stayman/README.md)
-	- [Transfers](constructive/notrump/transfer/README.md)
+* [Openings](partnership/opening/README.md)
+	- [Preemptive openings](partnership/opening/preemptive/README.md)
+	- [Balancing openings](partnership/opening/balancing/README.md)
+* [1♠ and 1♥ openings](partnership/major/README.md)
+	- [Semiforcing 1NT](partnership/major/semiforcing-notrump/README.md)
+* [1♦ and 1♣ openings](partnership/minor/README.md)
+	- [1♦ response](partnership/minor/diamonds/README.md)
+	- [1♠/♥ responses](partnership/minor/major/README.md)
+	- [Slam bidding](partnership/minor/slam/README.md)
+* [Strong notrump openings](partnership/notrump/README.md)
+	- [Stayman](partnership/notrump/stayman/README.md)
+	- [Transfers](partnership/notrump/transfer/README.md)
 
 Competitive bidding
 -------------------
@@ -26,4 +26,4 @@ Competitive bidding
 
 Defensive bidding
 -----------------
-* [Over 1 of a suit](overcall/suit/README.md)
+* [Over 1 of a suit](defensive/suit/README.md)
