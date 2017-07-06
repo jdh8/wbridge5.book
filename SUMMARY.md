@@ -9,6 +9,7 @@ Partnership bidding
 	- [Balancing openings](partnership/opening/balancing/README.md)
 * [1♠ and 1♥ openings](partnership/major/README.md)
 	- [Semiforcing 1NT](partnership/major/semiforcing-notrump/README.md)
+	- [Forcing 2/1](partnership/major/forcing-2/README.md)
 * [1♦ and 1♣ openings](partnership/minor/README.md)
 	- [1♦ response](partnership/minor/diamonds/README.md)
 	- [1♠/♥ responses](partnership/minor/major/README.md)
