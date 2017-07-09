@@ -11,4 +11,16 @@ The 2/1 in Wbridge5 is Lawrence-style.
 
 The Wbridge5 program overestimates values of unbalanced hands.  It bid 2/1 with
 highly unbalanced hands with 9~10 HCP but ended up with no playable game.  I
-have devised a better strategy described in later sections.
+have devised a better strategy.
+
+<dl>
+  <dt>Found major fit</dt>
+  <dd>Fallback response with 12+ points</dd>
+
+  <dt>Major fit not found</dt>
+  <dd>With 11+ HCP or 14+ points, too strong to bid 1NT</dd>
+</dl>
+
+The 2/1 bids has low priority due to its ambiguity.  Raises, 1NT, and
+fit-showing conventions are limit bids and show whether a fit is found.  The
+2/1 bids, unlimited and ambiguous about fit, can be viewed as natural relays.
