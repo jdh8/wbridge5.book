@@ -30,3 +30,8 @@ These criteria are based on visualization of maximum hands to pass the
 semiforcing 1NT, i.e. 13~14 HCP and usually 5-3=3=2.  Nevertheless, under this
 circumstance, 1♥ opener's best distribution for responder to bid 2♦ is 4=5=3=1,
 so 1 fewer point is needed.
+
+### 2♥ vs SJS 3♥ ###
+Both of them are unlimited.  There are strict criteria on 3♥ because it
+consumes too much space.  With 17+ points and 5+ hearts, bid 2♥ unless there
+are 7+ hearts and 0~2 spades.
