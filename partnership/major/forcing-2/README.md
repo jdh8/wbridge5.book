@@ -38,38 +38,38 @@ are 7+ hearts and 0~2 spades.
 
 Opener's rebids
 ---------------
-### 1♥-2♣ ###
+### Responder bid a minor ###
 <dl>
-  <dt>2♦</dt>
+  <dt>Simple new suit</dt>
   <dd>13~18 points, 4+ cards.</dd>
 
-  <dt>2♥</dt>
-  <dd>13~17 points, no other suitable call.</dd>
-
-  <dt>2♠</dt>
-  <dd>Reverse, 17~21 points, 4+ cards.</dd>
+  <dt>2 of own suit</dt>
+  <dd>13~17 points, 6+ cards or fallback.</dd>
 
   <dt>2NT</dt>
-  <dd>11~14 HCP, 5~6 hearts, no void nor singleton.</dd>
+  <dd>11~14 HCP, balanced or fallback of 5-4-2-2.</dd>
 
-  <dt>3♣</dt>
+  <dt>Reverse</dt>
+  <dd>17~21 points, 4+ cards.</dd>
+
+  <dt>Simple raise (3-level)</dt>
   <dd>13~18 points, 4+ cards.</dd>
 
-  <dt>3♦</dt>
+  <dt>Jump to 3 of a new suit</dt>
   <dd>19~21 points, 4+ cards.</dd>
 
-  <dt>3♥</dt>
+  <dt>3 of own suit</dt>
   <dd>18~21 points, 6+ cards.</dd>
 
   <dt>3NT</dt>
-  <dd>18~20 HCP, 5~6 hearts, no void nor singleton.</dd>
+  <dd>18~20 HCP, balanced.</dd>
 
-  <dt>4♣</dt>
+  <dt>Jump raise (4-level)</dt>
   <dd>18~21 points, 4+ cards.</dd>
 
-  <dt>4♦, 4♠</dt>
+  <dt>4 of a new suit</dt>
   <dd>Splinter, 17~21 points, <strong>0~1 card</strong>, 4+ clubs</dd>
 
-  <dt>4♥</dt>
+  <dt>4 of own suit</dt>
   <dd>20~21 points, 7+ cards.</dd>
 </dl>
