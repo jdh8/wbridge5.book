@@ -35,3 +35,41 @@ so 1 fewer point is needed.
 Both of them are unlimited.  There are strict criteria on 3♥ because it
 consumes too much space.  With 17+ points and 5+ hearts, bid 2♥ unless there
 are 7+ hearts and 0~2 spades.
+
+Opener's rebids
+---------------
+### 1♥-2♣ ###
+<dl>
+  <dt>2♦</dt>
+  <dd>13~18 points, 4+ cards.</dd>
+
+  <dt>2♥</dt>
+  <dd>13~17 points, no other suitable call.</dd>
+
+  <dt>2♠</dt>
+  <dd>Reverse, 17~21 points, 4+ cards.</dd>
+
+  <dt>2NT</dt>
+  <dd>11~14 HCP, 5~6 hearts, no void nor singleton.</dd>
+
+  <dt>3♣</dt>
+  <dd>13~18 points, 4+ cards.</dd>
+
+  <dt>3♦</dt>
+  <dd>19~21 points, 4+ cards.</dd>
+
+  <dt>3♥</dt>
+  <dd>18~21 points, 6+ cards.</dd>
+
+  <dt>3NT</dt>
+  <dd>18~20 HCP, 5~6 hearts, no void nor singleton.</dd>
+
+  <dt>4♣</dt>
+  <dd>18~21 points, 4+ cards.</dd>
+
+  <dt>4♦, 4♠</dt>
+  <dd>Splinter, 17~21 points, <strong>0~1 card</strong>, 4+ clubs</dd>
+
+  <dt>4♥</dt>
+  <dd>20~21 points, 7+ cards.</dd>
+</dl>
