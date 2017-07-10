@@ -18,9 +18,21 @@ have devised a better strategy.
   <dd>Fallback response with 12+ points</dd>
 
   <dt>Major fit not found</dt>
-  <dd>With 11+ HCP or 14+ points, too strong to bid 1NT</dd>
+  <dd>With 12+ points and 10+ HCP or 14+ points, too strong to bid 1NT</dd>
 </dl>
 
 The 2/1 bids has low priority due to its ambiguity.  Raises, 1NT, and
 fit-showing conventions are limit bids and show whether a fit is found.  The
 2/1 bids, unlimited and ambiguous about fit, can be viewed as natural relays.
+
+The 2/1 responses
+-----------------
+There are 6 2/1 bids, of which 5 are over a major opening.  Here are their
+detailed criteria described.
+
+### Minimum ###
+There are 3 minima corresponding to the 3 kinds of games *viz.* 3NT, 4M, 5m.
+
+* With found major fit or to bid 2♥, 12 points
+* One point less than an opening (12 points and 10 HCP)
+* Any 14 points
