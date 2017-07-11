@@ -63,3 +63,21 @@ added, its [correlation][corr] to real tricks is 0.914, near to Binky's 0.925.
 [corr]:   http://bridge.thomasoandrews.com/valuations/binky-evaluated.html
 [fifths]: http://bridge.thomasoandrews.com/valuations/cardvaluesfor3nt.html
 [thomas]: http://bridge.thomasoandrews.com/valuations/
+
+Additional distribution points
+------------------------------
+[Thomas][thomas] has not justified these point-adding systems popular in
+France, but the Wbridge5 program uses them.
+
+### Length ###
+Add 1 point for the 6th card and thereafter in every suit.
+
+### Fit ###
+While this is not documented in Wbridge5, I believe the program uses it
+secretly from my observation on its bidding.
+
+<dl>
+  <dt>The 9th card</dt> <dd>1 point</dd>
+  <dt>The 10th card</dt> <dd>2 points</dd>
+  <dt>The 11th card and thereafter</dt> <dd>1 point</dd>
+</dl>
