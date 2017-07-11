@@ -39,6 +39,10 @@ are 7+ hearts and 0~2 spades.
 Opener's rebids
 ---------------
 ### Responder bid a minor ###
+Minor bids are surprisingly precedent to notrump bids because they are either
+below 3NT or slam tries.  Keeping notrump bids more balanced better describes
+opener's hand.
+
 <dl>
   <dt>Simple new suit</dt>
   <dd>13~18 points, 4+ cards.</dd>
@@ -47,7 +51,7 @@ Opener's rebids
   <dd>13~17 points, 6+ cards or fallback.</dd>
 
   <dt>2NT</dt>
-  <dd>11~14 HCP, balanced or fallback of 5-4-2-2.</dd>
+  <dd>11~14 HCP, balanced or 5-4-2-2.</dd>
 
   <dt>Reverse</dt>
   <dd>17~21 points, 4+ cards.</dd>
@@ -68,8 +72,27 @@ Opener's rebids
   <dd>18~21 points, 4+ cards.</dd>
 
   <dt>4 of a new suit</dt>
-  <dd>Splinter, 17~21 points, <strong>0~1 card</strong>, 4+ clubs</dd>
+  <dd>Splinter, 17~21 points, <strong>0~1 card</strong>, 4+ support</dd>
 
   <dt>4 of own suit</dt>
   <dd>20~21 points, 7+ cards.</dd>
+</dl>
+
+### 1♠-2♥ ###
+Opener can support with 3 cards, and such support is eager because hearts is
+also a major.  Therefore, fit-showing bids are different from the previous
+section.  Other bids, not showing a fit, are omitted for duplicate.
+
+Wasted points removed, with a support but hard minimum (< 14 points), bid a
+fallback 2♠ or 2NT first to dissuade partner from searching slam.
+
+<dl>
+  <dt>3♥</dt>
+  <dd>17~21 points, 3+ cards.</dd>
+
+  <dt>4♣, 4♦</dt>
+  <dd>Splinter, 16~21 points, <strong>0~1 card</strong>, 3+ hearts</dd>
+
+  <dt>4♥</dt>
+  <dd>14~16 points, 3+ cards.</dd>
 </dl>
