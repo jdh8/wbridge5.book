@@ -97,9 +97,8 @@ fallback 2♠ or 2NT first to dissuade partner from searching slam.
   <dd>14~16 points, 3+ cards.</dd>
 </dl>
 
-Second responses to an 1♠ opener
---------------------------------
-The 2♣ and 2♥ responses are both special cases.  There is no fallback over
-1♠-2♣ because opener can always bid a side suit if there is one.  The 2♥
-response is a major and shows 5+ cards.  Therefore, 1♠ continuations are
-introduced first, and then 1♥ ones are derived from *the normal* 1♠-2♦.
+Second responses
+----------------
+### Opener rebid 2NT ###
+The 2NT rebid shows balanced 12~14 HCP or 5-4-2-2 with 11~14 HCP where the
+4-card suit is skipped.  This rebid is the most frequent.
