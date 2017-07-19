@@ -91,7 +91,7 @@ fallback 2♠ or 2NT first to dissuade partner from searching slam.
   <dd>17~21 points, 3+ cards.</dd>
 
   <dt>4♣, 4♦</dt>
-  <dd>Splinter, 16~21 points, <strong>0~1 card</strong>, 3+ hearts</dd>
+  <dd>Splinter, 16~21 points, <strong>0~1 card</strong>, 3+ hearts.</dd>
 
   <dt>4♥</dt>
   <dd>14~16 points, 3+ cards.</dd>
@@ -102,3 +102,17 @@ Second responses
 ### Opener rebid 2NT ###
 The 2NT rebid shows balanced 12~14 HCP or 5-4-2-2 with 11~14 HCP where the
 4-card suit is skipped.  This rebid is the most frequent.
+
+<dl>
+  <dt>3 of a new suit</dt>
+  <dd>4+ cards.</dd>
+
+  <dt>Simple raise (3-level)</dt>
+  <dd>16+ points, 3+ cards.</dd>
+
+  <dt>4 of a new suit</dt>
+  <dd>Splinter, 17+ points, <strong>0~1 card</strong>, 3+ support.</dd>
+
+  <dt>Jump raise (4-level)</dt>
+  <dd>12~15 points, 3+ cards.</dd>
+</dl>
