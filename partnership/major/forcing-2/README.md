@@ -110,6 +110,9 @@ The 2NT rebid shows balanced 12~14 HCP or 5-4-2-2 with 11~14 HCP where the
   <dt>Simple raise (3-level)</dt>
   <dd>16+ points, 3+ cards.</dd>
 
+  <dt>3NT</dt>
+  <dd>Signoff, 11~17 HCP.</dd>
+
   <dt>4 of a new suit</dt>
   <dd>Splinter, 17+ points, <strong>0~1 card</strong>, 3+ support.</dd>
 
