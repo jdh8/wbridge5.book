@@ -11,6 +11,14 @@ explained first because
 2. There are fewer mediocre exceptional bids which are difficult for beginners.
 3. Some conventions designed for majors can also apply to minors.
 
+Light openings
+--------------
+Opening a major at the last 2 seats requires only 11+ HCP and 5+ cards.
+
+Nevertheless, a weak 2 can be made with only 5 cards at a non-unfavorable 3rd
+seat.  This phenomenon excludes Drury from the Wbridge5 bidding system because
+major openings at the 3rd seat are seldom light.
+
 Responses to 1♥
 ---------------
 <dl>
