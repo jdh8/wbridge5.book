@@ -119,3 +119,7 @@ The 2NT rebid shows balanced 12~14 HCP or 5-4-2-2 with 11~14 HCP where the
   <dt>Jump raise (4-level)</dt>
   <dd>12~15 points, 3+ cards.</dd>
 </dl>
+
+The Wbridge5 program treats 4NT as the plain Blackwood, but I advocate that it
+shall be a quantitative invitation, which is more precise to find notrump
+slams.
