@@ -39,10 +39,6 @@ are 7+ hearts and 0~2 spades.
 Opener's rebids
 ---------------
 ### Responder bid a minor ###
-Minor bids are surprisingly precedent to notrump bids because they are either
-below 3NT or slam tries.  Keeping notrump bids more balanced better describes
-opener's hand.
-
 <dl>
   <dt>Simple new suit</dt>
   <dd>13~18 points, 4+ cards.</dd>
@@ -51,7 +47,7 @@ opener's hand.
   <dd>13~17 points, 6+ cards or fallback.</dd>
 
   <dt>2NT</dt>
-  <dd>11~14 HCP, balanced or 5-4-2-2.</dd>
+  <dd>11~14 HCP, 5~6 cards in the opened suit, 2~3 cards in the responded suit, 2~4 cards in each of the other suits.</dd>
 
   <dt>Reverse</dt>
   <dd>17~21 points, 4+ cards.</dd>
@@ -96,6 +92,20 @@ fallback 2♠ or 2NT first to dissuade partner from searching slam.
   <dt>4♥</dt>
   <dd>14~16 points, 3+ cards.</dd>
 </dl>
+
+### The 2NT rebid with a 6-card major ###
+All of the following conditions shall be met to bid 2NT with a 6-card major.
+
+* Over 1♠-2♥/♦
+* Found heart fit or **worse than** ♠AQJ9xx
+
+The 1♥ opener always rebids 2♥ with 6-card hearts lest 6-2 fit be lost.
+Over 1♠-2♣, always bid 2♠ with 6-card spades to make both 2♠ and 2NT specific:
+2NT is balanced while 2♠ shows 6+ cards.
+
+If the trump suit is at least AQJ9xx, it is too good to play notrump.  However,
+with a heart fit but too weak for a direct 4♥, bidding 2NT is okay due to the
+indirect 4♥ thereafter.
 
 Second responses
 ----------------
