@@ -133,3 +133,56 @@ The 2NT rebid shows balanced 12~14 HCP or 5-4-2-2 with 11~14 HCP where the
 The Wbridge5 program treats 4NT as the plain Blackwood, but I advocate that it
 shall be a quantitative invitation, which is more precise to find notrump
 slams.
+
+There are futher considerations for responder to show a long suit, so they are
+described in details.
+
+#### Responded 2♣ ####
+<dl>
+  <dt>3♣</dt>
+  <dd>12~17 points, 6+ cards.</dd>
+
+  <dt>4♣</dt>
+  <dd>18+ points, 6+ cards.</dd>
+</dl>
+
+#### Over 1♥-2♦; 2NT ####
+The 3♦ serves as a parachute because 1♥-2♦ may be extraordinary weak and based
+on distribution.  Forcing hands go to 3♣!
+
+Quantitative invitations are off as Roudy is superior by its low level.
+
+<dl>
+  <dt>3♣!</dt>
+  <dd>Roudy, 11+ HCP, 5+ diamonds.</dd>
+
+  <dt>3♦</dt>
+  <dd><strong>Nonforcing</strong>, < 11 HCP, 6+ cards.</dd>
+</dl>
+
+#### Over 1♠-2♦; 2NT ####
+There is no clear line between 3♣ and 3♦.  Bid 3♣ if there is need to know
+partner's strength.
+
+<dl>
+  <dt>3♣!</dt>
+  <dd>Roudy, 5+ diamonds.</dd>
+
+  <dt>3♦</dt>
+  <dd>12~17 points, 6+ cards.</dd>
+
+  <dt>4♦</dt>
+  <dd>18+ points, 6+ cards.</dd>
+</dl>
+
+#### Over 1♠-2♥; 2NT ####
+A heart fit is found with 6+ cards, so 3♥ is a slam try according to the
+principle of fast arrival.
+
+<dl>
+  <dt>3♥</dt>
+  <dd>17+ points, 6+ cards.</dd>
+
+  <dt>4♥</dt>
+  <dd>12~16 points, 6+ cards.</dd>
+</dl>
