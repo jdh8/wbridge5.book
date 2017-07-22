@@ -101,7 +101,7 @@ All of the following conditions shall be met to bid 2NT with a 6-card major.
 
 The 1♥ opener always rebids 2♥ with 6-card hearts lest 6-2 fit be lost.
 Over 1♠-2♣, always bid 2♠ with 6-card spades to make both 2♠ and 2NT specific:
-2NT is balanced while 2♠ shows 6+ cards.
+2NT shows exactly 5 cards, 2♠ 6+.
 
 If the trump suit is at least AQJ9xx, it is too good to play notrump.  However,
 with a heart fit but too weak for a direct 4♥, bidding 2NT is okay due to the
