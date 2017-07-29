@@ -6,7 +6,7 @@ a move based on SEF, the French *standard*.
 
 The 2/1 in Wbridge5 is Lawrence-style.
 
-* The game force may be cancelled if either one rebids own suit.
+* The game force may be occasionally cancelled.
 * Opener's reverses and jumps require extra strength.
 
 The Wbridge5 program overestimates values of unbalanced hands.  It bid 2/1 with
@@ -109,31 +109,59 @@ indirect 4♥ thereafter.
 
 Second responses
 ----------------
+Responder no longer hides a major fit in this round.  If responder bids notrump
+or a new suit below 3NT, no major fit is found as natural bidding goes.
+
+Decisions to cancel the game force debut here.  All of them are nonforcing bids
+below 3NT.
+
 ### Opener rebid own suit or below ###
 Opener showed a minimal (non-maximum) unbalanced hand.  Rebidding the opened
-suit is the most frequent here and the 2nd overall.
+suit is the most frequent here and the 2nd overall.  Note that 1♠-2♣; 2♠ is the
+only circumstance where a 6th card is for sure.
 
-[TODO: continuations]
+<dl>
+  <dt>Non-jump new suit</dt>
+  <dd>4+ cards, or balanced 18+ HCP but only 3 cards.</dd>
+
+  <dt>Raise to 2 of the major</dt>
+  <dd><strong>Nonforcing</strong>, < 12 HCP, 2 cards</dd>
+
+  <dt>2NT</dt>
+  <dd>Forcing to 3NT, 11~14 HCP.</dd>
+
+  <dt>Raise to 3 of a minor</dt>
+  <dd><strong>Nonforcing</strong>, < 12 HCP, 4+ cards.</dd>
+
+  <dt>Jump to 3 of a new suit</dt>
+  <dd>4+ cards, 18+ points.</dd>
+
+  <dt>Raise to 3 of a major</dt>
+  <dd>16+ points, found a fit here.</dd>
+
+  <dt>3NT</dt>
+  <dd>Signoff, 15~17 HCP.</dd>
+
+  <dt>Raise to 4 of a minor</dt>
+  <dd>16+ points, 4+ cards.</dd>
+
+  <dt>4 of a new suit</dt>
+  <dd>Splinter, 17+ points, <strong>0~1 card</strong>, found a fit in the last bid suit.</dd>
+
+  <dt>Raise to 4 of a major</dt>
+  <dd>12~15 points, found a fit here.</dd>
+</dl>
 
 ### Opener rebid 2NT ###
 The 2NT rebid shows balanced 12~14 HCP or 5-4-2-2 with 11~14 HCP where the
 4-card suit is skipped.  This rebid is the most frequent.
 
+Most second responses are the same as if opener rebid the opened suit or below
+because 2NT is minimum.  The following only descirbe differences.
+
 <dl>
-  <dt>3 of a new suit</dt>
-  <dd>4+ cards.</dd>
-
-  <dt>Simple raise (3-level)</dt>
-  <dd>16+ points, 3+ cards.</dd>
-
   <dt>3NT</dt>
   <dd>Signoff, 11~17 HCP.</dd>
-
-  <dt>4 of a new suit</dt>
-  <dd>Splinter, 17+ points, <strong>0~1 card</strong>, 3+ support.</dd>
-
-  <dt>Jump raise (4-level)</dt>
-  <dd>12~15 points, 3+ cards.</dd>
 </dl>
 
 The Wbridge5 program treats 4NT as the plain Blackwood, but I advocate that it
