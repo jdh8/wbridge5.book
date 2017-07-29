@@ -120,36 +120,50 @@ Opener showed a minimal (non-maximum) unbalanced hand.  Rebidding the opened
 suit is the most frequent here and the 2nd overall.  Note that 1♠-2♣; 2♠ is the
 only circumstance where a 6th card is for sure.
 
-<dl>
-  <dt>Non-jump new suit</dt>
-  <dd>4+ cards, or balanced 18+ HCP but only 3 cards.</dd>
+#### Raises ####
+There is enough space to bid weak and strong hands under game for safety and
+bidding space respectively.
 
-  <dt>Raise to 2 of the major</dt>
+<dl>
+  <dt>2M</dt>
   <dd><strong>Nonforcing</strong>, < 12 HCP, 2 cards</dd>
 
-  <dt>2NT</dt>
-  <dd>Forcing to 3NT, 11~14 HCP.</dd>
-
-  <dt>Raise to 3 of a minor</dt>
+  <dt>3m</dt>
   <dd><strong>Nonforcing</strong>, < 12 HCP, 4+ cards.</dd>
+
+  <dt>Jump raises (3M or 4m)</dt>
+  <dd>Slam try, 16+ points, found a fit here.</dd>
+
+  <dt>Raise to game (4M or 5m)</dt>
+  <dd>To play.</dd>
+</dl>
+
+#### Others ####
+With combined 28~30 HCP, it is often better to play 3NT than a suit game.
+Therefore, responder's best bet with a balanced hand and some excessive
+strength is to sign off 3NT.
+
+<dl>
+  <dt>Non-jump new suit</dt>
+  <dd>4+ cards, or 3 cards in 18+ HCP 5-3-3-2.</dd>
+
+  <dt>2NT</dt>
+  <dd>11~14 HCP, 2+ cards in every unbid suit.</dd>
+
+  <dt>Rebid 3 of own suit</dt>
+  <dd>12~15 points, 6+ cards.</dd>
 
   <dt>Jump to 3 of a new suit</dt>
   <dd>4+ cards, 18+ points.</dd>
 
-  <dt>Raise to 3 of a major</dt>
-  <dd>16+ points, found a fit here.</dd>
-
   <dt>3NT</dt>
-  <dd>Signoff, 15~17 HCP.</dd>
+  <dd>Signoff, 15~17 HCP, 2+ cards in every unbid suit.</dd>
 
-  <dt>Raise to 4 of a minor</dt>
-  <dd>16+ points, 4+ cards.</dd>
+  <dt>Rebid 4 of own suit</dt>
+  <dd>16+ points, 6+ cards.</dd>
 
   <dt>4 of a new suit</dt>
   <dd>Splinter, 17+ points, <strong>0~1 card</strong>, found a fit in the last bid suit.</dd>
-
-  <dt>Raise to 4 of a major</dt>
-  <dd>12~15 points, found a fit here.</dd>
 </dl>
 
 ### Opener rebid 2NT ###
@@ -172,6 +186,8 @@ There are futher considerations for responder to show a long suit, so they are
 described in details.
 
 #### Responded 2♣ ####
+Because 2NT is weaker than a simple suit, 2 more points are needed to try slam.
+
 <dl>
   <dt>3♣</dt>
   <dd>12~17 points, 6+ cards.</dd>
