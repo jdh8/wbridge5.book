@@ -109,6 +109,12 @@ indirect 4♥ thereafter.
 
 Second responses
 ----------------
+### Opener rebid own suit or below ###
+Opener showed a minimal (non-maximum) unbalanced hand.  Rebidding the opened
+suit is the most frequent here and the 2nd overall.
+
+[TODO: continuations]
+
 ### Opener rebid 2NT ###
 The 2NT rebid shows balanced 12~14 HCP or 5-4-2-2 with 11~14 HCP where the
 4-card suit is skipped.  This rebid is the most frequent.
