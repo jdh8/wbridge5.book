@@ -131,10 +131,10 @@ bidding space respectively.
   <dt>3m</dt>
   <dd><strong>Nonforcing</strong>, < 12 HCP, 4+ cards.</dd>
 
-  <dt>Jump raises (3M or 4m)</dt>
+  <dt>3M or 4m</dt>
   <dd>Slam try, 16+ points, found a fit here.</dd>
 
-  <dt>Raise to game (4M or 5m)</dt>
+  <dt>4M or 5m</dt>
   <dd>To play.</dd>
 </dl>
 
