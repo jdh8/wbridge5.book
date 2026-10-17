@@ -1,14 +1,14 @@
 /* Typography */
-/* Subset of Source Han Sans JP for suits */
+/* Subset of DejaVu Sans for suits, sidebearings tightened; see suits.py */
 @font-face {
-	font-family: "Source Han Suits";
+	font-family: "DejaVu Suits";
 	font-weight: 1 1000;
 	font-style: oblique -90deg 90deg;
-	src: url("fonts/suits-505e1eb1.woff2") format("woff2");
+	src: url("fonts/suits-c08cd0c7.woff2") format("woff2");
 }
 
 html {
-	font-family: "Open Sans", "Source Han Suits", sans-serif;
+	font-family: "Open Sans", "DejaVu Suits", sans-serif;
 	hyphens: auto;
 }
 
