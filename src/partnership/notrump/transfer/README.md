@@ -49,7 +49,7 @@ Transfer to hearts is always accepted to protect the auction 2NT-3♦;
   <dt>3♥</dt>
   <dd>Acceptance.</dd>
 
-  <dt>3♠!, 4♣!, 4♦!</dd>
+  <dt>3♠!, 4♣!, 4♦!</dt>
   <dd>Super acceptance, control bid, 22+ points, 4+ cards in hearts.</dd>
 
   <dt>4♥!</dt>
@@ -67,7 +67,7 @@ show a singleton to dissuade partner early.
   <dt>3NT</dt>
   <dd>Rejection, singleton in spades.</dd>
 
-  <dt>4♣!, 4♦!, 4♥!</dd>
+  <dt>4♣!, 4♦!, 4♥!</dt>
   <dd>Super acceptance, control bid, 22+ points, 4+ cards in spades.</dd>
 
   <dt>4♠!</dt>

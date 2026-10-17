@@ -13,7 +13,7 @@ Wbridge5 employs the well-known 4-3-2-1 count.
   <dt>Ace</dt>   <dd>4 HCP</dd>
   <dt>King</dt>  <dd>3 HCP</dd>
   <dt>Queen</dt> <dd>2 HCP</dd>
-  <dt>Jack</dt>  <dd>1 HCP</dt>
+  <dt>Jack</dt>  <dd>1 HCP</dd>
 </dl>
 
 Distribution points
@@ -44,8 +44,8 @@ tricks is 0.931, near to Binky's 0.947.
   <dt>Ace</dt>   <dd>4.0 HCP</dd>
   <dt>King</dt>  <dd>2.8 HCP (↓ 0.2)</dd>
   <dt>Queen</dt> <dd>1.8 HCP (↓ 0.2)</dd>
-  <dt>Jack</dt>  <dd>1.0 HCP</dt>
-  <dt>Ten</dt>   <dd>0.4 HCP (↑ 0.4)</dt>
+  <dt>Jack</dt>  <dd>1.0 HCP</dd>
+  <dt>Ten</dt>   <dd>0.4 HCP (↑ 0.4)</dd>
 </dl>
 
 ### Bum-rap ###
@@ -56,8 +56,8 @@ added, its [correlation][corr] to real tricks is 0.914, near to Binky's 0.925.
   <dt>Ace</dt>   <dd>4.5 points (↑ 1/2)</dd>
   <dt>King</dt>  <dd>3 points</dd>
   <dt>Queen</dt> <dd>1.5 points (↓ 1/2)</dd>
-  <dt>Jack</dt>  <dd>0.75 points (↓ 1/4)</dt>
-  <dt>Ten</dt>   <dd>0.25 points (↑ 1/4)</dt>
+  <dt>Jack</dt>  <dd>0.75 points (↓ 1/4)</dd>
+  <dt>Ten</dt>   <dd>0.25 points (↑ 1/4)</dd>
 </dl>
 
 [corr]:   http://bridge.thomasoandrews.com/valuations/binky-evaluated.html

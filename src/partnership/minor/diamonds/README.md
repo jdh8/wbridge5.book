@@ -32,7 +32,7 @@ when a game is unlikely.
 strategy is described in the page of major rebids for frequency and a more
 general overview.
 
-[stra]: ../major/README.md#summary-of-rebidding-strategy
+[stra]: ../major/#summary-of-rebidding-strategy
 
 <dl>
   <dt>Pass</dt>

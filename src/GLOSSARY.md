@@ -47,7 +47,7 @@ doubles.
 
 Dustbin 1NT
 -----------
-The 1NT response in 1♠/*♡*/*♢* (pass) 1NT is dustbin, which shows a
+The 1NT response in 1♠/♥/♦ (pass) 1NT is dustbin, which shows a
 constructive 1NT or 6~10 points without another suitable call.
 
 In a constructive auction, a pass to 1 of a suit can only be made from a hand
@@ -57,8 +57,8 @@ lower than the opening has to bid 1NT with a minimum responding hand.
 
 Garbage Stayman
 ---------------
-A legitimized psychic Stayman with a weak 3~4♠ 3~4*♡* 4~5*♢* 0~1♣.  Responder
-passes opener's most frequent rebids *viz* 2*♢*, 2*♡*, 2♠.
+A legitimized psychic Stayman with a weak 3~4♠ 3~4♥ 4~5♦ 0~1♣.  Responder
+passes opener's most frequent rebids *viz* 2♦, 2♥, 2♠.
 
 Lebensohl
 ---------

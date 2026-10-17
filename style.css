@@ -1,0 +1,72 @@
+/* Typography */
+/* Subset of Source Han Sans JP for suits */
+@font-face {
+	font-family: "Source Han Suits";
+	font-weight: 1 1000;
+	font-style: oblique -90deg 90deg;
+	src: url("fonts/suits-505e1eb1.woff2") format("woff2");
+}
+
+html {
+	font-family: "Open Sans", "Source Han Suits", sans-serif;
+	hyphens: auto;
+}
+
+/* Tables */
+th {
+	text-align: left;
+}
+
+.table-wrapper {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+/* Suits */
+.♥,
+.♦ {
+	color: var(--red);
+}
+
+.♠,
+.♣ {
+	color: var(--fg);
+}
+
+/* Suit red per theme */
+html {
+	--red: #b22;
+}
+
+.coal,
+.navy,
+.ayu {
+	--red: #f66;
+}
+
+.rust {
+	--red: #a21;
+}
+
+/* Dark no-script fallback = coal */
+@media (prefers-color-scheme: dark) {
+	html:not(.js) {
+		--red: #f66;
+	}
+}
+
+/* Sidebar */
+.sidebar .♠,
+.sidebar .♣ {
+	color: inherit;
+}
+
+.rust .sidebar {
+	--red: #f77;
+}
+
+.chapter a:hover,
+.chapter a.active,
+.chapter a.current-header {
+	--red: var(--sidebar-active);
+}

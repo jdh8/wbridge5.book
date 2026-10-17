@@ -126,10 +126,10 @@ bidding space respectively.
 
 <dl>
   <dt>2M</dt>
-  <dd><strong>Nonforcing</strong>, < 12 HCP, 2 cards</dd>
+  <dd><strong>Nonforcing</strong>, &lt; 12 HCP, 2 cards</dd>
 
   <dt>3m</dt>
-  <dd><strong>Nonforcing</strong>, < 12 HCP, 4+ cards.</dd>
+  <dd><strong>Nonforcing</strong>, &lt; 12 HCP, 4+ cards.</dd>
 
   <dt>3M or 4m</dt>
   <dd>Slam try, 16+ points, found a fit here.</dd>
@@ -207,7 +207,7 @@ Quantitative invitations are off as Roudy is superior by its low level.
   <dd>Roudy, 11+ HCP, 5+ diamonds.</dd>
 
   <dt>3♦</dt>
-  <dd><strong>Nonforcing</strong>, < 11 HCP, 6+ cards.</dd>
+  <dd><strong>Nonforcing</strong>, &lt; 11 HCP, 6+ cards.</dd>
 </dl>
 
 #### Over 1♠-2♦; 2NT ####

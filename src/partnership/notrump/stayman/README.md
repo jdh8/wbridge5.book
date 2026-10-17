@@ -121,10 +121,10 @@ in the other major from a **misfit** second response.
   <dd>Signoff, 4+ support.</dd>
 
   <dt>4NT</dt>
-  <dd>RKCB 0314</dt>
+  <dd>RKCB 0314</dd>
 
   <dt>6NT, 7NT</dt>
-  <dd>To play, 0~3 support.</dt>
+  <dd>To play, 0~3 support.</dd>
 </dl>
 
 #### 2♠ as a fitted slam try puppet ####
@@ -137,10 +137,10 @@ After opener puppets to 2NT, responder would bid a control or RKCB.
 
 <dl>
   <dt>2♠!</dt>
-  <dd>Slam try, puppet to 2NT, 16+ points, 4+ support.</dt>
+  <dd>Slam try, puppet to 2NT, 16+ points, 4+ support.</dd>
 
   <dt>4NT, 5NT</dt>
-  <dd>Quantitative invitation, 0~3 support.</dt>
+  <dd>Quantitative invitation, 0~3 support.</dd>
 </dl>
 
 ### 1NT-2♣; 2♠ ###
@@ -170,10 +170,10 @@ After opener puppets to 2NT, responder would bid a control or RKCB.
   <dd>Signoff, 4+ support.</dd>
 
   <dt>4NT</dt>
-  <dd>RKCB 0314</dt>
+  <dd>RKCB 0314</dd>
 
   <dt>6NT, 7NT</dt>
-  <dd>To play, 0~3 support.</dt>
+  <dd>To play, 0~3 support.</dd>
 </dl>
 
 #### 3♥ as a fitted slam try puppet ####
@@ -184,10 +184,10 @@ control or RKCB.
 
 <dl>
   <dt>3♥!</dt>
-  <dd>Slam try, puppet to 3♠, 16+ points, 4+ support.</dt>
+  <dd>Slam try, puppet to 3♠, 16+ points, 4+ support.</dd>
 
   <dt>4NT, 5NT</dt>
-  <dd>Quantitative invitation, 0~3 support.</dt>
+  <dd>Quantitative invitation, 0~3 support.</dd>
 </dl>
 
 ### 1NT-2♣; 2NT(!) ###
@@ -234,7 +234,7 @@ Because open has shown strength, quantitative invitation is no longer needed.
   <dd>Signoff in game, 3+ cards.</dd>
 
   <dt>4NT</dt>
-  <dd>RKCB 0314</dt>
+  <dd>RKCB 0314</dd>
 </dl>
 
 I propose using the unallocated 3♠ as an artificial slam try which starts
@@ -255,7 +255,7 @@ control bidding.
   <dd>Signoff in game, 3+ cards.</dd>
 
   <dt>4NT</dt>
-  <dd>RKCB 0314</dt>
+  <dd>RKCB 0314</dd>
 </dl>
 
 I propose using the unallocated 3♥ as an artificial slam try which starts
@@ -276,7 +276,7 @@ control bidding.
   <dd>Signoff, 3+ cards.</dd>
 
   <dt>4NT</dt>
-  <dd>RKCB 0314</dt>
+  <dd>RKCB 0314</dd>
 </dl>
 
 I propose using the unallocated 3♠ as an artificial slam try which starts
@@ -297,7 +297,7 @@ control bidding.
   <dd>Signoff, 3+ cards.</dd>
 
   <dt>4NT</dt>
-  <dd>RKCB 0314</dt>
+  <dd>RKCB 0314</dd>
 </dl>
 
 I propose using the unallocated 4♥ as an artificial slam try which starts
