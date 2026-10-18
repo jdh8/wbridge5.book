@@ -1,15 +1,15 @@
-I, Chen-Pang He (jdh8), subset [DejaVu Sans][dejavu] for the French suit
-symbols:
+I, Chen-Pang He (jdh8), subset [Libertinus Sans][libertinus] for the French
+suit symbols:
 
 - ♠ (U+2660)
 - ♥ (U+2665)
 - ♦ (U+2666)
 - ♣ (U+2663)
 
-The glyphs are untouched, but their sidebearings are tightened to 0.05 em so
-that "1♠" is spaced like two digits of [Open Sans][open], the default font of
-[mdBook].  See `suits.py` at the repository root.
+Libertinus draws its suits at its own cap height, 0.63 em, so the outlines are
+scaled 1.13x to the cap height of [Open Sans][open], the default font of
+[mdBook], 0.71 em.  See `suits.py` at the repository root.
 
 [mdBook]: https://github.com/rust-lang/mdBook
 [open]: https://fonts.google.com/specimen/Open+Sans
-[dejavu]: https://dejavu-fonts.github.io/
+[libertinus]: https://github.com/alerque/libertinus

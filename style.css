@@ -1,14 +1,14 @@
 /* Typography */
-/* Subset of DejaVu Sans for suits, sidebearings tightened; see suits.py */
+/* Subset of Libertinus Sans for suits, scaled 1.13x to Open Sans cap height; see suits.py */
 @font-face {
-	font-family: "DejaVu Suits";
+	font-family: "Libertinus Suits";
 	font-weight: 1 1000;
 	font-style: oblique -90deg 90deg;
-	src: url("fonts/suits-c08cd0c7.woff2") format("woff2");
+	src: url("fonts/suits-a232e9b5.woff2") format("woff2");
 }
 
 html {
-	font-family: "Open Sans", "DejaVu Suits", sans-serif;
+	font-family: "Open Sans", "Libertinus Suits", sans-serif;
 	hyphens: auto;
 }
 
