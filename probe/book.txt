@@ -1,0 +1,122 @@
+# Every auction tabled in the book: one tm.py run per line (auction, then flags).
+# Openings.md, Openings/*
+- -n 800
+P -n 600
+P-P -n 600
+P-P-P -n 600
+# 1M.md
+1H-P --hcp 5-
+1S-P --hcp 5-
+P-P-1H-P --hcp 5-11
+P-P-1S-P --hcp 5-11
+1H-P-2N-P-3C-P --hcp 11-16 --H 3- --S 2-4 --D 2- --C 2-
+1S-P-2N-P-3C-P --hcp 11-16 --S 3- --H 2-4 --D 2- --C 2-
+# 1M/1NT.md
+1H-P-1N-P --hcp 11-21 --H 5- --S 0-4
+1S-P-1N-P --hcp 11-21 --S 5-
+1S-P-1N-P-2C-P --hcp 5-12 --S 0-3 --H 0-4
+1S-P-1N-P-2D-P --hcp 5-12 --S 0-3 --H 0-4
+1S-P-1N-P-2H-P --hcp 5-12 --S 0-3 --H 0-4
+1S-P-1N-P-2S-P --hcp 5-12 --S 0-3 --H 0-4
+1H-P-1N-P-2C-P --hcp 5-12 --H 0-3 --S 0-3
+1H-P-1N-P-2D-P --hcp 5-12 --H 0-3 --S 0-3
+1H-P-1N-P-2H-P --hcp 5-12 --H 0-3 --S 0-3
+# 1M/TwoOverOne.md: opener's rebid, responder's rebid, after 2NT
+1H-P-2C-P --hcp 11-21 --H 5- --S 0-4
+1H-P-2D-P --hcp 11-21 --H 5- --S 0-4
+1S-P-2C-P --hcp 11-21 --S 5-
+1S-P-2D-P --hcp 11-21 --S 5-
+1S-P-2H-P --hcp 11-21 --S 5-
+1H-P-2C-P-2D-P --hcp 12-20 --C 4- --H 0-2 --S 0-3
+1H-P-2C-P-2H-P --hcp 12-20 --C 4- --H 0-2 --S 0-3
+1S-P-2C-P-2D-P --hcp 12-20 --C 4- --S 0-2 --H 0-4
+1S-P-2C-P-2H-P --hcp 12-20 --C 4- --S 0-2 --H 0-4
+1S-P-2C-P-2S-P --hcp 12-20 --C 4- --S 0-2 --H 0-4
+1H-P-2D-P-2H-P --hcp 12-20 --D 4- --H 0-2 --S 0-3
+1S-P-2D-P-2H-P --hcp 12-20 --D 4- --S 0-2 --H 0-4
+1S-P-2D-P-2S-P --hcp 12-20 --D 4- --S 0-2 --H 0-4
+1S-P-2H-P-2S-P --hcp 12-20 --H 5- --S 0-2
+1H-P-2C-P-2N-P --hcp 12-20 --C 4- --H 0-2 --S 0-3
+1S-P-2C-P-2N-P --hcp 12-20 --C 4- --S 0-2 --H 0-4
+1H-P-2D-P-2N-P --hcp 12-20 --D 4- --H 0-2 --S 0-3
+1S-P-2D-P-2N-P --hcp 12-20 --D 4- --S 0-2 --H 0-4
+1S-P-2H-P-2N-P --hcp 12-20 --H 5- --S 0-2
+# 1CD.md, 1CD/*
+1C-P --hcp 5-
+1D-P --hcp 5-
+P-P-1C-P --hcp 5-11
+P-P-1D-P --hcp 5-11
+1C-P-1D-P --hcp 11-21 --C 3- --D 0-3 --H 0-4 --S 0-4
+1C-P-1H-P --hcp 11-21 --C 3- --H 0-4 --S 0-4
+1C-P-1S-P --hcp 11-21 --C 3- --H 0-4 --S 0-4
+1D-P-1H-P --hcp 11-21 --D 4- --H 0-4 --S 0-4
+1D-P-1S-P --hcp 11-21 --D 4- --H 0-4 --S 0-4
+1C-P-2H-P --hcp 11-21 --C 3- --H 0-4 --S 0-4
+1C-P-2S-P --hcp 11-21 --C 3- --H 0-4 --S 0-4
+1D-P-2H-P --hcp 11-21 --D 4- --H 0-4 --S 0-4
+1D-P-2S-P --hcp 11-21 --D 4- --H 0-4 --S 0-4
+1C-X --hcp 5-
+1D-X --hcp 5-
+P-P-1C-X --hcp 8-11
+P-P-1D-X --hcp 8-11
+1C-1D --hcp 5-
+1C-1H --hcp 5-
+1C-1S --hcp 5-
+1D-1H --hcp 5-
+1D-1S --hcp 5-
+# 1NT.md, 1NT/2C.md, 1NT/Transfers.md
+1N-P
+2N-P
+1N-P-2C-P --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5
+1N-P-2C-P-2D-P --hcp 7-
+1N-P-2C-P-2H-P --hcp 7- --H 0-3 --S 4-
+1N-P-2C-P-2S-P --hcp 7- --S 0-3 --H 4-
+1N-P-2C-P-2N-P --hcp 7-
+1N-P-2C-P-3C-P --hcp 7-
+1N-P-2C-P-3D-P --hcp 7-
+1N-P-2C-P-3H-P --hcp 7- --H 0-2
+1N-P-2C-P-3S-P --hcp 7- --S 0-2
+2N-P-3C-P-3D-P --hcp 4-
+2N-P-3C-P-3N-P --hcp 4-
+1N-P-2D-P --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5
+1N-P-2H-P --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5
+1N-P-2S-P --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5
+1N-P-3C-P --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5
+2N-P-3D-P --hcp 19-22 --S 2-5 --H 2-5 --D 2-5 --C 2-5
+2N-P-3H-P --hcp 19-22 --S 2-5 --H 2-5 --D 2-5 --C 2-5
+2N-P-3S-P --hcp 19-22 --S 2-5 --H 2-5 --D 2-5 --C 2-5
+2N-P-4C-P --hcp 19-22 --S 2-5 --H 2-5 --D 2-5 --C 2-5
+1N-P-2D-P-2H-P --H 5-
+1N-P-2D-P-3H-P --H 5-
+1N-P-2H-P-2S-P --S 5-
+1N-P-2H-P-3S-P --S 5-
+1N-P-2S-P-3C-P --C 6-
+1N-P-2S-P-2N-P --hcp 8-
+1N-P-3C-P-3D-P --hcp 8- --D 0-3 --C 0-3
+2N-P-3D-P-3H-P --H 5-
+2N-P-3H-P-3S-P --S 5-
+2N-P-3S-P-4C-P
+2N-P-3S-P-3N-P
+2N-P-4C-P-4D-P
+# 1NT/Competition*
+1N-X
+1N-2C
+1N-2D
+1N-2H
+1N-2S
+1N-2N
+1N-2N-P-3C-P-P --hcp 0-7
+1N-2N-P-3D-P-P --hcp 0-7
+1N-3C
+1N-3D
+1N-3H
+1N-2D-2N-P --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5
+1N-2H-2N-P --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5
+1N-2D-2N-P-3C-P --hcp 5-
+1N-2H-2N-P-3C-P --hcp 5-
+1N-2S-2N-P-3C-P --hcp 5-
+# Defense/1y.md
+1C --hcp 6-
+1D --hcp 6-
+1H --hcp 6-
+1S --hcp 6-

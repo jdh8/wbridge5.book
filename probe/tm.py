@@ -12,7 +12,7 @@ import argparse, json, os, random, socket, subprocess, sys, time
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-PREFIX = ROOT / "wbridge5/prefix"
+PREFIX = Path(os.environ.get("WINEPREFIX") or ROOT / "wbridge5/prefix").resolve()
 EXE_DIR = PREFIX / "drive_c/wbridge5"
 SEATS = ["North", "East", "South", "West"]
 RANKS = "AKQJT98765432"
@@ -128,7 +128,8 @@ def main():
                         kept += 1
                     if call is None or to_tm(from_tm(line)) != to_tm(call):
                         break
-                recv()  # whatever comes next is abandoned by the next Start of board
+                if prefix != ["P"] * 3 or from_tm(line) != "P":  # a passed-out board says nothing more
+                    recv()  # whatever comes next is abandoned by the next Start of board
         rate = a.n / (time.time() - start) * 60
         print(f"{a.n} deals, {kept} kept, {rate:.0f}/min", file=sys.stderr)
     finally:
