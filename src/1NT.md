@@ -1,0 +1,139 @@
+# Strong 1NT and 2NT
+
+The strong notrump openings 1NT and 2NT move some strong balanced hands out of
+suit openings, clarifying the range of opener.  This is crucial in finding 3NT
+because HCP is fairly precise to determine notrump tricks.
+
+There are many transfers in the structure of notrump openings because
+
+1. This makes opener declarer, hiding honors from opponents.
+2. This saves bidding space.  Responder does not show both shape and strength
+   at the same time.
+
+Remind that opener has exposed much information.  Therefore, responder is the
+*captain*, who makes decisions.
+
+## Delayed 2NT *openings*
+
+After a strong artificial 2♣ or 2♦, opener's 2NT rebid shows a hand stronger
+than 2NT with 2NT distribution.
+
+The bidding structure is identical to 2NT opening.  Responder simply takes
+opener's excessive points and then bids as if it were a 2NT opening.
+
+- **2♣ - 2x - 2NT:** 22--23 HCP with 2NT distribution, 2 HCP stronger than a
+  2NT opening.
+- **2♦ - 2x - 2NT:** 24+ HCP with 2NT distribution, forcing to game and 4 HCP
+  stronger.
+
+## Responses to 1NT
+
+| 1NT - | |
+|-----|-|
+| 2♣! | STAY: (9+, 4+M) or Garbage Stayman
+| 2♦! | TRF, 5+♥
+| 2♥! | TRF, 5+♠
+| 2♠! | TRF, 6+♣ or (S/T, 5+♦, 5+♣)
+| 2NT | INV, 8--9<sup>&minus;</sup> HCP
+| 3♣! | TRF, 6+♦
+| 3NT | S/O, 9<sup>+</sup>--14 HCP
+| 4♦! | 9--15, 5-5 or 6-6 MM
+| 4♠! | 9+, 5+♦, 5+♣
+| 4NT | QUANT INV to 6NT, 15 HCP
+| 5NT | QUANT INV to 7NT, 18 HCP
+| 6NT | S/O, 16--17 HCP
+| 7NT | S/O, 19+ HCP
+
+### Strong jump shifts
+
+If responder has not passed, jump shifts are **strong**.  These bids deny a
+4-card major side suit.  If there is a 4-card major side suit, bid Stayman 2♣
+instead because major slams score more than minor slams.
+
+| 1NT - | |
+|------|-|
+| 3♦♥♠ | SJS, 16+, 5+#
+| 4♣   | SJS, 16+, 6+♣
+
+### Takeout jump shifts
+
+If responder has passed, jump shifts are **takeout**, showing a maximum
+3-suiter with a singleton or void in the bid suit.
+
+These takeout jump shifts deny a 5-card major.  If there is a 5-card major,
+bid Stayman 2♣ for 5-4 majors or transfer for the only major.
+
+## Responses to 2NT
+
+| 2NT - | |
+|-----|-|
+| 3♣! | STAY: (6+, 4+M) or Garbage Stayman
+| 3♦! | TRF, 5+♥
+| 3♥! | TRF, 5+♠
+| 3♠! | TRF, 6+♣ or (S/T, 5+♦, 5+♣)
+| 3NT | S/O, 4<sup>+</sup>--9 HCP
+| 4♣! | TRF, 6+♦
+| 4♦! | 4+, 5-5 or 6-6 MM
+| 4♠! | 5+♦, 5+♣
+| 4NT | QUANT INV to 6NT, 10 HCP
+| 5NT | QUANT INV to 7NT, 13 HCP
+| 6NT | S/O, 11--12 HCP
+| 7NT | S/O, 14+ HCP
+
+## Major transfer structure
+
+<table class="center">
+<thead>
+<tr><th></th><th>Weak</th><th>Invitational</th><th>Game-forcing</th><th>Slam try</th></tr>
+</thead>
+<tbody>
+<tr><th>4-card major</th><td>Pass</td><td colspan="3">Stayman ♣</td></tr>
+<tr><th>5+-card major</th><td colspan="3">Transfer ♥/♦ (→ ♠/♥)</td><td>SJS or transfer</td></tr>
+<tr><th>5-4 in majors</th><td>Transfer</td><td colspan="3">Stayman ♣</td></tr>
+<tr><th>5-5 or 6-6</th><td>♦ (→♥)</td><td colspan="2">4♦</td><td>♥ (→♠)</td></tr>
+<tr><th>6-4 or more</th><td colspan="4">Ignore the shorter major</td></tr>
+</tbody>
+</table>
+
+Strong jump shifts, only available for 1NT opening, require < 4 cards in all
+other suits.
+
+## Minor transfer structure
+
+As notrump games score more than minor games, a hand with no singleton nor void
+nor biddable major suit is a *notrump hand*.  We only transfer with **weak**
+*notrump hands*.  Invitational+ *notrump hands* are deemed as balanced.
+
+<table class="center">
+<caption>Minor transfer structure with no singleton nor void</caption>
+<thead>
+<tr><th></th><th>Weak</th><th>Invitational</th><th>Game-forcing</th><th>Slam try</th></tr>
+</thead>
+<tbody>
+<tr><th>No singleton nor void</th><td>Transfer</td><td>2NT</td><td>3NT</td><td>SJS</td></tr>
+</tbody>
+</table>
+
+<table class="center">
+<caption>Minor transfer structure with a singleton or void</caption>
+<thead>
+<tr><th></th><th>Weak</th><th>Game-forcing</th><th>Slam try</th></tr>
+</thead>
+<tbody>
+<tr><th>One-suiter</th><td colspan="2">Transfer</td><td>SJS</td></tr>
+<tr><th>5-5 in minors</th><td>Pass</td><td rowspan="2">4♠</td><td rowspan="2">♠ (→♣)</td></tr>
+<tr><th>6-6 in minors</th><td>♣ (→♦)</td></tr>
+</tbody>
+</table>
+
+## Quantitative invitations
+
+After a strong notrump opening or a delayed 2NT *opening*, the 4NT and 5NT
+responses are quantitative invitations if there is **no agreed trump**.
+
+- **4NT:** Opener bids a small slam if maximum or signs off otherwise.
+- **5NT:** Opener bids a grand slam if maximum or a small slam otherwise.
+
+Quantitative invitation only applies to notrump **openings**, not **rebids**.
+To ask opener for strength, bid clubs for **Roudi**, the French variation of
+Checkback Stayman.

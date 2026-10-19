@@ -9,6 +9,29 @@ git-repository-url = "https://github.com/jdh8/wbridge5.book"
 edit-url-template = "https://github.com/jdh8/wbridge5.book/edit/master/{path}"
 smart-punctuation = true
 
+[output.html.redirect]
+"/evaluation/index.html" = "/Evaluation.html"
+"/signal/index.html" = "/Signals.html"
+"/GLOSSARY.html" = "/Glossary.html"
+"/partnership/opening/index.html" = "/Openings.html"
+"/partnership/opening/preemptive/index.html" = "/Openings/Preemptive.html"
+"/partnership/opening/balancing/index.html" = "/Openings/Balancing.html"
+"/partnership/major/index.html" = "/1M.html"
+"/partnership/major/semiforcing-notrump/index.html" = "/1M/1NT.html"
+"/partnership/major/forcing-2/index.html" = "/1M/TwoOverOne.html"
+"/partnership/minor/index.html" = "/1CD.html"
+"/partnership/minor/diamonds/index.html" = "/1CD/1D.html"
+"/partnership/minor/major/index.html" = "/1CD/1M.html"
+"/partnership/minor/slam/index.html" = "/1CD/Slam.html"
+"/partnership/notrump/index.html" = "/1NT.html"
+"/partnership/notrump/stayman/index.html" = "/1NT/2C.html"
+"/partnership/notrump/transfer/index.html" = "/1NT/Transfers.html"
+"/competitive/minor/index.html" = "/1CD/Competition.html"
+"/competitive/notrump/index.html" = "/1NT/Competition.html"
+"/competitive/notrump/double/index.html" = "/1NT/Competition/X.html"
+"/competitive/notrump/lebensohl/index.html" = "/1NT/Competition/Lebensohl.html"
+"/defensive/suit/index.html" = "/Defense/1y.html"
+
 [preprocessor.replace]
 
 [preprocessor.replace.list]
@@ -22,6 +45,7 @@ smart-punctuation = true
 
 [preprocessor.abbr.list]
 COG = "choice of games"
+SJS = "strong jump shift"
 
 # WBF-listed abbreviations
 # http://www.worldbridge.org/wp-content/uploads/2017/04/Guidetocompletion.pdf

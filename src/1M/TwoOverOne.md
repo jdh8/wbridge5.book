@@ -1,0 +1,197 @@
+# Forcing 2/1
+
+The concept that 2/1 auctions should be forcing to game has been popular since
+1990s.  The world is gradually moving from *standard* to 2/1.  Wbridge5 is also
+a move based on SEF, the French *standard*.
+
+The 2/1 in Wbridge5 is Lawrence-style.
+
+- The game force may be occasionally cancelled.
+- Opener's reverses and jumps require extra strength.
+
+The Wbridge5 program overestimates values of unbalanced hands.  It bid 2/1 with
+highly unbalanced hands with 9--10 HCP but ended up with no playable game.  I
+have devised a better strategy.
+
+The 2/1 bids has low priority due to its ambiguity.  Raises, 1NT, and
+fit-showing conventions are limit bids and show whether a fit is found.  The
+2/1 bids, unlimited and ambiguous about fit, can be viewed as natural relays.
+
+## The 2/1 responses
+
+There are 3 criteria corresponding to the 3 kinds of games *viz.* major,
+notrump, and minor.  Any met criterion makes a hand eligible for 2/1.
+
+- Found major fit or 1♠ - 2♥, 12+ points
+- 11+ HCP but no flat 11 HCP
+- With long minor, 14+ points (but 13 points is okay for 1♥ - 2♦)
+
+These criteria are based on visualization of maximum hands to pass the
+semiforcing 1NT, i.e. 13--14 HCP and usually 5-3=3=2.  Nevertheless, under
+this circumstance, 1♥ opener's best distribution for responder to bid 2♦ is
+4=5=3=1, so 1 fewer point is needed.
+
+### 2♥ vs SJS 3♥
+
+Both of them are unlimited.  There are strict criteria on 3♥ because it
+consumes too much space.  With 17+ points and 5+ hearts, bid 2♥ unless there
+are 7+ hearts and 0--2 spades.
+
+## Opener's rebids
+
+### Responder bid a minor
+
+Opener describes strength and shape naturally.  Reverses and jumps show extra
+strength.
+
+| 1M - 2m - | |
+|-------------------|-|
+| New suit          | 13--18, 4+#
+| 2M                | 13--17, 6+M or fallback
+| Reverse           | 17--21, 4+#
+| 2NT               | 11--14 HCP, 5--6M, 2--3m, 2--4 cards in each other suit
+| 3m                | 13--18, 4+m
+| Jump new suit     | 19--21, 4+#
+| 3M                | 18--21, 6+M
+| 3NT               | 18--20 HCP, BAL
+| 4m                | 18--21, 4+m
+| 4-level new suit! | SPL, 17--21, **0--1#**, 4+m
+| 4M                | 20--21, 7+M
+
+### 1♠ - 2♥
+
+Opener can support with 3 cards, and such support is eager because hearts is
+also a major.  Therefore, fit-showing bids are different from the previous
+section.  Other bids, not showing a fit, are omitted for duplicate.
+
+Wasted points removed, with a support but hard minimum (< 14 points), bid a
+fallback 2♠ or 2NT first to dissuade partner from searching slam.
+
+| 1♠ - 2♥ - | |
+|------|-|
+| 3♥   | 17--21, 3+♥
+| 4♣♦! | SPL, 16--21, **0--1#**, 3+♥
+| 4♥   | 14--16, 3+♥
+
+### The 2NT rebid with a 6-card major
+
+All of the following conditions shall be met to bid 2NT with a 6-card major.
+
+- Over 1♠ - 2♥♦
+- Found heart fit or **worse than** ♠AQJ9xx
+
+The 1♥ opener always rebids 2♥ with 6-card hearts lest 6-2 fit be lost.
+Over 1♠ - 2♣, always bid 2♠ with 6-card spades to make both 2♠ and 2NT
+specific: 2NT shows exactly 5 cards, 2♠ 6+.
+
+If the trump suit is at least AQJ9xx, it is too good to play notrump.  However,
+with a heart fit but too weak for a direct 4♥, bidding 2NT is okay due to the
+indirect 4♥ thereafter.
+
+## Second responses
+
+Responder no longer hides a major fit in this round.  If responder bids notrump
+or a new suit below 3NT, no major fit is found as natural bidding goes.
+
+Decisions to cancel the game force debut here.  All of them are nonforcing bids
+below 3NT.
+
+### Opener rebid own suit or below
+
+Opener showed a minimal (non-maximum) unbalanced hand.  Rebidding the opened
+suit is the most frequent here and the 2nd overall.  Note that
+1♠ - 2♣ - 2♠ is the only circumstance where a 6th card is for sure.
+
+In the following tables, x is responder's suit and y is opener's rebid suit.
+
+#### Raises
+
+There is enough space to bid weak and strong hands under game for safety and
+bidding space respectively.  Here M is the opened major, and m is a minor
+opener has bid.
+
+| 1M - 2x -<br>2y - | y ≤ M |
+|----|---|
+| 2M | **NF**, < 12 HCP, 2=M
+| 3m | **NF**, < 12 HCP, 4+m
+| 3M | S/T, 16+, fit found
+| 4m | S/T, 16+, fit found
+| 4M | S/O
+| 5m | S/O
+
+#### Others
+
+With combined 28--30 HCP, it is often better to play 3NT than a suit game.
+Therefore, responder's best bet with a balanced hand and some excessive
+strength is to sign off 3NT.
+
+| 1M - 2x -<br>2y - | y ≤ M |
+|-------------------|---|
+| Non-jump new suit | 4+# or (18+ HCP, 3=#, 5-3-3-2)
+| 2NT               | 11--14 HCP, 2+ cards in every unbid suit
+| 3x                | 12--15, 6+x
+| Jump new suit     | 18+, 4+#
+| 3NT               | S/O, 15--17 HCP, 2+ cards in every unbid suit
+| 4x                | 16+, 6+x
+| 4-level new suit! | SPL, 17+, **0--1#**, fit in the last bid suit
+
+### Opener rebid 2NT
+
+The 2NT rebid shows balanced 12--14 HCP or 5-4-2-2 with 11--14 HCP where the
+4-card suit is skipped.  This rebid is the most frequent.
+
+Most second responses are the same as if opener rebid the opened suit or below
+because 2NT is minimum.  The following only describe differences.
+
+| 1M - 2x -<br>2NT - | |
+|-----|-|
+| 3NT | S/O, 11--17 HCP
+
+The Wbridge5 program treats 4NT as the plain Blackwood, but I advocate that it
+shall be a quantitative invitation, which is more precise to find notrump
+slams.
+
+There are further considerations for responder to show a long suit, so they
+are described in details.
+
+#### Responded 2♣
+
+Because 2NT is weaker than a simple suit, 2 more points are needed to try slam.
+
+| 1M - 2♣ -<br>2NT - | |
+|----|-|
+| 3♣ | 12--17, 6+♣
+| 4♣ | 18+, 6+♣
+
+#### Over 1♥ - 2♦ - 2NT
+
+The 3♦ serves as a parachute because 1♥ - 2♦ may be extraordinary weak and
+based on distribution.  Forcing hands go to 3♣.
+
+Quantitative invitations are off as Roudy is superior by its low level.
+
+| 1♥ - 2♦ -<br>2NT - | |
+|-----|-|
+| 3♣! | Roudy, 11+ HCP, 5+♦
+| 3♦  | **NF**, < 11 HCP, 6+♦
+
+#### Over 1♠ - 2♦ - 2NT
+
+There is no clear line between 3♣ and 3♦.  Bid 3♣ if there is need to know
+partner's strength.
+
+| 1♠ - 2♦ -<br>2NT - | |
+|-----|-|
+| 3♣! | Roudy, 5+♦
+| 3♦  | 12--17, 6+♦
+| 4♦  | 18+, 6+♦
+
+#### Over 1♠ - 2♥ - 2NT
+
+A heart fit is found with 6+ cards, so 3♥ is a slam try according to the
+principle of fast arrival.
+
+| 1♠ - 2♥ -<br>2NT - | |
+|----|-|
+| 3♥ | 17+, 6+♥
+| 4♥ | 12--16, 6+♥
