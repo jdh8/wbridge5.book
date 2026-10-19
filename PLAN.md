@@ -28,20 +28,28 @@ under *Log* when a session ends mid-phase.
 
 ## Phase 1: sandbox install
 
-- [ ] Add `wbridge5/` to `.gitignore`.
-- [ ] Download installer to `wbridge5/`, install with
+- [x] Add `wbridge5/` to `.gitignore`.
+- [x] Download installer to `wbridge5/`, install with
       `WINEPREFIX=$PWD/wbridge5/prefix wine wbridge5/Wbridge5_setup.exe`.
-- [ ] Confirm it launches and bids a dealt hand.
-- [ ] Decompile `Wbridge5.chm` to `wbridge5/help/` (7z or extract_chmLib).
-- [ ] Find the Table Manager connection in its menus; note host/port/seat UI.
+      Inno Setup, so `/VERYSILENT /SUPPRESSMSGBOXES` works.  Lands in
+      `wbridge5/prefix/drive_c/wbridge5/`; exe reports version 5.12.
+- [x] Confirm it launches and bids a dealt hand: `probe/smoke.py`.
+      ♠AK7 ♥Q63 ♦54 ♣AK982, dealer North, none vul → 1NT.
+- [x] Decompile the chm to `wbridge5/help/`: `wbridge5/` (French) and
+      `wbridge5_E/` (English, same 47 pages) via `7z x`.
+- [x] Table Manager: Actions → Connection (host, Auto checkbox).  Headless
+      start is `wine Wbridge5.exe Autoconnect <port>` from its own dir; it
+      connects to localhost as `ANYPL` and takes whatever seat the server
+      names.  Lines must end in a single CRLF.  Replies come back as
+      `NORTH bids 1NT` (seat upper-cased).
 
 ## Phase 2: probe harness (`probe/`)
 
 - [ ] Python Table Manager server: Wbridge5 takes one seat, script plays the
       other three from a fixed auction, deals a chosen hand, logs the call.
-- [ ] Run under Xvfb; measure deals per minute.
-- [ ] Fallback if the public build lacks TM mode: xdotool-driven GUI plus
-      reading the bid-explanation window.
+- [ ] Run under Xvfb (not installed: `sudo dnf install
+      xorg-x11-server-Xvfb`); measure deals per minute.
+      The smoke test ran on `:0` and popped a window.
 - [ ] Hand generator with constraints (HCP range, shape) for boundary hands.
 - [ ] Output: one JSON per auction prefix, e.g. `probe/1H-P-1N-P.json`,
       rows of `{hand, call}`.
@@ -92,3 +100,4 @@ Order is by value; each item is hypothesis, probe, write.
 ## Log
 
 - 2026-10-20: plan written; sources located; nothing installed yet.
+- 2026-10-20: phase 1 done; TM mode confirmed, so the xdotool fallback is dropped.
