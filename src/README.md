@@ -1,4 +1,4 @@
-# Wbridge5
+# ![Wbridge5](favicon-2944d65b.svg)
 
 [Wbridge5][wbr5] is a prominent bridge program.  Wbridge5 has been [world
 champion of the bridge programs][allevy] in 2005, 2007, 2008, 2015, and 2016.

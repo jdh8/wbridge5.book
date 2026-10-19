@@ -1,0 +1,13 @@
+<svg width="80" height="80" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+	<path d="M74 98 Q74 56 58 30" fill="none" stroke="#8a6a2f" stroke-width="8" stroke-linecap="round"/>
+	<g fill="#2a8a3a" stroke="#2a8a3a" stroke-width="2.5" stroke-linejoin="round">
+		<path d="M58 30 Q38 14 16 38 Q38 24 58 30Z"/>
+		<path d="M58 30 Q40 2 24 10 Q44 12 58 30Z"/>
+		<path d="M58 30 Q66 0 86 6 Q68 12 58 30Z"/>
+		<path d="M58 30 Q82 10 98 36 Q80 22 58 30Z"/>
+		<path d="M58 30 Q86 28 90 56 Q76 34 58 30Z"/>
+		<path d="M58 30 Q36 30 28 54 Q42 36 58 30Z"/>
+	</g>
+	<!-- ♥ from theme/fonts/suits.woff2 (Libertinus Sans) -->
+	<path transform="matrix(0.06 0 0 -0.06 3.36 98.86)" d="M610 673C436 673 426 516 407 516C390 516 376 673 208 673C142 673 44 637 44 506C44 365 190 216 281 118L408 -19L545 122C647 229 776 365 776 505C776 632 686 673 610 673Z" fill="#b22"/>
+</svg>
