@@ -45,17 +45,24 @@ under *Log* when a session ends mid-phase.
 
 ## Phase 2: probe harness (`probe/`)
 
-- [ ] Python Table Manager server: Wbridge5 takes one seat, script plays the
-      other three from a fixed auction, deals a chosen hand, logs the call.
-- [ ] Run under Xvfb (not installed: `sudo dnf install
-      xorg-x11-server-Xvfb`); measure deals per minute.
-      The smoke test ran on `:0` and popped a window.
-- [ ] Hand generator with constraints (HCP range, shape) for boundary hands.
-- [ ] Output: one JSON per auction prefix, e.g. `probe/1H-P-1N-P.json`,
-      rows of `{hand, call}`.
-- [ ] Summary script: per call, min/max HCP and suit lengths, sample hands.
+- [x] Python Table Manager server, `probe/tm.py`: Wbridge5 sits South, the
+      script plays the other three seats from a fixed auction, deals a
+      chosen hand, logs the call.  Wbridge5's own calls in the prefix are
+      its choice; boards where it strays are dropped.  `Start of board`
+      mid-auction resets it, so one launch serves a whole run.
+- [x] Headless: unset `DISPLAY` and `WAYLAND_DISPLAY` and Wine falls back to
+      its null driver, so Xvfb is not needed.  ~100 deals/min for one call,
+      ~60/min when it also makes its own prefix calls.
+- [x] Hand generator: `--hcp 11-21 --H 5- --S 0-3`, rejection sampling.
+- [x] Output: `probe/data/<prefix>.jsonl`, rows of `{hand, vul, call}`,
+      appended and flushed per board.  `--seed` reproduces a run.
+- [x] Summary, `probe/summary.py`: per call, count, HCP and suit-length
+      ranges, sample hands.
 
-Candidate for a Codex subagent.
+Borrowed from pons (`../pons`): the sample-and-probe method of
+`examples/probe-bba-constraints` (summaries are candidate rules to verify,
+not proof), and `scripts/idle-run.sh` for long runs.  Parallel runs need one
+`WINEPREFIX` each, since `tm.py` ends with `wineserver -k`.
 
 ## Phase 3: regression on existing chapters
 
@@ -101,3 +108,4 @@ Order is by value; each item is hypothesis, probe, write.
 
 - 2026-10-20: plan written; sources located; nothing installed yet.
 - 2026-10-20: phase 1 done; TM mode confirmed, so the xdotool fallback is dropped.
+- 2026-10-20: phase 2 done; harness runs headless without Xvfb.
