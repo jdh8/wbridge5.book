@@ -211,3 +211,13 @@ finer detail.
   Wbridge5 can loop forever choosing a lead when the scripted declarer's
   play fits no deal it can sample (4♠ boards), so those lines ran as
   short seeded chunks (`probe/data/p7/chunks.txt`).
+- 2026-10-21: four cheap "Not probed" items closed without a new phase
+  (spec `probe/np/spec.txt`, data `probe/data/np/`).  RKCB 0314 holds after
+  Namyats, 3♦♥♠ and 4♠ (904 boards, voids ignored); Namyats keeps only ~11%
+  even with 8-card suits at 10--11 HCP.  The 2nd seat opens as the 1st at
+  every vulnerability, but favorable and both vulnerable are a step lighter
+  than none and unfavorable on 5--7 of 300 long-heart hands, contradicting
+  the random-hand check.  Both-vulnerable jump overcalls and two-suiters lie
+  between none and unfavorable (35 of 300 differ from none), contradicting
+  the old 40-board check.  A natural (2♠) over 1NT matches the default on
+  290 of 300; Garbage Stayman after 3♦/3♠ mirrors 3♣/3♥.

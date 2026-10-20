@@ -1,0 +1,46 @@
+4C-P-4N-P --H 8-8 --S 0-2 --hcp 10-11 -n 1000 --seed 1 -o probe/data/np/rkcb/4CP4NP.jsonl	seed 1 -> probe/data/np/rkcb/4CP4NP.jsonl
+3H-P-4N-P --H 7-7 --hcp 5-9 --seed 1 -o probe/data/np/rkcb/3HP4NP.jsonl	seed 1 -> probe/data/np/rkcb/3HP4NP.jsonl
+4D-P-4N-P --S 8-8 --H 0-2 --hcp 10-11 -n 1000 --seed 1 -o probe/data/np/rkcb/4DP4NP.jsonl	seed 1 -> probe/data/np/rkcb/4DP4NP.jsonl
+3D-P-4N-P --D 7- --hcp 5-10 --seed 1 -o probe/data/np/rkcb/3DP4NP.jsonl	seed 1 -> probe/data/np/rkcb/3DP4NP.jsonl
+3S-P-4N-P --S 7-7 --hcp 5-9 --seed 1 -o probe/data/np/rkcb/3SP4NP.jsonl	seed 1 -> probe/data/np/rkcb/3SP4NP.jsonl
+P --hcp 3-11 --H 5-7 --S 0-3 --seed 1 -o probe/data/np/vul/P~H57.jsonl	seed 1 -> probe/data/np/vul/P~H57.jsonl
+4S-P-4N-P --S 7-8 --hcp 7-11 --seed 1 -o probe/data/np/rkcb/4SP4NP.jsonl	seed 1 -> probe/data/np/rkcb/4SP4NP.jsonl
+P --hcp 3-11 --H 5-7 --S 0-3 --vul ns --seed 1 -o probe/data/np/vul/P~H57vulns.jsonl	seed 1 -> probe/data/np/vul/P~H57vulns.jsonl
+P --hcp 3-11 --H 5-7 --S 0-3 --vul ew --seed 1 -o probe/data/np/vul/P~H57vulew.jsonl	seed 1 -> probe/data/np/vul/P~H57vulew.jsonl
+P --hcp 3-11 --H 5-7 --S 0-3 --vul both --seed 1 -o probe/data/np/vul/P~H57vulboth.jsonl	seed 1 -> probe/data/np/vul/P~H57vulboth.jsonl
+P --hcp 3-11 --C 6-8 --S 0-3 --H 0-3 --seed 1 -o probe/data/np/vul/P~C68.jsonl	seed 1 -> probe/data/np/vul/P~C68.jsonl
+P --hcp 3-11 --C 6-8 --S 0-3 --H 0-3 --vul ns --seed 1 -o probe/data/np/vul/P~C68vulns.jsonl	seed 1 -> probe/data/np/vul/P~C68vulns.jsonl
+P-P --hcp 3-11 --C 6-7 --S 0-3 --H 0-3 --vul both --seed 1 -o probe/data/np/vul/PP~C67vulboth.jsonl	seed 1 -> probe/data/np/vul/PP~C67vulboth.jsonl
+1C --hcp 3-11 --H 6-7 --S 0-3 --vul both --seed 1 -o probe/data/np/vul/1C~H67vulboth.jsonl	seed 1 -> probe/data/np/vul/1C~H67vulboth.jsonl
+P --hcp 3-11 --H 5-7 --S 0-3 --vul both --seed 1 -o probe/data/np/vul/P~H57vulboth.jsonl	300 deals, 300 kept, 101/min
+P --hcp 3-11 --C 6-8 --S 0-3 --H 0-3 --vul ns --seed 1 -o probe/data/np/vul/P~C68vulns.jsonl	300 deals, 300 kept, 101/min
+1H --hcp 4-13 --D 5- --C 5- --vul both --seed 1 -o probe/data/np/vul/1H~D5C5vulboth.jsonl	seed 1 -> probe/data/np/vul/1H~D5C5vulboth.jsonl
+1C --hcp 3-11 --H 6-7 --S 0-3 --vul both --seed 1 -o probe/data/np/vul/1C~H67vulboth.jsonl	300 deals, 300 kept, 101/min
+P --hcp 3-11 --H 5-7 --S 0-3 --vul ew --seed 1 -o probe/data/np/vul/P~H57vulew.jsonl	300 deals, 300 kept, 101/min
+P --hcp 3-11 --H 5-7 --S 0-3 --vul ns --seed 1 -o probe/data/np/vul/P~H57vulns.jsonl	300 deals, 300 kept, 101/min
+P --hcp 3-11 --H 5-7 --S 0-3 --seed 1 -o probe/data/np/vul/P~H57.jsonl	300 deals, 300 kept, 101/min
+P --hcp 3-11 --C 6-8 --S 0-3 --H 0-3 --seed 1 -o probe/data/np/vul/P~C68.jsonl	300 deals, 300 kept, 101/min
+- --hcp 3-11 --S 5-7 --H 0-3 --seed 1 -o probe/data/np/vul/o~S57.jsonl	seed 1 -> probe/data/np/vul/o~S57.jsonl
+- --hcp 3-11 --S 5-7 --H 0-3 --vul ns --seed 1 -o probe/data/np/vul/o~S57vulns.jsonl	seed 1 -> probe/data/np/vul/o~S57vulns.jsonl
+- --hcp 3-11 --D 6-8 --S 0-3 --H 0-3 --seed 1 -o probe/data/np/vul/o~D68.jsonl	seed 1 -> probe/data/np/vul/o~D68.jsonl
+- --hcp 3-11 --D 6-8 --S 0-3 --H 0-3 --vul ns --seed 1 -o probe/data/np/vul/o~D68vulns.jsonl	seed 1 -> probe/data/np/vul/o~D68vulns.jsonl
+1N-2S --hcp 8-15 --seed 1 -o probe/data/np/opp/1N2S~hcp815.jsonl	seed 1 -> probe/data/np/opp/1N2S~hcp815.jsonl
+1N-2S --hcp 8-15 --opp SAYC --seed 1 -o probe/data/np/opp/1N2S~hcp815-sayc.jsonl	seed 1 -> probe/data/np/opp/1N2S~hcp815-sayc.jsonl
+P-P --hcp 3-11 --C 6-7 --S 0-3 --H 0-3 --vul both --seed 1 -o probe/data/np/vul/PP~C67vulboth.jsonl	300 deals, 300 kept, 99/min
+1N-P-2C-P-3D-P --hcp 0-7 --S 3-4 --H 3-4 --C 0-1 --seed 1 -o probe/data/np/garb/G8-3D.jsonl	seed 1 -> probe/data/np/garb/G8-3D.jsonl
+4S-P-4N-P --S 7-8 --hcp 7-11 --seed 1 -o probe/data/np/rkcb/4SP4NP.jsonl	300 deals, 122 kept, 73/min
+1N-P-2C-P-3S-P --hcp 0-7 --S 3-4 --H 3-4 --C 0-1 --seed 1 -o probe/data/np/garb/G10-3S.jsonl	seed 1 -> probe/data/np/garb/G10-3S.jsonl
+3H-P-4N-P --H 7-7 --hcp 5-9 --seed 1 -o probe/data/np/rkcb/3HP4NP.jsonl	300 deals, 150 kept, 69/min
+3S-P-4N-P --S 7-7 --hcp 5-9 --seed 1 -o probe/data/np/rkcb/3SP4NP.jsonl	300 deals, 188 kept, 63/min
+3D-P-4N-P --D 7- --hcp 5-10 --seed 1 -o probe/data/np/rkcb/3DP4NP.jsonl	300 deals, 221 kept, 60/min
+- --hcp 3-11 --D 6-8 --S 0-3 --H 0-3 --seed 1 -o probe/data/np/vul/o~D68.jsonl	300 deals, 300 kept, 103/min
+- --hcp 3-11 --S 5-7 --H 0-3 --vul ns --seed 1 -o probe/data/np/vul/o~S57vulns.jsonl	300 deals, 300 kept, 103/min
+- --hcp 3-11 --D 6-8 --S 0-3 --H 0-3 --vul ns --seed 1 -o probe/data/np/vul/o~D68vulns.jsonl	300 deals, 300 kept, 103/min
+- --hcp 3-11 --S 5-7 --H 0-3 --seed 1 -o probe/data/np/vul/o~S57.jsonl	300 deals, 300 kept, 103/min
+1H --hcp 4-13 --D 5- --C 5- --vul both --seed 1 -o probe/data/np/vul/1H~D5C5vulboth.jsonl	300 deals, 300 kept, 101/min
+1N-2S --hcp 8-15 --opp SAYC --seed 1 -o probe/data/np/opp/1N2S~hcp815-sayc.jsonl	300 deals, 300 kept, 75/min
+1N-2S --hcp 8-15 --seed 1 -o probe/data/np/opp/1N2S~hcp815.jsonl	300 deals, 300 kept, 62/min
+4D-P-4N-P --S 8-8 --H 0-2 --hcp 10-11 -n 1000 --seed 1 -o probe/data/np/rkcb/4DP4NP.jsonl	1000 deals, 111 kept, 88/min
+4C-P-4N-P --H 8-8 --S 0-2 --hcp 10-11 -n 1000 --seed 1 -o probe/data/np/rkcb/4CP4NP.jsonl	1000 deals, 112 kept, 88/min
+1N-P-2C-P-3D-P --hcp 0-7 --S 3-4 --H 3-4 --C 0-1 --seed 1 -o probe/data/np/garb/G8-3D.jsonl	300 deals, 259 kept, 35/min
+1N-P-2C-P-3S-P --hcp 0-7 --S 3-4 --H 3-4 --C 0-1 --seed 1 -o probe/data/np/garb/G10-3S.jsonl	300 deals, 259 kept, 37/min

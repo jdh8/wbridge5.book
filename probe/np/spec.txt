@@ -1,0 +1,40 @@
+# Cheap "Not probed" items left after phase 7 (2026-10-21).  No new phase.
+# Run: setsid probe/book.sh probe/np/spec.txt > probe/data/np/run.log 2>&1
+#
+# A. RKCB answers after Namyats, 3♦♥♠ and 4♠ (Openings/Responses.md, Slam.md).
+#    South opens, North asks.  Namyats is rare: 8-card suit, 10-11 HCP keeps ~11%.
+4C-P-4N-P --H 8-8 --S 0-2 --hcp 10-11 -n 1000 --seed 1 -o probe/data/np/rkcb/4CP4NP.jsonl
+4D-P-4N-P --S 8-8 --H 0-2 --hcp 10-11 -n 1000 --seed 1 -o probe/data/np/rkcb/4DP4NP.jsonl
+3D-P-4N-P --D 7- --hcp 5-10 --seed 1 -o probe/data/np/rkcb/3DP4NP.jsonl
+3H-P-4N-P --H 7-7 --hcp 5-9 --seed 1 -o probe/data/np/rkcb/3HP4NP.jsonl
+3S-P-4N-P --S 7-7 --hcp 5-9 --seed 1 -o probe/data/np/rkcb/3SP4NP.jsonl
+4S-P-4N-P --S 7-8 --hcp 7-11 --seed 1 -o probe/data/np/rkcb/4SP4NP.jsonl
+#
+# B. Vulnerability (Openings/Preemptive.md, Defense/1y.md); mirrors of probe/phase7/vul.txt.
+#    2nd seat:
+P --hcp 3-11 --H 5-7 --S 0-3 --seed 1 -o probe/data/np/vul/P~H57.jsonl
+P --hcp 3-11 --H 5-7 --S 0-3 --vul ns --seed 1 -o probe/data/np/vul/P~H57vulns.jsonl
+P --hcp 3-11 --H 5-7 --S 0-3 --vul ew --seed 1 -o probe/data/np/vul/P~H57vulew.jsonl
+P --hcp 3-11 --H 5-7 --S 0-3 --vul both --seed 1 -o probe/data/np/vul/P~H57vulboth.jsonl
+P --hcp 3-11 --C 6-8 --S 0-3 --H 0-3 --seed 1 -o probe/data/np/vul/P~C68.jsonl
+P --hcp 3-11 --C 6-8 --S 0-3 --H 0-3 --vul ns --seed 1 -o probe/data/np/vul/P~C68vulns.jsonl
+#    Both vulnerable where only the other three were probed:
+P-P --hcp 3-11 --C 6-7 --S 0-3 --H 0-3 --vul both --seed 1 -o probe/data/np/vul/PP~C67vulboth.jsonl
+1C --hcp 3-11 --H 6-7 --S 0-3 --vul both --seed 1 -o probe/data/np/vul/1C~H67vulboth.jsonl
+1H --hcp 4-13 --D 5- --C 5- --vul both --seed 1 -o probe/data/np/vul/1H~D5C5vulboth.jsonl
+#    1st seat, spades and diamonds:
+- --hcp 3-11 --S 5-7 --H 0-3 --seed 1 -o probe/data/np/vul/o~S57.jsonl
+- --hcp 3-11 --S 5-7 --H 0-3 --vul ns --seed 1 -o probe/data/np/vul/o~S57vulns.jsonl
+- --hcp 3-11 --D 6-8 --S 0-3 --H 0-3 --seed 1 -o probe/data/np/vul/o~D68.jsonl
+- --hcp 3-11 --D 6-8 --S 0-3 --H 0-3 --vul ns --seed 1 -o probe/data/np/vul/o~D68vulns.jsonl
+#
+# C. Natural (2♠) over our 1NT (1NT/Competition.md); mirrors the 1N2H~hcp815 pair.
+1N-2S --hcp 8-15 --seed 1 -o probe/data/np/opp/1N2S~hcp815.jsonl
+1N-2S --hcp 8-15 --opp SAYC --seed 1 -o probe/data/np/opp/1N2S~hcp815-sayc.jsonl
+#
+# D. Garbage Stayman after 3♦ and 3♠ (1NT/2C.md); completes probe/phase7/p3left.txt G7/G9.
+1N-P-2C-P-3D-P --hcp 0-7 --S 3-4 --H 3-4 --C 0-1 --seed 1 -o probe/data/np/garb/G8-3D.jsonl
+1N-P-2C-P-3S-P --hcp 0-7 --S 3-4 --H 3-4 --C 0-1 --seed 1 -o probe/data/np/garb/G10-3S.jsonl
+#    1st-seat controls for the 2nd-seat favorable/both differences (run on prefix15):
+- --hcp 3-11 --H 5-7 --S 0-3 --vul ew --seed 1 -o probe/data/np/vul/o~H57vulew.jsonl
+- --hcp 3-11 --H 5-7 --S 0-3 --vul both --seed 1 -o probe/data/np/vul/o~H57vulboth.jsonl

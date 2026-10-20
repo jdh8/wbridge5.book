@@ -179,7 +179,10 @@ HCP without promising a diamond stopper (54 of 86 hands held one).
 
 A natural (2♥) draws almost the same calls as the default 2♥, which shows
 5 hearts and a minor.  290 of 300 hands with 8--15 HCP called the same.  The
-rest were mostly 8--9 HCP hands that bid 3NT instead of 2NT.
+rest were mostly 8--9 HCP hands that bid 3NT instead of 2NT.  A natural (2♠)
+behaves the same: 290 of 300 hands called as over the default 2♠.  Six of the
+rest were 8--9 HCP hands trading 2NT and 3NT both ways, and two 14--15 HCP
+hands bid 4NT instead of 3NT, e.g. ♠AQ102 ♥852 ♦KJ83 ♣A6.
 
 ## Responses over (2NT)
 
@@ -236,4 +239,3 @@ usual call with a stopper.
 - Pass, then cuebid over Multi (2♦): responder's passes there hold only
   1--8 HCP
 - Transfer overcalls: Wbridge5 has no option to make the opponents play them
-- A natural (2♠) over 1NT, by analogy with the natural (2♥) probed above

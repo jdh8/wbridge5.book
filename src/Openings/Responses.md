@@ -146,7 +146,8 @@ seen over minors.
 | 4NT! | [RKCB](../Slam.md#rkcb-0314), 13+ HCP
 
 Probing Wbridge5 5.12 shows that a 3♣ opener answers 4NT as [RKCB
-0314](../Slam.md#rkcb-0314) in clubs, counting the ♣K, on all 226 boards.
+0314](../Slam.md#rkcb-0314) in clubs, counting the ♣K, on all 226 boards.  So do 3♦♥♠ openers in their
+own suits, on all 559 boards, ignoring any void.
 For example, ♠Q2 ♥54 ♦86 ♣KQ109873 bids 5♦.
 
 Over 3♥♠, responder passed 10--15 HCP hands without a fit.  It bid 3NT on
@@ -214,11 +215,16 @@ major or asks with RKCB 4NT, usually with 14+ HCP.
 | 4♠   | S/O
 | 4NT! | [RKCB](../Slam.md#rkcb-0314) for spades
 
+Probing Wbridge5 5.12 shows the Namyats opener answering RKCB 0314 in its
+major, ignoring any void, on all 223 boards.  For example, ♠97 ♥KQJ109862 ♦-
+♣A75 bids 5♠ over 4♣ - 4NT.
+
 ## 4♥♠ and 5♣♦
 
 Over 4♥♠, responder passes up to about 18 HCP and bids RKCB 4NT with slam interest.
 Probing Wbridge5 5.12 shows that a 4♥ opener answers it as [RKCB
-0314](../Slam.md#rkcb-0314) on all 112 boards, ignoring any void.  For
+0314](../Slam.md#rkcb-0314) on all 112 boards, ignoring any void, and a 4♠
+opener on all 122.  For
 example, ♠J32 ♥AKQJ1092 ♦753 ♣- bids 5♠.
 
 Over 5♣♦, responder raises to 6 with slam values, usually 14+ HCP, although a
@@ -250,5 +256,3 @@ HCP.  With equal minors, responder chose either.
 - Interference over 3NT and the 4- and 5-level openings
 - Hands under 8 HCP after interference, so the lower ends of those ranges
   are open
-- RKCB after Namyats, and after 3♦♥♠ and 4♠ openings (only 3♣ and 4♥ were
-  probed)
