@@ -7,10 +7,9 @@ system.  This book is a technical report of that system as Wbridge5 5.12
 bids it.  There is also a [collation][bss] in [*Full Disclosure*][fd]
 format.
 
-The topic of this book is mainly bidding because playing is somewhat universal.
-Playing depends not on how to bid but on meaning of every call.  There are so
-many experts and books for playing that writing one more book is infeasible for
-me.
+The topic of this book is bidding.  Card play is left out except for the
+opening lead and defensive signals, which are agreements between partners
+like the bidding.
 
 Wbridge5 has a 2/1 bidding system with French flavors, as it originates from
 France.  Some French conventions greatly improve bidding structure from *the*
@@ -18,9 +17,10 @@ American, so Wbridge5 incorporates them.  Others not so profitable are not
 included in Wbridge5.
 
 Each chapter describes what Wbridge5 bids, verified by probing the program
-itself.  Rules from older writeups that 5.12 does not play, mostly
-improvements for human players by the principle of useful space, are
-archived [outside this book][adjuncts] as optional agreements.
+itself over the Table Manager protocol.  The probe harness and its data are
+in the [source repository][src].  Rules from older writeups that 5.12 does
+not play, mostly improvements for human players by the principle of useful
+space, are archived [outside this book][adjuncts] as optional agreements.
 
 [adjuncts]: https://github.com/jdh8/wbridge5.book/blob/master/doc/adjuncts.md
 [allevy]: https://allevybridge.com/allevy/computerbridge/index.htm

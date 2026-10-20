@@ -1,0 +1,23 @@
+1N-P-P-P --dealer East --hcp 0-11 -n 300 -o probe/data/p6/lead-1N.jsonl	seed 1 -> probe/data/p6/lead-1N.jsonl
+1N-P-3N-P-P-P --dealer East --hcp 0-11 -n 300 -o probe/data/p6/lead-3N.jsonl	seed 1 -> probe/data/p6/lead-3N.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-11 -n 300 -o probe/data/p6/lead-4S.jsonl	seed 1 -> probe/data/p6/lead-4S.jsonl
+1H-P-2H-P-P-P --dealer East --hcp 0-11 -n 300 -o probe/data/p6/lead-2H.jsonl	seed 1 -> probe/data/p6/lead-2H.jsonl
+1N-P-3N-P-P-P --dealer East --hcp 0-11 -n 200 --ini 4_longueNS=0 -o probe/data/p6/lead-3N-lg0.jsonl	seed 1 -> probe/data/p6/lead-3N-lg0.jsonl
+1C-P-1S-2H-2N-P-3N-P-P-P --dealer East --hcp 0-9 -n 300 -o probe/data/p6/lead-3N-pH.jsonl	seed 1 -> probe/data/p6/lead-3N-pH.jsonl
+1S-P-2S-3H-4S-P-P-P --dealer East --hcp 0-9 -n 300 -o probe/data/p6/lead-4S-pH.jsonl	seed 1 -> probe/data/p6/lead-4S-pH.jsonl
+1N-P-3N-P-P-P --dealer East --hcp 0-11 -n 200 --ini 4_longueNS=1 -o probe/data/p6/lead-3N-lg1.jsonl	seed 1 -> probe/data/p6/lead-3N-lg1.jsonl
+1N-P-3N-P-P-P --dealer West --ak H -n 400 -o probe/data/p6/sig-3N.jsonl	seed 1 -> probe/data/p6/sig-3N.jsonl
+1S-P-4S-P-P-P --dealer West --ak H --hcp 0-11 -n 400 -o probe/data/p6/sig-4S.jsonl	seed 1 -> probe/data/p6/sig-4S.jsonl
+1S-P-4S-P-P-P --dealer West --ak S --hcp 0-11 -n 400 -o probe/data/p6/sig-4S-trump.jsonl	seed 1 -> probe/data/p6/sig-4S-trump.jsonl
+1S-P-4S-P-P-P --dealer West --ak S --hcp 0-11 -n 250 --ini VinjeNS=0 -o probe/data/p6/sig-4S-trump-v0.jsonl	seed 1 -> probe/data/p6/sig-4S-trump-v0.jsonl
+1S-P-4S-P-P-P --dealer West --ak S --hcp 0-11 -n 250 --ini VinjeNS=1 -o probe/data/p6/sig-4S-trump-v1.jsonl	seed 1 -> probe/data/p6/sig-4S-trump-v1.jsonl
+1S-P-4S-P-P-P --dealer West --ak H --hcp 0-11 -n 250 --ini SignalNS=0 -o probe/data/p6/sig-4S-s0.jsonl	seed 1 -> probe/data/p6/sig-4S-s0.jsonl
+1N-P-P-P --dealer East --hcp 0-11 -n 300 -o probe/data/p6/lead-1N.jsonl	300 deals, 266 kept, 26/min
+1S-P-4S-P-P-P --dealer West --ak H --hcp 0-11 -n 400 -o probe/data/p6/sig-4S.jsonl	400 deals, 365 kept, 30/min
+1S-P-4S-P-P-P --dealer West --ak S --hcp 0-11 -n 400 -o probe/data/p6/sig-4S-trump.jsonl	400 deals, 366 kept, 30/min
+1S-P-2S-3H-4S-P-P-P --dealer East --hcp 0-9 -n 300 -o probe/data/p6/lead-4S-pH.jsonl	300 deals, 167 kept, 21/min
+1N-P-3N-P-P-P --dealer West --ak H -n 400 -o probe/data/p6/sig-3N.jsonl	400 deals, 385 kept, 26/min
+1H-P-2H-P-P-P --dealer East --hcp 0-11 -n 300 -o probe/data/p6/lead-2H.jsonl	300 deals, 182 kept, 16/min
+1N-P-3N-P-P-P --dealer East --hcp 0-11 -n 300 -o probe/data/p6/lead-3N.jsonl	300 deals, 266 kept, 16/min
+1S-P-4S-P-P-P --dealer East --hcp 0-11 -n 300 -o probe/data/p6/lead-4S.jsonl	300 deals, 229 kept, 16/min
+1C-P-1S-2H-2N-P-3N-P-P-P --dealer East --hcp 0-9 -n 300 -o probe/data/p6/lead-3N-pH.jsonl	300 deals, 74 kept, 15/min

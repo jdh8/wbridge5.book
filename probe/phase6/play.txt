@@ -1,0 +1,16 @@
+# Phase 6: opening leads and signals (doc 首引及防禦信號, help signalisation.htm).
+# Complete auctions; tm.py records South's first card.  Dealer East: East
+# declares and South leads.  Dealer West with --ak: North leads the ace from
+# A K, dummy (East) plays low, South follows.  Play options live in [WBR5],
+# not [Ench]: 4_longueNS=0 turns off 4th-best NT leads; SignalNS (0-3) does
+# not change Wbridge5's own cards, and there is no Vinje key (off).
+1N-P-3N-P-P-P --dealer East --hcp 0-11 -n 300 -o probe/data/p6/lead-3N.jsonl
+1N-P-P-P --dealer East --hcp 0-11 -n 300 -o probe/data/p6/lead-1N.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-11 -n 300 -o probe/data/p6/lead-4S.jsonl
+1H-P-2H-P-P-P --dealer East --hcp 0-11 -n 300 -o probe/data/p6/lead-2H.jsonl
+1S-P-2S-3H-4S-P-P-P --dealer East --hcp 0-9 -n 300 -o probe/data/p6/lead-4S-pH.jsonl
+1C-P-1S-2H-2N-P-3N-P-P-P --dealer East --hcp 0-9 -n 300 -o probe/data/p6/lead-3N-pH.jsonl
+1N-P-3N-P-P-P --dealer West --ak H -n 400 -o probe/data/p6/sig-3N.jsonl
+1S-P-4S-P-P-P --dealer West --ak H --hcp 0-11 -n 400 -o probe/data/p6/sig-4S.jsonl
+1S-P-4S-P-P-P --dealer West --ak S --hcp 0-11 -n 400 -o probe/data/p6/sig-4S-trump.jsonl
+1N-P-3N-P-P-P --dealer East --hcp 0-11 -n 200 --ini [WBR5],4_longueNS=0 -o probe/data/p6/lead-3N-lg0.jsonl

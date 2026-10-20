@@ -116,9 +116,15 @@ SAYC.  `tm.py --opp SEF|SAYC` gives E-W Wbridge5's preset for that system.
 
 ## Phase 6: wrap up
 
-- [ ] Opening leads and signals checked against the program (壹.三 of the doc).
-- [ ] Regenerate Wbr5.bss from probe data; sync both repos.
-- [ ] Update SUMMARY.md, redirects, README.
+- [x] Opening leads and signals checked against the program (壹.三 of the doc).
+      `tm.py` plays a complete auction to South's first card: its opening
+      lead, or with `--ak` its follow under partner's ace.  Spec
+      `probe/phase6/play.txt`, tally `probe/phase6/cards.py`.  Signals.md.
+- [x] Regenerate Wbr5.bss from probe data; sync both repos.  One agent per
+      chapter group wrote a fragment from the book (`probe/phase6/BRIEF.md`);
+      merged into `../Wbr5.bss` with RKCB.bss and a README pointing here.
+- [x] Update SUMMARY.md, redirects, README.  Redirects already cover every
+      GitBook-era page.
 
 ## Phase 7: loose ends
 
@@ -143,6 +149,13 @@ finer detail.
 - [ ] Second rounds the defensive chapters stop short of: overcaller's
       answer to 2NT, doubler's rebid after a responsive double, advances
       after a balancing Landy or Multi.
+- [ ] Card play beyond trick 1: discards, suit preference, signals after
+      trick 1, leads against slams and doubled contracts (Signals.md).
+- [ ] Wbr5.bss gaps the book leaves open: 2♣ - 2♦ - 2NT ranges (2C.md
+      probes vs 1NT.md's "2 HCP stronger"), Lebensohl cuebid INV vs FG
+      (Lebensohl.md vs 1NT/Competition.md), the FD characteristic codes
+      (inferred, undocumented), and a 4th-seat-only row for openings the
+      book says 4th seat never makes.
 
 ## Log
 
@@ -174,3 +187,9 @@ finer detail.
   Everything is at none vulnerable.  Open: 1NT/Interference.md assumes
   the opponents play Landy, untested against SAYC's natural 2♣; the SAYC
   (3NT) opening's meaning; each new chapter ends with what was not probed.
+- 2026-10-20: phase 6 done.  Wbridge5 defends by count: lowest from odd,
+  highest spot below the 8 from even; Vinje off; 4th-best NT leads on.
+  Play options live in `[WBR5]` (`4_longueNS`), not `[Ench]`; `SignalNS`
+  does not change its own cards.  The 2011 lead tables match 5.12.
+  Wbr5.bss regenerated (3007 keys) from the book; both repos committed,
+  not pushed.

@@ -6,6 +6,15 @@ Wbridge5 sits South; the dealer rotates so it calls right after the prefix.
 Its own calls inside the prefix are its choice, not ours: a board where it
 strays from the prefix is dropped.  -n counts boards dealt, not rows kept.
 Each kept row {hand, vul, call} is appended to probe/data/<prefix>.jsonl.
+
+A complete auction (ending in three passes) records South's first card
+instead, as {hand, vul, card}.  Give --dealer so the right side declares:
+
+    python3 probe/tm.py 1N-P-3N-P-P-P --dealer East        # South leads
+    python3 probe/tm.py 1N-P-3N-P-P-P --dealer West --ak H  # South signals
+
+With West declaring, North holds the A K of --ak and leads the ace, and dummy
+plays its lowest card of the suit (or its lowest card).  Rows add the dummy.
 Runs headless: with no DISPLAY, Wine falls back to its null driver.
 """
 import argparse, json, os, random, socket, subprocess, sys, time
@@ -65,6 +74,36 @@ OPP = {
 }
 
 
+def rest(rng, south, suit):
+    """Deal N, E, W around South; North gets the A K of suit (index into S H D C)."""
+    others = [(s, r) for s in range(4) for r in RANKS
+              if r not in south[s] and not (s == suit and r in "AK")]
+    rng.shuffle(others)
+    def hand(cards):
+        return ["".join(r for r in RANKS if (s, r) in cards) for s in range(4)]
+    ak = [(suit, "A"), (suit, "K")]
+    return hand(ak + others[:11]), hand(others[11:24]), hand(others[24:])
+
+
+def tm_cards(suits):
+    return " ".join(f"{s} {' '.join(x) or '-'}." for s, x in zip("SHDC", suits))
+
+
+def lowest(suits, suit):
+    """Dummy's card under the lead: its lowest in suit, else its lowest card."""
+    s = suit if suits[suit] else max((s for s in range(4) if suits[s]), key=lambda s: RANKS.index(suits[s][-1]))
+    return suits[s][-1] + "SHDC"[s]
+
+
+def declarer(auction, dealer):
+    """Seat that declares a complete auction dealt by dealer."""
+    bids = [(i, c) for i, c in enumerate(auction) if c not in ("P", "X", "XX")]
+    last, contract = bids[-1]
+    side = last % 2
+    first = next(i for i, c in bids if i % 2 == side and c[1:] == contract[1:])
+    return SEATS[(SEATS.index(dealer) + first) % 4]
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("auction", nargs="?", default="", help="calls before Wbridge5's, e.g. 1H-P-1N-P")
@@ -74,8 +113,11 @@ def main():
     ap.add_argument("--hcp", type=span, default=(0, 37))
     for s in "SHDC":
         ap.add_argument(f"--{s}", type=span, default=(0, 13), help=f"{s} length, e.g. 5- or 0-3")
-    ap.add_argument("--ini", default="", help="[Ench] options, e.g. EO2faible=0,EO1Sa=12")
+    ap.add_argument("--ini", default="", help="[Ench] options, e.g. EO2faible=0,EO1Sa=12; "
+                    "a [Section] item starts another, e.g. [WBR5],4_longueNS=0")
     ap.add_argument("--opp", choices=OPP, help="E-W play this preset system instead of Wbridge5's")
+    ap.add_argument("--dealer", choices=SEATS, help="default: South calls right after the auction")
+    ap.add_argument("--ak", choices="SHDC", help="North leads the ace from A K of this suit")
     ap.add_argument("-o", type=Path)
     ap.add_argument("-v", action="store_true", help="echo the protocol")
     a = ap.parse_args()
@@ -86,7 +128,12 @@ def main():
     seed = a.seed if a.seed is not None else random.randrange(2**32)
     print(f"seed {seed} -> {out}", file=sys.stderr)
     rng = random.Random(seed)
-    dealer = SEATS[(2 - len(prefix)) % 4]
+    dealer = a.dealer or SEATS[(2 - len(prefix)) % 4]
+    complete = len(prefix) >= 4 and prefix[-3:] == ["P"] * 3
+    if complete:
+        leader = SEATS[(SEATS.index(declarer(prefix, dealer)) + 1) % 4]
+        if leader not in ("South", "North") or (leader == "North") != bool(a.ak):
+            sys.exit(f"{leader} leads; South must lead, or North with --ak")
 
     # Rewritten every run so a slot never inherits the last job's options
     kvs = ([OPP[a.opp]] if a.opp else []) + [a.ini]
@@ -128,12 +175,17 @@ def main():
         with out.open("a") as log:
             for board in range(1, a.n + 1):
                 suits = deal(rng, a.hcp, [a.S, a.H, a.D, a.C])
+                if a.ak:
+                    ak = "SHDC".index(a.ak)
+                    while "A" in suits[ak] or "K" in suits[ak]:
+                        suits = deal(rng, a.hcp, [a.S, a.H, a.D, a.C])
+                    _, east, _ = rest(rng, suits, ak)
                 send("Start of board")
                 recv()
                 send(f"Board number {board}. Dealer {dealer}. {VUL[a.vul]} vulnerable.")
                 recv()
-                send("South's cards : " + " ".join(f"{s} {' '.join(x) or '-'}." for s, x in zip("SHDC", suits)))
-                for call in prefix + [None]:
+                send("South's cards : " + tm_cards(suits))
+                for call in prefix + ([] if complete else [None]):
                     line = recv()
                     if line.startswith("SOUTH ready for"):
                         seat = line.split()[-2].removesuffix("'s").title()
@@ -146,6 +198,23 @@ def main():
                         kept += 1
                     if call is None or to_tm(from_tm(line)) != to_tm(call):
                         break
+                else:  # a complete auction Wbridge5 kept to: play to its first card
+                    row = {"hand": ".".join(suits), "vul": a.vul}
+                    if not a.ak:
+                        send("South to lead")
+                    while not (line := recv()).startswith("SOUTH plays"):
+                        if "ready for dummy" in line:
+                            send("Dummy's cards : " + tm_cards(east))
+                        elif "NORTH's card" in line:
+                            send(f"North plays A{a.ak}")
+                        elif "card to trick" in line:
+                            send("East plays " + lowest(east, ak))
+                    row["card"] = line.split()[-1].upper()
+                    if a.ak:
+                        row["dummy"] = ".".join(east)
+                    log.write(json.dumps(row) + "\n")
+                    log.flush()
+                    kept += 1
                 if prefix != ["P"] * 3 or from_tm(line) != "P":  # a passed-out board says nothing more
                     recv()  # whatever comes next is abandoned by the next Start of board
         rate = a.n / (time.time() - start) * 60

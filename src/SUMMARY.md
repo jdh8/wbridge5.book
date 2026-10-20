@@ -4,7 +4,7 @@
 [Introduction](README.md)
 
 - [Hand evaluation](Evaluation.md)
-- [Defensive signals](Signals.md)
+- [Leads and signals](Signals.md)
 - [Glossary](Glossary.md)
 
 # Partnership bidding

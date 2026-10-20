@@ -10,6 +10,44 @@ agreement.
 Each entry names the auction, states Wbridge5's call from probing 5.12, then
 the adjunct.
 
+## [Leads and signals](../src/Signals.md)
+
+### Vinje trump signals
+
+Wbridge5: Vinje is an option, off by default.  Following in trumps shows
+trump count; the shape of the rest of the hand does not matter (odd: lowest
+156 of 157).
+
+Adjunct: The Vinje signals show pattern with trump cards.  A high-low
+shows an even pattern, a hand with 3 even-numbered suits.
+
+### Honor leads against notrump
+
+Wbridge5: The ace is led from AKxx and AK10xx, and the 10 from 1098x and
+1097x with no higher honor.  The king is led from AKJ10.
+
+Adjunct: Leading an honor shows 3+ honors, the highest of consecutive
+honors, with the 9 counted as an honor next to the 10.  A 10 lead implies a
+higher honor and the 9.  The king is led from AKQ or AKJ10 to show the third
+defensive trick, since nobody leads from AK doubleton against notrump.
+
+### Short suit against notrump
+
+Wbridge5: Leads partner's suit and leads the lowest from 3 (64 of 84 deals
+after partner's 2♥ overcall).  It never led its own suit of fewer than 4
+cards.
+
+Adjunct: With 3 or fewer cards in the preferred suit, lead the highest spot
+card, e.g. Q**4**3 or **9**65.
+
+### Leading from an ace against suits
+
+Wbridge5: Leads the ace from Axxx, Axxxx and AQxx, and the ace from AKJxx
+and AKQxxx too.
+
+Adjunct: Avoid leading from Axxx; if forced to, lead 4th best.  An ace lead
+shows AKx and denies the queen or jack.
+
 ## [Glossary](../src/Glossary.md)
 
 ### Delayed raise
