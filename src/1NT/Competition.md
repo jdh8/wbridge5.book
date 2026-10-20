@@ -174,6 +174,8 @@ Diamond suits bid 3NT instead.  SAYC and SEF drew the same 300 calls.
 Against the default Multi, 81 of the same 300 hands called differently.
 The most common change, 29 hands, was a double instead of 3NT.  For
 example, ♠KQ4 ♥842 ♦1093 ♣AJ72 doubles a natural 2♦ but bids 3NT over Multi.
+Over Multi, the double holds only 8--9 HCP (16 boards), and 3NT holds 8--17
+HCP without promising a diamond stopper (54 of 86 hands held one).
 
 A natural (2♥) draws almost the same calls as the default 2♥, which shows
 5 hearts and a minor.  290 of 300 hands with 8--15 HCP called the same.  The
