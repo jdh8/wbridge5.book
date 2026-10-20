@@ -1,8 +1,12 @@
 # Openings
 
-A hand with 12+ HCP or 13+ points and 11 HCP is sufficient for an opening.  If
-both hands in a pair are opening hands, they can probably make a game contract.
-Therefore, with an opening hand, we must open to prevent a pass out.
+A hand with 12+ HCP is sufficient for an opening.  With 10--11 HCP, open if
+HCP plus the lengths of the two longest suits reach 20, the rule of 20.
+Probing Wbridge5 5.12 shows this fits light openings better than counting
+points: it always opens at 21 and about half the time at 20, occasionally at
+19 with a 7-card suit too poor for a preempt.  If both hands in a pair are
+opening hands, they can probably make a game contract.  Therefore, with an
+opening hand, we must open to prevent a pass out.
 
 Moreover, some hands with good distribution but poor values are suitable for
 an opening as well.  These openings are preemptive, which focus on disturbing
@@ -18,7 +22,7 @@ them.
 | 1♦   | 4+♦ or 4=4=3=2
 | 1♥♠  | 5+#
 | 1NT  | 15--17 HCP, BAL or 5m(422) or 6m(322)
-| 2♣!  | STR: (21--23 or 4 losers) or (22--23 HCP, 2NT shape)
+| 2♣!  | STR: 21--23 or (22--23 HCP, 2NT shape)
 | 2♦!  | FG, 24+, any shape
 | 2♥♠  | PRE, 6+#
 | 2NT  | 20--21 HCP, 2--4♠, 2--4♥, 2--5♦, 2--5♣
@@ -28,6 +32,7 @@ them.
 | 4♦!  | Namyats, strong 4♠
 | 4♥♠  | PRE, 7+#
 | 4NT! | UNT, 6+♦, 6+♣
+| 5♣♦  | PRE, 8+m
 
 ## Alertable openings
 
@@ -88,7 +93,8 @@ and 2NT openings.
 The strong 2♣ shows two kinds of **invitational** hands.  The 2♣ is a limit
 bid, so the responder becomes the *captain*.
 
-- 21--23 points or 4-loser hands unsuitable for a 2NT opening.
+- 21--23 points unsuitable for a 2NT opening.  Probing Wbridge5 5.12 shows
+  that a 4-loser hand with fewer points opens 1 of a suit.
 - 22--23 HCP, 2--4 cards in each major, 2--5 cards in each minor.
 
 The strong 2♦ shows a **game-forcing** hand, stronger than 2♣.
@@ -100,8 +106,9 @@ There are three openings describing a hand with 21+ points or 20+ HCP, *viz.*
 revisit this section after understanding continuations after 2NT, 2♣, and 2♦.
 
 The chance to open 2♦ is slim.  Actually 2♦ is a dustbin for hands way too
-strong, clarifying other bids for hands with 21--23 points.  With 24+ points,
-24+ HCP, or 3&minus; losers, we must open 2♦.
+strong, clarifying other bids for hands with 21--23 points.  With 24+ points
+or 24+ HCP, we must open 2♦.  Losers only break ties: 3-loser hands open 1 of
+a suit, 2♣, or 2♦ alike.
 
 The frequent rebids of 2♣ openings are 2♥ through 3♦.  The 2NT rebid describes
 a notrump hand stronger than 2NT opening.  The majors promise 5+ cards, minors

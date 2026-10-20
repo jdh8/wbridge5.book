@@ -36,13 +36,16 @@ opener's excessive points and then bids as if it were a 2NT opening.
 | 2♠! | TRF, 6+♣ or (S/T, 5+♦, 5+♣)
 | 2NT | INV, 8--9<sup>&minus;</sup> HCP
 | 3♣! | TRF, 6+♦
-| 3NT | S/O, 9<sup>+</sup>--14 HCP
-| 4♦! | 9--15, 5-5 or 6-6 MM
+| 3NT | S/O, 9--15 HCP
+| 4♦! | 9--14, 5-5 or 6-6 MM
 | 4♠! | 9+, 5+♦, 5+♣
-| 4NT | QUANT INV to 6NT, 15 HCP
-| 5NT | QUANT INV to 7NT, 18 HCP
-| 6NT | S/O, 16--17 HCP
-| 7NT | S/O, 19+ HCP
+| 4NT | QUANT INV to 6NT, 16 HCP
+| 5NT | QUANT INV to 7NT, 20--21 HCP
+| 6NT | S/O, 17--19 HCP
+| 7NT | S/O, 22+ HCP
+
+Probing Wbridge5 5.12 shows these notrump raises a point stronger than usual:
+3NT goes up to 15 HCP, and 6NT starts at 17 HCP.
 
 ### Strong jump shifts
 
@@ -71,14 +74,16 @@ bid Stayman 2♣ for 5-4 majors or transfer for the only major.
 | 3♦! | TRF, 5+♥
 | 3♥! | TRF, 5+♠
 | 3♠! | TRF, 6+♣ or (S/T, 5+♦, 5+♣)
-| 3NT | S/O, 4<sup>+</sup>--9 HCP
+| 3NT | S/O, 5--10 HCP
 | 4♣! | TRF, 6+♦
-| 4♦! | 4+, 5-5 or 6-6 MM
+| 4♦! | 6--11, 5-5 or 6-6 MM
 | 4♠! | 5+♦, 5+♣
-| 4NT | QUANT INV to 6NT, 10 HCP
-| 5NT | QUANT INV to 7NT, 13 HCP
-| 6NT | S/O, 11--12 HCP
-| 7NT | S/O, 14+ HCP
+| 4NT | QUANT INV to 6NT, 11--14 HCP
+| 5NT | QUANT INV to 7NT, 15--16 HCP
+| 7NT | S/O, 17+ HCP
+
+Probing Wbridge5 5.12 shows no direct 6NT here.  Responder invites with 4NT
+instead.  Stronger 5-5 majors transfer with 3♥ rather than bid 4♦.
 
 ## Major transfer structure
 
@@ -95,8 +100,8 @@ bid Stayman 2♣ for 5-4 majors or transfer for the only major.
 </tbody>
 </table>
 
-Strong jump shifts, only available for 1NT opening, require < 4 cards in all
-other suits.
+Strong jump shifts are only available for 1NT opening.  Probing Wbridge5 5.12
+shows that they allow a 4-card side minor.
 
 ## Minor transfer structure
 

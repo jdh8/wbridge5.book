@@ -10,14 +10,18 @@ penalty with opener's 3+ cards.  Moreover, because penalty is expected, 4-3-3-3
 is allowed.
 
 This cooperative double shows 8+ points, i.e. invitational+ values.
+Probing Wbridge5 5.12 shows that it usually denies a stopper in the called
+suit.  With a stopper, responder bids 3NT instead.  The exception is the double
+of 3♠, which is more penal.
 
 - **As takeout:** Opener can jump to game with maximum.
 - **As penalty:** We can defend even if opponents have an 8-card fit.
 
 Opener often passes to convert the double to penalty.  However, opener
-sometimes runs.  The Wbridge5 program runs if there are 5+ cards in any suit.
-I found this strategy too naïve, which occasionally produces disasters when
-opponents have a 9-card fit.  I suggest the runout strategy below.
+sometimes runs.  Probing Wbridge5 5.12 over 2♥ shows that opener runs to a
+3-level suit only with a doubleton ♥, while 5 spades run to 2♠ with 2--3 ♥.
+Opener occasionally runs to 2NT without a 5-card suit.  I suggest the runout
+strategy below.
 
 - **Run with 5-card major or 6-card minor:** It is likely better to play our
   own suit contract.

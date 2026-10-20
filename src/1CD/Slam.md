@@ -70,7 +70,8 @@ major.
 ### Quantitative invitation to 6NT
 
 With 17--18 HCP and 2--3♠ 2--3♥ 2--4♦ 4+♣, invite to 6NT quantitatively.  Fake
-a catchall 1♦ first because direct 4NT is reserved for RKCB.  If the auction is
+a catchall 1♦ first because direct 4NT is reserved for RKCB.  Probing Wbridge5
+5.12 shows a direct 4NT instead with 16--17 HCP and 5+ clubs.  If the auction is
 interfered, cuebid or redouble to show a generic slam try.  The following show
 reactions to opener's rebids in a constructive auction.
 
@@ -104,7 +105,7 @@ The only possible responses of a responder with 17+ points are as follows.
 |-----|-|
 | 2♣  | 2/1, 12+, 4+♣ (may be shorter with 17+)
 | 2♥♠ | SJS, 17+, 4+#
-| 3♣  | SJS, 18+, (6+♣ or (4+♣, 6+♦))
+| 3♣  | (SJS, 18+, 6+♣) or (15--19, 4+♣, 6+♦)
 
 ### Precedence of bids
 

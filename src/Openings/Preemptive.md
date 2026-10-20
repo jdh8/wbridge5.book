@@ -13,8 +13,8 @@ openings because the partner has passed.
 
 The weak 2s require 6+ cards in general, but 5 cards is accepted for the 3rd
 seat unless vulnerability is unfavorable.  If non-vulnerable, the first two
-seats can also open a weak 2 with AKxxx or AQJxx.  The strength requirements
-are as follows.
+seats can also open a weak 2 with AKxxx or AQJxx in a 5-3-3-2 hand.  The
+strength requirements are as follows.
 
 In the first 2 seats, **pass** with 4+ cards in the other major.  This prevents
 losing a 4-4 fit if partner has an opening hand.
@@ -57,6 +57,10 @@ be no weaker than KQxxxxx.
 - **Both vulnerable:** 13+
 - **None vulnerable:** 12+
 - **Favorable:** 11+
+
+## Preemptive 5♣♦
+
+Opening 5♣♦ promises 8+ cards.
 
 ## Namyats
 

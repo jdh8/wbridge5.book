@@ -75,7 +75,7 @@ def fmt(path):
         i = j
     return '\n'.join(out)
 
-for f in sorted(glob.glob('src/**/*.md', recursive=True)):
+for f in sys.argv[1:] or sorted(glob.glob('src/**/*.md', recursive=True)):
     new = fmt(f)
     if new != open(f).read():
         open(f, 'w').write(new)

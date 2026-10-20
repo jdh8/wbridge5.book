@@ -92,7 +92,7 @@ P-P-1D-X --hcp 8-11
 1N-P-2H-P-3S-P --S 5-
 1N-P-2S-P-3C-P --C 6-
 1N-P-2S-P-2N-P --hcp 8-
-1N-P-3C-P-3D-P --hcp 8- --D 0-3 --C 0-3
+1N-P-3C-P-3D-P --hcp 8- --D 6-
 2N-P-3D-P-3H-P --H 5-
 2N-P-3H-P-3S-P --S 5-
 2N-P-3S-P-4C-P

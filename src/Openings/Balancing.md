@@ -5,6 +5,13 @@ opening, this means opener is at the 4th seat.
 
 Since there is no more opponent to preempt, aggressive preempts are pointless.
 As a consequence, except 4♠ and 4♥, there are no more openings from 3NT on.
+Probing Wbridge5 5.12 shows a natural 4♦ or 5♦ with 8+ diamonds and 9--11 HCP
+as well.
+
+## One-of-a-suit openings
+
+A light opening in the 4th seat follows the rule of 15: open if HCP plus
+spades reach 15.
 
 ## Weak 2s
 
@@ -22,11 +29,13 @@ auctions like 1♥ - 1NT - 2♥ - 3♥ passed out.
 ## Preemptive 3s
 
 Opening 3 of a suit shows 7+ cards and requires opening offensive values (13+
-points) but no opening defensive values (< 12 HCP).
+points) but no opening defensive values (< 12 HCP).  With a 7-card minor and
+10+ HCP, open 1 of the minor instead.
 
 ## Signoff 4♥ & 4♠
 
 These two are the only openings beyond 3NT because major games are so
-profitable.  They now stand for [4♥ and 4♠ openings][4M] with 12+ HCP.
+profitable.  They now stand for [4♥ and 4♠ openings][4M] with 8--13 HCP, so
+opening values are allowed.
 
 [4M]: Preemptive.md#preemptive-4M

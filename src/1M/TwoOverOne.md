@@ -56,7 +56,7 @@ strength.
 | 3NT               | 18--20 HCP, BAL
 | 4m                | 18--21, 4+m
 | 4-level new suit! | SPL, 17--21, **0--1#**, 4+m
-| 4M                | 20--21, 7+M
+| 4M                | 18--21, 7+M
 
 ### 1♠ - 2♥
 
@@ -69,9 +69,12 @@ fallback 2♠ or 2NT first to dissuade partner from searching slam.
 
 | 1♠ - 2♥ - | |
 |------|-|
-| 3♥   | 17--21, 3+♥
+| 3♥   | 14--21, 3+♥
 | 4♣♦! | SPL, 16--21, **0--1#**, 3+♥
 | 4♥   | 14--16, 3+♥
+
+Probing Wbridge5 5.12 shows 3♥ also covers minimum hands with 4-card support
+and no shortness.
 
 ### The 2NT rebid with a 6-card major
 
@@ -99,7 +102,7 @@ below 3NT.
 ### Opener rebid own suit or below
 
 Opener showed a minimal (non-maximum) unbalanced hand.  Rebidding the opened
-suit is the most frequent here and the 2nd overall.  Note that
+suit is the most frequent rebid overall.  Note that
 1♠ - 2♣ - 2♠ is the only circumstance where a 6th card is for sure.
 
 In the following tables, x is responder's suit and y is opener's rebid suit.
@@ -107,17 +110,21 @@ In the following tables, x is responder's suit and y is opener's rebid suit.
 #### Raises
 
 There is enough space to bid weak and strong hands under game for safety and
-bidding space respectively.  Here M is the opened major, and m is a minor
-opener has bid.
+bidding space respectively.  Here M is a major opener has bid, and m is a
+minor opener has bid.  Over 1♥ - 2x - 2♥, the jump to 3♠ is a splinter.
 
 | 1M - 2x -<br>2y - | y ≤ M |
-|----|---|
-| 2M | **NF**, < 12 HCP, 2=M
-| 3m | **NF**, < 12 HCP, 4+m
-| 3M | S/T, 16+, fit found
-| 4m | S/T, 16+, fit found
-| 4M | S/O
-| 5m | S/O
+|-----|---|
+| 2M  | **NF**, < 13 HCP, 2=M
+| 3m  | **NF**, < 14 HCP, 4+m
+| 3M  | S/T, 16+, fit found
+| 3♠! | SPL, 16+, **0--1♠**, 3+♥
+| 4m  | S/T, 16+, fit found
+| 4M  | S/O
+| 5m  | S/O
+
+Probing Wbridge5 5.12 shows it also bids 3♠ over 1♠ - 2♣ - 2♠ with a minimum
+and a doubleton, and it may pass 2y with < 14 HCP and a 6+ minor.
 
 #### Others
 
@@ -129,16 +136,18 @@ strength is to sign off 3NT.
 |-------------------|---|
 | Non-jump new suit | 4+# or (18+ HCP, 3=#, 5-3-3-2)
 | 2NT               | 11--14 HCP, 2+ cards in every unbid suit
-| 3x                | 12--15, 6+x
-| Jump new suit     | 18+, 4+#
-| 3NT               | S/O, 15--17 HCP, 2+ cards in every unbid suit
-| 4x                | 16+, 6+x
+| 3x                | 13--17, 6+x
+| Jump new suit     | 16+, 4+#
+| 3NT               | S/O, 13--18 HCP, usually 2+ cards in every unbid suit
+| 4x                | 18+, 6+x
 | 4-level new suit! | SPL, 17+, **0--1#**, fit in the last bid suit
+
+Over 1♠ - 2♥ - 2♠, 4♥ is to play and 3♥ is unlimited.
 
 ### Opener rebid 2NT
 
-The 2NT rebid shows balanced 12--14 HCP or 5-4-2-2 with 11--14 HCP where the
-4-card suit is skipped.  This rebid is the most frequent.
+The 2NT rebid shows 11--14 HCP, balanced or 5-4-2-2 where the 4-card suit is
+skipped.  This rebid is the 2nd most frequent.
 
 Most second responses are the same as if opener rebid the opened suit or below
 because 2NT is minimum.  The following only describe differences.
@@ -160,8 +169,8 @@ Because 2NT is weaker than a simple suit, 2 more points are needed to try slam.
 
 | 1M - 2♣ -<br>2NT - | |
 |----|-|
-| 3♣ | 12--17, 6+♣
-| 4♣ | 18+, 6+♣
+| 3♣ | 12--19, 6+♣
+| 4♣ | 20+, 6+♣
 
 #### Over 1♥ - 2♦ - 2NT
 
@@ -174,6 +183,8 @@ Quantitative invitations are off as Roudy is superior by its low level.
 |-----|-|
 | 3♣! | Roudy, 11+ HCP, 5+♦
 | 3♦  | **NF**, < 11 HCP, 6+♦
+| 3NT | S/O, 9--16 HCP
+| 5♦  | S/O, < 14 HCP, 7+♦
 
 #### Over 1♠ - 2♦ - 2NT
 
@@ -183,8 +194,8 @@ partner's strength.
 | 1♠ - 2♦ -<br>2NT - | |
 |-----|-|
 | 3♣! | Roudy, 5+♦
-| 3♦  | 12--17, 6+♦
-| 4♦  | 18+, 6+♦
+| 3♦  | 12--19, 6+♦
+| 4♦  | 20+, 6+♦
 
 #### Over 1♠ - 2♥ - 2NT
 

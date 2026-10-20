@@ -21,6 +21,7 @@ responder.
 - **Acceptances:** 1NT - 2♦ - 2♥, 1NT - 2♥ - 2♠, 1NT - 2♠ - 3♣, 1NT - 3♣ - 3♦
 - **Super acceptances, 18+ points, 4+ cards:** 1NT - 2♦ - 3♥, 1NT - 2♥ - 3♠,
   1NT - 2♠ - 2NT
+- **Maximum, 17 HCP, 3-card support:** 1NT - 2♦ - 2NT, 1NT - 2♥ - 2NT
 
 There is no super acceptance for diamonds due to lack of bidding space.
 
@@ -36,8 +37,7 @@ doubleton.  Rejection only with singleton helps responder make decisions.
 
 #### Transfer to hearts 3♦
 
-Transfer to hearts is always accepted to protect the auction
-2NT - 3♦ - 3♥ - 3♠, which shows weak 5-5 majors.
+Transfer to hearts is always accepted, even with a singleton.
 
 | 2NT - 3♦ - | |
 |------|-|
@@ -90,15 +90,18 @@ cards are required for responder to assume a fit.
 The special 1NT - 2♦ - 2♥ - 2♠ auction shows a weak hand with 5+ cards in both
 majors.
 
+A new minor shows 5+ cards.  Probing Wbridge5 5.12 shows that responder
+rebids 3NT with 5-4.
+
 | 1NT - 2♦ -<br>2♥ - | |
 |------|-|
 | 2♠   | 0--8, 5+♠
 | 2NT  | INV, 5=♥
-| 3♣♦  | FG, 4+#
+| 3♣♦  | FG, 5+#
 | 3♥   | INV, 6+♥
-| 3♠!  | SPL, S/T, 14+, 0--1#, 6+♥
+| 3♠!  | SPL, S/T, 16+, 0--1#, 6+♥
 | 3NT  | FG, 5=♥, no slam interest
-| 4♣♦! | SPL, S/T, 14+, 0--1#, 6+♥
+| 4♣♦! | SPL, S/T, 16+, 0--1#, 6+♥
 | 4♥   | S/O, 6+♥
 
 #### Super acceptance 3♥
@@ -126,11 +129,11 @@ majors.
 | 1NT - 2♥ -<br>2♠ - | |
 |-------|-|
 | 2NT   | INV, 5=♠
-| 3♣♦   | FG, 4+#
+| 3♣♦   | FG, 5+#
 | 3♥    | S/T, 5+♥
 | 3♠    | INV, 6+♠
 | 3NT   | FG, 5=♠, no slam interest
-| 4♣♦♥! | SPL, S/T, 14+, 0--1#, 6+♠
+| 4♣♦♥! | SPL, S/T, 16+, 0--1#, 6+♠
 | 4♠    | S/O, 6+♠
 
 #### Super acceptance 3♠
@@ -168,13 +171,14 @@ After a super acceptance, responder can upgrade some weak hands to game-forcing
 ones.
 
 | 1NT - 2♠ -<br>2NT - | |
-|-----|-|
-| 3♣  | S/O
-| 3♦  | S/T, 5+♦
-| 3♥♠ | FG, previously hidden 4+#
-| 3NT | S/O
-| 4♣  | S/T, starts control bidding
-| 5♣  | S/O
+|------|-|
+| 3♣   | S/O
+| 3♦   | S/T, 4+♦
+| 3♥♠  | Weak, previously hidden 4+#
+| 3NT  | S/O
+| 4♣   | INV, 11--16
+| 4♦♥! | SPL, S/T, 14+, 0--1#
+| 5♣   | S/O
 
 Nevertheless, I found 3♥ and 3♠ unhelpful.  I suggest **reverting** their
 meanings.  The old meanings help decide between 3NT and 5♣.
@@ -207,19 +211,20 @@ them here.  This section is focused on relays and rejections.
 #### Relay 3♥
 
 The special 2NT - 3♦ - 3♥ - 3♠ auction shows a weak hand with 5+ cards in both
-majors.  Opener always accepts transfer to protect this auction.
+majors.  Probing Wbridge5 5.12 shows that it is rare: with weak 5-5 majors,
+responder bids 4♦! directly or passes 3♥.
 
 | 2NT - 3♦ -<br>3♥ - | |
 |------|-|
 | 3♠   | Weak, 5+♠
 | 3NT  | FG, 5=♥, no slam interest
-| 4♣♦  | 4+#, dissatisfied with 3NT
+| 4♣♦  | 5+#, dissatisfied with 3NT
 | 4♥   | S/O, 6+♥
 | 4NT! | RKCB 0314, 6+♥
-| 5NT! | Slam F, BAL
+| 5NT! | Slam F, 5=♥
 
-After the balanced slam force, opener chooses between 6♥ and 6NT.  Responder
-may raise to 7.
+The slam force need not be balanced.  After it, opener chooses between 6♥
+and 6NT.  Responder may raise to 7.
 
 ### Transfer to spades 3♥
 
@@ -231,20 +236,21 @@ with 5+ cards in both majors.
 | 2NT - 3♥ -<br>3♠ - | |
 |------|-|
 | 3NT  | FG, 5=♠, no slam interest
-| 4♣♦  | 4+#, dissatisfied with 3NT
+| 4♣♦  | 5+#, dissatisfied with 3NT
 | 4♥   | S/T, 5+♥
 | 4♠   | S/O, 6+♠
 | 4NT! | RKCB 0314, 6+♠
-| 5NT! | Slam F, BAL
+| 5NT! | Slam F, 5=♠
 
-After the balanced slam force, opener chooses between 6♠ and 6NT.  Responder
+After the slam force, opener chooses between 6♠ and 6NT.  Responder
 may raise to 7.
 
 #### Rejection 3NT
 
-The Wbridge5 AI rejects with a doubleton, but I suggest opener only reject with
-a singleton.  This rejection generally does not affect bidding structure.
-However, responder now needs 7+ cards to assume a fit to bid 4♠ or 4NT.
+The Wbridge5 AI rejects with a doubleton and 22+, but I suggest opener only
+reject with a singleton.  This rejection generally does not affect bidding
+structure.  However, responder now needs 7+ cards to assume a fit to bid 4♠
+or 4NT.
 
 ### Transfer to clubs 3♠!
 
@@ -276,6 +282,7 @@ off at 4♣ with a weak hand.
 | 4♥♠! | CTRL, 7+♣
 | 4NT! | BW
 | 5♣   | S/O, 7+♣
+| 6♣   | S/O, 7+♣
 
 After 4NT, no fit is found, but responder may assume a fit in diamonds with 5+
 cards.

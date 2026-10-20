@@ -38,3 +38,7 @@ premature decisions before opener reacts.
 | 3y  | 4+#
 | 3x! | INV to 3NT, x unstopped
 | 3NT | S/O
+
+Probing Wbridge5 5.12 shows that with 6 cards in the adverse major, responder
+bids the other major with only 3 cards, e.g. ♠532 ♥AQJ1098 ♦Q63 ♣3 bids 3♠
+after (2♥).

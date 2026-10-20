@@ -5,9 +5,9 @@
 The takeout double shows opening values, so responder should bid more
 preemptively.  There are some adjustments to the basic structure.
 
-Playing 2NT or 3NT is infeasible now as 1♣xx is more profitable.  As a result,
-the meaning of 2NT is changed to a convention and 3NT is never used now.  For
-their original meanings, redouble instead.
+Playing 2NT is infeasible now as 1♣xx is more profitable.  As a result, the
+meaning of 2NT is changed to a convention.  For its original meaning, redouble
+instead.  Probing Wbridge5 5.12 shows that 3NT over 1♣ (X) is still natural.
 
 Jump shifts become **weak** if responder unpassed.  Redouble to show strength
 for original strong jump shifts.  Keep in mind that **fit-showing** by a passed
@@ -23,9 +23,12 @@ A simple raise can now be made with only 5 points.  The jump shifts are
 |------|-|
 | XX   | INV+, 11+, not a Truscott 2NT
 | 2♣   | 5--10, 4+♣
-| 2♦♥♠ | **WJS**, 8+, 6+#
-| 2NT! | Truscott, LIM as former 3♣
+| 2♥♠  | **WJS**, 8--11, 6+#
+| 2NT! | Truscott, CONST as former 3♣
 | 3♣   | PRE, 7--10, 5+♣
+| 3NT  | 13--15 HCP, BAL, 5+♣
+
+Probing Wbridge5 5.12 shows no weak 2♦.  A weak hand with 6+ diamonds bids 1♦.
 
 A passed responder keeps the **fit-showing** jumps unchanged.
 
@@ -42,12 +45,12 @@ A simple raise can now be made with only 5 points.  The jump shifts are
 | 1♦ (X) | |
 |------|-|
 | XX   | INV+, 11+, no other suitable call
-| 2♣   | INV+, 11+, 5+♣
+| 2♣   | INV+, 12+, 4+♣
 | 2♦   | 5--10, 4+♦
-| 2♥♠  | **WJS**, 8+, 6+#
-| 2NT! | Truscott, LIM as former 3♦
+| 2♥♠  | **WJS**, 8--11, 6+#
+| 2NT! | Truscott, CONST as former 3♦
 | 3♣   | **WJS**, 8+, 6+♣
-| 3♦   | PRE, 7--10, 5+♦
+| 3♦   | PRE, 6--9, 5+♦
 
 A passed responder keeps the **fit-showing** jumps unchanged.
 
@@ -78,11 +81,13 @@ affected by (1♦).
 | X  | NEG, 6+, 4=♥
 | 1♥ | free bid, 6+, 5+♥
 | 1♠ | free bid, 6+, 4+♠
+| 2♦ | cuebid, 14+ HCP
 
 | 1m (1♥) | |
 |----|-|
 | X  | NEG, 6+, 4=♠
 | 1♠ | free bid, 6+, 5+♠
+| 2♥ | cuebid, 13+ HCP
 
 ### Rodrigue
 
@@ -99,4 +104,5 @@ latent adverse spades.
 | X   | NEG, 6+, 4=♥
 | 2m! | NEG free bid, 6--10, 5+♥
 | 2♥  | (positive) free bid, 11+, 5+♥
-| 3m  | mixed raise, 9+, 5+m
+| 2♠  | cuebid, 13+ HCP
+| 3m  | mixed raise, 9--13, 5+m

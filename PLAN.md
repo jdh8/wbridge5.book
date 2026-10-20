@@ -66,8 +66,11 @@ not proof), and `scripts/idle-run.sh` for long runs.  Parallel runs need one
 
 ## Phase 3: regression on existing chapters
 
-- [ ] Probe every auction already in the book; diff against the text.
-- [ ] Fix drift (2011 doc vs v5.1 behaviour); regenerate Wbr5.bss later.
+- [x] Probe every auction already in the book; diff against the text.
+      `probe/book.txt` (113 auctions) then `probe/more.txt` (86 follow-ups
+      for untested rows), run by `probe/book.sh` over 14 reflinked prefixes.
+- [x] Fix drift (2011 doc vs v5.1 behaviour); regenerate Wbr5.bss later.
+      Contradicted rules carry a "Probing Wbridge5 5.12 shows" sentence.
 
 ## Phase 4: new partnership chapters
 
@@ -109,3 +112,7 @@ Order is by value; each item is hypothesis, probe, write.
 - 2026-10-20: plan written; sources located; nothing installed yet.
 - 2026-10-20: phase 1 done; TM mode confirmed, so the xdotool fallback is dropped.
 - 2026-10-20: phase 2 done; harness runs headless without Xvfb.
+- 2026-10-20: phase 3 done.  Still untested: vulnerability beyond the 4M
+  preempt and openings, 3rd/4th-seat vul rows, garbage Stayman passes after
+  2♥♠, pass-then-cuebid over 1NT interference, the book's own example hands
+  (tm.py cannot deal a fixed hand yet).

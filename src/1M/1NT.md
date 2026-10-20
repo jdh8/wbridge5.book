@@ -1,9 +1,10 @@
 # Semiforcing 1NT
 
 The 1NT response to a major opening is semiforcing.  The semiforcing 1NT is a
-dustbin for hands with 6--11 HCP and no other available bid.  However, with
+dustbin for hands with 5--10 HCP and no other available bid.  However, with
 a flat hand, 3-card support, and exactly 6 or 11 HCP, it is better to bid 1NT
-instead of direct support.
+instead of direct support.  Probing Wbridge5 5.12 shows that other 11 HCP
+hands bid a 2/1 instead.
 
 In Wbridge5, the 1NT is *more* forcing than an American semiforcing 1NT.
 
@@ -63,12 +64,13 @@ rather than passing.
 |-----|-|
 | 2♣  | 13--18, 3+♣
 | 2♦  | 13--18, 4+♦
-| 2♥  | 13--18, 6+♥
+| 2♥  | 13--16, 6+♥
 | 2♠  | 18--21, 4+♠
-| 2NT | 17--18 HCP, no singleton or void
+| 2NT | 17 HCP, no singleton or void
 | 3♣♦ | 19--21, 4+#
-| 3♥  | 19--21, 6+♥
-| 3NT | 19--21 HCP, no singleton or void
+| 3♥  | 16--20, 6+♥
+| 3NT | 18--21 HCP, no singleton or void
+| 4♥  | 16--19, 7+♥
 
 ### After 1♠ - 1NT
 
@@ -78,11 +80,11 @@ Over 1♠, opener can show either red suit at the 2-level.
 |------|-|
 | 2♣   | 13--18, 3+♣
 | 2♦♥  | 13--18, 4+#
-| 2♠   | 13--18, 6+♠
-| 2NT  | 17--18 HCP, no singleton or void
+| 2♠   | 13--16, 6+♠
+| 2NT  | 17 HCP, no singleton or void
 | 3♣♦♥ | 19--21, 4+#
-| 3♠   | 19--21, 6+♠
-| 3NT  | 19--21 HCP, no singleton or void
+| 3♠   | 16--20, 6+♠
+| 3NT  | 18--21 HCP, no singleton or void
 
 ## Second responses to a 1♠ opener
 
@@ -147,17 +149,19 @@ discrepancies.  There are 2 sources of discrepancies, both related 2♠.
 - Opener has reverse 2♠.
 - Responder denied spades, which makes 2♠ good for a forcing convention.
 
+Probing Wbridge5 5.12 shows that a ♠ stopper here is the ace or king.
+
 ### After 1♥ - 1NT - 2♣
 
 | 1♥ - 1NT -<br>2♣ - | |
 |-----|-|
-| 2♠! | Super INV, 9--11 HCP, 5+♣, ♠ stopper
+| 2♠! | Super INV, 9--11 HCP, 5+♣, UNBAL, ♠ stopper
 
 ### After 1♥ - 1NT - 2♦
 
 | 1♥ - 1NT -<br>2♦ - | |
 |-----|-|
-| 2♠! | Super INV, 9--11 HCP, 4+♦, ♠ stopper
+| 2♠! | Super INV, 9--11 HCP, 4+♦, UNBAL, ♠ stopper
 
 ### After 1♥ - 1NT - 2♥
 

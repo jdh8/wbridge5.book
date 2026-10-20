@@ -28,12 +28,14 @@ opening.  This is obviously not the case for 1♣.
 |-------|-|
 | 1♦♥♠  | (6--16 or 0♣), 4+#
 | 1NT   | CONST, 7<sup>+</sup>--10 HCP, BAL
-| 2♣    | 6--10, 4+♣
+| 2♣    | 5--7 HCP, 4+♣
 | 2♦♥♠  | SJS, 17+, 4+#
-| 2NT   | INV, 10--11 HCP, BAL
-| 3♣    | LIM to 3NT or 5♣, 11--16, 5+♣
+| 2NT   | INV, 11--12 HCP, BAL
+| 3♣    | CONST, 7--11 HCP, 5+♣
 | 3♦♥♠! | SPL, 12--16, **0--1#**, 5+♣
-| 3NT   | S/O, 12--15 HCP, BAL
+| 3NT   | S/O, 12--15 HCP, (BAL or 6-3-2-2)
+| 4NT   | 16--17 HCP, BAL, 5+♣
+| 5♣    | S/O, 10--14 HCP, 6+♣
 
 ### Choice of new suit
 
@@ -65,8 +67,9 @@ For preemption, responder raises to 2♣ with 4+ clubs and no 4-card major in a
 non-constructive hand.  This is the only case that 2♣ responder should have
 only 4 clubs.
 
-For a constructive hand, responder always raises with 5+ clubs and an
-unbalanced distribution because constructive 1NT is preferred.
+For a constructive hand, responder jumps to 3♣ with 5+ clubs, but a balanced
+7--9 HCP hand prefers constructive 1NT.  Probing Wbridge5 5.12 shows no limit
+raise in clubs: stronger hands bid 1♦, 2NT, 3NT, or a splinter.
 
 - **♠976 ♥965 ♦A109 ♣J1085:** Bid 2♣.  This hand is too weak for constructive
   1NT.
@@ -76,7 +79,7 @@ unbalanced distribution because constructive 1NT is preferred.
   a minor suit.
 - **♠53 ♥K84 ♦432 ♣KQ765:** Bid 1NT.  The constructive 1NT is preferred over a
   minor suit.
-- **♠8 ♥J43 ♦Q762 ♣A6432:** Bid 2♣.  Make a constructive raise with unbalanced
+- **♠A75 ♥7 ♦874 ♣QJ6532:** Bid 3♣.  Make a constructive raise with unbalanced
   distribution.
 
 ### Adjusted responses by a passed responder
@@ -100,14 +103,16 @@ opening.
 | 1♥♠  | (6--16 or 0♦), 4+#
 | 1NT  | dustbin, 6--10 HCP, no other suitable call
 | 2♣   | 2/1, 12+, 4+♣
-| 2♦   | 6--10, 4+♦
+| 2♦   | 5--7 HCP, 4+♦
 | 2♥♠  | SJS, 17+, 4+#
-| 2NT  | INV, 10--11 HCP, BAL
-| 3♣   | SJS, 18+, 4+♣
-| 3♦   | LIM to 3NT or 5♦, 11--16, 4+♦
+| 2NT  | INV, 11--12 HCP, BAL
+| 3♣   | 15--19, 6+♦, 4+♣; or SJS, 18+, 6+♣
+| 3♦   | CONST, 6--10 HCP, 5+♦
 | 3♥♠! | SPL, 12--16, **0--1#**, 5+♦
-| 3NT  | S/O, 12--15 HCP, BAL
+| 3NT  | S/O, 12--15 HCP, (BAL or 6-3-2-2)
 | 4♣!  | SPL, 12--16, **0--1♣**, 5+♦
+| 4NT  | 16--17 HCP, BAL, 5+♦
+| 5♦   | S/O, 10--14 HCP, 6+♦
 
 ### Choice of new suit
 

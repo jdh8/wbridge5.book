@@ -23,6 +23,8 @@ are worried about the double, too.  Opener only runs to a suit with 5+ cards.
 | XX   | INV+
 | 2x   | S/O, 5+#, too weak to invite
 | 2NT! | UNT, 5+♦, 5+♣, too weak to invite
+| 3♥♠  | INV+, 5#
+| 4♥♠  | S/O, 6+#
 
 ## Responses over (2 of a suit)
 
@@ -40,6 +42,8 @@ Lebensohl is the only alertable convention here.  Conventions at 4-level (4♦!,
 | 2NT! | LEB, INV, PUP 3♣
 | 3z   | FG, 5+#
 | 3NT  | S/O, all adverse suits stopped
+| 4NT  | QUANT INV to 6NT, 15--16 HCP
+| 6NT  | S/O, 16--20 HCP
 
 ### Cuebids
 
@@ -75,6 +79,9 @@ delayed cuebid denies any stopped adverse suit, where passing out is tolerable.
 - **Cuebid:** Game-forcing values, stopper, the other adverse suit unstopped.
 - **Pass then cuebid:** Game-forcing values, both adverse suits unstopped.
 
+Probing Wbridge5 5.12 shows no notrump slam tries over Landy 2♣.  Responder
+bids 3NT even with 18--21 HCP.
+
 ## Responses over (2NT)
 
 The 2NT overcall is a cuebid and notrump contracts are hard to play, so this
@@ -90,7 +97,7 @@ penalize opponents in the next round.
 
 | 1NT (2NT) | |
 |-----|-|
-| X   | INV+, 4333, in line with the cooperative double
+| X   | INV+, 0--4 in each major
 | 3x  | FG, 5+#
 | 4♦! | FG, 5-5 or 6-6 in the majors
 
@@ -103,19 +110,24 @@ contract often goes &minus;3 or more.
 | 1NT (2NT) - (3x)<br>- - | |
 |----------|-|
 | X        | PEN
-| Cuebid   | FG, this suit unstopped
-| New suit | INV, 5+#
+| Cuebid   | FG, x unstopped
+| New suit | NF, 5+#
 | 3NT      | S/O, all adverse suits stopped
 
 ## Responses over (3 of a suit)
 
 The bidding structure is the same as competition on 2-level, but tactics are
 slightly changed.  After a cooperative double, opener is reluctant to bid over
-3NT.  Therefore, doubling a major suit, especially 3♠, is more penal and off
-shape.  Responder usually doubles 3♥♠ instead of signing off at 3NT.
+3NT.  Therefore, doubling 3♠ is more penal and off shape.  Responder usually
+doubles 3♠ instead of signing off at 3NT.  Probing Wbridge5 5.12 shows that a
+double of 3♥ is still cooperative and denies a ♥ stopper, so 3NT remains the
+usual call with a stopper.
 
-| 1NT (3x) | x < y |
+| 1NT (3x) | x < y, z < x |
 |-----|---|
 | X   | Cooperative, INV+, 3--4 in each higher suit, 2--4 in other suits
 | 3y  | FG, 5+#
 | 3NT | S/O, all adverse suits stopped
+| 4z  | FG, 5+#
+| 4NT | QUANT INV to 6NT, 15--16 HCP
+| 6NT | S/O, 16--20 HCP
