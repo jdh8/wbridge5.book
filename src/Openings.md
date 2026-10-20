@@ -5,8 +5,8 @@ HCP plus the lengths of the two longest suits reach 20, the rule of 20.
 Probing Wbridge5 5.12 shows this fits light openings better than counting
 points: it always opens at 21 and about half the time at 20, occasionally at
 19 with a 7-card suit too poor for a preempt.  If both hands in a pair are
-opening hands, they can probably make a game contract.  Therefore, with an
-opening hand, we must open to prevent a pass out.
+opening hands, they can probably make a game contract.  Therefore, Wbridge5
+opens every opening hand to prevent a pass out.
 
 Moreover, some hands with good distribution but poor values are suitable for
 an opening as well.  These openings are preemptive, which focus on disturbing
@@ -49,9 +49,9 @@ meaning of 3NT is a strong balanced hand.
 
 ## One-of-a-suit openings
 
-We must bid 1 of a suit with an opening hand ineligible for a strong opening.
+Wbridge5 bids 1 of a suit with an opening hand ineligible for a strong opening.
 Opening in a major requires 5+ cards, 1♦ for 4+ cards, 1♣ for 3+ cards.  With
-the special shape 4=4=3=2, we open 1♦ as a fallback.  If opener finds more
+the special shape 4=4=3=2, it opens 1♦ as a fallback.  If opener finds more
 than one eligible suit, bid the longest suit.  If more than one eligible suit
 is equally long, bid the highest suit.
 
@@ -68,7 +68,7 @@ quality.
 ## Strong notrump openings
 
 The strong notrumps alleviate burden of suit openings.  Balanced and
-semibalanced hands with specific strength should be opened in notrump.
+semibalanced hands with specific strength are opened in notrump.
 
 |      | |
 |-----|-|
@@ -76,9 +76,11 @@ semibalanced hands with specific strength should be opened in notrump.
 | 2NT | 20--21 HCP, 2--4♠, 2--4♥, 2--5♦, 2--5♣
 
 The 1NT opening also allows pattern 5-4-2-2 or 6-3-2-2 led by a minor.  With
-12--14 or 18--19 HCP, we should always open 1 of a suit.  A simple notrump
-rebid stands for weak notrump; a jump notrump rebid shows a hand between 1NT
-and 2NT openings.
+12--14 or 18--19 HCP, Wbridge5 opens 1 of a suit.  Probing Wbridge5 5.12 shows
+a few exceptions where hand evaluation moves a hand across the HCP ranges: 3 of
+10 balanced 18 HCP hands opened 1NT, and 2 of 53 balanced 19 HCP hands opened
+2NT.  A simple notrump rebid stands for weak notrump; a jump notrump rebid
+shows a hand between 1NT and 2NT openings.
 
 - **♠54 ♥A863 ♦AQ986 ♣AJ:** Open 1NT.  Although this hand is not balanced, it
   is acceptable.
@@ -102,12 +104,12 @@ The strong 2♦ shows a **game-forcing** hand, stronger than 2♣.
 ### What to bid with a big hand
 
 There are three openings describing a hand with 21+ points or 20+ HCP, *viz.*
-2NT, 2♣, and 2♦.  To better understand this section, it is recommended to
-revisit this section after understanding continuations after 2NT, 2♣, and 2♦.
+2NT, 2♣, and 2♦.  This section is easier to follow after the continuations
+after 2NT, 2♣, and 2♦.
 
 The chance to open 2♦ is slim.  Actually 2♦ is a dustbin for hands way too
 strong, clarifying other bids for hands with 21--23 points.  With 24+ points
-or 24+ HCP, we must open 2♦.  Losers only break ties: 3-loser hands open 1 of
+or 24+ HCP, Wbridge5 opens 2♦.  Losers only break ties: 3-loser hands open 1 of
 a suit, 2♣, or 2♦ alike.
 
 The frequent rebids of 2♣ openings are 2♥ through 3♦.  The 2NT rebid describes

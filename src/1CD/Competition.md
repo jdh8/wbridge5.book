@@ -2,7 +2,7 @@
 
 ## Responses after a takeout double
 
-The takeout double shows opening values, so responder should bid more
+The takeout double shows opening values, so responder bids more
 preemptively.  There are some adjustments to the basic structure.
 
 Playing 2NT is infeasible now as 1♣xx is more profitable.  As a result, the
@@ -92,9 +92,9 @@ affected by (1♦).
 ### Rodrigue
 
 This convention is uncommon in France, but is used by Wbridge5.  After a 1♠
-overcall, we give up the simple raise for a negative free bid of hearts.  This
-bid differentiates with the negative double by showing 5+ cards of hearts,
-making the negative double show exactly 4 cards.
+overcall, Wbridge5 gives up the simple raise for a negative free bid of
+hearts.  This bid differentiates with the negative double by showing 5+ cards
+of hearts, making the negative double show exactly 4 cards.
 
 Wbridge5 madly insists on showing length of hearts quickly to compete with
 latent adverse spades.
@@ -302,8 +302,8 @@ After a cuebid, opener rebids naturally.
 
 ## Maximal double
 
-The double is a game try when we have found a major fit, both opponents have
-bid, and 3 of our major would only be competitive.
+The double is a game try when the partnership has found a major fit, both
+opponents have bid, and 3 of the major would only be competitive.
 
 | 1♣ (1♥) 1♠ (2♥)<br>2♠ (3♥) | |
 |-----|-|

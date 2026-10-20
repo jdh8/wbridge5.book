@@ -22,9 +22,9 @@ Wbridge5 employs the well-known 4-3-2-1 count.
 
 ## Refined honor points
 
-Wbridge5 makes some adjustments for 10s and unguarded honors, but I have not
-figured out its rules.  Luckily, [Thomas's Bridge Fantasia][thomas] provides
-precise evaluators friendly to humans.
+Wbridge5 makes some adjustments for 10s and unguarded honors, but its rules
+have not been worked out.  For comparison, [Thomas's Bridge Fantasia][thomas]
+provides precise published evaluators.  They are not Wbridge5's.
 
 ### Binky
 
@@ -70,8 +70,8 @@ Add 1 point for the 6th card and thereafter in every suit.
 
 ### Fit
 
-While this is not documented in Wbridge5, I believe the program uses it
-secretly from my observation on its bidding.
+Wbridge5 does not document fit points, but its bidding appears to count
+them.
 
 - **The 9th card:** 1 point
 - **The 10th card:** 2 points

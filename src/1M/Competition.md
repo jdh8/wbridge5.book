@@ -73,9 +73,6 @@ Over an overcall, opener competes to the 3-level or bids game.
 Wbridge5 never doubled here.  Opener bid 2NT on 4 boards.  Five of the six
 3♠ hands held the ♠A or ♠K.
 
-**Adjunct:** Double with 14--21 points and 4+ cards in RHO's suit.  This
-competitive double lets responder choose among defending, 3♥, and 4♥.
-
 ### Bergen raise
 
 | 1♥ - 3♣! (X) | |
@@ -86,8 +83,6 @@ competitive double lets responder choose among defending, 3♥, and 4♥.
 | 4♥  | 16+
 
 Wbridge5 never passed or redoubled.
-
-**Adjunct:** Pass with 13--14 points, so that 3♥ shows 15--16 points.
 
 ### 2/1 overcalled
 
@@ -200,10 +195,6 @@ here but passes 1♥ (X) P (P).
 
 The 2♠ row comes from 4 boards.  Wbridge5 never doubled 2♣.
 
-**Adjunct:** Over 1♥ - P (2m) and 1♥ (X) P (2m), double with 15+ points,
-4+ spades, and 2+ cards in the other minor.  This keeps a 4-4 spade fit in
-play when opener is too weak for 2♠.
-
 ## LHO overcalls
 
 ### Negative double
@@ -279,7 +270,7 @@ spades and length in both minors.
 
 ### Maximal double
 
-When the opponents bid up to just below 3 of our major, opener's double
+When the opponents bid up to just below 3 of the opened major, opener's double
 invites game.
 
 | 1♠ (2♥) 2♠ (3♥) | |

@@ -9,9 +9,8 @@ The 2/1 in Wbridge5 is Lawrence-style.
 - The game force may be occasionally cancelled.
 - Opener's reverses and jumps require extra strength.
 
-The Wbridge5 program overestimates values of unbalanced hands.  It bid 2/1 with
-highly unbalanced hands with 9--10 HCP but ended up with no playable game.  I
-have devised a better strategy.
+Wbridge5 counts distribution and length points, so a 2/1 may hold only 9--10
+HCP with a long suit or shortness.
 
 The 2/1 bids has low priority due to its ambiguity.  Raises, 1NT, and
 fit-showing conventions are limit bids and show whether a fit is found.  The
@@ -19,17 +18,23 @@ fit-showing conventions are limit bids and show whether a fit is found.  The
 
 ## The 2/1 responses
 
-There are 3 criteria corresponding to the 3 kinds of games *viz.* major,
-notrump, and minor.  Any met criterion makes a hand eligible for 2/1.
+Probing Wbridge5 5.12 shows 3 criteria corresponding to the 3 kinds of games
+*viz.* major, notrump, and minor.  Any met criterion makes a hand eligible for
+2/1.
 
 - Found major fit or 1♠ - 2♥, 12+ points
 - 11+ HCP but no flat 11 HCP
-- With long minor, 14+ points (but 13 points is okay for 1♥ - 2♦)
+- With long minor, 14+ points (but 13 points is enough for 1♥ - 2♦)
 
-These criteria are based on visualization of maximum hands to pass the
-semiforcing 1NT, i.e. 13--14 HCP and usually 5-3=3=2.  Nevertheless, under
-this circumstance, 1♥ opener's best distribution for responder to bid 2♦ is
-4=5=3=1, so 1 fewer point is needed.
+On 600 boards after 1♥ - P and 1♠ - P, every 2/1 but one met a criterion, and
+every hand without support that met one bid 2/1 unless it had a higher-priority
+call such as 1♠ or a strong jump shift.  The exception was ♠3 ♥10952 ♦AJ108
+♣A743 bidding 2♣ over 1♠.  With a flat 11 HCP and 3-card support, responder
+bids 1NT instead (203 of 216 boards over 1♠).
+
+The thresholds match the maximum hands that pass the semiforcing 1NT, i.e.
+13--14 HCP and usually 5-3=3=2.  A 1♥ opener who passes 1NT may instead hold
+4=5=3=1, which fits a 2♦ response better, so 1 fewer point is needed.
 
 ### 2♥ vs SJS 3♥
 
@@ -78,7 +83,7 @@ and no shortness.
 
 ### The 2NT rebid with a 6-card major
 
-All of the following conditions shall be met to bid 2NT with a 6-card major.
+Wbridge5 rebids 2NT with a 6-card major only when both of the following hold.
 
 - Over 1♠ - 2♥♦
 - Found heart fit or **worse than** ♠AQJ9xx
@@ -88,8 +93,8 @@ Over 1♠ - 2♣, always bid 2♠ with 6-card spades to make both 2♠ and 2NT
 specific: 2NT shows exactly 5 cards, 2♠ 6+.
 
 If the trump suit is at least AQJ9xx, it is too good to play notrump.  However,
-with a heart fit but too weak for a direct 4♥, bidding 2NT is okay due to the
-indirect 4♥ thereafter.
+with a heart fit but too weak for a direct 4♥, opener may bid 2NT and reach
+4♥ later.
 
 ## Second responses
 
@@ -155,10 +160,11 @@ because 2NT is minimum.  The following only describe differences.
 | 1M - 2x -<br>2NT - | |
 |-----|-|
 | 3NT | S/O, 11--17 HCP
+| 4NT | 18--20 HCP, BAL
 
-The Wbridge5 program treats 4NT as the plain Blackwood, but I advocate that it
-shall be a quantitative invitation, which is more precise to find notrump
-slams.
+The 2011 doc treats this 4NT as plain Blackwood.  Probing Wbridge5 5.12 shows
+responder bidding it with balanced 18--20 HCP over 1♥ - 2♣ - 2NT and
+1♠ - 2♣♥ - 2NT, 13 boards in all.  Opener's answer was not probed.
 
 There are further considerations for responder to show a long suit, so they
 are described in details.

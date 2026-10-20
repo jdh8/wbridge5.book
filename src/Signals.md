@@ -14,8 +14,8 @@ since the 8th trick.  To make an unambiguous signal, when making a high-low
 signal, Wbridge5 chooses the highest card below 8 as the high card.  If an
 honor was played, this honor card does not count in the number of cards.
 
-Lead the highest card in consecutive cards but follow the lowest.  The only
-exception is AK doubleton, where the king should be played first.  This is to
+Wbridge5 leads the highest of consecutive cards but follows with the lowest.
+The only exception is AK doubleton, where the king is played first.  This is to
 differentiate A**K** from **A**Kx.
 
 ### Vinje signals
@@ -29,7 +29,7 @@ The opening lead against a suit contract is identical to the defensive carding.
 
 The opening lead against a notrump is more complicated.  If leading to a
 partner's suit, it is also the same as the defensive carding.  However,
-different rules apply when leading from our own suit.
+different rules apply when leading from the leader's own suit.
 
 - Leading an honor shows 3+ honors in that suit, and the card played is the
   highest in a series of consecutive honors.

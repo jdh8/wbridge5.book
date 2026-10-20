@@ -19,10 +19,8 @@ seeking rules.  Such a raise must be at least 3-level to leave 2-level raises
 as natural suit preference.  If a delayed raise is under game in an already
 game-forcing auction, the raise starts a slam try.
 
-This mechanism saves bidding space for strong hands.  This treatment, which
-conforms fast arrival and useful space principles, is rather necessary for a
-decent bidding system.  The same reason applies to also cuebids and takeout
-doubles.
+This mechanism saves bidding space for strong hands, in line with the fast
+arrival and useful space principles.
 
 - **1♣ - 1♥ - 1NT - 3♣:** This is a **delayed raise**.  With an invitational
   hand, responder bids Roudy 2♣ instead.
@@ -62,7 +60,7 @@ the puppet then rebids at 3-level.  This convention effectively duplicates
 3-level bidding space at the expense of the possibility to stop at 2NT.
 
 Wbridge5 Lebensohl implementation is very different from the outside world.
-Our Lebensohl accepts 4-card suit but shows exact invitational strength over
+Its Lebensohl accepts 4-card suit but shows exact invitational strength over
 1NT.  There are also other deviation from the commonly used Lebensohl.
 
 ## Puppet bid

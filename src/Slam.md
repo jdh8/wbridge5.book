@@ -85,10 +85,6 @@ With ♠KQ7 ♥42 ♦A743 ♣T432, responder bids 5♠.
 A void does not change the answer.  After 1♠ - 4♦! - 4NT, a Splinter with a
 diamond void and 2 keys bid 5♥ or 5♠ on all 45 boards.
 
-**Adjunct:** With 2 keys and a void partner does not know about, bid 6 of the
-void suit if it ranks below trumps.  With a void in a higher-ranking suit, bid
-6 of the trump suit.  Wbridge5 was not probed with such hands.
-
 ### Trump queen ask
 
 After the answer, the next step asks for the trump queen, unless that step is
@@ -115,9 +111,6 @@ When the next step is the trump suit, there is no queen ask.  In
 1♥ - 2♥ - 4NT - 5♦ - 5♠, Wbridge5 bid 6♥ on all 144 boards, with or without
 the queen.
 
-**Adjunct:** Skip the trump suit and ask with the next step, so that
-1♥ - 2♥ - 4NT - 5♦ - 5♠ asks for the queen.
-
 ### King ask 5NT
 
 5NT after a 5♦ or 5♥ answer asks for the number of side kings.  The answer ignores the
@@ -142,23 +135,6 @@ double showed nothing about keys or about length in the opponents' suit.  It
 was the call on 701 of 706 boards.  The other boards passed with one or two
 cards in the opponents' suit, or bid with a void there.  An
 overcall of the queen ask is doubled the same way (132 of 132 boards).
-
-**Adjunct:** Show keys over a 4NT overcall.
-
-| 4NT (5x) | |
-|------------|-|
-| X!         | 0 keys
-| Pass!      | 1 key
-| Small slam | 2+ keys
-
-**Adjunct:** Answer a queen ask over an overcall, as in this spade auction.
-
-| 4NT - 5♣! -<br>5♦! (5♥) | |
-|-------|-|
-| Pass! | No trump Q, < 3 cards in the overcalled suit
-| X!    | No trump Q, 3 cards in the overcalled suit
-| 5NT!  | Trump Q, no side K
-| 6♠    | Trump Q
 
 ## Blackwood
 

@@ -12,9 +12,9 @@ The minor openings can be made from three kinds of hands:
 - Open the longest suit in a 3-suiter or 5-4-3-1 with 2♣ strength where the
   5-card suit is a minor.  See also [the dedicated section][big].
 
-Opener probably has a 4-card major.  Therefore, responder should always think
-about bidding the major first.  A **notrump** or a **support in minor** always
-**denies** a biddable **major**.
+Opener probably has a 4-card major.  Therefore, responder bids a major first
+whenever it can.  A **notrump** or a **support in minor** always **denies** a
+biddable **major**.
 
 [big]: Openings.md#what-to-bid-with-a-big-hand
 
@@ -46,10 +46,10 @@ opening.  This is obviously not the case for 1♣.
    responding strength (5+ HCP) and a biddable major, **skip diamonds** unless
    6+ cards or at least AJxxx or KQJxx.
 
-We can usually make 2 of a suit and sometimes 1NT with normal responding
-strength.  Bypassing diamonds slightly preempts in a partscore dog fight.
-However, when responding with void clubs and insufficient strength, bid
-1♦ to seek 1♠/♥.
+The partnership can usually make 2 of a suit and sometimes 1NT with normal
+responding strength.  Bypassing diamonds slightly preempts in a partscore dog
+fight.  However, when responding with void clubs and insufficient strength,
+responder bids 1♦ to seek 1♠/♥.
 
 - **♠K965 ♥65 ♦KJ863 ♣98:** Bid 1♠.  Skip diamonds because you cannot force to
   game.
@@ -64,8 +64,7 @@ However, when responding with void clubs and insufficient strength, bid
 The 2♣ simple raise is not so simple.
 
 For preemption, responder raises to 2♣ with 4+ clubs and no 4-card major in a
-non-constructive hand.  This is the only case that 2♣ responder should have
-only 4 clubs.
+non-constructive hand.  This is the only case where 2♣ shows only 4 clubs.
 
 For a constructive hand, responder jumps to 3♣ with 5+ clubs, but a balanced
 7--9 HCP hand prefers constructive 1NT.  Probing Wbridge5 5.12 shows no limit

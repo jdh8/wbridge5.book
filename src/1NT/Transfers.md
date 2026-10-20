@@ -28,12 +28,8 @@ There is no super acceptance for diamonds due to lack of bidding space.
 ### 2NT opener's rebids
 
 Opener may have a singleton with 4-4-4-1 pattern.  As a result, a 2NT opener
-tries to reject a transfer with a singleton.
-
-The Wbridge5 AI also tries to reject a transfer with a doubleton, but this
-mixes singletons and doubletons together.  Responder already rebids notrump
-to show exactly 5 cards, so there is no need to reject a transfer with a
-doubleton.  Rejection only with singleton helps responder make decisions.
+tries to reject a transfer with a singleton.  The Wbridge5 AI also rejects
+some transfers with a doubleton.
 
 #### Transfer to hearts 3♦
 
@@ -48,13 +44,13 @@ Transfer to hearts is always accepted, even with a singleton.
 
 #### Transfer to spades 3♥
 
-Responder will show if there are 6+ cards in the next round, so rejection shall
-show a singleton to dissuade partner early.
+Probing Wbridge5 5.12 shows that opener rejects with a singleton, or with a
+doubleton and 22+ points, e.g. ♠Q10 ♥A6 ♦AKQJ2 ♣A1093.
 
 | 2NT - 3♥ - | |
 |-------|-|
 | 3♠    | Acceptance, 2+♠
-| 3NT   | Rejection, 1=♠
+| 3NT   | Rejection, 1=♠ or (22+, 2=♠)
 | 4♣♦♥! | Super acceptance, CTRL, 22+, 4+♠
 | 4♠    | Super acceptance, all suits controlled, 22+, 4+♠
 
@@ -106,7 +102,7 @@ rebids 3NT with 5-4.
 
 #### Super acceptance 3♥
 
-Responder shall bid game with all former invitational hands because opener has
+Responder bids game with all former invitational hands because opener has
 shown maximum.  Moreover, responder can upgrade some weak hands because of the
 9-card fit.
 
@@ -180,14 +176,6 @@ ones.
 | 4♦♥! | SPL, S/T, 14+, 0--1#
 | 5♣   | S/O
 
-Nevertheless, I found 3♥ and 3♠ unhelpful.  I suggest **reverting** their
-meanings.  The old meanings help decide between 3NT and 5♣.
-
-| 1NT - 2♠ -<br>2NT - | |
-|-----|-|
-| 3♥! | FG, 0--1♠
-| 3♠! | FG, 0--1♥
-
 ### Transfer to diamonds 3♣!
 
 The only rebid of opener is relay 3♦ due to lack of bidding space.
@@ -247,10 +235,8 @@ may raise to 7.
 
 #### Rejection 3NT
 
-The Wbridge5 AI rejects with a doubleton and 22+, but I suggest opener only
-reject with a singleton.  This rejection generally does not affect bidding
-structure.  However, responder now needs 7+ cards to assume a fit to bid 4♠
-or 4NT.
+The Wbridge5 AI rejects with a singleton, or with a doubleton and 22+.
+Responder therefore needs 7+ cards to assume a fit to bid 4♠ or 4NT.
 
 ### Transfer to clubs 3♠!
 

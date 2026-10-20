@@ -25,9 +25,11 @@ under *Log* when a session ends mid-phase.
   Never touch `~/.wine`.
 - Each chapter: hypothesis from doc + chm, verify by probe, then write.
   Where probes contradict the 2011 doc, the probe wins and the text says so.
-  If the doc's version is a deliberate adjunct (a useful-space improvement
-  for human players), keep it after the program's call as a labelled
-  **Adjunct**, never in its place.
+- The book is a technical report of what Wbridge5 bids, not a human system.
+  Where an older writeup departs from what 5.12 bids, whoever wrote the
+  rule and whether the program has since changed, the rule never goes in
+  `src/`; archive it in `doc/adjuncts.md` as an optional agreement, under
+  the chapter it modifies, with the program's call beside it.
 - Hand examples in new chapters come from probed hands, not invented ones.
 
 ## Phase 1: sandbox install
@@ -128,3 +130,9 @@ Order is by value; each item is hypothesis, probe, write.
   Openings/Responses.md; 1CD/Competition.md extended; Glossary "Systems
   on".  Each chapter ends with what was not probed.  The harness cannot
   constrain aces, so 2♦-4♣ rebids and other ace-count rows stay unverified.
+- 2026-10-20: book reframed as a technical report.  26 adjuncts (15 labelled
+  in phase 4, the rest unlabelled older proposals) moved to
+  `doc/adjuncts.md`; first-person and "we should" prose reworded.  Found to
+  be 5.12's real behaviour and kept: 1NT - 2♣ - 2NT transfers, the three
+  2/1 criteria, flat 6/11 HCP raises bidding 1NT.  Still not probe rows:
+  the example hands in Openings.md and 1CD.md lines 54--80.

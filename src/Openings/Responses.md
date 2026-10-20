@@ -39,9 +39,6 @@ difference to the raises: at favorable vulnerability, 2♥ - 3♥ was bid on 107
 of 300 boards, against 100 with nobody vulnerable.  Wbridge5 bid 3NT only with
 16+ HCP and a doubleton in opener's major.
 
-**Adjunct:** 3NT is a game-forcing three-suiter with a singleton or void in
-opener's major.  A balanced hand that wants to play 3NT asks with 2NT first.
-
 ### Seat
 
 Facing a 2nd-seat weak 2♥, responder is more active.  With 12--15 HCP and
@@ -152,10 +149,6 @@ Over 3♥♠, responder passed 10--15 HCP hands without a fit.  It bid 3NT on
 none of 600 boards and a new suit on one.  Over 3♠, 4♥ was natural with seven
 hearts.  Responses over a 2nd-seat 3♣ were the same as over a 1st-seat one.
 
-**Adjunct:** A raise to 4 of a minor shows 16+ points and slam interest, and a
-raise to 5 is the preemptive one.  This saves a level for the hand that needs
-to explore.
-
 ### Interference
 
 Over a double, a redouble shows a good hand, not a penalty.  Responder
@@ -216,10 +209,6 @@ major or asks with RKCB 4NT, usually with 14+ HCP.
 | 4♥   | NAT, 7+♥, rare
 | 4♠   | S/O
 | 4NT! | [RKCB](../Slam.md#rkcb-0314) for spades
-
-**Adjunct:** Responder always bids the next step, 4♦ over 4♣ and 4♥ over 4♦,
-so that the strong hand declares.  With slam interest, responder bids RKCB
-after the transfer is completed.
 
 ## 4♥♠ and 5♣♦
 

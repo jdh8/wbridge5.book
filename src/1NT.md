@@ -106,8 +106,8 @@ shows that they allow a 4-card side minor.
 ## Minor transfer structure
 
 As notrump games score more than minor games, a hand with no singleton nor void
-nor biddable major suit is a *notrump hand*.  We only transfer with **weak**
-*notrump hands*.  Invitational+ *notrump hands* are deemed as balanced.
+nor biddable major suit is a *notrump hand*.  Responder only transfers with
+**weak** *notrump hands*.  Invitational+ *notrump hands* are deemed as balanced.
 
 <table class="center">
 <caption>Minor transfer structure with no singleton nor void</caption>

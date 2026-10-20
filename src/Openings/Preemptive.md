@@ -39,9 +39,9 @@ minor or KQ10xxx if major.  The required strength is 2 more points than weak 2.
 ### The 3rd seat
 
 Quality of a 6-card minor can be as weak as KJxxxx in the 3rd seat, but no
-weaker for a major because one should bid the weak 2 for a rubbish major.  No
-more requirements on defensive values because we will never have enough values
-for a 3NT.
+weaker for a major because a rubbish major opens a weak 2 instead.  There are
+no more requirements on defensive values because the partnership will seldom
+have enough values for 3NT.
 
 - **Unfavorable:** 9+
 - **Both vulnerable:** 8+

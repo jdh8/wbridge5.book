@@ -2,7 +2,7 @@
 
 The 1NT response to a major opening is semiforcing.  The semiforcing 1NT is a
 dustbin for hands with 5--10 HCP and no other available bid.  However, with
-a flat hand, 3-card support, and exactly 6 or 11 HCP, it is better to bid 1NT
+a flat hand, 3-card support, and exactly 6 or 11 HCP, Wbridge5 bids 1NT
 instead of direct support.  Probing Wbridge5 5.12 shows that other 11 HCP
 hands bid a 2/1 instead.
 
@@ -13,34 +13,34 @@ In Wbridge5, the 1NT is *more* forcing than an American semiforcing 1NT.
 
 ## Flat raises
 
-The 4-3-3 side suits make it awkward to play a suit contract.  The original
-raise system brings things too far with 6 and 11 HCP flat raises.  We should
-back off by bidding 1NT to guide opener better.
+The 4-3-3 side suits make it awkward to play a suit contract.  With a 6 or
+11 HCP flat raise, Wbridge5 bids 1NT rather than raising.  For example,
+♠J72 ♥10654 ♦J83 ♣A75 and ♠Q64 ♥A852 ♦K96 ♣Q64 both bid 1NT over 1♠.
 
 Such 1NT is a bet on opener's usual rebidding.  Opener's rebid provides good
 continuations like forcing 1NT.  Opener's pass leads to a mediocre but
-acceptable result.  Wbridge5 requires opener with 3 clubs to bid to dissuade
-opener from passing.
+acceptable result.  To make the pass rare, Wbridge5 has opener rebid 2♣ with 3
+clubs.
 
 ### Flat weak raise
 
-Try to sign off in 2M.
+Responder aims to sign off in 2M.
 
 With flat 6 HCP, simple support may lead to disastrous 1M - 2M - 3m - 3M.
-Since 2M is usually the best contract and 1NT is no worse than 3M, bid 1NT and
-hope opener not pass.
+Since 2M is usually the best contract and 1NT is no worse than 3M, Wbridge5
+bids 1NT and counts on opener not passing.
 
 ### Flat limit raise
 
-Invite minimum opener in the next round.
+Responder invites a minimum opener in the next round.
 
-Our special 2NT enforces major fit and never results in a notrump contract.
-Bid 1NT to let opener reconsider notrump contracts.
+The special 2NT enforces a major fit and never results in a notrump contract.
+The 1NT lets opener reconsider notrump contracts.
 
 ## When does opener pass
 
-As usual, opener passes when no bid describes.  However, we try hard to bid,
-so there are only few hands left for the pass.
+As usual, opener passes when no bid describes.  However, opener tries hard to
+bid, so there are only few hands left for the pass.
 
 - **Minimum balanced hands with doubleton clubs:** The other 2/3 balanced
   hands are safely biddable.
@@ -171,10 +171,9 @@ Probing Wbridge5 5.12 shows that a ♠ stopper here is the ace or king.
 
 ## Comparison to other 1NT treatments
 
-I think that Wbridge5's 1NT is an eligible **semi**forcing 1NT because 2♣ rebid
-is more frequent than pass.  Naming of American *semi*forcing 1NT is
-questionable because pass is still the most frequent call.  Such 1NT should be
-called **non**forcing instead.
+Wbridge5's 1NT is **semi**forcing in a strict sense: after a minimum opening,
+the 2♣ rebid is more frequent than pass.  After an American *semi*forcing 1NT,
+pass is still the most frequent call.
 
 The following is analysis after a minimum opening.
 

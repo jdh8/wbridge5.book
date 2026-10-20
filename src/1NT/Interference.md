@@ -39,10 +39,6 @@ The major answers ignore the club stopper.  Opener never passes.
 - **♠A64 ♥AJ7 ♦KQ542 ♣Q10:** 2♦, clubs unstopped.
 - **♠A85 ♥KQ65 ♦KQJ7 ♣83:** 2♥, even without a club stopper.
 
-**Adjunct:** Opener passes with clubs unstopped and redoubles without a
-4-card major but with clubs worth playing.  Other answers are undisturbed and
-promise a club stopper.  After the pass, responder's XX repeats Stayman.
-
 ## Stayman overcalled
 
 ### 1NT - 2♣ (2♦)
@@ -95,9 +91,6 @@ The data shows no strength or shape rule that separates these three calls.
 
 - **♠AQ64 ♥AJ ♦J8543 ♣A6:** X.
 - **♠AK9 ♥10932 ♦AJ ♣QJ85:** 3♥.
-
-**Adjunct:** X shows 4 hearts and a spade stopper, and 3♥ shows 4 hearts
-without one.
 
 ### 1NT - 2♣ (3♦)
 

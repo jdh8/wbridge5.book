@@ -3,11 +3,8 @@
 The 2NT is supposed to be too strong to overcall, so this is the only entry for
 competitive auctions beginning with strong notrump openings.
 
-In a world of emerging defenses of 1NT, it is urgent to devise a set of
-counteractions.  Luckily, Wbridge5 has come up with a good solution.
-
-Although strategies may vary according to the overcall, there are 2 principles
-across all overcalls.
+Opponents have many defenses against 1NT.  Although Wbridge5's strategies vary
+according to the overcall, there are 2 principles across all overcalls.
 
 - **System off:** There is no more Stayman nor transfers.
 - **Catchall structure:** Artificiality may introduce conventions but seldom
@@ -15,8 +12,8 @@ across all overcalls.
 
 ## Responses over (Dbl)
 
-We have no conventional runout because 1NTx is often good enough.  Opponents
-are worried about the double, too.  Opener only runs to a suit with 5+ cards.
+Wbridge5 has no conventional runout because 1NTx is often good enough.
+Opponents are worried about the double, too.  Opener only runs to a suit with 5+ cards.
 
 | 1NT (X) | |
 |------|-|
@@ -29,8 +26,8 @@ are worried about the double, too.  Opener only runs to a suit with 5+ cards.
 ## Responses over (2 of a suit)
 
 The cooperative double is not changed for artificial overcalls.  This may be
-counterintuitive, but Lebensohl already takes care of the overcalled suit.
-It is better to still use the double to find a 4-4 fit.
+counterintuitive, but Lebensohl already takes care of the overcalled suit, so
+the double still serves to find a 4-4 fit.
 
 Lebensohl is the only alertable convention here.  Conventions at 4-level (4♦!,
 4♠!) are cancelled because these 2-suiters can be expressed at 3-level first.
@@ -86,7 +83,7 @@ bids 3NT even with 18--21 HCP.
 
 The 2NT overcall is a cuebid and notrump contracts are hard to play, so this
 call is innately forcing.  The force gives responder a second chance to bid,
-which makes up the loss of our Lebensohl 2NT.
+which makes up the loss of the Lebensohl 2NT.
 
 The 2NT overcall usually shows both minors, which is not only practical but
 also logical.  A convention skipping majors is usually minor-oriented, and
@@ -104,7 +101,7 @@ penalize opponents in the next round.
 ### In the next round
 
 Unless vulnerability is unfavorable, penalty is often better than 3NT if
-responder has strength but no biddable suit.  If we can make 3NT, their 3-level
+responder has strength but no biddable suit.  If 3NT makes, their 3-level
 contract often goes &minus;3 or more.
 
 | 1NT (2NT) - (3x)<br>- - | |
