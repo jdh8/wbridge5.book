@@ -1,0 +1,41 @@
+# Phase 4: strong 2C continuations (doc 1.6.1; chm reponse-2t, seconde-2T, reponse-2f).
+# Responder = South after North's scripted 2C.  Opener = South opens 2C itself
+# (19-23 HCP keeps ~17% of boards, hence -n 900; 2C is opened at 19-23 HCP).
+#
+# Responder: first response, uncontested
+2C-P --hcp 0-15 --seed 1 -o probe/data/p4/2C/r-hcp015.jsonl
+2C-P --hcp 6-12 --seed 1 -o probe/data/p4/2C/r-hcp612.jsonl
+2C-P --H 5- --hcp 5-13 --seed 1 -o probe/data/p4/2C/r-H5hcp513.jsonl
+2C-P --C 6- --hcp 5-13 --seed 1 -o probe/data/p4/2C/r-C6hcp513.jsonl
+2C-P --D 6- --hcp 5-13 --seed 1 -o probe/data/p4/2C/r-D6hcp513.jsonl
+# Responder: first response over interference (doc: P 3-9, X 0-2 over a suit; P/2D/XX by strength over X)
+2C-2H --hcp 0-15 --seed 1 -o probe/data/p4/2C/r-2H-hcp015.jsonl
+2C-X --hcp 0-15 --seed 1 -o probe/data/p4/2C/r-X-hcp015.jsonl
+# Responder's second call after 2D negative (South must bid 2D: 0-9 HCP keeps ~90%)
+2C-P-2D-P-2H-P --hcp 0-9 --seed 1 -o probe/data/p4/2C/r-2D2H.jsonl
+2C-P-2D-P-2S-P --hcp 0-9 --seed 1 -o probe/data/p4/2C/r-2D2S.jsonl
+2C-P-2D-P-2N-P --hcp 0-9 --seed 1 -o probe/data/p4/2C/r-2D2N.jsonl
+2C-P-2D-P-3C-P --hcp 0-9 --seed 1 -o probe/data/p4/2C/r-2D3C.jsonl
+2C-P-2D-P-3D-P --hcp 0-9 --seed 1 -o probe/data/p4/2C/r-2D3D.jsonl
+2C-P-2D-P-3H-P --hcp 0-9 --seed 1 -o probe/data/p4/2C/r-2D3H.jsonl
+# Responder's second call after a positive 2H (South must bid 2H, ~55% kept)
+2C-P-2H-P-2S-P --H 5- --hcp 8-11 --seed 1 -n 500 -o probe/data/p4/2C/r-2H2S.jsonl
+2C-P-2H-P-2N-P --H 5- --hcp 8-11 --seed 1 -n 500 -o probe/data/p4/2C/r-2H2N.jsonl
+# Opener's rebid after a negative and after each positive
+2C-P-2D-P --hcp 19-23 --seed 1 -n 900 -o probe/data/p4/2C/o-2D.jsonl
+2C-P-2H-P --hcp 19-23 --seed 1 -n 900 -o probe/data/p4/2C/o-2H.jsonl
+2C-P-2S-P --hcp 19-23 --seed 1 -n 900 -o probe/data/p4/2C/o-2S.jsonl
+2C-P-2N-P --hcp 19-23 --seed 1 -n 900 -o probe/data/p4/2C/o-2N.jsonl
+2C-P-3C-P --hcp 19-23 --seed 1 -n 900 -o probe/data/p4/2C/o-3C.jsonl
+2C-P-3D-P --hcp 19-23 --seed 1 -n 900 -o probe/data/p4/2C/o-3D.jsonl
+# Opener's third call: 2C-2D-2NT reusing 2NT-opening methods? (2NT shape 22-23 keeps ~75%)
+2C-P-2D-P-2N-P-3C-P --hcp 22-23 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p4/2C/o-2N3C.jsonl
+2C-P-2D-P-2N-P-3D-P --hcp 22-23 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p4/2C/o-2N3D.jsonl
+2C-P-2D-P-2N-P-3H-P --hcp 22-23 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p4/2C/o-2N3H.jsonl
+2C-P-2D-P-2N-P-3S-P --hcp 22-23 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p4/2C/o-2N3S.jsonl
+# Opener's third call after 2C-2D-2H (5+H, ~40% kept)
+2C-P-2D-P-2H-P-2N-P --H 5- --hcp 19-23 --seed 1 -n 500 -o probe/data/p4/2C/o-2H2N.jsonl
+2C-P-2D-P-2H-P-3H-P --H 5- --hcp 19-23 --seed 1 -n 500 -o probe/data/p4/2C/o-2H3H.jsonl
+# Opener over interference (doc: 2D-(ovc)-X = 4+ in other three; (ovc)-P-(P)-X = 3+ in other three)
+2C-P-2D-2H --hcp 19-23 --seed 1 -n 900 -o probe/data/p4/2C/o-2D-2H.jsonl
+2C-2H-P-P --hcp 19-23 --seed 1 -n 900 -o probe/data/p4/2C/o-2H-P-P.jsonl

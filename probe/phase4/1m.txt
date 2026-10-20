@@ -1,0 +1,44 @@
+# Phase 4, key 1m: opener's rebids after 1m when LHO interferes (doc 壹.二.三),
+# responder's second round after 1m (壹.二.四).  Hypotheses: SCRATCH/p4/1m.md.
+# South opens 1♣ with --C 4- --D 0-3 --S 0-4 --H 0-4, 1♦ with --D 4- --C 0-3.
+#
+# A1. Collante X (4=♥ / 4=♠) and opener's raise ladder: 1M / 2M / 3M / cuebid.
+1C-1D-X-P --hcp 11-21 --C 4- --D 0-3 --S 0-4 --H 0-4 --seed 1 -o probe/data/p4/1m/1C1DXP~broad.jsonl
+1C-1D-X-P --hcp 11-21 --C 4- --D 0-3 --S 0-3 --H 4-4 --seed 1 -o probe/data/p4/1m/1C1DXP~H4.jsonl
+1C-1H-X-P --hcp 11-21 --C 4- --D 0-3 --S 3-4 --H 0-4 --seed 1 -o probe/data/p4/1m/1C1HXP~S34.jsonl
+1D-1H-X-P --hcp 11-21 --D 4- --C 0-3 --S 3-4 --H 0-4 --seed 1 -o probe/data/p4/1m/1D1HXP~S34.jsonl
+1C-1S-X-P --hcp 11-21 --C 4- --D 0-3 --S 0-4 --H 2-4 --seed 1 -o probe/data/p4/1m/1C1SXP~H24.jsonl
+# A2. Rodrigue 2m (5+♥, 6-10): Pass with 5+m and 0-1♥, else 2♥; 3♥ over interference.
+1C-1S-2C-P --hcp 11-21 --C 4- --D 0-3 --S 0-4 --H 0-4 --seed 1 -o probe/data/p4/1m/1C1S2CP~broad.jsonl
+1D-1S-2D-P --hcp 11-21 --D 4- --C 0-3 --S 0-4 --H 0-1 --seed 1 -o probe/data/p4/1m/1D1S2DP~H01.jsonl
+1C-1S-2C-2S --hcp 11-21 --C 4- --D 0-3 --S 0-4 --H 2-4 --seed 1 -o probe/data/p4/1m/1C1S2C2S~H24.jsonl
+# A3. Free 1M (5+) then RHO acts: support XX / X with 2+ cards, 3M competitive.
+1C-1D-1H-X --hcp 11-21 --C 4- --D 0-3 --S 0-4 --H 0-4 --seed 1 -o probe/data/p4/1m/1C1D1HX~broad.jsonl
+1C-1D-1H-2D --hcp 11-21 --C 4- --D 0-3 --S 0-4 --H 1-4 --seed 1 -o probe/data/p4/1m/1C1D1H2D~H14.jsonl
+1C-1H-1S-2H --hcp 11-21 --C 4- --D 0-3 --S 1-4 --H 0-4 --seed 1 -o probe/data/p4/1m/1C1H1S2H~S14.jsonl
+# A4. After 1m (X): XX, Truscott 2NT, weak jump shift, and opener's next call.
+1C-X-XX-P --hcp 11-21 --C 4- --D 0-3 --S 0-4 --H 0-4 --seed 1 -o probe/data/p4/1m/1CXXXP~broad.jsonl
+1C-X-XX-1S --hcp 11-21 --C 4- --D 0-3 --S 0-4 --H 0-4 --seed 1 -o probe/data/p4/1m/1CXXX1S~broad.jsonl
+1C-X-2N-P --hcp 11-21 --C 4- --D 0-3 --S 0-4 --H 0-4 --seed 1 -o probe/data/p4/1m/1CX2NP~broad.jsonl
+1D-X-2N-P --hcp 11-21 --D 4- --C 0-3 --S 0-4 --H 0-4 --seed 1 -o probe/data/p4/1m/1DX2NP~broad.jsonl
+1C-X-2H-P --hcp 13-21 --C 4- --D 0-3 --S 0-4 --H 0-4 --seed 1 -o probe/data/p4/1m/1CX2HP~hcp1321.jsonl
+1D-X-2S-P --hcp 13-21 --D 4- --C 0-3 --S 0-4 --H 0-4 --seed 1 -o probe/data/p4/1m/1DX2SP~hcp1321.jsonl
+# A5. Partner cuebids LHO's suit: opener's answers natural?
+1C-1D-2D-P --hcp 11-21 --C 4- --D 0-3 --S 0-4 --H 0-4 --seed 1 -o probe/data/p4/1m/1C1D2DP~broad.jsonl
+#
+# B1. Responder after 1m - 1X - 1NT: 2X 6+ weak, 3X 6+ INV, 2♥ 5-4 over 1♠, 2♣ Roudi.
+1C-P-1D-P-1N-P --hcp 6-16 --D 5- --S 0-3 --H 0-3 --seed 1 -o probe/data/p4/1m/1CP1DP1NP~D5.jsonl
+1C-P-1H-P-1N-P --hcp 6-16 --H 4- --S 0-4 --seed 1 -o probe/data/p4/1m/1CP1HP1NP~H4.jsonl
+1C-P-1S-P-1N-P --hcp 6-16 --S 4- --H 0-3 --seed 1 -o probe/data/p4/1m/1CP1SP1NP~S4H03.jsonl
+1C-P-1S-P-1N-P --hcp 5-14 --S 5- --H 4- --seed 1 -o probe/data/p4/1m/1CP1SP1NP~S5H4.jsonl
+1D-P-1H-P-1N-P --hcp 6-16 --H 5- --S 0-3 --seed 1 -o probe/data/p4/1m/1DP1HP1NP~H5.jsonl
+# B2. Opener answers Roudi 2♣: 2♦ min 2-card, 2♥ min 3-card, 2♠ max 3-card, 2NT max 2-card, 3m.
+1C-P-1H-P-1N-P-2C-P --hcp 11-14 --C 4-5 --D 2-3 --S 2-3 --H 2-3 --seed 1 -o probe/data/p4/1m/1CP1HP1NP2CP.jsonl
+1C-P-1S-P-1N-P-2C-P --hcp 11-14 --C 4-5 --D 2-3 --S 2-3 --H 2-4 --seed 1 -o probe/data/p4/1m/1CP1SP1NP2CP.jsonl
+1C-P-1D-P-1N-P-2C-P --hcp 11-14 --C 4-5 --D 2-3 --S 2-3 --H 2-3 --seed 1 -o probe/data/p4/1m/1CP1DP1NP2CP.jsonl
+# B3. Fourth suit: only 2m' forcing (12+); 1♠ in 1♣-1♦-1♥ natural.
+1C-P-1H-P-1S-P --hcp 6-18 --H 4- --S 0-3 --seed 1 -o probe/data/p4/1m/1CP1HP1SP~H4S03.jsonl
+1D-P-1H-P-1S-P --hcp 6-18 --H 4- --S 0-3 --seed 1 -o probe/data/p4/1m/1DP1HP1SP~H4S03.jsonl
+1C-P-1D-P-1H-P --hcp 6-18 --D 4- --H 0-3 --seed 1 -o probe/data/p4/1m/1CP1DP1HP~D4H03.jsonl
+# B4. Maximal double: fit found, both opponents bid, no room for a game try.
+1C-1H-1S-2H-2S-3H --hcp 7-13 --S 5- --H 0-2 --seed 1 -o probe/data/p4/1m/1C1H1S2H2S3H~S5.jsonl

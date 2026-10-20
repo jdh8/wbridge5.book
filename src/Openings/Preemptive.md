@@ -70,3 +70,5 @@ opening.
 
 - **Suit quality:** KQ10 or stronger if there are only 7 cards
 - **Strength:** At most 5 losers
+
+Responses and later rounds are in [their own chapter](Responses.md).

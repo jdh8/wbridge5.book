@@ -1,0 +1,43 @@
+# Phase 4, key 1NTov: 1NT opener's call after (P) - Stayman/transfer - (interference).
+# Doc 壹.四.四 (doc.txt 793-822).  South opens 1NT itself, so every line keeps
+# South to the 1NT opening: 15-17 HCP, 2-5 in every suit (keep ~80% broad).
+# Narrowed lines lose more boards to non-1NT openings, hence -n 400.
+#
+# Stayman 2C doubled / overcalled
+1N-P-2C-X --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 --seed 1 -n 400 -o probe/data/p4/1NTov/2CX.jsonl
+1N-P-2C-X --hcp 15-17 --S 2-3 --H 2-3 --D 2-5 --C 2-5 --seed 1 -n 400 -o probe/data/p4/1NTov/2CX~no4M.jsonl
+# Pass "no club stopper" never showed in a smoke run, even with doubleton clubs; try short clubs
+1N-P-2C-X --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-2 --seed 1 -n 400 -o probe/data/p4/1NTov/2CX~C2.jsonl
+1N-P-2C-2D --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 --seed 1 -o probe/data/p4/1NTov/2C2D.jsonl
+1N-P-2C-2D --hcp 15-17 --S 2-3 --H 2-3 --D 2-5 --C 2-5 --seed 1 -n 400 -o probe/data/p4/1NTov/2C2D~no4M.jsonl
+1N-P-2C-2H --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 --seed 1 -o probe/data/p4/1NTov/2C2H.jsonl
+1N-P-2C-2H --hcp 15-17 --S 2-3 --H 2-5 --D 2-5 --C 2-5 --seed 1 -n 400 -o probe/data/p4/1NTov/2C2H~S23.jsonl
+1N-P-2C-2S --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 --seed 1 -o probe/data/p4/1NTov/2C2S.jsonl
+1N-P-2C-2S --hcp 15-17 --S 2-5 --H 4-5 --D 2-5 --C 2-5 --seed 1 -n 400 -o probe/data/p4/1NTov/2C2S~H45.jsonl
+1N-P-2C-3D --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 --seed 1 -o probe/data/p4/1NTov/2C3D.jsonl
+1N-P-2C-3S --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 --seed 1 -o probe/data/p4/1NTov/2C3S.jsonl
+#
+# Transfer to hearts 2D
+1N-P-2D-X --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 --seed 1 -n 400 -o probe/data/p4/1NTov/2DX.jsonl
+1N-P-2D-X --hcp 15-17 --S 2-5 --H 2-2 --D 2-5 --C 2-5 --seed 1 -n 400 -o probe/data/p4/1NTov/2DX~H2.jsonl
+1N-P-2D-X --hcp 15-17 --S 2-5 --H 4-5 --D 2-5 --C 2-5 --seed 1 -n 400 -o probe/data/p4/1NTov/2DX~H45.jsonl
+# "Cuebid": overcall in the transfer target suit
+1N-P-2D-2H --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 --seed 1 -o probe/data/p4/1NTov/2D2H.jsonl
+1N-P-2D-2S --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 --seed 1 -o probe/data/p4/1NTov/2D2S.jsonl
+1N-P-2D-3C --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 --seed 1 -o probe/data/p4/1NTov/2D3C.jsonl
+#
+# Transfer to spades 2H
+1N-P-2H-X --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 --seed 1 -n 400 -o probe/data/p4/1NTov/2HX.jsonl
+1N-P-2H-X --hcp 15-17 --S 2-2 --H 2-5 --D 2-5 --C 2-5 --seed 1 -n 400 -o probe/data/p4/1NTov/2HX~S2.jsonl
+1N-P-2H-2S --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 --seed 1 -o probe/data/p4/1NTov/2H2S.jsonl
+1N-P-2H-3C --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 --seed 1 -o probe/data/p4/1NTov/2H3C.jsonl
+1N-P-2H-3D --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 --seed 1 -o probe/data/p4/1NTov/2H3D.jsonl
+#
+# Minor transfers 2S (clubs) and 3C (diamonds)
+1N-P-2S-X --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 --seed 1 -o probe/data/p4/1NTov/2SX.jsonl
+1N-P-2S-3C --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 --seed 1 -o probe/data/p4/1NTov/2S3C.jsonl
+1N-P-2S-3D --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 --seed 1 -o probe/data/p4/1NTov/2S3D.jsonl
+1N-P-3C-X --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 --seed 1 -o probe/data/p4/1NTov/3CX.jsonl
+#
+# Vulnerability spot check on the busiest decision
+1N-P-2C-2H --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 --seed 1 --vul both -o probe/data/p4/1NTov/2C2H~vulboth.jsonl

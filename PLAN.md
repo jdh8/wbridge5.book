@@ -9,7 +9,8 @@ under *Log* when a session ends mid-phase.
   1.3 MB).  Ships `Wbridge5.chm`, the official system help in French.
   The site FAQ states bids are deterministic when conventions are identical.
 - `~/pCloudDrive/archive/jdh8/Documents/橋藝資料/Wbridge5.doc`: 2009--2011
-  Chinese writeup of the full system (`antiword -m UTF-8.txt` converts it).
+  Chinese writeup of the full system (`antiword -m UTF-8.txt` converts it),
+  by the book's author: Wbridge5 humanized, with useful-space adjuncts.
   Trust its structure (TOC, what conventions exist), not its details such as
   hand evaluation or point ranges; verify those by probe or the chm.
   Its table of contents is the chapter list for phases 4 and 5.
@@ -24,6 +25,9 @@ under *Log* when a session ends mid-phase.
   Never touch `~/.wine`.
 - Each chapter: hypothesis from doc + chm, verify by probe, then write.
   Where probes contradict the 2011 doc, the probe wins and the text says so.
+  If the doc's version is a deliberate adjunct (a useful-space improvement
+  for human players), keep it after the program's call as a labelled
+  **Adjunct**, never in its place.
 - Hand examples in new chapters come from probed hands, not invented ones.
 
 ## Phase 1: sandbox install
@@ -76,15 +80,15 @@ not proof), and `scripts/idle-run.sh` for long runs.  Parallel runs need one
 
 Order is by value; each item is hypothesis, probe, write.
 
-- [ ] Strong 2♣ continuations (doc 壹.六.一).
-- [ ] Strong 2♦ continuations (壹.六.二).
-- [ ] Opener's rebids after 1M: uncontested, over (Dbl), over overcall
+- [x] Strong 2♣ continuations (doc 壹.六.一).
+- [x] Strong 2♦ continuations (壹.六.二).
+- [x] Opener's rebids after 1M: uncontested, over (Dbl), over overcall
       (壹.一.二--四); responder's second round (壹.一.四, 壹.三).
-- [ ] Opener's rebids after 1m over interference (壹.二.三); second round
+- [x] Opener's rebids after 1m over interference (壹.二.三); second round
       (壹.二.四).
-- [ ] Responder's bid overcalled (壹.四.四).
-- [ ] Preempt responses: weak 2s, 3s (壹.五.一); 3NT, Namyats, 4NT (壹.五.二).
-- [ ] Slam: control bids, RKCB 0314, Blackwood (壹.六.三--五); RKCB.bss has
+- [x] Responder's bid overcalled (壹.四.四).
+- [x] Preempt responses: weak 2s, 3s (壹.五.一); 3NT, Namyats, 4NT (壹.五.二).
+- [x] Slam: control bids, RKCB 0314, Blackwood (壹.六.三--五); RKCB.bss has
       the responses already.
 
 ## Phase 5: new defensive chapters
@@ -116,3 +120,11 @@ Order is by value; each item is hypothesis, probe, write.
   preempt and openings, 3rd/4th-seat vul rows, garbage Stayman passes after
   2♥♠, pass-then-cuebid over 1NT interference, the book's own example hands
   (tm.py cannot deal a fixed hand yet).
+- 2026-10-20: phase 4 hypotheses and specs done (`probe/phase4/`, notes in
+  `probe/phase4/notes/`); batch probe running into `probe/data/p4/`.
+  Next: write each chapter from the data.
+- 2026-10-20: phase 4 done.  New: 2C.md, 2D.md, Slam.md, 1M/Rebids.md,
+  1M/Competition.md, 1CD/SecondResponses.md, 1NT/Interference.md,
+  Openings/Responses.md; 1CD/Competition.md extended; Glossary "Systems
+  on".  Each chapter ends with what was not probed.  The harness cannot
+  constrain aces, so 2♦-4♣ rebids and other ace-count rows stay unverified.

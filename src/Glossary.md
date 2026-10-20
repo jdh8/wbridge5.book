@@ -144,3 +144,21 @@ used.
 One in favor of weak jump shifts might think SJS of waste of bidding space, but
 Soloway jump shifts are actually more frequent than weak jump shifts, let alone
 Wbridge5 SJS.
+
+## Systems on
+
+Wbridge5 reuses a structure wherever the auction resembles the one it was
+built for.  An interference that leaves the needed space, or a rebid that
+shows the same hand as an opening, keeps the same continuations.
+
+- **2♣ - 2♦ - 2NT**, **2♦ - 2♥ - 2NT** and **2♦ - 2♠ - 2NT:** as after a
+  [2NT opening](1NT.md#responses-to-2nt), with responder's ranges shifted
+  for opener's extra strength.
+- **2♦ (X):** the ace-showing responses stand; Pass is new.
+- **1NT - 2♣ (X)**, **1NT - 2♣ (2♦)**, **1NT - 2♠ (X)** and **1NT - 3♣ (X):**
+  opener answers as if undisturbed, as far as the space allows.
+- **1m (1x) X:** opener rebids as if responder had bid the major the
+  double shows.
+- **Weak 2♥ (X)** and **(2♠):** raises, the 2NT ask and splinters keep their
+  meanings.
+- **4NT (X):** RKCB answers as if undisturbed.

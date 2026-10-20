@@ -17,6 +17,11 @@ France.  Some French conventions greatly improve bidding structure from *the*
 American, so Wbridge5 incorporates them.  Others not so profitable are not
 included in Wbridge5.
 
+Each chapter describes what Wbridge5 bids, verified by probing the program
+itself.  Where I find a better treatment for human players, usually by the
+principle of useful space, it follows the program's call as an **adjunct**.
+Adjuncts are my recommendations, not Wbridge5's.
+
 [allevy]: https://allevybridge.com/allevy/computerbridge/index.htm
 [bss]: https://github.com/jdh8/Wbr5.bss
 [fd]: http://www.bridgebase.com/help/3/topics/fulldisclosurefileformat/text/intro.html

@@ -70,7 +70,7 @@ def main():
 
     prefix = [c for c in a.auction.split("-") if c]
     out = a.o or ROOT / "probe/data" / f"{'-'.join(prefix) or 'open'}.jsonl"
-    out.parent.mkdir(exist_ok=True)
+    out.parent.mkdir(parents=True, exist_ok=True)
     seed = a.seed if a.seed is not None else random.randrange(2**32)
     print(f"seed {seed} -> {out}", file=sys.stderr)
     rng = random.Random(seed)

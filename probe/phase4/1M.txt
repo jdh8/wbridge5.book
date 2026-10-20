@@ -1,0 +1,61 @@
+# Phase 4, 1M: opener's rebids after 1M (uncontested, LHO X, LHO overcall)
+# and responder's second round.  Hypotheses: SCRATCH/p4/1M.md.
+# 1M-1NT and 2/1 paths are already in probe/data; not repeated here.
+# South-opener constraint: --H 5- --S 0-4 (1H) or --S 5- (1S), --hcp 11-21.
+#
+# --- Uncontested: 1H - 1S ---
+1H-P-1S-P --H 5- --S 0-3 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1HP1SP~S03.jsonl
+1H-P-1S-P --H 5- --S 4-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1HP1SP~S44.jsonl
+1H-P-1S-P --H 5- --S 0-3 --hcp 17-21 --seed 1 -o probe/data/p4/1M/1HP1SP~S03hcp1721.jsonl
+# --- Uncontested: simple raise, game tries ---
+1H-P-2H-P --H 5- --S 0-4 --hcp 14-21 --seed 1 -o probe/data/p4/1M/1HP2HP~hcp1421.jsonl
+1S-P-2S-P --S 5- --hcp 14-21 --seed 1 -o probe/data/p4/1M/1SP2SP~hcp1421.jsonl
+# --- Bergen raises ---
+1H-P-3C-P --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1HP3CP.jsonl
+1H-P-3D-P --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1HP3DP.jsonl
+1S-P-3C-P --S 5- --hcp 11-21 --seed 1 -o probe/data/p4/1M/1SP3CP.jsonl
+# --- Special 2NT (unpassed: relay 3C or control bid; passed: sign-off or new suit) ---
+1H-P-2N-P --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1HP2NP.jsonl
+1S-P-2N-P --S 5- --hcp 11-21 --seed 1 -o probe/data/p4/1M/1SP2NP.jsonl
+P-P-1H-P-2N-P --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/PP1HP2NP.jsonl
+# --- Fit-showing by a passed responder ---
+P-P-1H-P-2S-P --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/PP1HP2SP.jsonl
+P-P-1S-P-3C-P --S 5- --hcp 11-21 --seed 1 -o probe/data/p4/1M/PP1SP3CP.jsonl
+# --- SJS, serious 3NT, splinter ---
+1H-P-2S-P --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1HP2SP.jsonl
+1H-P-3N-P --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1HP3NP.jsonl
+1H-P-3S-P --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1HP3SP.jsonl
+#
+# --- RHO acts after responder (doc 壹.一.二 sub-rows) ---
+1H-P-1S-X --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1HP1SX.jsonl
+1H-P-1S-2C --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1HP1S2C.jsonl
+1S-P-2S-X --S 5- --hcp 11-21 --seed 1 -o probe/data/p4/1M/1SP2SX.jsonl
+1H-P-2H-2S --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1HP2H2S.jsonl
+1H-P-3C-X --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1HP3CX.jsonl
+1S-P-2C-2H --S 5- --hcp 11-21 --seed 1 -o probe/data/p4/1M/1SP2C2H.jsonl
+# --- Opener reopens: 1M - P - P - (action) ---
+1H-P-P-X --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1HPPX.jsonl
+1H-P-P-1S --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1HPP1S.jsonl
+1H-P-P-2C --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1HPP2C.jsonl
+#
+# --- LHO doubles (doc 壹.一.三) ---
+1H-X-P-P --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1HXPP.jsonl
+1H-X-P-1S --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1HXP1S.jsonl
+1H-X-1S-2C --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1HX1S2C.jsonl
+1S-X-2N-P --S 5- --hcp 11-21 --seed 1 -o probe/data/p4/1M/1SX2NP.jsonl
+1H-X-2S-P --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1HX2SP.jsonl
+#
+# --- LHO overcalls (doc 第四節 開叫人再叫，左敵干擾: neg X, cue, unusual 2NT, maximal X) ---
+1H-1S-X-P --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1H1SXP.jsonl
+1S-2H-X-P --S 5- --H 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1S2HXP.jsonl
+1H-2C-X-P --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1H2CXP.jsonl
+1H-1S-2S-P --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1H1S2SP.jsonl
+1H-1N-2N-P --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1H1N2NP.jsonl
+1S-2H-2S-3H --S 5- --H 0-4 --hcp 11-21 --seed 1 -o probe/data/p4/1M/1S2H2S3H.jsonl
+#
+# --- Responder's second round (South responds 1S / 2H / 3C itself) ---
+1H-P-1S-P-1N-P --S 4- --H 0-2 --D 0-4 --C 0-4 --hcp 6-16 --seed 1 -o probe/data/p4/1M/1HP1SP1NP.jsonl
+1H-P-1S-P-2C-P --S 4- --H 0-2 --D 0-4 --C 0-4 --hcp 6-16 --seed 1 -o probe/data/p4/1M/1HP1SP2CP.jsonl
+1H-P-1S-P-1N-P-2C-P --H 5-5 --S 2-3 --D 2-3 --C 2-3 --hcp 11-14 --seed 1 -o probe/data/p4/1M/1HP1SP1NP2CP.jsonl
+1H-P-2H-P-3C-P --H 3-3 --S 0-3 --hcp 6-10 --seed 1 -o probe/data/p4/1M/1HP2HP3CP.jsonl
+1H-P-3C-P-3H-P --H 4-5 --S 2-3 --D 2-4 --C 2-4 --hcp 7-9 -n 600 --seed 1 -o probe/data/p4/1M/1HP3CP3HP.jsonl

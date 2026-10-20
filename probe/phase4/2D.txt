@@ -1,0 +1,36 @@
+# Strong game-forcing 2D (doc 壹.六.二, chm reponse-2f.htm).  Hypotheses: SCRATCH/p4/2D.md
+# Responses: North opens 2D.  Aces cannot be constrained, so broad HCP bands.
+2D-P --hcp 0-7 --seed 1 -o probe/data/p4/2D/resp~hcp07.jsonl
+2D-P --hcp 8-12 --seed 1 -o probe/data/p4/2D/resp~hcp812.jsonl
+2D-P --hcp 13- --seed 1 -o probe/data/p4/2D/resp~hcp13.jsonl
+# 3x = no ace, 6+ suit with KQ or KJ10; where does it beat 2H/2NT?
+2D-P --hcp 4-10 --S 6- --seed 1 -o probe/data/p4/2D/resp~hcp410S6.jsonl
+2D-P --hcp 4-10 --H 6- --seed 1 -o probe/data/p4/2D/resp~hcp410H6.jsonl
+2D-P --hcp 4-10 --D 6- --seed 1 -o probe/data/p4/2D/resp~hcp410D6.jsonl
+2D-P --hcp 4-10 --C 6- --seed 1 -o probe/data/p4/2D/resp~hcp410C6.jsonl
+# Opener's rebids: Wbridge5 opens 2D itself (keep ~80% at 23+ HCP).
+2D-P-2H-P --hcp 23- --seed 1 -o probe/data/p4/2D/2H~hcp23.jsonl
+2D-P-2S-P --hcp 23- --seed 1 -o probe/data/p4/2D/2S~hcp23.jsonl
+2D-P-2N-P --hcp 23- --seed 1 -o probe/data/p4/2D/2N~hcp23.jsonl
+2D-P-3C-P --hcp 23- --seed 1 -o probe/data/p4/2D/3C~hcp23.jsonl
+2D-P-3D-P --hcp 23- --seed 1 -o probe/data/p4/2D/3D~hcp23.jsonl
+2D-P-3H-P --hcp 23- --seed 1 -o probe/data/p4/2D/3H~hcp23.jsonl
+2D-P-3S-P --hcp 23- --seed 1 -o probe/data/p4/2D/3S~hcp23.jsonl
+2D-P-3N-P --hcp 23- --seed 1 -o probe/data/p4/2D/3N~hcp23.jsonl
+2D-P-4C-P --hcp 23- --seed 1 -o probe/data/p4/2D/4C~hcp23.jsonl
+# Shapely openers: jump = 7+ suit (keep ~50%).  5-5 majors open 2C, so the 3NT rebid is not probed.
+2D-P-2H-P --hcp 19-24 --H 6- --seed 1 -o probe/data/p4/2D/2H~hcp1924H6.jsonl
+2D-P-2S-P --hcp 19-24 --C 6- --seed 1 -o probe/data/p4/2D/2S~hcp1924C6.jsonl
+2D-P-2N-P --hcp 19-24 --S 6- --seed 1 -o probe/data/p4/2D/2N~hcp1924S6.jsonl
+# Responder's second round: Wbridge5 makes the response itself.
+2D-P-2H-P-2N-P --hcp 0-5 --seed 1 -o probe/data/p4/2D/2H2N~hcp05.jsonl
+2D-P-2H-P-2S-P --hcp 0-5 --seed 1 -o probe/data/p4/2D/2H2S~hcp05.jsonl
+2D-P-2H-P-3C-P --hcp 0-5 --seed 1 -o probe/data/p4/2D/2H3C~hcp05.jsonl
+2D-P-2S-P-2N-P --hcp 4-11 --seed 1 -o probe/data/p4/2D/2S2N~hcp411.jsonl
+2D-P-2S-P-3H-P --hcp 4-11 --seed 1 -o probe/data/p4/2D/2S3H~hcp411.jsonl
+2D-P-2N-P-3N-P --hcp 8-12 --seed 1 -o probe/data/p4/2D/2N3N~hcp812.jsonl
+# Responding 3NT (two aces) is ~20% of 8-14 HCP hands.
+2D-P-3N-P-4N-P -n 900 --hcp 8-14 --seed 1 -o probe/data/p4/2D/3N4N~hcp814.jsonl
+# Interference: not in doc or chm, exploratory.
+2D-X --hcp 0-12 --seed 1 -o probe/data/p4/2D/X~hcp012.jsonl
+2D-2S --hcp 0-12 --seed 1 -o probe/data/p4/2D/2S-ovc~hcp012.jsonl
