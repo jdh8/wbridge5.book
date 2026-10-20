@@ -100,6 +100,21 @@ Adjunct: Over 1♥ - P (2m) and 1♥ (X) P (2m), double with 15+ points, 4+
 spades, and 2+ cards in the other minor.  This keeps a 4-4 spade fit in play
 when opener is too weak for 2♠.
 
+### 1♠ (3♥) X
+
+Wbridge5: takeout, 11--12 HCP, 2 spades and 4+ cards in each minor (4
+boards of 300).  With 4+ hearts responder passes, up to 16 HCP (71 boards).
+
+Adjunct: The double of a 3♥ or higher overcall of 1M is for penalty (2011 doc).
+
+### 1♥ (3♣!) X
+
+Wbridge5: 3♣ is Precise Michaels for spades and diamonds.  Responder never
+doubled on 300 boards.  Strong hands cuebid 3♦ (13--16 HCP), bid 3NT
+(11--16 HCP), or bid 4♣ with 5+ clubs.
+
+Adjunct: The double of a Michaels 3♣ is for penalty (2011 doc).
+
 ## [Slam bidding](../src/1CD/Slam.md)
 
 ### 1♣ - 5NT
@@ -109,6 +124,15 @@ Wbridge5: probing found 5NT on all 300 hands with 20--22 HCP and 3=3=3=4
 
 Adjunct: This 5NT rebid is discouraged because it is too aggressive for a
 grand slam.
+
+## [Competitive bidding](../src/1CD/Competition.md)
+
+### 1♣ (2♦!) X
+
+Wbridge5: 2♦ is Precise Michaels for both majors.  Responder never doubled
+on 300 boards.  Strong hands cuebid 2♥ or 2♠ with 13--16 HCP; 3♦ is natural.
+
+Adjunct: The double shows 12+ points and 4+ clubs (2011 doc).
 
 ## [Stayman](../src/1NT/2C.md)
 
@@ -308,3 +332,351 @@ Adjunct: Answer a queen ask over an overcall, as in this spade auction.
 | X!    | No trump Q, 3 cards in the overcalled suit
 | 5NT!  | Trump Q, no side K
 | 6♠    | Trump Q
+
+## [Natural (1y)](../src/Defense/1y.md)
+
+These defend openings that no system Wbridge5 plays uses (its own, SEF
+or SAYC); see *Systems outside the book*.  Wbridge5 reads
+them by its own system (probed with its default E-W settings).
+
+### (1♣!) strong club
+
+Wbridge5: reads 1♣ as natural and plays its [natural (1y)
+defense](../src/Defense/1y.md): X for takeout, 1♥♠ natural, 1NT 15--18 HCP,
+2♣ natural with 6+♣.
+
+Adjunct: Overcall to take away space.  Pass with no fitting call (16+
+points bid next round).  With 10--15 or 0--4 points: X! shows two suits of
+the same color (♠+♣ or ♥+♦), 1♦! two suits of the same rank (majors or
+minors), 1NT! the other two (♠+♦ or ♥+♣), all 4-4 or longer (CRASH).  1♥♠
+shows 5+ cards with 8--15 or 0--4 points.  A two-level suit bid shows 6+
+cards, from a weak opening to 15 points.
+
+### (1♣!)-P-(1♦!)
+
+Wbridge5: reads 1♦ as a natural response.  2♣ is a cuebid with 5-5 in the
+majors (246 of 300 hands with 8--16 HCP), and 2♦ is natural with 6+♦ and
+10--16 HCP (162 of 300), the way 2♥ is natural over (1♣)-P-(1♥).
+
+Adjunct: CRASH moves up a step: X! shows color, 1NT! rank, 2♣! shape.
+Other calls are as over (1♣!).
+
+### (Multi 2♦!)
+
+Wbridge5: takes 2♦ for its own strong, game-forcing 2♦.  With 8--18 HCP it
+passes 201 of 300 hands, never doubles for takeout, and bids 2♥♠ with 5+
+cards at any strength, 3♦ naturally with 6+♦ (244 of 300 hands with 10--16
+HCP), and 2NT with 5-5 in the minors.
+
+Adjunct: The same calls apply directly over 2♦! and over 2♦!-2M.  Before
+partner passed, X shows 12--19 points with a 5+ card suit or any 20+; 2M
+shows 12--19 points and 5+ cards; 2NT shows 18--19 balanced with both
+majors stopped; 3m shows 12--19 and 6+ cards; 3M or higher shows 15+ and 6+
+cards.  By a passed hand, X and 2M show 10+ with a 5+ card suit, 2NT! 10+
+with 5-5 in the minors, and 3m 10+ with 6+ cards.  Over 2♦!-2NT (game
+forcing, major fit), 3m shows 6+ cards; with a minor fit, go to 5m when the
+vulnerability allows.
+
+### (Flannery 2♦!) and (Precision 2♦!)
+
+Wbridge5: as over Multi, it takes 2♦ for its own strong 2♦ and mostly
+passes.
+
+Adjunct: X shows 15+ points.  2M! shows a three-suiter short in that major,
+with 12--14 or 0--4 points.  2NT shows 5-5 in the minors, with 12--14 or
+0--4 points.  3♣ or higher is preemptive.
+
+## [Takeout doubles](../src/Defense/Takeout.md)
+
+### (1m) X (P) with 4-4 in the majors
+
+Wbridge5: advancer bids the lower suit, 1♥ with 0--9 HCP or 2♥ with
+7--11 HCP (271 of 300 boards with 4-4 majors over (1♦); a spade bid on 3).
+With 4-4 in the minors over (1♥), it bids 2♣.
+
+Adjunct: With 4-4 bid the higher suit, with 3-3 the lower.  After
+(1♦) X (P) 1♠ (P) P (2♦), advancer can bid 2♥ and let the doubler choose a
+major at the 2-level.  Having bid 1♥ first, advancer would be pushed to 2♠,
+and a doubler with poor spades would have to run to 3♥.
+
+### Doubler's raise of a minimum advance
+
+Wbridge5: after (1♥) X (P) 1♠, the doubler with 4 spades passes up to
+17--18 HCP, whether opener passes or bids 2♥.  With more, it cuebids.  A raise
+shows 5 trumps: 2♠ with 16--18 HCP, 3♠ with 16--19, 4♠ with 16--21.
+
+Adjunct: When opener competes after a negative advance, the doubler raises
+to the 2-level with 12--15 points and 4+ trumps, invites at the 3-level with
+18--19, and bids 4M with 16--17 as a preemptive raise.
+
+## [Responsive doubles](../src/Defense/Responsive.md)
+
+### (1♣) 1♥ (2♣) X
+
+Wbridge5: no responsive double after an overcall.  The double appeared on 2
+boards of 300, each with 14 HCP, 4 spades and 2 hearts.  Of 34 hands with 4
+spades and 4+ diamonds, 14 raised to 2♥ with 3 hearts and 11 passed.
+
+Adjunct: The double shows 8+ points, 2+ cards in partner's major, and 4+
+cards in the other major (2011 doc).
+
+## [Advancing overcalls](../src/Defense/Advances.md)
+
+### (1♣) 1♦ (P) 3♦
+
+Wbridge5: 3♦ is preemptive, usually 5--7 HCP with 4♦.  With 5+♦ and up to
+13 HCP it jumps to 4♦ (41 of 400 boards).  Four diamonds and 7--11 HCP raise
+to 2♦.
+
+Adjunct: 2♦ shows 5--11.95 points with 3+♦ (6+ when unfavorable), and 3♦
+is constructive, 8--11.95 points with 4+♦ (9+ when unfavorable).  4♦ is not
+used as a preempt.
+
+### (1♥) 1♠ (P) with 3-card support and 10--13 HCP
+
+Wbridge5: usually 1NT (17 of 26 boards with 10 HCP and 3♠, and 36 of 54
+boards with 11--13 HCP).  The cuebid with 3♠ usually needs 14+ HCP.
+
+Adjunct: The cuebid 2♥ shows 12+ points and 3+♠, invitational or better; a
+raise is never hidden behind 1NT.
+
+### (1♣) 1♥ (1♠) X
+
+Wbridge5: never doubles (0 of 300 boards).  With heart support it raises or
+cuebids; 2♠, the cuebid in responder's suit, shows 9--13 HCP and 4+♥.  It
+passes strong hands with spade length.
+
+Adjunct: The double shows 8+ points, 2+♥ and 4+ cards in the unbid major.
+Likewise (1x) 1♥ (1NT or 2-level response) X shows 8+ points, 2+♥ and 4+
+cards in the other major.
+
+### (1♠) 2♥ (P) 2♠
+
+Wbridge5: 2NT is the constructive raise with 3+♥ (129 of 130 2NT boards),
+from 7--8 HCP up to 17 HCP.  The cuebid 2♠ is rare (5 of 300 boards) and
+shows a strong hand with 0--2♥.  3♥ is preemptive with 4+♥.
+
+Adjunct: The cuebid 2♠ is a game-forcing raise with 12+ points (by a passed
+hand, 10+ points and a fit), and 3♥ shows under 10 points with 3+♥, its floor
+set by vulnerability.  A passed hand's 2NT invites 3NT with 10--11.95 points.
+
+### (1♥) 1♠ (P) 2♥ (P) and (1♠) 2♥ (P) 2♠ (P): overcaller's rebids
+
+Wbridge5: The rebid in the overcalled suit covers 9--15 HCP after a 1♠
+overcall, and the cuebid of opener's suit shows a balanced hand with no
+stopper (12--13 HCP after 1♠, 11--15 HCP after 2♥).  Notrump shows a
+stopper.  The 3-level rebid of a 1♠ overcall is not used.
+
+Adjunct: After a 1-level overcall, 2M shows 8--11.95 points (6+ cards in a
+free seat), 3M shows 12--15.95 points with 6+ cards, and the cuebid shows
+14--15.95 points with exactly 5 cards, forcing to game even without a
+stopper.  The same scheme applies over a 2♥ overcall.
+
+### (1♣) 1♦ (P) 2♣ (P) and (1♦) 2♣ (P) 2♦ (P): overcaller's rebids
+
+Wbridge5: The cuebid of opener's suit shows a balanced hand with no stopper.
+Over (1♦) 2♣ (P) 2♦, 2NT shows a diamond stopper, usually with 6♣, and the
+2-level major rebid shows 3 cards with no stopper.
+
+Adjunct: The cuebid is a 14--15.95-point game force, bidding 3NT on values
+without a stopper; 2NT is 10--13.95 points balanced, and a new suit shows
+12--15.95 points with 4+ cards.
+
+### (1♣) 2♥ (P) 3♣
+
+Wbridge5: advancer never cuebids over a weak jump overcall (0 of 300
+boards).  A strong raise bids 2NT (13+ HCP, usually 3+♥), as over a weak
+two opening.
+
+Adjunct: Responses to a weak jump overcall are those to an opening, and the
+cuebid shows a game-forcing raise.
+
+## [Natural 1NT overcall](../src/Defense/1NT-overcall.md)
+
+### (1♥) 1NT (P) 2♦ and (1♠) 1NT (P) 2♥
+
+Wbridge5: advancer does not use the bid just below the adverse major for a
+weak hand.  Over (1♥), a weak hand with 5+♦ passes or, with 6+♦, transfers
+with 3♣.  Over (1♠), hands with 5+♥ transfer with 2♦ (274 of 300; the rest
+jump to 3♥).  Advancer bids 2♦ over (1♥) or 2♥ over (1♠) only on rare hands
+with 5 cards in the adverse major and a 6-card minor (4 boards in all).  The
+overcaller passes either bid as natural (341 of 343).
+
+Adjunct: When opponents opened a major and there is no interference after
+the 1NT, the bid just below their major is not a transfer.  It is a natural
+sign-off with 2--7 points and 5+ cards in the bid suit.
+
+## [Two-suited overcalls](../src/Defense/Michaels.md)
+
+### (1m) 2♦ (P) 3♣
+
+Wbridge5: the cuebid is a catch-all forcing bid (15--20 points).  The
+overcaller answers with stoppers: 3NT with a club stopper, 4♣ without one
+and 10+ HCP, 3♥ with a minimum and no stopper (or 6+♥).  Natural 2NT is
+almost never bid (2 of 300 boards).
+
+Adjunct: The cuebid shows 16+ points and a 3-card major, forcing to 3♥.
+2NT is natural, 12--13.95 points with a stopper and no 3-card major, and 3NT
+the same with 14+.
+
+### (1X) P (1Y) 2Y
+
+Wbridge5: advancer takes a cuebid of responder's suit as natural.  Over
+(1♣) P (1♥) 2♥ it raises hearts with 3+ cards, bids 2NT, or passes.
+
+Adjunct: A cuebid of either opponent's suit shows the 2 unbid suits, 5-5 or
+longer.  2-level preference shows 2+ cards; a jump to the 3-level 8+ points
+and an 8-card fit; 2NT 14--15.95 points with both suits stopped; 3NT 16+;
+a cuebid 16+ asks for a stopper.
+
+### 1M (2M!) X and 1♣ (2♦!) X
+
+Wbridge5: 1♥ (2♥) X shows 16--21 points, usually with 3+ hearts but not
+always.  Over 1♣ (2♦) responder never doubles; it cuebids 2♥ with a strong
+hand.
+
+Adjunct: Doubling an artificial Michaels cuebid shows 12+ points and 4+
+cards in opener's suit.
+
+### 1M (2NT!) X
+
+Wbridge5: X shows 14--17 points with 1--2 cards in opener's major, a
+penalty-oriented hand.  With a fit, responder cuebids 3♣ directly (15--20,
+3+ trumps).
+
+Adjunct: X shows 14+ and willingness to penalize 3♣ or 3♦; responder's later
+double is for penalty.  After the double, 3♣ is a 15+ raise with 3+ trumps,
+and 3♦ shows 15+ with 5+ cards in the other major.
+
+### 1M (2M!) P (P) X
+
+Wbridge5: opener's reopening double shows extras (16+ points) at any shape;
+24 of 42 doubles held no 4-card minor.
+
+Adjunct: Opener's reopening double guarantees a 4+-card minor.
+
+## [Opposing 1NT](../src/Defense/1NT.md)
+
+### (1NT) X against a strong 1NT
+
+Wbridge5: The double is for penalty at any opposing 1NT range: 15+ HCP of
+any shape (balanced 15 HCP doubles on 16 of 23 boards, 17+ always).  Advancer
+passes on 291 of 300 boards and runs only now and then with a weak 5+ suit.
+Hands with 5 of a minor and 4 of a major and less than 15 HCP pass, or bid
+Multi-Landy 2♥/2♠ with a 5-card major.
+
+Adjunct: Against a strong 1NT, the double shows a 5-card minor with a 4-card
+major and 10+ points.  Advancer with 10+ points may pass for penalty;
+otherwise advancer relays 2♣ for the doubler to describe the hand.  Only
+against a weak 1NT is the double a 15+ penalty double.
+
+### (1NT) P (P): Lionel in the balancing seat
+
+Wbridge5: The balancing seat plays the same Landy and Multi-Landy as the
+direct seat: 2♣ both majors, 2♦ a 6-card major, 2♥/2♠ 5 cards plus a
+4-card minor.  The double is for penalty with 17+ HCP.  A 4-card spade suit
+without 4 hearts, or 4 hearts with a 5-card minor, passes below the double.
+After the balancing double, advancer passed on 164 of 165 boards.
+
+Adjunct: Lionel, so that 4-4 fits can be found when the opponents have
+stopped in 1NT.  Every call other than Pass needs the values to compete at
+the 3 level.
+
+- **X:** spades and another suit.  Advancer passes for penalty when the
+  partnership holds 20+ points, relays 2♣ (the doubler passes with 4
+  clubs), bids 2♦/2♥ with 5+ cards (2♦ also with 2--3 hearts), or bids 2♠
+  with 3-card support.
+- **2♣/2♦:** hearts and the bid minor.  Advancer prefers 2♥ with 3-card
+  support.
+- **2♥/2♠:** natural, 5+ cards.
+- **2NT:** 5-5 or longer in the minors.  Advancer bids the better minor.
+- **3♣/3♦:** preemptive, 6+ cards.
+
+## [Opposing preempts](../src/Defense/Preempts.md)
+
+### (2NT!) for the minors
+
+Wbridge5: not applicable.  No system Wbridge5 plays (its own, SEF or SAYC)
+opens 2NT as a minor preempt, so this defense is out of scope.  Wbridge5
+reads (2NT) as natural and strong.
+
+Adjunct: Over a weak 2NT showing both minors (with Multi 2♦), a direct
+double is for penalties with 15+ points.  A passed hand doubles to show
+5-5 in the majors.
+
+### (2x) P (2NT) X
+
+Wbridge5: the double shows 13+ HCP (median 17) at any shape.  Half of
+the doubles over (2♥) P (2NT) held 3 hearts, and others held a singleton
+or void in hearts.
+
+Adjunct: The double is for penalties with 16+ points.  A cuebid of 3♦
+shows 15+ points and 5-5 in the majors.
+
+### (2♦) X (P) and the penalty pass
+
+Wbridge5: advancer converts the double with 5+ diamonds.  With 4 diamonds
+it almost always bids a suit or 2NT.  Over (2♥♠) X it passes with 4 trumps only with 8+
+HCP, and even then only some of the time.
+
+Adjunct: Four trumps are enough for a penalty pass at the 2-level, with
+0--11 points over (2♦) and 0--9 points over (2♥♠).
+
+## [Opposing strong openings](../src/Defense/Strong2.md)
+
+### Destructive calls on 0--4.45 points
+
+Wbridge5: Over a strong opening, a very weak hand passes unless it has a long
+suit to preempt with.  With 5-5 majors, it doubles (2♣) from 5--6 HCP, and
+1--5 HCP usually passes.  With 5-5 minors, it passes below 8 HCP.
+
+Adjunct: Every overcall of a strong opening may also be made on 0--4.45
+points, as a destructive bid with the same shape.  Partner bids on the
+assumption that it is weak.
+
+### (2♣) X with 5-4 majors
+
+Wbridge5: The double shows 5-5+ majors at any strength.  A 5-4 hand overcalls
+its 5-card major or passes.
+
+Adjunct: The double shows 5-4+ majors with at least the values of a 3-level
+preempt, like Landy.
+
+### (2♣) P (2♦) X and (2♦) P (2♥) X
+
+Wbridge5: The double shows the suit that responder bid artificially: 5+♦
+over 2♦, 5+♥ over 2♥.  5-5 majors bid 2♠ or 2♥.
+
+Adjunct: After the artificial response, all calls are as over the opening.
+The double still shows the majors.
+
+### Jumps to 3♥♠ over a strong (2♦), and after the artificial response
+
+Wbridge5: The jumps are preemptive: a 6-card suit with two of the top three
+honors or a 7-card suit, 2--11 HCP.  After (2♣) P (2♦) they stay preemptive.
+
+Adjunct: Over (2♦), 3♥♠ shows 10+ points and a 6+ suit.  After (2♣) P (2♦)
+or (2♦) P (2♥), a jump to 3♥♠ shows 12+ points and a 7+ suit.
+
+### Over natural strong (2♣♦): X shows ♠ and the other minor
+
+Wbridge5: No natural strong 2♣ can be set.  Over a natural (2♦), the double
+shows a strong hand, 14--20 HCP and usually balanced.  3♦ shows the majors.
+
+Adjunct: Over a natural strong 2 of a minor, the double shows 5-5+ in ♠ and
+the other minor, with 12+ points.
+
+### Over natural strong (2♠): X shows hearts
+
+Wbridge5: 5+♥ bids 3♥, from about 13 points with 5 cards.  The double is
+for takeout or for a strong hand, about 17+ HCP.
+
+Adjunct: (2♠) X shows 5+♥ and 12+ points.  It saves a level over 3♥.
+
+### Over natural strong (2♥♠): 2NT for the lowest two unbid suits
+
+Wbridge5: 2NT is natural, 16--20 HCP and balanced.  5-5 minors bid 4NT with
+about 16+ points.  Otherwise they bid one minor at the 3 level or pass.
+
+Adjunct: 2NT shows 5-5+ in the two lowest unbid suits, 12+ points (10+ after
+a negative response).  The 3m cuebid shows 5-5 majors and 15+ points.

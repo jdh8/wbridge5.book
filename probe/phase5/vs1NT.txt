@@ -1,0 +1,36 @@
+# Phase 5, key vs1NT: Wbridge5 entering over an opposing 1NT (doc 貳.二,
+# DOC lines 1503-1603).  Hypotheses: probe/phase5/notes/vs1NT.md.
+# N-S defaults are Landy + Multi-Landy (Nslandy=1, NsMulti_landy=1).
+# E-W 1NT defaults to 15-17; EO1Sa / EO1SaNV = bottom HCP of the range
+# (vul / not vul), so EO1Sa=12,EO1SaNV=12 is a weak 12-14 1NT.
+#
+# A. Direct seat over a strong (1NT): one line per shape family.
+1N --hcp 10-22 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p5/vs1NT/1N~bal.jsonl
+1N --hcp 4-18 --S 4-6 --H 4-6 --D 0-3 --C 0-3 --seed 1 -o probe/data/p5/vs1NT/1N~SH.jsonl
+1N --hcp 4-18 --S 6- --H 0-3 --seed 1 -o probe/data/p5/vs1NT/1N~S6.jsonl
+1N --hcp 4-18 --H 6- --S 0-3 --seed 1 -o probe/data/p5/vs1NT/1N~H6.jsonl
+1N --hcp 4-18 --S 5-5 --H 0-3 --seed 1 -o probe/data/p5/vs1NT/1N~S5.jsonl
+1N --hcp 4-18 --H 5-5 --S 0-3 --seed 1 -o probe/data/p5/vs1NT/1N~H5.jsonl
+1N --hcp 4-18 --C 5- --S 0-4 --H 0-4 --seed 1 -o probe/data/p5/vs1NT/1N~C5.jsonl
+1N --hcp 4-18 --D 5- --S 0-4 --H 0-4 --seed 1 -o probe/data/p5/vs1NT/1N~D5.jsonl
+#
+# B. Direct seat over a weak 12-14 (1NT): double threshold, then any shape.
+1N --hcp 10-20 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --ini EO1Sa=12,EO1SaNV=12 --seed 1 -o probe/data/p5/vs1NT/1N~bal-weak.jsonl
+1N --hcp 4-18 -n 400 --ini EO1Sa=12,EO1SaNV=12 --seed 1 -o probe/data/p5/vs1NT/1N~any-weak.jsonl
+#
+# C. Balancing seat (1NT) P (P): Lionel (doc) or Multi-Landy again (smoke)?
+1N-P-P --hcp 6-20 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p5/vs1NT/1NPP~bal.jsonl
+1N-P-P --hcp 4-18 --S 4-6 --H 0-6 --seed 1 -o probe/data/p5/vs1NT/1NPP~S4.jsonl
+1N-P-P --hcp 4-18 --H 4-6 --S 0-3 --seed 1 -o probe/data/p5/vs1NT/1NPP~H4.jsonl
+#
+# D. Advances: North's direct call is scripted, South advances.
+1N-X-P --hcp 0-14 --seed 1 -o probe/data/p5/vs1NT/1NXP.jsonl
+1N-2C-P --hcp 0-16 --seed 1 -o probe/data/p5/vs1NT/1N2CP.jsonl
+1N-2D-P --hcp 0-16 --seed 1 -o probe/data/p5/vs1NT/1N2DP.jsonl
+1N-2H-P --hcp 0-16 --seed 1 -o probe/data/p5/vs1NT/1N2HP.jsonl
+# Advancing a balancing X; South's own pass of 1NT is in the prefix (keep ~95%).
+1N-P-P-X-P --hcp 0-14 -n 200 --seed 1 -o probe/data/p5/vs1NT/1NPPXP.jsonl
+#
+# E. Fourth seat over their 1NT response (DOC 1511-1522): Stayman, transfer.
+1N-P-2C --hcp 8-18 --seed 1 -o probe/data/p5/vs1NT/1NP2C.jsonl
+1N-P-2D --hcp 8-18 --seed 1 -o probe/data/p5/vs1NT/1NP2D.jsonl

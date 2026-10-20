@@ -54,6 +54,16 @@ def from_tm(line):
     verb = {"passes": "P", "doubles": "X", "redoubles": "XX"}
     return words[2] if words[1] == "bids" else verb[words[1]]
 
+# E-W options where Wbridge5's SEF and SAYC presets (Options > Bidding > System)
+# differ from its own default; decoded from Wbridge5.exe 5.12
+OPP = {
+    "SEF": "Eo2Saspe=0,EoBergen=0,EoLeaping=0,EoMaj51SA=0,EOMulti_landy=0,EoNamyats=0,"
+           "EoRodrigue=0,EoSand=0",
+    "SAYC": "EO2Kfort=0,Eo2SaJacoby=1,Eo2Saspe=0,EoBergen=0,EoGambling=0,EoGerber=1,"
+            "EoLeaping=0,EoMic=0,EOMulti_landy=0,EoNamyats=0,EoNon_precis=1,EORkcb=0,"
+            "EoRodrigue=0,EORoudi=0,EoSand=0,EOTexMin=0,EoTrus=0,Eodk_dt=1,EOlandy=0",
+}
+
 
 def main():
     ap = argparse.ArgumentParser()
@@ -64,6 +74,8 @@ def main():
     ap.add_argument("--hcp", type=span, default=(0, 37))
     for s in "SHDC":
         ap.add_argument(f"--{s}", type=span, default=(0, 13), help=f"{s} length, e.g. 5- or 0-3")
+    ap.add_argument("--ini", default="", help="[Ench] options, e.g. EO2faible=0,EO1Sa=12")
+    ap.add_argument("--opp", choices=OPP, help="E-W play this preset system instead of Wbridge5's")
     ap.add_argument("-o", type=Path)
     ap.add_argument("-v", action="store_true", help="echo the protocol")
     a = ap.parse_args()
@@ -75,6 +87,12 @@ def main():
     print(f"seed {seed} -> {out}", file=sys.stderr)
     rng = random.Random(seed)
     dealer = SEATS[(2 - len(prefix)) % 4]
+
+    # Rewritten every run so a slot never inherits the last job's options
+    kvs = ([OPP[a.opp]] if a.opp else []) + [a.ini]
+    ini = "".join(f"{kv}\r\n" for kv in ",".join(kvs).split(",") if kv)
+    ini = f"[Ench]\r\n{ini}" if ini else ""
+    (EXE_DIR / "WBRIDGE5.INI").write_text(ini, newline="")
 
     srv = socket.create_server(("127.0.0.1", 0))
     srv.settimeout(60)

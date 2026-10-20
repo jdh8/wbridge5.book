@@ -1,0 +1,14 @@
+# Phase 5, key vsweak, supplement: what the SEF/SAYC presets newly allow.
+# SAYC weak 2♦ is already covered by the EO2Kfort=0 lines in vsweak.txt.
+#
+# (4♣)/(4♦) natural preempts (Namyats off under SAYC): X / 4-level overcall / 4NT
+4C --opp SAYC --hcp 12-22 --C 0-3 --seed 1 -o probe/data/p5/vsweak/4C~sayc.jsonl
+4D --opp SAYC --hcp 12-22 --D 0-3 --seed 1 -o probe/data/p5/vsweak/4D~sayc.jsonl
+# (3NT) opening: default E-W play Gambling; SAYC preset has EoGambling=0.
+# Defense to each; Pass rate at 15+ HCP tells whether SAYC 3NT is read as strong.
+3N --hcp 8-22 --seed 1 -o probe/data/p5/vsweak/3N~gambling.jsonl
+3N --opp SAYC --hcp 8-22 --seed 1 -o probe/data/p5/vsweak/3N~sayc.jsonl
+# What a non-Gambling 3NT opening is: Wbridge5's own opening with NsGambling=0
+# (the twin of SAYC's EoGambling=0).  Balanced 22-28 vs a long-minor hand.
+- --ini NsGambling=0 --hcp 22-28 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p5/vsweak/open~nogambling-bal.jsonl
+- --ini NsGambling=0 --hcp 9-15 --C 7- --S 0-3 --H 0-3 --seed 1 -o probe/data/p5/vsweak/open~nogambling-C7.jsonl

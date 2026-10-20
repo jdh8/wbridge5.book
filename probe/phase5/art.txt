@@ -1,0 +1,15 @@
+# Phase 5, key art: artificial openings Wbridge5 cannot be told about (doc 1472-1502
+# strong 1♣; 1794-1829 Multi / Flannery / Precision / Roman 2♦).  No INI key, no alerts:
+# it reads (1♣) and (2♦) by its own E-W settings.  Hypotheses: probe/phase5/notes/art.md.
+# (1♣) direct is already answered by probe/data/1C.jsonl (natural 1♣ defense).
+1C-P-1D --hcp 8-18 --seed 1 -o probe/data/p5/art/1CP1D~broad.jsonl
+1C-P-1D --hcp 10-16 --D 6- --seed 1 -o probe/data/p5/art/1CP1D~D6.jsonl
+1C-P-1D --hcp 8-16 --S 5- --H 5- --seed 1 -o probe/data/p5/art/1CP1D~S5H5.jsonl
+1C-P-1H --hcp 10-16 --H 6- --seed 1 -o probe/data/p5/art/1CP1H~H6.jsonl
+# (2♦) by E-W settings: default strong GF 2♦, weak 2♦ (EO2Kfort=0), no weak twos.
+2D --hcp 8-18 --seed 1 -o probe/data/p5/art/2D~broad.jsonl
+2D --hcp 8-18 --ini EO2Kfort=0 --seed 1 -o probe/data/p5/art/2D~broad-K0.jsonl
+2D --hcp 8-18 --ini EO2faible=0 --seed 1 -o probe/data/p5/art/2D~broad-F0.jsonl
+2D --hcp 8-18 --ini EO2faible=0,EO2Kfort=0 --seed 1 -o probe/data/p5/art/2D~broad-F0K0.jsonl
+2D --hcp 10-16 --D 6- --seed 1 -o probe/data/p5/art/2D~D6.jsonl
+2D --hcp 10-16 --D 6- --ini EO2Kfort=0 --seed 1 -o probe/data/p5/art/2D~D6-K0.jsonl

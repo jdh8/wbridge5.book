@@ -1,7 +1,8 @@
 # Competitive rebids
 
-This chapter covers opener's rebids after 1♥♠ when the opponents bid.  The
-ranges come from probing Wbridge5 5.12 on about 250 boards per auction.
+This chapter covers opener's rebids after 1♥♠ when the opponents bid, and
+responder's calls over an overcall.  The ranges come from probing Wbridge5
+5.12 on about 250--300 boards per auction.
 Ranges are in points, except where marked HCP.
 
 ## RHO bids over the response
@@ -44,6 +45,25 @@ For example, ♠J53 ♥AJ532 ♦K94 ♣K10 redoubles over 1♥ - 1♠ (X), and
 
 The 2011 doc limits the support double to 14--21 points.  Wbridge5 doubles
 or redoubles with 3 spades even at 11 HCP.
+
+At the 3-level the support double needs extra values.  A minimum opener with
+3 spades passes.
+
+| 1♥ - 1♠ (3♣) | |
+|-----|-|
+| P   | Most minimum hands, including 3=♠
+| X!  | Support, 17--21, 3=♠
+| 3♦  | 16--20, 4+♦
+| 3♥  | 15--20, 6+♥
+| 3♠  | 13--18, 4=♠
+| 3NT | 17--20 HCP, 2=♠
+| 4♥  | 17--22, 6+♥
+| 4♠  | 16--21, 4=♠
+
+Of the 96 hands with 3 spades, 56 passed with 11--15 HCP and 28 doubled with
+14--19 HCP.  For example, ♠K82 ♥AKJ63 ♦AK82 ♣6 doubles, but ♠J53 ♥AJ532
+♦K94 ♣K10 passes.  Opener bid 4♣ on 2 boards, each with 4 spades and a club
+void.  The probe gave opener 2--4 spades.
 
 ### Simple raise
 
@@ -197,7 +217,109 @@ The 2♠ row comes from 4 boards.  Wbridge5 never doubled 2♣.
 
 ## LHO overcalls
 
-### Negative double
+### Responder's calls
+
+Responder's double is negative.  Over 1♠ or 2♥ it shows both minors and
+exactly 2 cards in opener's major.  Over 2♣ it shows spades.  Responder
+never makes a penalty double of a suit overcall.  With length in LHO's suit,
+responder passes.  These probes gave responder 0--3 cards in opener's major.
+
+| 1♥ (1♠) | |
+|-----|-|
+| P   | 6--14, no other suitable call, including long ♠
+| X!  | NEG, 9--14, 2=♥, 4+ cards in each minor
+| 1NT | 7--10 HCP, 3+♠, 2=♥
+| 2♣♦ | 10+, 5+#
+| 2♥  | 5--12, 3=♥
+| 2♠! | Cuebid, 13--16 HCP
+| 2NT | 10--14 HCP
+| 3♥  | INV, 11--13, 3=♥
+| 3NT | 13--15 HCP, 3+♠, 2=♥
+| 4♥  | 12--14 HCP, 3=♥
+
+All 12 doubles had 2 hearts and 4-4 or longer in the minors.  Another 11
+hands of that shape passed with 5--10 HCP.  For example, ♠J104 ♥QJ ♦KQ65
+♣J982 doubles.
+
+| 1♠ (2♥) | |
+|-----|-|
+| P   | 6--13 HCP, including 4-4 minors with 6--11 HCP
+| X!  | NEG, 10--14, 2=♠, 4+ cards in each minor
+| 2♠  | 6--10 HCP, 3=♠
+| 2NT | 10--12 HCP
+| 3♣♦ | 10+, 5+#
+| 3♥! | Cuebid, 15--20
+| 3♠  | INV, 11--13, 3=♠
+| 3NT | 13--16 HCP, 2=♠
+| 4♠  | 12--14 HCP, 3=♠
+
+The double comes from 6 boards, for example ♠73 ♥52 ♦K942 ♣AKQ82.  The
+2011 doc has the same double from 10 points.
+
+| 1♥ (2♣) | |
+|-----|-|
+| P   | 6--13 HCP, usually 3+♣
+| X!  | NEG, 7--18, 4+♠
+| 2♦  | 11+, 5+♦
+| 2♥  | 6--10 HCP, 3=♥
+| 2♠  | 11+, 5+♠
+| 2NT | 9--12 HCP
+| 3♣! | Cuebid, 13--16 HCP, 3=♥
+| 3♥  | INV, 11--12, 3=♥
+| 3NT | 12--15 HCP, 2=♥
+| 4♥  | 11--14 HCP, 3=♥
+
+The double usually shows exactly 4 spades.  With 5 spades responder doubles
+only with 6--9 HCP, and bids 2♠ with more.  For example, ♠KQ54 ♥K2 ♦KQ876
+♣107 doubles.
+
+| 1♠ (3♥) | |
+|-----|-|
+| P   | Most hands, including 4+♥
+| X!  | Takeout, 13--14, 2=♠, 4+ cards in each minor
+| 3♠  | 6--10 HCP, 3=♠
+| 3NT | 12--16 HCP, 2=♠
+| 4♣♦ | 13+, 6+#
+| 4♥! | Cuebid, 12--16 HCP, 3=♠
+| 4♠  | 8--15 HCP, 3=♠
+
+The 2011 doc has this double for penalty.  Probing Wbridge5 5.12 shows a
+takeout double on 4 boards, for example ♠K10 ♥84 ♦Q8653 ♣AQ104.  The 71
+hands with 4+ hearts passed, up to 16 HCP.  Responder also bid 4NT on 12
+boards: 5 with both minors and 7 with 3 spades and 12--15 HCP.
+
+| 1♥ (1NT) | |
+|------|-|
+| P    | 4--9 HCP
+| X    | PEN, 8+ HCP, any shape
+| 2♣♦  | 4--8 HCP, 6+#
+| 2♥   | 4--10 HCP, 3+♥
+| 2NT! | [Unusual](#unusual-2nt), both minors
+| 3♥   | 7--9 HCP, 4+♥
+| 4♥   | 5--8 HCP, 4+♥
+
+Responder doubled 192 of the 227 hands with 8+ HCP.  Most of the rest raised
+hearts.
+
+### Over Precise Michaels
+
+The opponents' 3♣ over 1♥ is a [Precise Michaels](../Defense/1y.md#precise-michaels)
+bid for spades and diamonds, because the opponents play Wbridge5's own
+defaults.  Responder never doubled on 300 boards, even with 4 spades and 13
+HCP.
+Responder's calls over the other two-suiters, such as 1♥ (2♥), are in
+[Two-suited overcalls](../Defense/Michaels.md#opponents-two-suiters).
+
+| 1♥ (3♣!) | |
+|-----|-|
+| P   | Most hands without 3♥
+| 3♦! | Cuebid, 13--16 HCP
+| 3♥  | Usually 7--10 HCP, 3=♥
+| 3NT | 11--16 HCP, 0--2♥
+| 4♣  | 10--15 HCP, 5+♣, 0--2♥
+| 4♥  | 8--16 HCP, 3=♥
+
+### Opener's rebids after a negative double
 
 | 1♥ (1♠) X (P) | |
 |-----|-|
@@ -237,6 +359,41 @@ game-forcing with 14--15, but Wbridge5 bids 2NT with a minimum.
 | 4♠   | 16--19, 4=♠
 
 Opener jumped to 3♠ on only 2 boards, each with 4 spades and 16--17 points.
+
+### Reopening double
+
+Responder may pass with length in LHO's suit, but opener seldom reopens with
+a double.  It takes extra values and support for both unbid suits.  The
+probe gave opener 0--2 clubs.
+
+| 1♥ (2♣) P (P) | |
+|-----|-|
+| P   | Most hands, 12--17, including 3+♠ and 3+♦
+| X   | Takeout, 16--20, 3+♠, 3+♦, 0--2♣
+| 2♦  | 14--20, 4+♦
+| 2♥  | 14--19, 6+♥
+| 2♠  | 17--19, 4=♠
+| 2NT | 18--20 HCP, BAL
+| 3♦  | 18+, 5+♦
+| 3♥  | 17--21, 6+♥
+
+Of the 71 hands with 5 hearts and 3+ cards in both spades and diamonds, 48
+passed, mostly with 11--14 HCP, and 8 doubled.  For example, ♠AQ108 ♥K10862
+♦KQ63 ♣- doubles, but ♠J53 ♥AJ532 ♦K94 ♣K10 passes.  The 2♠, 2NT and 3♦
+rows come from 3--4 boards each.
+
+If LHO's overcall is raised, opener doubles for takeout with shortness.
+
+| 1♥ (1♠) P (2♠) | |
+|-----|-|
+| P   | Most hands, 12--17
+| X   | Takeout, 14--20, 0--1♠, 3+ cards in each minor
+| 2NT | 15--20 HCP, 5=♥
+| 3♣♦ | 15--20, 5+#
+| 3♥  | 14+, 6+♥
+
+Opener doubled 16 of the 44 hands with 5 hearts and 0--1 spades, for example
+♠- ♥KQ1076 ♦A1095 ♣A1087.  Another 16 of them passed with 11--14 HCP.
 
 ### Cuebid
 
@@ -283,3 +440,28 @@ invites game.
 For example, ♠KQJ83 ♥A ♦Q972 ♣A104 doubles.  The 2011 doc has the maximal
 double at 16--17 and 4♠ at 18+.  Wbridge5 doubles with 18--20 and also bids
 4♠ with shapely hands from 16 points.
+
+The same double works over 1♥ (2♦) 2♥ (3♦).
+
+| 1♥ (2♦) 2♥ (3♦) | |
+|----|-|
+| P  | 12--17
+| X  | Maximal, INV, 18--20
+| 3♥ | 13--20, competitive
+| 4♥ | 14+, usually 16--20
+
+For example, ♠A ♥AKQ87 ♦632 ♣K986 doubles.  Opener bid 4♦ on 2 boards, each
+with 6+ hearts and 0--1 diamond.
+
+## Not probed
+
+- Vulnerability: the competitive probes in this chapter were at none
+  vulnerable.
+- Responder's calls with 4+ cards in opener's major, as the probes gave
+  responder at most 3.
+- Responder's double of other 2-level overcalls (2♦, 1♥ (2♠)) and of a 2NT
+  overcall.
+- Responder's second call after a negative double, and opener's rebids after
+  the 3-level takeout double of 1♠ (3♥).
+- Support doubles over 2♦ or 2♥ after 1♥ - 1♠, and support redoubles at the
+  3-level.

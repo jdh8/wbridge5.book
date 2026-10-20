@@ -1,0 +1,34 @@
+# Phase 5, compx: competitive doubles (negative, support, responsive,
+# maximal, doubles after both sides bid).  Hypotheses: probe/phase5/notes/compx.md.
+# Already in probe/data and the book, not repeated: opener's rebids after a
+# negative double (1H1SXP, 1S2HXP, 1H2CXP, 1C1DXP, 1C1HXP, 1D1HXP, 1C1SXP),
+# responder over 1m (1x) (data/1C-1D, 1C-1H, 1C-1S, 1D-1H, 1D-1S), support
+# X/XX after 1H-1S (1HP1SX, 1HP1S2C), maximal X after 1S (2H) 2S (3H).
+#
+# --- Support doubles: opener, other openings and higher levels ---
+1C-P-1H-1S --C 4- --D 0-3 --H 2-4 --S 0-3 --hcp 11-19 --seed 1 -o probe/data/p5/compx/1CP1H1S.jsonl
+1D-P-1S-2C --D 4- --C 0-3 --S 2-4 --H 0-3 --hcp 11-19 --seed 1 -o probe/data/p5/compx/1DP1S2C.jsonl
+1H-P-1S-3C --H 5- --S 2-4 --hcp 11-21 --seed 1 -o probe/data/p5/compx/1HP1S3C.jsonl
+# --- Negative doubles over 1M: responder's side is untabled ---
+1H-1S --H 0-3 --hcp 5-16 --seed 1 -o probe/data/p5/compx/1H1S.jsonl
+1S-2H --S 0-3 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1S2H.jsonl
+1H-2C --H 0-3 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1H2C.jsonl
+1H-3C --H 0-3 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1H3C.jsonl
+1S-3H --S 0-3 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1S3H.jsonl
+1H-1N --hcp 4-16 --seed 1 -o probe/data/p5/compx/1H1N.jsonl
+# --- Negative doubles over 1m above the 1-level ---
+1D-2C --D 0-4 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1D2C.jsonl
+1C-2D --C 0-4 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1C2D.jsonl
+1D-2H --D 0-4 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1D2H.jsonl
+1C-3H --C 0-4 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1C3H.jsonl
+# --- Responsive doubles: (1x) X (raise or new suit), (1x) overcall (raise) ---
+# Smoke (broad 1C-X-2C): X rare, 4M bid instead; lines enrich both unbid suits 3+.
+1C-X-2C --S 3- --H 3- --hcp 4-14 --seed 1 -o probe/data/p5/compx/1CX2C.jsonl
+1H-X-2H --D 3- --C 3- --hcp 4-14 --seed 1 -o probe/data/p5/compx/1HX2H.jsonl
+1C-X-1S --S 0-3 --hcp 4-14 --seed 1 -o probe/data/p5/compx/1CX1S.jsonl
+1C-1H-2C --H 0-3 --hcp 4-14 --seed 1 -o probe/data/p5/compx/1C1H2C.jsonl
+# --- Opener's doubles after both sides bid ---
+# Smoke (broad 1H-2C-P-P): every long-club hand passed; line asks whether short clubs reopen with X.
+1H-2D-2H-3D --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p5/compx/1H2D2H3D.jsonl
+1H-2C-P-P --H 5- --S 0-4 --C 0-2 --hcp 11-21 --seed 1 -o probe/data/p5/compx/1H2CPP.jsonl
+1H-1S-P-2S --H 5- --S 0-3 --hcp 11-21 --seed 1 -o probe/data/p5/compx/1H1SP2S.jsonl

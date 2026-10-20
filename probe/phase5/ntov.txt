@@ -1,0 +1,40 @@
+# Phase 5, key ntov: advancing a natural 1NT overcall (doc 貳.一.六, doc.txt
+# 1395-1405; overcall ranges at 1046-1085).  Hypotheses: probe/phase5/notes/ntov.md.
+# North (scripted) overcalls 1NT; South advances.  Lines B have South overcall
+# itself to read what it thinks partner's call means.  No --ini: partner's
+# 1NT is read by our own Ns* defaults.
+#
+# A. Direct strong 1NT, advancer.  Broad: is it systems on over each opening?
+1C-1N-P --hcp 0-16 -n 400 --seed 1 -o probe/data/p5/ntov/1C1NP.jsonl
+1D-1N-P --hcp 0-16 --seed 1 -o probe/data/p5/ntov/1D1NP.jsonl
+1H-1N-P --hcp 0-16 -n 400 --seed 1 -o probe/data/p5/ntov/1H1NP.jsonl
+1S-1N-P --hcp 0-16 -n 400 --seed 1 -o probe/data/p5/ntov/1S1NP.jsonl
+# A2. Transfers past / into their suit; SJS range (smoke: 3S with 12 HCP)
+1H-1N-P --hcp 0-16 --S 5- --seed 1 -o probe/data/p5/ntov/1H1NP~S5.jsonl
+1S-1N-P --hcp 0-16 --H 5- --S 0-3 --seed 1 -o probe/data/p5/ntov/1S1NP~H5.jsonl
+# A3. Length in their suit; does advancer ever bid the doc's natural 2D / 2H?
+1H-1N-P --hcp 0-16 --H 5- --seed 1 -o probe/data/p5/ntov/1H1NP~H5.jsonl
+1S-1N-P --hcp 0-16 --S 5- --seed 1 -o probe/data/p5/ntov/1S1NP~S5.jsonl
+1H-1N-P --hcp 0-16 --D 5- --H 0-3 --seed 1 -o probe/data/p5/ntov/1H1NP~D5.jsonl
+# A4. Minor transfers into their minor
+1C-1N-P --hcp 0-16 --C 5- --seed 1 -o probe/data/p5/ntov/1C1NP~C5.jsonl
+1D-1N-P --hcp 0-16 --D 5- --seed 1 -o probe/data/p5/ntov/1D1NP~D5.jsonl
+#
+# B. South overcalls 1NT (15-18 balanced, 3-4 cards in their suit for a
+#    stopper); partner's call, what does South take it for?  Keep ~75%.
+1H-1N-P-2D-P --hcp 15-18 --S 2-4 --H 3-4 --D 2-5 --C 2-5 --seed 1 -n 200 -o probe/data/p5/ntov/1H1NP2DP.jsonl
+1S-1N-P-2H-P --hcp 15-18 --S 3-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -n 200 -o probe/data/p5/ntov/1S1NP2HP.jsonl
+1H-1N-P-2C-P --hcp 15-18 --S 2-4 --H 3-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p5/ntov/1H1NP2CP.jsonl
+1C-1N-P-2H-P --hcp 15-18 --S 2-4 --H 2-4 --D 2-5 --C 3-5 --seed 1 -o probe/data/p5/ntov/1C1NP2HP.jsonl
+#
+# C. Responder raises over the 1NT: Lebensohl / cooperative X as over 1NT?
+1H-1N-2H --hcp 0-16 --seed 1 -o probe/data/p5/ntov/1H1N2H.jsonl
+#
+# D. Balancing 1NT (the doc's 弱無王).  D1 its range (chm: 13-15 HCP);
+#    D2 advancer, who passed over (1H), keep ~65%.
+1H-P-P --hcp 9-19 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p5/ntov/1HPP~bal.jsonl
+1H-P-P-1N-P --hcp 0-16 -n 450 --seed 1 -o probe/data/p5/ntov/1HPP1NP.jsonl
+# E. Passed hand's balancing 1NT (doc 10-12 pts natural).  E1 its range
+#    (South passes first, keep ~70%); E2 advancer, keep ~85%.
+P-P-P-1H-P-P --hcp 6-13 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p5/ntov/PPP1HPP~bal.jsonl
+P-1H-P-P-1N-P --hcp 0-12 --seed 1 -o probe/data/p5/ntov/P1HPP1NP.jsonl

@@ -1,0 +1,338 @@
+1H-X-P --hcp 0-15 --seed 1 -o probe/data/p5/dbl/1HXP~broad.jsonl	seed 1 -> probe/data/p5/dbl/1HXP~broad.jsonl
+1H-X-P --hcp 0-14 --H 5- --seed 1 -o probe/data/p5/dbl/1HXP~H5.jsonl	seed 1 -> probe/data/p5/dbl/1HXP~H5.jsonl
+1D-X-P --hcp 0-11 --S 4-4 --H 4-4 --seed 1 -o probe/data/p5/dbl/1DXP~S44H44.jsonl	seed 1 -> probe/data/p5/dbl/1DXP~S44H44.jsonl
+1D-X-P --hcp 0-15 --seed 1 -o probe/data/p5/dbl/1DXP~broad.jsonl	seed 1 -> probe/data/p5/dbl/1DXP~broad.jsonl
+1H-X-P --hcp 9-15 --seed 1 -o probe/data/p5/dbl/1HXP~hcp915.jsonl	seed 1 -> probe/data/p5/dbl/1HXP~hcp915.jsonl
+1H-X-1S --hcp 0-12 --seed 1 -o probe/data/p5/dbl/1HX1S~broad.jsonl	seed 1 -> probe/data/p5/dbl/1HX1S~broad.jsonl
+1H-X-XX --hcp 0-12 --seed 1 -o probe/data/p5/dbl/1HXXX~broad.jsonl	seed 1 -> probe/data/p5/dbl/1HXXX~broad.jsonl
+1H-X-1N --hcp 0-12 --seed 1 -o probe/data/p5/dbl/1HX1N~broad.jsonl	seed 1 -> probe/data/p5/dbl/1HX1N~broad.jsonl
+1H-X-2H --hcp 0-12 --seed 1 -o probe/data/p5/dbl/1HX2H~broad.jsonl	seed 1 -> probe/data/p5/dbl/1HX2H~broad.jsonl
+1H-X-2N --hcp 0-12 --seed 1 -o probe/data/p5/dbl/1HX2N~broad.jsonl	seed 1 -> probe/data/p5/dbl/1HX2N~broad.jsonl
+1H-P-P --hcp 8-20 --seed 1 -o probe/data/p5/dbl/1HPP~hcp820.jsonl	seed 1 -> probe/data/p5/dbl/1HPP~hcp820.jsonl
+1H-X-P-1S-P --hcp 17-22 --H 0-3 --seed 1 -o probe/data/p5/dbl/1HXP1SP~hcp1722.jsonl	seed 1 -> probe/data/p5/dbl/1HXP1SP~hcp1722.jsonl
+1H-X-P-1S-P --hcp 13-22 --H 0-2 --S 3-4 --seed 1 -o probe/data/p5/dbl/1HXP1SP~S34.jsonl	seed 1 -> probe/data/p5/dbl/1HXP1SP~S34.jsonl
+1H-P-P-X-P --hcp 0-11 --seed 1 -o probe/data/p5/dbl/1HPPXP~hcp011.jsonl	seed 1 -> probe/data/p5/dbl/1HPPXP~hcp011.jsonl
+1H-X-XX --hcp 0-12 --seed 1 -o probe/data/p5/dbl/1HXXX~broad.jsonl	300 deals, 300 kept, 95/min
+1H-X-P-1N-P --hcp 13-22 --H 0-2 -n 400 --seed 1 -o probe/data/p5/dbl/1HXP1NP.jsonl	seed 1 -> probe/data/p5/dbl/1HXP1NP.jsonl
+1H-X-2H --hcp 0-12 --seed 1 -o probe/data/p5/dbl/1HX2H~broad.jsonl	300 deals, 300 kept, 78/min
+1H-X-P-2C-P --hcp 13-22 --H 0-2 -n 400 --seed 1 -o probe/data/p5/dbl/1HXP2CP.jsonl	seed 1 -> probe/data/p5/dbl/1HXP2CP.jsonl
+1H-X-1S --hcp 0-12 --seed 1 -o probe/data/p5/dbl/1HX1S~broad.jsonl	300 deals, 300 kept, 77/min
+1H-X-P-2S-P --hcp 13-22 --H 0-2 -n 400 --seed 1 -o probe/data/p5/dbl/1HXP2SP.jsonl	seed 1 -> probe/data/p5/dbl/1HXP2SP.jsonl
+1H-P-P --hcp 8-20 --seed 1 -o probe/data/p5/dbl/1HPP~hcp820.jsonl	300 deals, 300 kept, 66/min
+1H-X-P-2H-P --hcp 13-22 --H 0-2 -n 400 --seed 1 -o probe/data/p5/dbl/1HXP2HP.jsonl	seed 1 -> probe/data/p5/dbl/1HXP2HP.jsonl
+1H-X-1N --hcp 0-12 --seed 1 -o probe/data/p5/dbl/1HX1N~broad.jsonl	300 deals, 300 kept, 65/min
+1D-X-P-1H-P --hcp 13-22 --D 0-2 -n 400 --seed 1 -o probe/data/p5/dbl/1DXP1HP.jsonl	seed 1 -> probe/data/p5/dbl/1DXP1HP.jsonl
+1H-X-P-1S-P --hcp 13-22 --H 0-2 --S 3-4 --seed 1 -o probe/data/p5/dbl/1HXP1SP~S34.jsonl	300 deals, 181 kept, 63/min
+1H-X-P-1S-2H --hcp 13-22 --H 0-2 -n 400 --seed 1 -o probe/data/p5/dbl/1HXP1S2H.jsonl	seed 1 -> probe/data/p5/dbl/1HXP1S2H.jsonl
+1H-X-P-1S-P --hcp 17-22 --H 0-3 --seed 1 -o probe/data/p5/dbl/1HXP1SP~hcp1722.jsonl	300 deals, 211 kept, 59/min
+1C-1D-P --hcp 5-17 -n 400 --seed 1 -o probe/data/p5/adv/1C1DP.jsonl	seed 1 -> probe/data/p5/adv/1C1DP.jsonl
+1H-X-2N --hcp 0-12 --seed 1 -o probe/data/p5/dbl/1HX2N~broad.jsonl	300 deals, 300 kept, 43/min
+1C-1H-P --hcp 5-17 --seed 1 -o probe/data/p5/adv/1C1HP.jsonl	seed 1 -> probe/data/p5/adv/1C1HP.jsonl
+1D-X-P --hcp 0-11 --S 4-4 --H 4-4 --seed 1 -o probe/data/p5/dbl/1DXP~S44H44.jsonl	300 deals, 300 kept, 37/min
+1H-1S-P --S 3- --hcp 3-10 --seed 1 -o probe/data/p5/adv/1H1SP~S3low.jsonl	seed 1 -> probe/data/p5/adv/1H1SP~S3low.jsonl
+1H-X-P --hcp 0-15 --seed 1 -o probe/data/p5/dbl/1HXP~broad.jsonl	300 deals, 300 kept, 33/min
+1H-1S-P --S 3- --hcp 3-10 --vul ns --seed 1 -o probe/data/p5/adv/1H1SP~S3lowvulns.jsonl	seed 1 -> probe/data/p5/adv/1H1SP~S3lowvulns.jsonl
+1D-X-P --hcp 0-15 --seed 1 -o probe/data/p5/dbl/1DXP~broad.jsonl	300 deals, 300 kept, 33/min
+1H-1S-P --S 3- --hcp 11-17 --seed 1 -o probe/data/p5/adv/1H1SP~S3high.jsonl	seed 1 -> probe/data/p5/adv/1H1SP~S3high.jsonl
+1C-1D-P --hcp 5-17 -n 400 --seed 1 -o probe/data/p5/adv/1C1DP.jsonl	400 deals, 400 kept, 94/min
+1H-1S-P --S 0-2 --hcp 6-17 --seed 1 -o probe/data/p5/adv/1H1SP~S02.jsonl	seed 1 -> probe/data/p5/adv/1H1SP~S02.jsonl
+1H-X-P-1N-P --hcp 13-22 --H 0-2 -n 400 --seed 1 -o probe/data/p5/dbl/1HXP1NP.jsonl	400 deals, 177 kept, 61/min
+P-1H-1S-P --hcp 7-11 --seed 1 -o probe/data/p5/adv/P1H1SP.jsonl	seed 1 -> probe/data/p5/adv/P1H1SP.jsonl
+1H-X-P-2C-P --hcp 13-22 --H 0-2 -n 400 --seed 1 -o probe/data/p5/dbl/1HXP2CP.jsonl	400 deals, 177 kept, 68/min
+1H-1S-X --hcp 5-17 --seed 1 -o probe/data/p5/adv/1H1SX.jsonl	seed 1 -> probe/data/p5/adv/1H1SX.jsonl
+1H-X-P-2S-P --hcp 13-22 --H 0-2 -n 400 --seed 1 -o probe/data/p5/dbl/1HXP2SP.jsonl	400 deals, 177 kept, 67/min
+1H-1S-2H --hcp 5-17 --seed 1 -o probe/data/p5/adv/1H1S2H.jsonl	seed 1 -> probe/data/p5/adv/1H1S2H.jsonl
+1C-1H-P --hcp 5-17 --seed 1 -o probe/data/p5/adv/1C1HP.jsonl	300 deals, 300 kept, 92/min
+1C-1H-1S --hcp 5-17 --seed 1 -o probe/data/p5/adv/1C1H1S.jsonl	seed 1 -> probe/data/p5/adv/1C1H1S.jsonl
+1H-X-P --hcp 9-15 --seed 1 -o probe/data/p5/dbl/1HXP~hcp915.jsonl	300 deals, 300 kept, 28/min
+1H-2C-P --hcp 5-17 --seed 1 -o probe/data/p5/adv/1H2CP.jsonl	seed 1 -> probe/data/p5/adv/1H2CP.jsonl
+1H-P-P-X-P --hcp 0-11 --seed 1 -o probe/data/p5/dbl/1HPPXP~hcp011.jsonl	300 deals, 241 kept, 28/min
+1S-2H-P --hcp 5-17 --seed 1 -o probe/data/p5/adv/1S2HP.jsonl	seed 1 -> probe/data/p5/adv/1S2HP.jsonl
+1D-X-P-1H-P --hcp 13-22 --D 0-2 -n 400 --seed 1 -o probe/data/p5/dbl/1DXP1HP.jsonl	400 deals, 200 kept, 67/min
+1C-2H-P --hcp 6-17 --seed 1 -o probe/data/p5/adv/1C2HP.jsonl	seed 1 -> probe/data/p5/adv/1C2HP.jsonl
+1H-X-P-1S-2H --hcp 13-22 --H 0-2 -n 400 --seed 1 -o probe/data/p5/dbl/1HXP1S2H.jsonl	400 deals, 177 kept, 67/min
+1H-1S-P-2S-P --S 5- --H 0-3 --hcp 9-15 --seed 1 -o probe/data/p5/adv/1HSP2SP.jsonl	seed 1 -> probe/data/p5/adv/1HSP2SP.jsonl
+1H-X-P-2H-P --hcp 13-22 --H 0-2 -n 400 --seed 1 -o probe/data/p5/dbl/1HXP2HP.jsonl	400 deals, 177 kept, 64/min
+1H-1S-P-2H-P --S 5- --H 0-3 --hcp 9-15 --seed 1 -o probe/data/p5/adv/1HSP2HP.jsonl	seed 1 -> probe/data/p5/adv/1HSP2HP.jsonl
+1H-1S-P --S 3- --hcp 3-10 --seed 1 -o probe/data/p5/adv/1H1SP~S3low.jsonl	300 deals, 300 kept, 95/min
+1H-1S-P-2C-P --S 5- --H 0-3 --hcp 9-15 --seed 1 -o probe/data/p5/adv/1HSP2CP.jsonl	seed 1 -> probe/data/p5/adv/1HSP2CP.jsonl
+1H-1S-P --S 3- --hcp 3-10 --vul ns --seed 1 -o probe/data/p5/adv/1H1SP~S3lowvulns.jsonl	300 deals, 300 kept, 95/min
+1C-1D-P-2C-P --D 5- --H 0-3 --S 0-3 --hcp 10-15 --seed 1 -o probe/data/p5/adv/1CDP2CP.jsonl	seed 1 -> probe/data/p5/adv/1CDP2CP.jsonl
+1H-X-P --hcp 0-14 --H 5- --seed 1 -o probe/data/p5/dbl/1HXP~H5.jsonl	300 deals, 300 kept, 24/min
+1D-2C-P-2D-P --C 5- --H 0-3 --S 0-3 --hcp 11-15 --seed 1 -o probe/data/p5/adv/1D2CP2DP.jsonl	seed 1 -> probe/data/p5/adv/1D2CP2DP.jsonl
+1H-1S-P --S 3- --hcp 11-17 --seed 1 -o probe/data/p5/adv/1H1SP~S3high.jsonl	300 deals, 300 kept, 91/min
+1S-2H-P-2S-P --H 5- --S 0-3 --hcp 11-15 -n 400 --seed 1 -o probe/data/p5/adv/1S2HP2SP.jsonl	seed 1 -> probe/data/p5/adv/1S2HP2SP.jsonl
+1H-1S-P --S 0-2 --hcp 6-17 --seed 1 -o probe/data/p5/adv/1H1SP~S02.jsonl	300 deals, 300 kept, 92/min
+1H-1S-P-2H-P-2S-P --S 3- --hcp 10-17 -n 450 --seed 1 -o probe/data/p5/adv/1HSP2HP2SP.jsonl	seed 1 -> probe/data/p5/adv/1HSP2HP2SP.jsonl
+1H-1S-X --hcp 5-17 --seed 1 -o probe/data/p5/adv/1H1SX.jsonl	300 deals, 300 kept, 94/min
+1C-1N-P --hcp 0-16 -n 400 --seed 1 -o probe/data/p5/ntov/1C1NP.jsonl	seed 1 -> probe/data/p5/ntov/1C1NP.jsonl
+1H-1S-2H --hcp 5-17 --seed 1 -o probe/data/p5/adv/1H1S2H.jsonl	300 deals, 300 kept, 85/min
+1D-1N-P --hcp 0-16 --seed 1 -o probe/data/p5/ntov/1D1NP.jsonl	seed 1 -> probe/data/p5/ntov/1D1NP.jsonl
+1C-1H-1S --hcp 5-17 --seed 1 -o probe/data/p5/adv/1C1H1S.jsonl	300 deals, 300 kept, 79/min
+1H-1N-P --hcp 0-16 -n 400 --seed 1 -o probe/data/p5/ntov/1H1NP.jsonl	seed 1 -> probe/data/p5/ntov/1H1NP.jsonl
+1H-2C-P --hcp 5-17 --seed 1 -o probe/data/p5/adv/1H2CP.jsonl	300 deals, 300 kept, 78/min
+1S-1N-P --hcp 0-16 -n 400 --seed 1 -o probe/data/p5/ntov/1S1NP.jsonl	seed 1 -> probe/data/p5/ntov/1S1NP.jsonl
+1C-2H-P --hcp 6-17 --seed 1 -o probe/data/p5/adv/1C2HP.jsonl	300 deals, 300 kept, 75/min
+1H-1N-P --hcp 0-16 --S 5- --seed 1 -o probe/data/p5/ntov/1H1NP~S5.jsonl	seed 1 -> probe/data/p5/ntov/1H1NP~S5.jsonl
+P-1H-1S-P --hcp 7-11 --seed 1 -o probe/data/p5/adv/P1H1SP.jsonl	300 deals, 244 kept, 56/min
+1S-1N-P --hcp 0-16 --H 5- --S 0-3 --seed 1 -o probe/data/p5/ntov/1S1NP~H5.jsonl	seed 1 -> probe/data/p5/ntov/1S1NP~H5.jsonl
+1S-2H-P --hcp 5-17 --seed 1 -o probe/data/p5/adv/1S2HP.jsonl	300 deals, 300 kept, 67/min
+1H-1N-P --hcp 0-16 --H 5- --seed 1 -o probe/data/p5/ntov/1H1NP~H5.jsonl	seed 1 -> probe/data/p5/ntov/1H1NP~H5.jsonl
+1H-1S-P-2S-P --S 5- --H 0-3 --hcp 9-15 --seed 1 -o probe/data/p5/adv/1HSP2SP.jsonl	300 deals, 230 kept, 57/min
+1S-1N-P --hcp 0-16 --S 5- --seed 1 -o probe/data/p5/ntov/1S1NP~S5.jsonl	seed 1 -> probe/data/p5/ntov/1S1NP~S5.jsonl
+1H-1S-P-2H-P --S 5- --H 0-3 --hcp 9-15 --seed 1 -o probe/data/p5/adv/1HSP2HP.jsonl	300 deals, 230 kept, 55/min
+1H-1N-P --hcp 0-16 --D 5- --H 0-3 --seed 1 -o probe/data/p5/ntov/1H1NP~D5.jsonl	seed 1 -> probe/data/p5/ntov/1H1NP~D5.jsonl
+1H-1S-P-2C-P --S 5- --H 0-3 --hcp 9-15 --seed 1 -o probe/data/p5/adv/1HSP2CP.jsonl	300 deals, 230 kept, 54/min
+1C-1N-P --hcp 0-16 --C 5- --seed 1 -o probe/data/p5/ntov/1C1NP~C5.jsonl	seed 1 -> probe/data/p5/ntov/1C1NP~C5.jsonl
+1D-1N-P --hcp 0-16 --seed 1 -o probe/data/p5/ntov/1D1NP.jsonl	300 deals, 300 kept, 77/min
+1D-1N-P --hcp 0-16 --D 5- --seed 1 -o probe/data/p5/ntov/1D1NP~D5.jsonl	seed 1 -> probe/data/p5/ntov/1D1NP~D5.jsonl
+1H-1N-P --hcp 0-16 --S 5- --seed 1 -o probe/data/p5/ntov/1H1NP~S5.jsonl	300 deals, 300 kept, 85/min
+1H-1N-P-2D-P --hcp 15-18 --S 2-4 --H 3-4 --D 2-5 --C 2-5 --seed 1 -n 200 -o probe/data/p5/ntov/1H1NP2DP.jsonl	seed 1 -> probe/data/p5/ntov/1H1NP2DP.jsonl
+1C-1D-P-2C-P --D 5- --H 0-3 --S 0-3 --hcp 10-15 --seed 1 -o probe/data/p5/adv/1CDP2CP.jsonl	300 deals, 252 kept, 49/min
+1D-2C-P-2D-P --C 5- --H 0-3 --S 0-3 --hcp 11-15 --seed 1 -o probe/data/p5/adv/1D2CP2DP.jsonl	300 deals, 230 kept, 50/min
+1S-1N-P-2H-P --hcp 15-18 --S 3-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -n 200 -o probe/data/p5/ntov/1S1NP2HP.jsonl	seed 1 -> probe/data/p5/ntov/1S1NP2HP.jsonl
+1H-1N-P-2C-P --hcp 15-18 --S 2-4 --H 3-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p5/ntov/1H1NP2CP.jsonl	seed 1 -> probe/data/p5/ntov/1H1NP2CP.jsonl
+1C-1N-P --hcp 0-16 -n 400 --seed 1 -o probe/data/p5/ntov/1C1NP.jsonl	400 deals, 400 kept, 72/min
+1C-1N-P-2H-P --hcp 15-18 --S 2-4 --H 2-4 --D 2-5 --C 3-5 --seed 1 -o probe/data/p5/ntov/1C1NP2HP.jsonl	seed 1 -> probe/data/p5/ntov/1C1NP2HP.jsonl
+1S-1N-P --hcp 0-16 --H 5- --S 0-3 --seed 1 -o probe/data/p5/ntov/1S1NP~H5.jsonl	300 deals, 300 kept, 84/min
+1H-1N-2H --hcp 0-16 --seed 1 -o probe/data/p5/ntov/1H1N2H.jsonl	seed 1 -> probe/data/p5/ntov/1H1N2H.jsonl
+1H-1N-P --hcp 0-16 --H 5- --seed 1 -o probe/data/p5/ntov/1H1NP~H5.jsonl	300 deals, 300 kept, 74/min
+1H-P-P --hcp 9-19 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p5/ntov/1HPP~bal.jsonl	seed 1 -> probe/data/p5/ntov/1HPP~bal.jsonl
+1H-1N-P --hcp 0-16 -n 400 --seed 1 -o probe/data/p5/ntov/1H1NP.jsonl	400 deals, 400 kept, 72/min
+1H-P-P-1N-P --hcp 0-16 -n 450 --seed 1 -o probe/data/p5/ntov/1HPP1NP.jsonl	seed 1 -> probe/data/p5/ntov/1HPP1NP.jsonl
+1S-2H-P-2S-P --H 5- --S 0-3 --hcp 11-15 -n 400 --seed 1 -o probe/data/p5/adv/1S2HP2SP.jsonl	400 deals, 295 kept, 57/min
+P-P-P-1H-P-P --hcp 6-13 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p5/ntov/PPP1HPP~bal.jsonl	seed 1 -> probe/data/p5/ntov/PPP1HPP~bal.jsonl
+1H-1S-P-2H-P-2S-P --S 3- --hcp 10-17 -n 450 --seed 1 -o probe/data/p5/adv/1HSP2HP2SP.jsonl	450 deals, 190 kept, 64/min
+P-1H-P-P-1N-P --hcp 0-12 --seed 1 -o probe/data/p5/ntov/P1HPP1NP.jsonl	seed 1 -> probe/data/p5/ntov/P1HPP1NP.jsonl
+1S-1N-P --hcp 0-16 --S 5- --seed 1 -o probe/data/p5/ntov/1S1NP~S5.jsonl	300 deals, 300 kept, 79/min
+1C-2D-P --seed 1 -o probe/data/p5/mic/1C2DP.jsonl	seed 1 -> probe/data/p5/mic/1C2DP.jsonl
+1S-1N-P --hcp 0-16 -n 400 --seed 1 -o probe/data/p5/ntov/1S1NP.jsonl	400 deals, 400 kept, 72/min
+1C-2D-P --hcp 12- --seed 1 -o probe/data/p5/mic/1C2DP~hcp12.jsonl	seed 1 -> probe/data/p5/mic/1C2DP~hcp12.jsonl
+1H-1N-P --hcp 0-16 --D 5- --H 0-3 --seed 1 -o probe/data/p5/ntov/1H1NP~D5.jsonl	300 deals, 300 kept, 67/min
+1C-1N-P --hcp 0-16 --C 5- --seed 1 -o probe/data/p5/ntov/1C1NP~C5.jsonl	300 deals, 300 kept, 74/min
+1H-2H-P --seed 1 -o probe/data/p5/mic/1H2HP.jsonl	seed 1 -> probe/data/p5/mic/1H2HP.jsonl
+1H-2H-P --hcp 12- --seed 1 -o probe/data/p5/mic/1H2HP~hcp12.jsonl	seed 1 -> probe/data/p5/mic/1H2HP~hcp12.jsonl
+1D-1N-P --hcp 0-16 --D 5- --seed 1 -o probe/data/p5/ntov/1D1NP~D5.jsonl	300 deals, 300 kept, 78/min
+1H-3C-P --hcp 6- --seed 1 -o probe/data/p5/mic/1H3CP~hcp6.jsonl	seed 1 -> probe/data/p5/mic/1H3CP~hcp6.jsonl
+1H-1N-P-2D-P --hcp 15-18 --S 2-4 --H 3-4 --D 2-5 --C 2-5 --seed 1 -n 200 -o probe/data/p5/ntov/1H1NP2DP.jsonl	200 deals, 171 kept, 54/min
+1S-2N-P --hcp 6- --seed 1 -o probe/data/p5/mic/1S2NP~hcp6.jsonl	seed 1 -> probe/data/p5/mic/1S2NP~hcp6.jsonl
+1S-1N-P-2H-P --hcp 15-18 --S 3-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -n 200 -o probe/data/p5/ntov/1S1NP2HP.jsonl	200 deals, 172 kept, 54/min
+1C-2N-P --hcp 6- --seed 1 -o probe/data/p5/mic/1C2NP~hcp6.jsonl	seed 1 -> probe/data/p5/mic/1C2NP~hcp6.jsonl
+1H-1N-2H --hcp 0-16 --seed 1 -o probe/data/p5/ntov/1H1N2H.jsonl	300 deals, 300 kept, 80/min
+1C-2D-X --seed 1 -o probe/data/p5/mic/1C2DX.jsonl	seed 1 -> probe/data/p5/mic/1C2DX.jsonl
+1C-2D-P --hcp 12- --seed 1 -o probe/data/p5/mic/1C2DP~hcp12.jsonl	300 deals, 300 kept, 85/min
+1C-2D-2H --seed 1 -o probe/data/p5/mic/1C2D2H.jsonl	seed 1 -> probe/data/p5/mic/1C2D2H.jsonl
+1C-2D-P --seed 1 -o probe/data/p5/mic/1C2DP.jsonl	300 deals, 300 kept, 75/min
+1C-2D-P-3C-P --H 5- --S 5- --hcp 8- --seed 1 -o probe/data/p5/mic/1C2DP3CP.jsonl	seed 1 -> probe/data/p5/mic/1C2DP3CP.jsonl
+1H-P-P --hcp 9-19 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p5/ntov/1HPP~bal.jsonl	300 deals, 300 kept, 61/min
+1C-2D-P-2N-P --H 5- --S 5- --hcp 8- --seed 1 -o probe/data/p5/mic/1C2DP2NP.jsonl	seed 1 -> probe/data/p5/mic/1C2DP2NP.jsonl
+1C-1N-P-2H-P --hcp 15-18 --S 2-4 --H 2-4 --D 2-5 --C 3-5 --seed 1 -o probe/data/p5/ntov/1C1NP2HP.jsonl	300 deals, 263 kept, 52/min
+1C-2D-P-3H-P --H 5- --S 5- --hcp 8- --seed 1 -o probe/data/p5/mic/1C2DP3HP.jsonl	seed 1 -> probe/data/p5/mic/1C2DP3HP.jsonl
+1H-2H-P --seed 1 -o probe/data/p5/mic/1H2HP.jsonl	300 deals, 300 kept, 85/min
+1H-2H-P-2N-P --S 5- --C 5- --H 0-3 --hcp 8- --seed 1 -o probe/data/p5/mic/1H2HP2NP.jsonl	seed 1 -> probe/data/p5/mic/1H2HP2NP.jsonl
+1H-2H-P --hcp 12- --seed 1 -o probe/data/p5/mic/1H2HP~hcp12.jsonl	300 deals, 300 kept, 77/min
+1C-P-1H-X-P --hcp 0-11 --seed 1 -o probe/data/p5/mic/1CP1HXP.jsonl	seed 1 -> probe/data/p5/mic/1CP1HXP.jsonl
+1H-3C-P --hcp 6- --seed 1 -o probe/data/p5/mic/1H3CP~hcp6.jsonl	300 deals, 300 kept, 80/min
+1C-P-1H-2H-P --hcp 0-11 --seed 1 -o probe/data/p5/mic/1CP1H2HP.jsonl	seed 1 -> probe/data/p5/mic/1CP1H2HP.jsonl
+1H-1N-P-2C-P --hcp 15-18 --S 2-4 --H 3-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p5/ntov/1H1NP2CP.jsonl	300 deals, 258 kept, 43/min
+P-1C-P-1H-1N-P --hcp 0-11 --seed 1 -o probe/data/p5/mic/P1CP1H1NP.jsonl	seed 1 -> probe/data/p5/mic/P1CP1H1NP.jsonl
+P-1H-P-P-1N-P --hcp 0-12 --seed 1 -o probe/data/p5/ntov/P1HPP1NP.jsonl	300 deals, 233 kept, 49/min
+1H-2H --hcp 5- --seed 1 -o probe/data/p5/mic/1H2H~hcp5.jsonl	seed 1 -> probe/data/p5/mic/1H2H~hcp5.jsonl
+1S-2N-P --hcp 6- --seed 1 -o probe/data/p5/mic/1S2NP~hcp6.jsonl	300 deals, 300 kept, 75/min
+1H-2N --hcp 5- --seed 1 -o probe/data/p5/mic/1H2N~hcp5.jsonl	seed 1 -> probe/data/p5/mic/1H2N~hcp5.jsonl
+1C-2N-P --hcp 6- --seed 1 -o probe/data/p5/mic/1C2NP~hcp6.jsonl	300 deals, 300 kept, 77/min
+1C-2D --hcp 5- --seed 1 -o probe/data/p5/mic/1C2D~hcp5.jsonl	seed 1 -> probe/data/p5/mic/1C2D~hcp5.jsonl
+1C-2D-X --seed 1 -o probe/data/p5/mic/1C2DX.jsonl	300 deals, 300 kept, 73/min
+1H-2H-P-P --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p5/mic/1H2HPP.jsonl	seed 1 -> probe/data/p5/mic/1H2HPP.jsonl
+P-P-P-1H-P-P --hcp 6-13 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p5/ntov/PPP1HPP~bal.jsonl	300 deals, 237 kept, 41/min
+1N --hcp 10-22 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p5/vs1NT/1N~bal.jsonl	seed 1 -> probe/data/p5/vs1NT/1N~bal.jsonl
+1H-P-P-1N-P --hcp 0-16 -n 450 --seed 1 -o probe/data/p5/ntov/1HPP1NP.jsonl	450 deals, 291 kept, 54/min
+1N --hcp 4-18 --S 4-6 --H 4-6 --D 0-3 --C 0-3 --seed 1 -o probe/data/p5/vs1NT/1N~SH.jsonl	seed 1 -> probe/data/p5/vs1NT/1N~SH.jsonl
+1C-2D-2H --seed 1 -o probe/data/p5/mic/1C2D2H.jsonl	300 deals, 300 kept, 57/min
+1N --hcp 4-18 --S 6- --H 0-3 --seed 1 -o probe/data/p5/vs1NT/1N~S6.jsonl	seed 1 -> probe/data/p5/vs1NT/1N~S6.jsonl
+1H-2H --hcp 5- --seed 1 -o probe/data/p5/mic/1H2H~hcp5.jsonl	300 deals, 300 kept, 90/min
+1N --hcp 4-18 --H 6- --S 0-3 --seed 1 -o probe/data/p5/vs1NT/1N~H6.jsonl	seed 1 -> probe/data/p5/vs1NT/1N~H6.jsonl
+1H-2N --hcp 5- --seed 1 -o probe/data/p5/mic/1H2N~hcp5.jsonl	300 deals, 300 kept, 94/min
+1N --hcp 4-18 --S 5-5 --H 0-3 --seed 1 -o probe/data/p5/vs1NT/1N~S5.jsonl	seed 1 -> probe/data/p5/vs1NT/1N~S5.jsonl
+1C-2D --hcp 5- --seed 1 -o probe/data/p5/mic/1C2D~hcp5.jsonl	300 deals, 300 kept, 78/min
+1N --hcp 4-18 --H 5-5 --S 0-3 --seed 1 -o probe/data/p5/vs1NT/1N~H5.jsonl	seed 1 -> probe/data/p5/vs1NT/1N~H5.jsonl
+1C-P-1H-2H-P --hcp 0-11 --seed 1 -o probe/data/p5/mic/1CP1H2HP.jsonl	300 deals, 200 kept, 57/min
+1N --hcp 4-18 --C 5- --S 0-4 --H 0-4 --seed 1 -o probe/data/p5/vs1NT/1N~C5.jsonl	seed 1 -> probe/data/p5/vs1NT/1N~C5.jsonl
+1C-2D-P-3C-P --H 5- --S 5- --hcp 8- --seed 1 -o probe/data/p5/mic/1C2DP3CP.jsonl	300 deals, 300 kept, 45/min
+1N --hcp 4-18 --D 5- --S 0-4 --H 0-4 --seed 1 -o probe/data/p5/vs1NT/1N~D5.jsonl	seed 1 -> probe/data/p5/vs1NT/1N~D5.jsonl
+P-1C-P-1H-1N-P --hcp 0-11 --seed 1 -o probe/data/p5/mic/P1CP1H1NP.jsonl	300 deals, 199 kept, 55/min
+1N --hcp 10-20 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --ini EO1Sa=12,EO1SaNV=12 --seed 1 -o probe/data/p5/vs1NT/1N~bal-weak.jsonl	seed 1 -> probe/data/p5/vs1NT/1N~bal-weak.jsonl
+1N --hcp 10-22 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p5/vs1NT/1N~bal.jsonl	300 deals, 300 kept, 72/min
+1N --hcp 4-18 --S 4-6 --H 4-6 --D 0-3 --C 0-3 --seed 1 -o probe/data/p5/vs1NT/1N~SH.jsonl	300 deals, 300 kept, 97/min
+1N --hcp 4-18 -n 400 --ini EO1Sa=12,EO1SaNV=12 --seed 1 -o probe/data/p5/vs1NT/1N~any-weak.jsonl	seed 1 -> probe/data/p5/vs1NT/1N~any-weak.jsonl
+1N-P-P --hcp 6-20 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p5/vs1NT/1NPP~bal.jsonl	seed 1 -> probe/data/p5/vs1NT/1NPP~bal.jsonl
+1C-2D-P-3H-P --H 5- --S 5- --hcp 8- --seed 1 -o probe/data/p5/mic/1C2DP3HP.jsonl	300 deals, 300 kept, 42/min
+1N-P-P --hcp 4-18 --S 4-6 --H 0-6 --seed 1 -o probe/data/p5/vs1NT/1NPP~S4.jsonl	seed 1 -> probe/data/p5/vs1NT/1NPP~S4.jsonl
+1N --hcp 4-18 --S 6- --H 0-3 --seed 1 -o probe/data/p5/vs1NT/1N~S6.jsonl	300 deals, 300 kept, 95/min
+1N-P-P --hcp 4-18 --H 4-6 --S 0-3 --seed 1 -o probe/data/p5/vs1NT/1NPP~H4.jsonl	seed 1 -> probe/data/p5/vs1NT/1NPP~H4.jsonl
+1N --hcp 4-18 --H 6- --S 0-3 --seed 1 -o probe/data/p5/vs1NT/1N~H6.jsonl	300 deals, 300 kept, 94/min
+1N-X-P --hcp 0-14 --seed 1 -o probe/data/p5/vs1NT/1NXP.jsonl	seed 1 -> probe/data/p5/vs1NT/1NXP.jsonl
+1N --hcp 4-18 --S 5-5 --H 0-3 --seed 1 -o probe/data/p5/vs1NT/1N~S5.jsonl	300 deals, 300 kept, 93/min
+1N-2C-P --hcp 0-16 --seed 1 -o probe/data/p5/vs1NT/1N2CP.jsonl	seed 1 -> probe/data/p5/vs1NT/1N2CP.jsonl
+1N --hcp 4-18 --H 5-5 --S 0-3 --seed 1 -o probe/data/p5/vs1NT/1N~H5.jsonl	300 deals, 300 kept, 90/min
+1N-2D-P --hcp 0-16 --seed 1 -o probe/data/p5/vs1NT/1N2DP.jsonl	seed 1 -> probe/data/p5/vs1NT/1N2DP.jsonl
+1N --hcp 4-18 --C 5- --S 0-4 --H 0-4 --seed 1 -o probe/data/p5/vs1NT/1N~C5.jsonl	300 deals, 300 kept, 91/min
+1N-2H-P --hcp 0-16 --seed 1 -o probe/data/p5/vs1NT/1N2HP.jsonl	seed 1 -> probe/data/p5/vs1NT/1N2HP.jsonl
+1N --hcp 4-18 --D 5- --S 0-4 --H 0-4 --seed 1 -o probe/data/p5/vs1NT/1N~D5.jsonl	300 deals, 300 kept, 89/min
+1N-P-P-X-P --hcp 0-14 -n 200 --seed 1 -o probe/data/p5/vs1NT/1NPPXP.jsonl	seed 1 -> probe/data/p5/vs1NT/1NPPXP.jsonl
+1C-2D-P-2N-P --H 5- --S 5- --hcp 8- --seed 1 -o probe/data/p5/mic/1C2DP2NP.jsonl	300 deals, 300 kept, 29/min
+1N-P-2C --hcp 8-18 --seed 1 -o probe/data/p5/vs1NT/1NP2C.jsonl	seed 1 -> probe/data/p5/vs1NT/1NP2C.jsonl
+1H-2H-P-2N-P --S 5- --C 5- --H 0-3 --hcp 8- --seed 1 -o probe/data/p5/mic/1H2HP2NP.jsonl	300 deals, 275 kept, 29/min
+1N-P-2D --hcp 8-18 --seed 1 -o probe/data/p5/vs1NT/1NP2D.jsonl	seed 1 -> probe/data/p5/vs1NT/1NP2D.jsonl
+1N-P-P --hcp 4-18 --S 4-6 --H 0-6 --seed 1 -o probe/data/p5/vs1NT/1NPP~S4.jsonl	300 deals, 300 kept, 84/min
+2H --hcp 10-22 --H 0-3 -n 400 --seed 1 -o probe/data/p5/vsweak/2H~broad.jsonl	seed 1 -> probe/data/p5/vsweak/2H~broad.jsonl
+1N --hcp 10-20 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --ini EO1Sa=12,EO1SaNV=12 --seed 1 -o probe/data/p5/vs1NT/1N~bal-weak.jsonl	300 deals, 300 kept, 65/min
+2S --hcp 10-22 --S 0-3 -n 400 --seed 1 -o probe/data/p5/vsweak/2S~broad.jsonl	seed 1 -> probe/data/p5/vsweak/2S~broad.jsonl
+1N-P-P --hcp 6-20 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p5/vs1NT/1NPP~bal.jsonl	300 deals, 300 kept, 64/min
+2D --ini EO2Kfort=0 --hcp 10-22 --D 0-3 --seed 1 -o probe/data/p5/vsweak/2D~broad.jsonl	seed 1 -> probe/data/p5/vsweak/2D~broad.jsonl
+1N --hcp 4-18 -n 400 --ini EO1Sa=12,EO1SaNV=12 --seed 1 -o probe/data/p5/vs1NT/1N~any-weak.jsonl	400 deals, 400 kept, 85/min
+2H --hcp 14-20 --S 2-4 --H 2-4 --D 2-4 --C 2-4 --seed 1 -o probe/data/p5/vsweak/2H~bal.jsonl	seed 1 -> probe/data/p5/vsweak/2H~bal.jsonl
+1N-2C-P --hcp 0-16 --seed 1 -o probe/data/p5/vs1NT/1N2CP.jsonl	300 deals, 300 kept, 84/min
+2H --hcp 8-20 --S 5- --D 5- --seed 1 -o probe/data/p5/vsweak/2H~S5D5.jsonl	seed 1 -> probe/data/p5/vsweak/2H~S5D5.jsonl
+1N-P-P --hcp 4-18 --H 4-6 --S 0-3 --seed 1 -o probe/data/p5/vs1NT/1NPP~H4.jsonl	300 deals, 300 kept, 73/min
+2D --ini EO2Kfort=0 --hcp 8-20 --S 5- --H 5- --seed 1 -o probe/data/p5/vsweak/2D~S5H5.jsonl	seed 1 -> probe/data/p5/vsweak/2D~S5H5.jsonl
+1C-P-1H-X-P --hcp 0-11 --seed 1 -o probe/data/p5/mic/1CP1HXP.jsonl	300 deals, 200 kept, 26/min
+3C --hcp 12-22 --C 0-3 --seed 1 -o probe/data/p5/vsweak/3C~broad.jsonl	seed 1 -> probe/data/p5/vsweak/3C~broad.jsonl
+1N-2D-P --hcp 0-16 --seed 1 -o probe/data/p5/vs1NT/1N2DP.jsonl	300 deals, 300 kept, 82/min
+3H --hcp 12-22 --H 0-3 --seed 1 -o probe/data/p5/vsweak/3H~broad.jsonl	seed 1 -> probe/data/p5/vsweak/3H~broad.jsonl
+1N-2H-P --hcp 0-16 --seed 1 -o probe/data/p5/vs1NT/1N2HP.jsonl	300 deals, 300 kept, 78/min
+4H --hcp 12-22 --H 0-3 --seed 1 -o probe/data/p5/vsweak/4H~broad.jsonl	seed 1 -> probe/data/p5/vsweak/4H~broad.jsonl
+1N-P-2C --hcp 8-18 --seed 1 -o probe/data/p5/vs1NT/1NP2C.jsonl	300 deals, 300 kept, 94/min
+2H-P-P --hcp 8-18 --H 0-3 --seed 1 -o probe/data/p5/vsweak/2HPP~broad.jsonl	seed 1 -> probe/data/p5/vsweak/2HPP~broad.jsonl
+1N-P-2D --hcp 8-18 --seed 1 -o probe/data/p5/vs1NT/1NP2D.jsonl	300 deals, 300 kept, 94/min
+P-2H-P-P --hcp 6-11 --H 0-3 --seed 1 -o probe/data/p5/vsweak/P2HPP~hcp611.jsonl	seed 1 -> probe/data/p5/vsweak/P2HPP~hcp611.jsonl
+1H-2H-P-P --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p5/mic/1H2HPP.jsonl	300 deals, 251 kept, 25/min
+2H-P-2N --hcp 12-20 --H 0-3 --seed 1 -o probe/data/p5/vsweak/2HP2N.jsonl	seed 1 -> probe/data/p5/vsweak/2HP2N.jsonl
+2D --ini EO2Kfort=0 --hcp 10-22 --D 0-3 --seed 1 -o probe/data/p5/vsweak/2D~broad.jsonl	300 deals, 300 kept, 98/min
+2H-P-3H --hcp 12-20 --H 0-3 --seed 1 -o probe/data/p5/vsweak/2HP3H.jsonl	seed 1 -> probe/data/p5/vsweak/2HP3H.jsonl
+2H --hcp 14-20 --S 2-4 --H 2-4 --D 2-4 --C 2-4 --seed 1 -o probe/data/p5/vsweak/2H~bal.jsonl	300 deals, 300 kept, 98/min
+2H-X-P --hcp 0-14 -n 400 --seed 1 -o probe/data/p5/vsweak/2HXP~broad.jsonl	seed 1 -> probe/data/p5/vsweak/2HXP~broad.jsonl
+2H --hcp 10-22 --H 0-3 -n 400 --seed 1 -o probe/data/p5/vsweak/2H~broad.jsonl	400 deals, 400 kept, 97/min
+2S-X-P --hcp 0-14 --seed 1 -o probe/data/p5/vsweak/2SXP~broad.jsonl	seed 1 -> probe/data/p5/vsweak/2SXP~broad.jsonl
+2H --hcp 8-20 --S 5- --D 5- --seed 1 -o probe/data/p5/vsweak/2H~S5D5.jsonl	300 deals, 300 kept, 98/min
+2D-X-P --ini EO2Kfort=0 --hcp 0-14 --seed 1 -o probe/data/p5/vsweak/2DXP~broad.jsonl	seed 1 -> probe/data/p5/vsweak/2DXP~broad.jsonl
+2D --ini EO2Kfort=0 --hcp 8-20 --S 5- --H 5- --seed 1 -o probe/data/p5/vsweak/2D~S5H5.jsonl	300 deals, 300 kept, 97/min
+2H-X-P-2N-P --hcp 13-22 --H 0-1 --S 3-4 --D 3-5 --C 3-5 --seed 1 -o probe/data/p5/vsweak/2HXP2NP~dbl.jsonl	seed 1 -> probe/data/p5/vsweak/2HXP2NP~dbl.jsonl
+3C --hcp 12-22 --C 0-3 --seed 1 -o probe/data/p5/vsweak/3C~broad.jsonl	300 deals, 300 kept, 93/min
+2H-X-P-2N-P-3C-P --hcp 0-9 --S 0-3 --H 2-4 --seed 1 -o probe/data/p5/vsweak/2HXP2NP3CP.jsonl	seed 1 -> probe/data/p5/vsweak/2HXP2NP3CP.jsonl
+1N-X-P --hcp 0-14 --seed 1 -o probe/data/p5/vs1NT/1NXP.jsonl	300 deals, 300 kept, 42/min
+2H-2N-P --hcp 0-14 --seed 1 -o probe/data/p5/vsweak/2H2NP~broad.jsonl	seed 1 -> probe/data/p5/vsweak/2H2NP~broad.jsonl
+1N-P-P-X-P --hcp 0-14 -n 200 --seed 1 -o probe/data/p5/vs1NT/1NPPXP.jsonl	200 deals, 165 kept, 36/min
+2C --hcp 6-18 -n 400 --seed 1 -o probe/data/p5/vs2/2C.jsonl	seed 1 -> probe/data/p5/vs2/2C.jsonl
+2S --hcp 10-22 --S 0-3 -n 400 --seed 1 -o probe/data/p5/vsweak/2S~broad.jsonl	400 deals, 400 kept, 96/min
+2C --hcp 0-11 --S 6- --seed 1 -o probe/data/p5/vs2/2C~S6low.jsonl	seed 1 -> probe/data/p5/vs2/2C~S6low.jsonl
+3H --hcp 12-22 --H 0-3 --seed 1 -o probe/data/p5/vsweak/3H~broad.jsonl	300 deals, 300 kept, 92/min
+2C --hcp 4-14 --C 6- --seed 1 -o probe/data/p5/vs2/2C~C6.jsonl	seed 1 -> probe/data/p5/vs2/2C~C6.jsonl
+2H-P-P --hcp 8-18 --H 0-3 --seed 1 -o probe/data/p5/vsweak/2HPP~broad.jsonl	300 deals, 300 kept, 83/min
+2C --D 5- --C 5- --hcp 0-12 --seed 1 -o probe/data/p5/vs2/2C~mm55.jsonl	seed 1 -> probe/data/p5/vs2/2C~mm55.jsonl
+2H-P-2N --hcp 12-20 --H 0-3 --seed 1 -o probe/data/p5/vsweak/2HP2N.jsonl	300 deals, 300 kept, 91/min
+2C --H 5- --S 5- --hcp 0-10 --seed 1 -o probe/data/p5/vs2/2C~MM55low.jsonl	seed 1 -> probe/data/p5/vs2/2C~MM55low.jsonl
+2H-P-3H --hcp 12-20 --H 0-3 --seed 1 -o probe/data/p5/vsweak/2HP3H.jsonl	300 deals, 300 kept, 89/min
+2C-P-2D --hcp 6-18 -n 400 --seed 1 -o probe/data/p5/vs2/2CP2D.jsonl	seed 1 -> probe/data/p5/vs2/2CP2D.jsonl
+2C --hcp 0-11 --S 6- --seed 1 -o probe/data/p5/vs2/2C~S6low.jsonl	300 deals, 300 kept, 98/min
+2C-P-2D --D 5- --hcp 6-16 --seed 1 -o probe/data/p5/vs2/2CP2D~D5.jsonl	seed 1 -> probe/data/p5/vs2/2CP2D~D5.jsonl
+4H --hcp 12-22 --H 0-3 --seed 1 -o probe/data/p5/vsweak/4H~broad.jsonl	300 deals, 300 kept, 54/min
+2C-P-2D --H 5- --S 5- --seed 1 -o probe/data/p5/vs2/2CP2D~MM55.jsonl	seed 1 -> probe/data/p5/vs2/2CP2D~MM55.jsonl
+2C --hcp 4-14 --C 6- --seed 1 -o probe/data/p5/vs2/2C~C6.jsonl	300 deals, 300 kept, 98/min
+2D --hcp 6-18 -n 400 --seed 1 -o probe/data/p5/vs2/2D.jsonl	seed 1 -> probe/data/p5/vs2/2D.jsonl
+2C --hcp 6-18 -n 400 --seed 1 -o probe/data/p5/vs2/2C.jsonl	400 deals, 400 kept, 98/min
+2D --hcp 0-11 --H 6- --seed 1 -o probe/data/p5/vs2/2D~H6low.jsonl	seed 1 -> probe/data/p5/vs2/2D~H6low.jsonl
+2C --D 5- --C 5- --hcp 0-12 --seed 1 -o probe/data/p5/vs2/2C~mm55.jsonl	300 deals, 300 kept, 97/min
+2D --D 5- --C 5- --hcp 0-14 --seed 1 -o probe/data/p5/vs2/2D~mm55.jsonl	seed 1 -> probe/data/p5/vs2/2D~mm55.jsonl
+2C --H 5- --S 5- --hcp 0-10 --seed 1 -o probe/data/p5/vs2/2C~MM55low.jsonl	300 deals, 300 kept, 97/min
+2D-P-2H --hcp 6-18 --seed 1 -o probe/data/p5/vs2/2DP2H.jsonl	seed 1 -> probe/data/p5/vs2/2DP2H.jsonl
+2H-X-P-2N-P --hcp 13-22 --H 0-1 --S 3-4 --D 3-5 --C 3-5 --seed 1 -o probe/data/p5/vsweak/2HXP2NP~dbl.jsonl	300 deals, 275 kept, 51/min
+2D --hcp 6-20 --ini EO2faible=0 --seed 1 -o probe/data/p5/vs2/n2D.jsonl	seed 1 -> probe/data/p5/vs2/n2D.jsonl
+P-2H-P-P --hcp 6-11 --H 0-3 --seed 1 -o probe/data/p5/vsweak/P2HPP~hcp611.jsonl	300 deals, 248 kept, 41/min
+2H --hcp 6-20 -n 400 --ini EO2faible=0 --seed 1 -o probe/data/p5/vs2/n2H.jsonl	seed 1 -> probe/data/p5/vs2/n2H.jsonl
+2C-P-2D --D 5- --hcp 6-16 --seed 1 -o probe/data/p5/vs2/2CP2D~D5.jsonl	300 deals, 300 kept, 94/min
+2H --S 4- --hcp 10-20 --ini EO2faible=0 --seed 1 -o probe/data/p5/vs2/n2H~S4.jsonl	seed 1 -> probe/data/p5/vs2/n2H~S4.jsonl
+2C-P-2D --H 5- --S 5- --seed 1 -o probe/data/p5/vs2/2CP2D~MM55.jsonl	300 deals, 300 kept, 94/min
+2H --D 5- --C 5- --hcp 4-16 --ini EO2faible=0 --seed 1 -o probe/data/p5/vs2/n2H~mm55.jsonl	seed 1 -> probe/data/p5/vs2/n2H~mm55.jsonl
+2C-P-2D --hcp 6-18 -n 400 --seed 1 -o probe/data/p5/vs2/2CP2D.jsonl	400 deals, 400 kept, 94/min
+2S --hcp 6-20 --ini EO2faible=0 --seed 1 -o probe/data/p5/vs2/n2S.jsonl	seed 1 -> probe/data/p5/vs2/n2S.jsonl
+2D --hcp 0-11 --H 6- --seed 1 -o probe/data/p5/vs2/2D~H6low.jsonl	300 deals, 300 kept, 97/min
+2S --H 5- --hcp 8-20 --ini EO2faible=0 --seed 1 -o probe/data/p5/vs2/n2S~H5.jsonl	seed 1 -> probe/data/p5/vs2/n2S~H5.jsonl
+2D --hcp 6-18 -n 400 --seed 1 -o probe/data/p5/vs2/2D.jsonl	400 deals, 400 kept, 98/min
+2H-P-2N --hcp 6-18 --ini EO2faible=0 --seed 1 -o probe/data/p5/vs2/n2HP2N.jsonl	seed 1 -> probe/data/p5/vs2/n2HP2N.jsonl
+2D --D 5- --C 5- --hcp 0-14 --seed 1 -o probe/data/p5/vs2/2D~mm55.jsonl	300 deals, 300 kept, 97/min
+2H-P-P --hcp 6-20 --ini EO2faible=0 --seed 1 -o probe/data/p5/vs2/n2HPP.jsonl	seed 1 -> probe/data/p5/vs2/n2HPP.jsonl
+2D-P-2H --hcp 6-18 --seed 1 -o probe/data/p5/vs2/2DP2H.jsonl	300 deals, 300 kept, 94/min
+1C-P-1D --hcp 8-18 --seed 1 -o probe/data/p5/art/1CP1D~broad.jsonl	seed 1 -> probe/data/p5/art/1CP1D~broad.jsonl
+2H-2N-P --hcp 0-14 --seed 1 -o probe/data/p5/vsweak/2H2NP~broad.jsonl	300 deals, 300 kept, 35/min
+1C-P-1D --hcp 10-16 --D 6- --seed 1 -o probe/data/p5/art/1CP1D~D6.jsonl	seed 1 -> probe/data/p5/art/1CP1D~D6.jsonl
+2D --hcp 6-20 --ini EO2faible=0 --seed 1 -o probe/data/p5/vs2/n2D.jsonl	300 deals, 300 kept, 96/min
+1C-P-1D --hcp 8-16 --S 5- --H 5- --seed 1 -o probe/data/p5/art/1CP1D~S5H5.jsonl	seed 1 -> probe/data/p5/art/1CP1D~S5H5.jsonl
+2H --S 4- --hcp 10-20 --ini EO2faible=0 --seed 1 -o probe/data/p5/vs2/n2H~S4.jsonl	300 deals, 300 kept, 97/min
+1C-P-1H --hcp 10-16 --H 6- --seed 1 -o probe/data/p5/art/1CP1H~H6.jsonl	seed 1 -> probe/data/p5/art/1CP1H~H6.jsonl
+2H --hcp 6-20 -n 400 --ini EO2faible=0 --seed 1 -o probe/data/p5/vs2/n2H.jsonl	400 deals, 400 kept, 97/min
+2D --hcp 8-18 --seed 1 -o probe/data/p5/art/2D~broad.jsonl	seed 1 -> probe/data/p5/art/2D~broad.jsonl
+2H --D 5- --C 5- --hcp 4-16 --ini EO2faible=0 --seed 1 -o probe/data/p5/vs2/n2H~mm55.jsonl	300 deals, 300 kept, 97/min
+2D --hcp 8-18 --ini EO2Kfort=0 --seed 1 -o probe/data/p5/art/2D~broad-K0.jsonl	seed 1 -> probe/data/p5/art/2D~broad-K0.jsonl
+2S-X-P --hcp 0-14 --seed 1 -o probe/data/p5/vsweak/2SXP~broad.jsonl	300 deals, 300 kept, 29/min
+2D --hcp 8-18 --ini EO2faible=0 --seed 1 -o probe/data/p5/art/2D~broad-F0.jsonl	seed 1 -> probe/data/p5/art/2D~broad-F0.jsonl
+2S --hcp 6-20 --ini EO2faible=0 --seed 1 -o probe/data/p5/vs2/n2S.jsonl	300 deals, 300 kept, 96/min
+2D --hcp 8-18 --ini EO2faible=0,EO2Kfort=0 --seed 1 -o probe/data/p5/art/2D~broad-F0K0.jsonl	seed 1 -> probe/data/p5/art/2D~broad-F0K0.jsonl
+2S --H 5- --hcp 8-20 --ini EO2faible=0 --seed 1 -o probe/data/p5/vs2/n2S~H5.jsonl	300 deals, 300 kept, 97/min
+2D --hcp 10-16 --D 6- --seed 1 -o probe/data/p5/art/2D~D6.jsonl	seed 1 -> probe/data/p5/art/2D~D6.jsonl
+2D-X-P --ini EO2Kfort=0 --hcp 0-14 --seed 1 -o probe/data/p5/vsweak/2DXP~broad.jsonl	300 deals, 300 kept, 27/min
+2D --hcp 10-16 --D 6- --ini EO2Kfort=0 --seed 1 -o probe/data/p5/art/2D~D6-K0.jsonl	seed 1 -> probe/data/p5/art/2D~D6-K0.jsonl
+2H-P-2N --hcp 6-18 --ini EO2faible=0 --seed 1 -o probe/data/p5/vs2/n2HP2N.jsonl	300 deals, 300 kept, 93/min
+1C-P-1H-1S --C 4- --D 0-3 --H 2-4 --S 0-3 --hcp 11-19 --seed 1 -o probe/data/p5/compx/1CP1H1S.jsonl	seed 1 -> probe/data/p5/compx/1CP1H1S.jsonl
+2H-P-P --hcp 6-20 --ini EO2faible=0 --seed 1 -o probe/data/p5/vs2/n2HPP.jsonl	300 deals, 300 kept, 89/min
+1D-P-1S-2C --D 4- --C 0-3 --S 2-4 --H 0-3 --hcp 11-19 --seed 1 -o probe/data/p5/compx/1DP1S2C.jsonl	seed 1 -> probe/data/p5/compx/1DP1S2C.jsonl
+1C-P-1D --hcp 8-18 --seed 1 -o probe/data/p5/art/1CP1D~broad.jsonl	300 deals, 300 kept, 93/min
+1H-P-1S-3C --H 5- --S 2-4 --hcp 11-21 --seed 1 -o probe/data/p5/compx/1HP1S3C.jsonl	seed 1 -> probe/data/p5/compx/1HP1S3C.jsonl
+1C-P-1D --hcp 10-16 --D 6- --seed 1 -o probe/data/p5/art/1CP1D~D6.jsonl	300 deals, 300 kept, 94/min
+1H-1S --H 0-3 --hcp 5-16 --seed 1 -o probe/data/p5/compx/1H1S.jsonl	seed 1 -> probe/data/p5/compx/1H1S.jsonl
+1C-P-1D --hcp 8-16 --S 5- --H 5- --seed 1 -o probe/data/p5/art/1CP1D~S5H5.jsonl	300 deals, 300 kept, 93/min
+1S-2H --S 0-3 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1S2H.jsonl	seed 1 -> probe/data/p5/compx/1S2H.jsonl
+2H-X-P-2N-P-3C-P --hcp 0-9 --S 0-3 --H 2-4 --seed 1 -o probe/data/p5/vsweak/2HXP2NP3CP.jsonl	300 deals, 222 kept, 24/min
+1H-2C --H 0-3 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1H2C.jsonl	seed 1 -> probe/data/p5/compx/1H2C.jsonl
+1C-P-1H --hcp 10-16 --H 6- --seed 1 -o probe/data/p5/art/1CP1H~H6.jsonl	300 deals, 300 kept, 93/min
+1H-3C --H 0-3 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1H3C.jsonl	seed 1 -> probe/data/p5/compx/1H3C.jsonl
+2D --hcp 8-18 --seed 1 -o probe/data/p5/art/2D~broad.jsonl	300 deals, 300 kept, 97/min
+1S-3H --S 0-3 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1S3H.jsonl	seed 1 -> probe/data/p5/compx/1S3H.jsonl
+2D --hcp 8-18 --ini EO2Kfort=0 --seed 1 -o probe/data/p5/art/2D~broad-K0.jsonl	300 deals, 300 kept, 97/min
+1H-1N --hcp 4-16 --seed 1 -o probe/data/p5/compx/1H1N.jsonl	seed 1 -> probe/data/p5/compx/1H1N.jsonl
+2D --hcp 8-18 --ini EO2faible=0 --seed 1 -o probe/data/p5/art/2D~broad-F0.jsonl	300 deals, 300 kept, 97/min
+1D-2C --D 0-4 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1D2C.jsonl	seed 1 -> probe/data/p5/compx/1D2C.jsonl
+2D --hcp 8-18 --ini EO2faible=0,EO2Kfort=0 --seed 1 -o probe/data/p5/art/2D~broad-F0K0.jsonl	300 deals, 300 kept, 96/min
+1C-2D --C 0-4 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1C2D.jsonl	seed 1 -> probe/data/p5/compx/1C2D.jsonl
+2H-X-P --hcp 0-14 -n 400 --seed 1 -o probe/data/p5/vsweak/2HXP~broad.jsonl	400 deals, 400 kept, 29/min
+1D-2H --D 0-4 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1D2H.jsonl	seed 1 -> probe/data/p5/compx/1D2H.jsonl
+2D --hcp 10-16 --D 6- --seed 1 -o probe/data/p5/art/2D~D6.jsonl	300 deals, 300 kept, 96/min
+1C-3H --C 0-4 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1C3H.jsonl	seed 1 -> probe/data/p5/compx/1C3H.jsonl
+2D --hcp 10-16 --D 6- --ini EO2Kfort=0 --seed 1 -o probe/data/p5/art/2D~D6-K0.jsonl	300 deals, 300 kept, 96/min
+1C-X-2C --S 3- --H 3- --hcp 4-14 --seed 1 -o probe/data/p5/compx/1CX2C.jsonl	seed 1 -> probe/data/p5/compx/1CX2C.jsonl
+1H-1S --H 0-3 --hcp 5-16 --seed 1 -o probe/data/p5/compx/1H1S.jsonl	300 deals, 300 kept, 95/min
+1H-X-2H --D 3- --C 3- --hcp 4-14 --seed 1 -o probe/data/p5/compx/1HX2H.jsonl	seed 1 -> probe/data/p5/compx/1HX2H.jsonl
+1S-2H --S 0-3 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1S2H.jsonl	300 deals, 300 kept, 80/min
+1C-X-1S --S 0-3 --hcp 4-14 --seed 1 -o probe/data/p5/compx/1CX1S.jsonl	seed 1 -> probe/data/p5/compx/1CX1S.jsonl
+1H-2C --H 0-3 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1H2C.jsonl	300 deals, 300 kept, 79/min
+1C-1H-2C --H 0-3 --hcp 4-14 --seed 1 -o probe/data/p5/compx/1C1H2C.jsonl	seed 1 -> probe/data/p5/compx/1C1H2C.jsonl
+1C-P-1H-1S --C 4- --D 0-3 --H 2-4 --S 0-3 --hcp 11-19 --seed 1 -o probe/data/p5/compx/1CP1H1S.jsonl	300 deals, 203 kept, 59/min
+1H-2D-2H-3D --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p5/compx/1H2D2H3D.jsonl	seed 1 -> probe/data/p5/compx/1H2D2H3D.jsonl
+1H-3C --H 0-3 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1H3C.jsonl	300 deals, 300 kept, 85/min
+1H-2C-P-P --H 5- --S 0-4 --C 0-2 --hcp 11-21 --seed 1 -o probe/data/p5/compx/1H2CPP.jsonl	seed 1 -> probe/data/p5/compx/1H2CPP.jsonl
+1D-2C --D 0-4 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1D2C.jsonl	300 deals, 300 kept, 77/min
+1H-1S-P-2S --H 5- --S 0-3 --hcp 11-21 --seed 1 -o probe/data/p5/compx/1H1SP2S.jsonl	seed 1 -> probe/data/p5/compx/1H1SP2S.jsonl
+1C-2D --C 0-4 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1C2D.jsonl	300 deals, 300 kept, 73/min
+1S-3H --S 0-3 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1S3H.jsonl	300 deals, 300 kept, 64/min
+1D-2H --D 0-4 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1D2H.jsonl	300 deals, 300 kept, 70/min
+1D-P-1S-2C --D 4- --C 0-3 --S 2-4 --H 0-3 --hcp 11-19 --seed 1 -o probe/data/p5/compx/1DP1S2C.jsonl	300 deals, 197 kept, 45/min
+1C-X-2C --S 3- --H 3- --hcp 4-14 --seed 1 -o probe/data/p5/compx/1CX2C.jsonl	300 deals, 300 kept, 60/min
+1H-X-2H --D 3- --C 3- --hcp 4-14 --seed 1 -o probe/data/p5/compx/1HX2H.jsonl	300 deals, 300 kept, 76/min
+1C-3H --C 0-4 --hcp 6-16 --seed 1 -o probe/data/p5/compx/1C3H.jsonl	300 deals, 300 kept, 55/min
+1H-1N --hcp 4-16 --seed 1 -o probe/data/p5/compx/1H1N.jsonl	300 deals, 300 kept, 46/min
+1C-X-1S --S 0-3 --hcp 4-14 --seed 1 -o probe/data/p5/compx/1CX1S.jsonl	300 deals, 300 kept, 74/min
+1H-P-1S-3C --H 5- --S 2-4 --hcp 11-21 --seed 1 -o probe/data/p5/compx/1HP1S3C.jsonl	300 deals, 248 kept, 35/min
+1C-1H-2C --H 0-3 --hcp 4-14 --seed 1 -o probe/data/p5/compx/1C1H2C.jsonl	300 deals, 300 kept, 69/min
+1H-2C-P-P --H 5- --S 0-4 --C 0-2 --hcp 11-21 --seed 1 -o probe/data/p5/compx/1H2CPP.jsonl	300 deals, 253 kept, 47/min
+1H-1S-P-2S --H 5- --S 0-3 --hcp 11-21 --seed 1 -o probe/data/p5/compx/1H1SP2S.jsonl	300 deals, 248 kept, 50/min
+1H-2D-2H-3D --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p5/compx/1H2D2H3D.jsonl	300 deals, 251 kept, 34/min

@@ -1,0 +1,34 @@
+# Phase 5, key vsweak: defense against weak 2s and 3-/4-level preempts
+# (doc 貳.三, doc.txt 1604-1739).  Hypotheses: probe/phase5/notes/vsweak.md.
+# E-W 2♥♠ are weak by default; E-W 2♦ is strong by default, so weak-2♦ lines
+# carry --ini EO2Kfort=0.  E-W 4♣♦ are Namyats by default: only (4♥) probed.
+#
+# --- Direct seat, unpassed: X / overcall / 2NT / cuebid / jump / 3NT / Leaping ---
+2H --hcp 10-22 --H 0-3 -n 400 --seed 1 -o probe/data/p5/vsweak/2H~broad.jsonl
+2S --hcp 10-22 --S 0-3 -n 400 --seed 1 -o probe/data/p5/vsweak/2S~broad.jsonl
+2D --ini EO2Kfort=0 --hcp 10-22 --D 0-3 --seed 1 -o probe/data/p5/vsweak/2D~broad.jsonl
+# balanced boundaries: X vs 2NT vs 3NT vs Pass
+2H --hcp 14-20 --S 2-4 --H 2-4 --D 2-4 --C 2-4 --seed 1 -o probe/data/p5/vsweak/2H~bal.jsonl
+# Leaping Michaels strength floor (4♦ vs 2♠/3♦) and the 3♦/4♦ majors cuebids
+2H --hcp 8-20 --S 5- --D 5- --seed 1 -o probe/data/p5/vsweak/2H~S5D5.jsonl
+2D --ini EO2Kfort=0 --hcp 8-20 --S 5- --H 5- --seed 1 -o probe/data/p5/vsweak/2D~S5H5.jsonl
+# 3-level and 4-level preempts
+3C --hcp 12-22 --C 0-3 --seed 1 -o probe/data/p5/vsweak/3C~broad.jsonl
+3H --hcp 12-22 --H 0-3 --seed 1 -o probe/data/p5/vsweak/3H~broad.jsonl
+4H --hcp 12-22 --H 0-3 --seed 1 -o probe/data/p5/vsweak/4H~broad.jsonl
+# --- Balancing seat, unpassed and passed (South passes 1st seat; keep ~90%) ---
+2H-P-P --hcp 8-18 --H 0-3 --seed 1 -o probe/data/p5/vsweak/2HPP~broad.jsonl
+P-2H-P-P --hcp 6-11 --H 0-3 --seed 1 -o probe/data/p5/vsweak/P2HPP~hcp611.jsonl
+# --- Opener's partner acted: (2♥) P (2NT) and (2♥) P (3♥) ---
+2H-P-2N --hcp 12-20 --H 0-3 --seed 1 -o probe/data/p5/vsweak/2HP2N.jsonl
+2H-P-3H --hcp 12-20 --H 0-3 --seed 1 -o probe/data/p5/vsweak/2HP3H.jsonl
+# --- Advances to partner's takeout double (penalty pass, Lebensohl 2NT, cuebid) ---
+2H-X-P --hcp 0-14 -n 400 --seed 1 -o probe/data/p5/vsweak/2HXP~broad.jsonl
+2S-X-P --hcp 0-14 --seed 1 -o probe/data/p5/vsweak/2SXP~broad.jsonl
+2D-X-P --ini EO2Kfort=0 --hcp 0-14 --seed 1 -o probe/data/p5/vsweak/2DXP~broad.jsonl
+# doubler's rebid after Lebensohl 2NT (South doubles; keep ~95%)
+2H-X-P-2N-P --hcp 13-22 --H 0-1 --S 3-4 --D 3-5 --C 3-5 --seed 1 -o probe/data/p5/vsweak/2HXP2NP~dbl.jsonl
+# advancer after 2NT - 3♣ relay (South bids 2NT itself; keep ~80%)
+2H-X-P-2N-P-3C-P --hcp 0-9 --S 0-3 --H 2-4 --seed 1 -o probe/data/p5/vsweak/2HXP2NP3CP.jsonl
+# --- After partner's 2NT overcall of a weak two: systems on one level up? ---
+2H-2N-P --hcp 0-14 --seed 1 -o probe/data/p5/vsweak/2H2NP~broad.jsonl

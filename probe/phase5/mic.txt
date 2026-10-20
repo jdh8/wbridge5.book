@@ -1,0 +1,29 @@
+# Phase 5, mic: continuations after Precise Michaels / unusual notrump (doc 貳.一.七)
+# and opener's partner over the opponents' two-suiters.  Notes: probe/phase5/notes/mic.md.
+# No --ini: E-W defaults equal ours, so their 2♦/2M/3♣/2NT are Precise Michaels / UNT.
+#
+# --- A. Advancer (South) over partner's two-suiter, RHO passes ---
+1C-2D-P --seed 1 -o probe/data/p5/mic/1C2DP.jsonl
+1C-2D-P --hcp 12- --seed 1 -o probe/data/p5/mic/1C2DP~hcp12.jsonl
+1H-2H-P --seed 1 -o probe/data/p5/mic/1H2HP.jsonl
+1H-2H-P --hcp 12- --seed 1 -o probe/data/p5/mic/1H2HP~hcp12.jsonl
+1H-3C-P --hcp 6- --seed 1 -o probe/data/p5/mic/1H3CP~hcp6.jsonl
+1S-2N-P --hcp 6- --seed 1 -o probe/data/p5/mic/1S2NP~hcp6.jsonl
+1C-2N-P --hcp 6- --seed 1 -o probe/data/p5/mic/1C2NP~hcp6.jsonl
+# --- A'. Advancer, RHO acts (free position: pass, X for 3-card support) ---
+1C-2D-X --seed 1 -o probe/data/p5/mic/1C2DX.jsonl
+1C-2D-2H --seed 1 -o probe/data/p5/mic/1C2D2H.jsonl
+# --- B. Overcaller's (South's own) rebid; South must make the 2-suiter itself ---
+1C-2D-P-3C-P --H 5- --S 5- --hcp 8- --seed 1 -o probe/data/p5/mic/1C2DP3CP.jsonl
+1C-2D-P-2N-P --H 5- --S 5- --hcp 8- --seed 1 -o probe/data/p5/mic/1C2DP2NP.jsonl
+1C-2D-P-3H-P --H 5- --S 5- --hcp 8- --seed 1 -o probe/data/p5/mic/1C2DP3HP.jsonl
+1H-2H-P-2N-P --S 5- --C 5- --H 0-3 --hcp 8- --seed 1 -o probe/data/p5/mic/1H2HP2NP.jsonl
+# --- C. Advancer after our two-suiter over (1X) P (1Y) (doc parts 4-6); South passes 1C ---
+1C-P-1H-X-P --hcp 0-11 --seed 1 -o probe/data/p5/mic/1CP1HXP.jsonl
+1C-P-1H-2H-P --hcp 0-11 --seed 1 -o probe/data/p5/mic/1CP1H2HP.jsonl
+P-1C-P-1H-1N-P --hcp 0-11 --seed 1 -o probe/data/p5/mic/P1CP1H1NP.jsonl
+# --- D. Responder (South) over the opponents' two-suiter; opener reopening ---
+1H-2H --hcp 5- --seed 1 -o probe/data/p5/mic/1H2H~hcp5.jsonl
+1H-2N --hcp 5- --seed 1 -o probe/data/p5/mic/1H2N~hcp5.jsonl
+1C-2D --hcp 5- --seed 1 -o probe/data/p5/mic/1C2D~hcp5.jsonl
+1H-2H-P-P --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p5/mic/1H2HPP.jsonl

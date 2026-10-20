@@ -1,0 +1,24 @@
+4D --opp SAYC --hcp 12-22 --D 0-3 --seed 1 -o probe/data/p5/vsweak/4D~sayc.jsonl	seed 1 -> probe/data/p5/vsweak/4D~sayc.jsonl
+3N --hcp 8-22 --seed 1 -o probe/data/p5/vsweak/3N~gambling.jsonl	seed 1 -> probe/data/p5/vsweak/3N~gambling.jsonl
+4C --opp SAYC --hcp 12-22 --C 0-3 --seed 1 -o probe/data/p5/vsweak/4C~sayc.jsonl	seed 1 -> probe/data/p5/vsweak/4C~sayc.jsonl
+- --ini NsGambling=0 --hcp 22-28 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p5/vsweak/open~nogambling-bal.jsonl	seed 1 -> probe/data/p5/vsweak/open~nogambling-bal.jsonl
+3N --opp SAYC --hcp 8-22 --seed 1 -o probe/data/p5/vsweak/3N~sayc.jsonl	seed 1 -> probe/data/p5/vsweak/3N~sayc.jsonl
+- --ini NsGambling=0 --hcp 9-15 --C 7- --S 0-3 --H 0-3 --seed 1 -o probe/data/p5/vsweak/open~nogambling-C7.jsonl	seed 1 -> probe/data/p5/vsweak/open~nogambling-C7.jsonl
+1D-2D --opp SAYC --hcp 5- --seed 1 -o probe/data/p5/mic/1D2D~sayc.jsonl	seed 1 -> probe/data/p5/mic/1D2D~sayc.jsonl
+1C-2C --opp SAYC --hcp 5- --seed 1 -o probe/data/p5/mic/1C2C~sayc.jsonl	seed 1 -> probe/data/p5/mic/1C2C~sayc.jsonl
+1H-2H --opp SAYC --hcp 5- --seed 1 -o probe/data/p5/mic/1H2H~sayc.jsonl	seed 1 -> probe/data/p5/mic/1H2H~sayc.jsonl
+1S-2S --opp SAYC --hcp 5- --seed 1 -o probe/data/p5/mic/1S2S~sayc.jsonl	seed 1 -> probe/data/p5/mic/1S2S~sayc.jsonl
+1C-2N --opp SAYC --hcp 5- --seed 1 -o probe/data/p5/mic/1C2N~sayc.jsonl	seed 1 -> probe/data/p5/mic/1C2N~sayc.jsonl
+1H-2H-P-2N --opp SAYC --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p5/mic/1H2HP2N~sayc.jsonl	seed 1 -> probe/data/p5/mic/1H2HP2N~sayc.jsonl
+- --ini NsGambling=0 --hcp 9-15 --C 7- --S 0-3 --H 0-3 --seed 1 -o probe/data/p5/vsweak/open~nogambling-C7.jsonl	300 deals, 300 kept, 101/min
+- --ini NsGambling=0 --hcp 22-28 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p5/vsweak/open~nogambling-bal.jsonl	300 deals, 300 kept, 100/min
+3N --hcp 8-22 --seed 1 -o probe/data/p5/vsweak/3N~gambling.jsonl	300 deals, 300 kept, 97/min
+1C-2N --opp SAYC --hcp 5- --seed 1 -o probe/data/p5/mic/1C2N~sayc.jsonl	300 deals, 300 kept, 81/min
+1C-2C --opp SAYC --hcp 5- --seed 1 -o probe/data/p5/mic/1C2C~sayc.jsonl	300 deals, 300 kept, 80/min
+1D-2D --opp SAYC --hcp 5- --seed 1 -o probe/data/p5/mic/1D2D~sayc.jsonl	300 deals, 300 kept, 77/min
+1H-2H --opp SAYC --hcp 5- --seed 1 -o probe/data/p5/mic/1H2H~sayc.jsonl	300 deals, 300 kept, 63/min
+1S-2S --opp SAYC --hcp 5- --seed 1 -o probe/data/p5/mic/1S2S~sayc.jsonl	300 deals, 300 kept, 62/min
+4D --opp SAYC --hcp 12-22 --D 0-3 --seed 1 -o probe/data/p5/vsweak/4D~sayc.jsonl	300 deals, 300 kept, 31/min
+4C --opp SAYC --hcp 12-22 --C 0-3 --seed 1 -o probe/data/p5/vsweak/4C~sayc.jsonl	300 deals, 300 kept, 29/min
+1H-2H-P-2N --opp SAYC --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p5/mic/1H2HP2N~sayc.jsonl	300 deals, 251 kept, 24/min
+3N --opp SAYC --hcp 8-22 --seed 1 -o probe/data/p5/vsweak/3N~sayc.jsonl	300 deals, 300 kept, 19/min

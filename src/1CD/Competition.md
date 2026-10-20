@@ -107,6 +107,63 @@ latent adverse spades.
 | 2♠  | cuebid, 13+ HCP
 | 3m  | mixed raise, 9--13, 5+m
 
+### Higher overcalls
+
+Over 1♦ (2♣), responder shows hearts first, as in Rodrigue.  A 2♦ bid shows
+4+ hearts, and the double shows both majors.  A hand with 4 spades but not 4
+hearts does not double.
+
+| 1♦ (2♣) | |
+|-----|-|
+| P   | 6--14 HCP, including 4♠ without 4♥
+| X!  | NEG, 7--18, 4+♠, 4+♥
+| 2♦! | 8--17, 4+♥, 0--3♠
+| 2♥  | 12--18, 5+♥
+| 2♠  | 12+, 5+♠
+| 2NT | 9--14 HCP
+| 3♣! | Cuebid, 15--16 HCP
+| 3♦  | INV, 10--13 HCP, 4♦
+| 3♥♠ | WJS, 6--9 HCP, 6#
+| 3NT | 12--16 HCP
+
+All 59 hands that bid 2♦ held 4--5 hearts.  With 5 hearts, responder bids 2♦
+with 6--10 HCP and 2♥ with more.  For example, ♠AQ97 ♥A763 ♦1093 ♣94
+doubles, and ♠73 ♥AJ75 ♦J1062 ♣AJ6 bids 2♦.
+
+Over a weak jump overcall, Collante carries on to the 2-level: the double of
+2♥ shows spades.  At the 3-level the double shows 4 spades and 10+ HCP.
+
+| 1♦ (2♥) | |
+|-----|-|
+| P   | 6--11 HCP
+| X!  | NEG, 8--17, 4+♠
+| 2♠  | 11+, 5+♠
+| 2NT | 10--12 HCP, 4+♥
+| 3♣  | 13+, 5+♣
+| 3♦  | 6--11 HCP, 4♦
+| 3♥! | Cuebid, 13--16 HCP
+| 3NT | 12--16 HCP
+
+With 5 spades, responder doubles with 7--9 HCP and bids 2♠ with more.
+
+| 1♣ (3♥) | |
+|-----|-|
+| P   | Most hands, including 4♠ with 6--10 HCP
+| X!  | NEG, 10--16 HCP, usually 4=♠
+| 3♠  | 11+, 5+♠
+| 3NT | 12--16 HCP
+| 4♦  | 14+, 6+♦
+
+For example, ♠AKQ10 ♥972 ♦Q2 ♣K1087 doubles 1♣ (3♥).  The probes for this
+section gave responder 0--4 cards in opener's minor.
+
+### Over Precise Michaels
+
+Over 1♣, the opponents' 2♦ is a [Precise Michaels](../Defense/1y.md#precise-michaels)
+bid for both majors, because the opponents play Wbridge5's own defaults.
+Responder never doubles it.  Its calls are tabled with the other
+[opponents' two-suiters](../Defense/Michaels.md#opponents-two-suiters).
+
 ## Opener's rebids after a negative double
 
 Responder's calls mean the same with or without LHO's overcall, so opener
@@ -300,6 +357,47 @@ After a cuebid, opener rebids naturally.
 | 3♣  | 5+♣
 | 3NT | 15+ HCP, BAL
 
+## Support doubles
+
+When RHO overcalls responder's 1-level major, opener's double shows exactly 3
+cards in responder's major at any strength, as after
+[1♥ - 1♠](../1M/Competition.md#support-doubles).
+
+| 1♣ - 1♥ (1♠) | |
+|-----|-|
+| P   | 12--14 HCP, 3=♠, 2=♥
+| X!  | Support, 12--21, 3=♥
+| 1NT | 12--14 HCP, 3=♠, 2=♥
+| 2♣  | 14--18, 6+♣
+| 2♥  | 12--18, 4=♥
+| 2NT | 17--19 HCP, BAL
+| 3♣  | 19--20, 7+♣
+| 3♥  | 16--20, 4=♥
+| 3NT | 16--18 HCP, 6♣
+| 4♥  | 19--21, 4=♥
+
+Opener doubled 66 of the 69 hands with 3 hearts.  For example, ♠J83 ♥AJ10
+♦A6 ♣A10874 doubles.  The 2NT and 3♣ rows come from 2--3 boards each.  With
+4 hearts and 17+ HCP, opener also jumped to 3♠ (2 boards) or 4♦ (1 board)
+with a singleton there.  The probe gave opener 2--4 hearts and 0--3 spades.
+
+| 1♦ - 1♠ (2♣) | |
+|-----|-|
+| P   | 13--14, 2=♠, 3=♥, 5=♦
+| X!  | Support, 12--21, 3=♠
+| 2♦  | 14--18, 6+♦
+| 2♠  | 12--16, 4=♠
+| 3♣! | Cuebid, 17--19 HCP, 2--3♠
+| 3♦  | 19--21, 6+♦
+| 3♠  | 15--20, 4=♠
+| 3NT | 18--19 HCP
+| 4♠  | 18--19 HCP, 4=♠
+
+Opener doubled 70 of the 77 hands with 3 spades.  Balanced hands with 17--19
+HCP and 3 spades may cuebid 3♣ instead, as 4 of the 5 cuebids did.  For
+example, ♠AK4 ♥J62 ♦AQJ964 ♣2 doubles.  The 3NT and 4♠ rows come from 2
+boards each.  The probe gave opener 2--4 spades and 0--3 hearts.
+
 ## Maximal double
 
 The double is a game try when the partnership has found a major fit, both
@@ -314,3 +412,13 @@ opponents have bid, and 3 of the major would only be competitive.
 
 - **♠AJ963 ♥6 ♦1053 ♣A532:** Double.
 - **♠KQJ98 ♥10 ♦94 ♣J10532:** Bid 3♠.
+
+## Not probed
+
+- Vulnerability: the probes in the sections on higher overcalls, Precise
+  Michaels and support doubles were at none vulnerable.
+- Responder's calls with 5+ cards in opener's minor, and over 1♣ (2♣), 1♦
+  (2♠), 1♣ (3♦) or a 3♠ overcall.
+- Opener's rebids after the 2- and 3-level negative doubles and after 1♦
+  (2♣) 2♦.
+- Support doubles at the 3-level after a minor opening.

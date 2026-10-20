@@ -38,3 +38,11 @@
 # Defensive bidding
 
 - [Natural (1y)](Defense/1y.md)
+  - [Takeout doubles](Defense/Takeout.md)
+  - [Responsive doubles](Defense/Responsive.md)
+  - [Advancing overcalls](Defense/Advances.md)
+  - [Natural 1NT overcall](Defense/1NT-overcall.md)
+  - [Two-suited overcalls](Defense/Michaels.md)
+- [Opposing 1NT](Defense/1NT.md)
+- [Opposing preempts](Defense/Preempts.md)
+- [Opposing strong openings](Defense/Strong2.md)

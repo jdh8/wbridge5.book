@@ -95,17 +95,24 @@ Order is by value; each item is hypothesis, probe, write.
 
 ## Phase 5: new defensive chapters
 
-- [ ] Takeout and balancing doubles; advances; doubler's rebids
-      (貳.一.二--三).
-- [ ] Overcall advances, first and second round (貳.一.四--五).
-- [ ] 1NT overcall continuations, strong and weak (貳.一.六).
-- [ ] Precise Michaels continuations (貳.一.七).
-- [ ] Versus strong 1♣ (貳.一.八).
-- [ ] Versus 1NT: Multi Landy, Lionel (貳.二).
-- [ ] Versus weak openings (貳.三).
-- [ ] Versus strong 2s, artificial and natural (貳.四).
-- [ ] Versus Multi, Flannery, Precision, Roman 2♦ (貳.五).
-- [ ] Competitive doubles: negative, support, responsive.
+Scope: defense against the systems Wbridge5 itself plays, its own, SEF and
+SAYC.  `tm.py --opp SEF|SAYC` gives E-W Wbridge5's preset for that system.
+
+- [x] Takeout and balancing doubles; advances; doubler's rebids
+      (貳.一.二--三): Defense/Takeout.md.
+- [x] Overcall advances, first and second round (貳.一.四--五):
+      Defense/Advances.md.
+- [x] 1NT overcall continuations, strong and weak (貳.一.六):
+      Defense/1NT-overcall.md.
+- [x] Precise Michaels continuations (貳.一.七): Defense/Michaels.md.
+- [x] Versus strong 1♣ (貳.一.八): out of scope, adjuncts only.
+- [x] Versus 1NT: Multi Landy, Lionel (貳.二): Defense/1NT.md.
+- [x] Versus weak openings (貳.三): Defense/Preempts.md.
+- [x] Versus strong 2s, artificial and natural (貳.四): Defense/Strong2.md.
+- [x] Versus Multi, Flannery, Precision, Roman 2♦ (貳.五): out of scope,
+      adjuncts only.
+- [x] Competitive doubles: negative, support, responsive:
+      Defense/Responsive.md, 1M/Competition.md, 1CD/Competition.md.
 
 ## Phase 6: wrap up
 
@@ -136,3 +143,10 @@ Order is by value; each item is hypothesis, probe, write.
   be 5.12's real behaviour and kept: 1NT - 2♣ - 2NT transfers, the three
   2/1 criteria, flat 6/11 HCP raises bidding 1NT.  Still not probe rows:
   the example hands in Openings.md and 1CD.md lines 54--80.
+- 2026-10-20: phase 5 done.  Wbridge5 reads per-pair options from
+  WBRIDGE5.INI `[Ench]` in its exe dir (EO* = E-W); `tm.py --ini` and
+  `--opp SEF|SAYC` (presets decoded from the exe) set the opponents'
+  system.  `--opp` presets were probed only for preempts and Michaels.
+  Everything is at none vulnerable.  Open: 1NT/Interference.md assumes
+  the opponents play Landy, untested against SAYC's natural 2♣; the SAYC
+  (3NT) opening's meaning; each new chapter ends with what was not probed.

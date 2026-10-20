@@ -1,0 +1,10 @@
+# Phase 5, mic group D supplement: our side over the opponents' two-suiters when
+# E-W play SAYC (standard Michaels: 1m (2m) majors, 1M (2M) OM + unknown minor).
+# Compare with the default-system lines 1H-2H, 1C-2D, 1H-2N in mic.txt.
+1C-2C --opp SAYC --hcp 5- --seed 1 -o probe/data/p5/mic/1C2C~sayc.jsonl
+1D-2D --opp SAYC --hcp 5- --seed 1 -o probe/data/p5/mic/1D2D~sayc.jsonl
+1H-2H --opp SAYC --hcp 5- --seed 1 -o probe/data/p5/mic/1H2H~sayc.jsonl
+1S-2S --opp SAYC --hcp 5- --seed 1 -o probe/data/p5/mic/1S2S~sayc.jsonl
+1C-2N --opp SAYC --hcp 5- --seed 1 -o probe/data/p5/mic/1C2N~sayc.jsonl
+# Opener (South) after (2H) P (2NT): the 2NT is SAYC's ask for the minor
+1H-2H-P-2N --opp SAYC --H 5- --S 0-4 --hcp 11-21 --seed 1 -o probe/data/p5/mic/1H2HP2N~sayc.jsonl

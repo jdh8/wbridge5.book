@@ -1,0 +1,43 @@
+# Phase 5, key dbl: takeout/balancing doubles, advances, doubler's rebids
+# (doc 貳.一.二--三).  Hypotheses: probe/phase5/notes/dbl.md.
+# Responsive doubles belong to key compx; lines A6--A9 will also yield X
+# rows, which that chapter may reuse.
+#
+# --- A. Advancer: (1y) X (P) ?  (no South calls in the prefix) ---
+# A1-A2. Broad: let Wbridge5 sort hands into P / 1x / 1NT / 2x / jumps / cuebid.
+1D-X-P --hcp 0-15 --seed 1 -o probe/data/p5/dbl/1DXP~broad.jsonl
+1H-X-P --hcp 0-15 --seed 1 -o probe/data/p5/dbl/1HXP~broad.jsonl
+# A3. Strong advances: jump (doc 8-11, 4+ vs chm 11+, 5+), 2NT, 3NT, cuebid.
+1H-X-P --hcp 9-15 --seed 1 -o probe/data/p5/dbl/1HXP~hcp915.jsonl
+# A4. 4-4 majors over a minor: higher first (doc 1131)?
+1D-X-P --hcp 0-11 --S 4-4 --H 4-4 --seed 1 -o probe/data/p5/dbl/1DXP~S44H44.jsonl
+# A5. Penalty pass needs 5+ trumps at the 1-level (doc 1140).
+1H-X-P --hcp 0-14 --H 5- --seed 1 -o probe/data/p5/dbl/1HXP~H5.jsonl
+#
+# --- B. RHO acts: (1y) X (call) ? ---
+1H-X-XX --hcp 0-12 --seed 1 -o probe/data/p5/dbl/1HXXX~broad.jsonl
+1H-X-1S --hcp 0-12 --seed 1 -o probe/data/p5/dbl/1HX1S~broad.jsonl
+1H-X-1N --hcp 0-12 --seed 1 -o probe/data/p5/dbl/1HX1N~broad.jsonl
+1H-X-2H --hcp 0-12 --seed 1 -o probe/data/p5/dbl/1HX2H~broad.jsonl
+1H-X-2N --hcp 0-12 --seed 1 -o probe/data/p5/dbl/1HX2N~broad.jsonl
+#
+# --- C. Balancing seat and its advance ---
+# C1. (1♥) P (P) ?: X strength vs balancing overcalls/1NT (not yet in src/).
+1H-P-P --hcp 8-20 --seed 1 -o probe/data/p5/dbl/1HPP~hcp820.jsonl
+# C2. (1♥) P (P) X (P) ?: South passed over 1♥ itself (keep ~85%, ~21/min).
+1H-P-P-X-P --hcp 0-11 --seed 1 -o probe/data/p5/dbl/1HPPXP~hcp011.jsonl
+#
+# --- D. Doubler's rebids: (1y) X (P) advance (P) ?  South doubles in the prefix ---
+# D1. Minimum shape doubler after 1♠ (keep ~55%).
+1H-X-P-1S-P --hcp 13-22 --H 0-2 --S 3-4 --seed 1 -o probe/data/p5/dbl/1HXP1SP~S34.jsonl
+# D2. Strong doubler (16+ any shape) after 1♠ (keep ~50%).
+1H-X-P-1S-P --hcp 17-22 --H 0-3 --seed 1 -o probe/data/p5/dbl/1HXP1SP~hcp1722.jsonl
+# D3-D6. Other advances; --H 0-2 keeps ~30-50%, hence -n 400.
+1H-X-P-1N-P --hcp 13-22 --H 0-2 -n 400 --seed 1 -o probe/data/p5/dbl/1HXP1NP.jsonl
+1H-X-P-2C-P --hcp 13-22 --H 0-2 -n 400 --seed 1 -o probe/data/p5/dbl/1HXP2CP.jsonl
+1H-X-P-2S-P --hcp 13-22 --H 0-2 -n 400 --seed 1 -o probe/data/p5/dbl/1HXP2SP.jsonl
+1H-X-P-2H-P --hcp 13-22 --H 0-2 -n 400 --seed 1 -o probe/data/p5/dbl/1HXP2HP.jsonl
+# D7. Minor opening, major advance (smoke: 3♦ jump cuebid with 6+♥ 15-18).
+1D-X-P-1H-P --hcp 13-22 --D 0-2 -n 400 --seed 1 -o probe/data/p5/dbl/1DXP1HP.jsonl
+# D8. Opener competes after a negative advance (doc 1233-1247).
+1H-X-P-1S-2H --hcp 13-22 --H 0-2 -n 400 --seed 1 -o probe/data/p5/dbl/1HXP1S2H.jsonl

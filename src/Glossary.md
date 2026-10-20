@@ -160,3 +160,12 @@ shows the same hand as an opening, keeps the same continuations.
 - **Weak 2♥ (X)** and **(2♠):** raises, the 2NT ask and splinters keep their
   meanings.
 - **4NT (X):** RKCB answers as if undisturbed.
+- **(1y) 1NT**, also in the balancing seat: advancer bids as over a
+  [1NT opening](Defense/1NT-overcall.md), except where a transfer or Stayman
+  would name the opponents' suit.  (1♥) 1NT (2♥) is as 1NT (2♥) without the
+  cooperative double.
+- **(2♥) 2NT:** advancer bids as over a [2NT opening](Defense/Preempts.md).
+- **(1♣) 2♥** and other weak jump overcalls: advancer bids as over a
+  [weak two opening](Defense/Advances.md).
+- **(1y) X (XX)** and **(1y) P (P) X:** advancer bids as after
+  [(1y) X (P)](Defense/Takeout.md); after the redouble, Pass is new.

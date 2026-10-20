@@ -1,0 +1,38 @@
+# Phase 5, adv: advances of simple and weak jump overcalls of a 1-suit
+# opening, and the second round.  Hypotheses: probe/phase5/notes/adv.md.
+# Doc 貳.一.四--五 (doc.txt 1264-1392).  No existing data covers advances.
+# Seats: 1H-1S-P = (1H) 1S (P), South advances.  1H-1S-P-2S-P = (1H) 1S by
+# South (its own call, constrained), (P) 2S (P), South rebids.
+#
+# --- First round: (1C) 1D, cuebid 2C, majors, notrump, jump raises ---
+1C-1D-P --hcp 5-17 -n 400 --seed 1 -o probe/data/p5/adv/1C1DP.jsonl
+# --- (1C) 1H: 1S advance, 1NT, 2D, cuebid ---
+1C-1H-P --hcp 5-17 --seed 1 -o probe/data/p5/adv/1C1HP.jsonl
+# --- (1H) 1S with a fit: raises, cuebid, jump cuebid, splinters, 4S ---
+1H-1S-P --S 3- --hcp 3-10 --seed 1 -o probe/data/p5/adv/1H1SP~S3low.jsonl
+1H-1S-P --S 3- --hcp 3-10 --vul ns --seed 1 -o probe/data/p5/adv/1H1SP~S3lowvulns.jsonl
+1H-1S-P --S 3- --hcp 11-17 --seed 1 -o probe/data/p5/adv/1H1SP~S3high.jsonl
+# --- (1H) 1S without a fit: 1NT, 2-level new suits, jumps, 2NT, 3NT, cuebid ---
+1H-1S-P --S 0-2 --hcp 6-17 --seed 1 -o probe/data/p5/adv/1H1SP~S02.jsonl
+# --- Passed advancer: fit-showing cuebid, unusual 2NT (South passes first; 85% kept) ---
+P-1H-1S-P --hcp 7-11 --seed 1 -o probe/data/p5/adv/P1H1SP.jsonl
+# --- RHO acts: support redouble; double after a raise; responsive-like X ---
+1H-1S-X --hcp 5-17 --seed 1 -o probe/data/p5/adv/1H1SX.jsonl
+1H-1S-2H --hcp 5-17 --seed 1 -o probe/data/p5/adv/1H1S2H.jsonl
+1C-1H-1S --hcp 5-17 --seed 1 -o probe/data/p5/adv/1C1H1S.jsonl
+# --- 2-level overcalls: (1H) 2C, (1S) 2H ---
+1H-2C-P --hcp 5-17 --seed 1 -o probe/data/p5/adv/1H2CP.jsonl
+1S-2H-P --hcp 5-17 --seed 1 -o probe/data/p5/adv/1S2HP.jsonl
+# --- Weak jump overcall: (1C) 2H, compare Openings/Responses.md weak 2H ---
+1C-2H-P --hcp 6-17 --seed 1 -o probe/data/p5/adv/1C2HP.jsonl
+#
+# --- Second round: overcaller's rebids (South overcalled).  Smoke keep
+# rates: 1HSP* 75%, 1CDP2CP 70%, 1D2CP2DP 70%, 1S2HP2SP 55% ---
+1H-1S-P-2S-P --S 5- --H 0-3 --hcp 9-15 --seed 1 -o probe/data/p5/adv/1HSP2SP.jsonl
+1H-1S-P-2H-P --S 5- --H 0-3 --hcp 9-15 --seed 1 -o probe/data/p5/adv/1HSP2HP.jsonl
+1H-1S-P-2C-P --S 5- --H 0-3 --hcp 9-15 --seed 1 -o probe/data/p5/adv/1HSP2CP.jsonl
+1C-1D-P-2C-P --D 5- --H 0-3 --S 0-3 --hcp 10-15 --seed 1 -o probe/data/p5/adv/1CDP2CP.jsonl
+1D-2C-P-2D-P --C 5- --H 0-3 --S 0-3 --hcp 11-15 --seed 1 -o probe/data/p5/adv/1D2CP2DP.jsonl
+1S-2H-P-2S-P --H 5- --S 0-3 --hcp 11-15 -n 400 --seed 1 -o probe/data/p5/adv/1S2HP2SP.jsonl
+# --- Advancer's continuation after cuebid and overcaller's minimum (45% kept) ---
+1H-1S-P-2H-P-2S-P --S 3- --hcp 10-17 -n 450 --seed 1 -o probe/data/p5/adv/1HSP2HP2SP.jsonl
