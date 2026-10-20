@@ -1,0 +1,95 @@
+# Follow-up probes for rows the first pass left untested (phase 3).
+# Openings
+- --D 7-8 --hcp 9-12 --S 0-3 --H 0-3 -o probe/data/more/open~D78hcp912S03H03.jsonl
+- --C 7-8 --hcp 9-12 --S 0-3 --H 0-3 -o probe/data/more/open~C78hcp912S03H03.jsonl
+- --D 5- --C 5- --hcp 6-14 -o probe/data/more/open~D5C5hcp614.jsonl
+- --H 7-8 --hcp 11-16 -o probe/data/more/open~H78hcp1116.jsonl
+- --S 7-8 --hcp 11-16 -o probe/data/more/open~S78hcp1116.jsonl
+- --hcp 19-26 -o probe/data/more/open~hcp1926.jsonl
+- --hcp 19-23 --S 4-4 --H 4-4 --D 4-4 --C 1-1 -o probe/data/more/open~hcp1923S44H44D44C11.jsonl
+- --S 5-5 --H 0-3 --hcp 6-11 -o probe/data/more/open~S55H03hcp611.jsonl
+- --hcp 4-11 -o probe/data/more/open~hcp411.jsonl
+- --hcp 4-11 --vul ns -o probe/data/more/open~hcp411vulns.jsonl
+- --hcp 4-11 --vul ew -o probe/data/more/open~hcp411vulew.jsonl
+- --hcp 4-11 --vul both -o probe/data/more/open~hcp411vulboth.jsonl
+P-P-P --D 7- --hcp 5-11 -o probe/data/more/PPP~D7hcp511.jsonl
+P-P-P --S 7- --hcp 5-13 -o probe/data/more/PPP~S7hcp513.jsonl
+# 1M
+1H-P --hcp 0-8 --H 4- -o probe/data/more/1HP~hcp08H4.jsonl
+1H-P --hcp 0-8 --H 4- --vul ns -o probe/data/more/1HP~hcp08H4vulns.jsonl
+1H-P --hcp 0-8 --H 4- --vul ew -o probe/data/more/1HP~hcp08H4vulew.jsonl
+1H-P --hcp 0-8 --H 4- --vul both -o probe/data/more/1HP~hcp08H4vulboth.jsonl
+1H-P --hcp 14-18 --S 5- --H 0-3 -o probe/data/more/1HP~hcp1418S5H03.jsonl
+1H-P --hcp 15-19 --H 4- --S 2-4 --D 2-4 --C 2-4 -o probe/data/more/1HP~hcp1519H4S24D24C24.jsonl
+P-P-1H-P --hcp 9-11 --H 3-3 -o probe/data/more/PP1HP~hcp911H33.jsonl
+1H-P --hcp 21-21 --S 3-3 --H 4-4 --D 3-3 --C 3-3 -o probe/data/more/1HP~hcp2121S33H44D33C33.jsonl
+# 1M/1NT
+1S-P-1N-P-2C-P --hcp 5-11 --S 0-2 --H 5- -o probe/data/more/1SP1NP2CP~hcp511S02H5.jsonl
+1S-P-1N-P-2D-P --hcp 5-11 --S 0-2 --H 5- -o probe/data/more/1SP1NP2DP~hcp511S02H5.jsonl
+1S-P-1N-P-2S-P --hcp 5-10 --S 0-2 --H 6- -o probe/data/more/1SP1NP2SP~hcp510S02H6.jsonl
+1H-P-1N-P --hcp 16-21 --H 5-5 --S 2-3 --D 2-4 --C 2-4 -o probe/data/more/1HP1NP~hcp1621H55S23D24C24.jsonl
+1S-P-1N-P --hcp 16-21 --S 5-5 --H 2-3 --D 2-4 --C 2-4 -o probe/data/more/1SP1NP~hcp1621S55H23D24C24.jsonl
+1H-P-1N-P --hcp 14-21 --S 4-4 --H 5-6 -o probe/data/more/1HP1NP~hcp1421S44H56.jsonl
+1H-P-1N-P-2D-P --hcp 9-11 --S 2-3 --H 0-2 --D 4- -o probe/data/more/1HP1NP2DP~hcp911S23H02D4.jsonl
+1H-P-1N-P-2C-P --hcp 9-11 --S 2-3 --H 0-2 --C 5- -o probe/data/more/1HP1NP2CP~hcp911S23H02C5.jsonl
+# 2/1
+1H-P-2C-P-2D-P --hcp 9-11 --C 4- --H 0-2 --S 0-3 -o probe/data/more/1HP2CP2DP~hcp911C4H02S03.jsonl
+1S-P-2C-P-2D-P --hcp 9-11 --C 4- --S 0-2 --H 0-4 -o probe/data/more/1SP2CP2DP~hcp911C4S02H04.jsonl
+1H-P-2D-P-2N-P --hcp 9-11 --D 6- --H 0-2 --S 0-3 -o probe/data/more/1HP2DP2NP~hcp911D6H02S03.jsonl
+1S-P --hcp 13- --H 5- --S 0-2 -o probe/data/more/1SP~hcp13H5S02.jsonl
+1H-P-2C-P-2H-P --hcp 12-20 --C 4- --H 3-3 --S 0-3 -o probe/data/more/1HP2CP2HP~hcp1220C4H33S03.jsonl
+1S-P --hcp 11-11 --S 3-4 --H 3-4 --D 3-4 --C 3-4 -o probe/data/more/1SP~hcp1111S34H34D34C34.jsonl
+1H-P-2C-P --hcp 17-21 --H 5-5 --S 2-3 --D 2-4 --C 2-3 -o probe/data/more/1HP2CP~hcp1721H55S23D24C23.jsonl
+1S-P-2C-P --S 7- -o probe/data/more/1SP2CP~S7.jsonl
+# 1m
+1C-P --hcp 10-16 --C 5- --S 0-3 --H 0-3 -o probe/data/more/1CP~hcp1016C5S03H03.jsonl
+1D-P --hcp 10-16 --D 5- --S 0-3 --H 0-3 -o probe/data/more/1DP~hcp1016D5S03H03.jsonl
+P-P-1C-P-1H-P --hcp 11-13 --C 3- --H 3-3 --S 0-3 -o probe/data/more/PP1CP1HP~hcp1113C3H33S03.jsonl
+1C-P-1D-P --hcp 11-21 --C 3- --D 4- --H 0-3 --S 0-3 -o probe/data/more/1CP1DP~hcp1121C3D4H03S03.jsonl
+1C-P-1D-P --hcp 18-19 --S 2-2 --H 2-2 --D 4-4 --C 5-5 -o probe/data/more/1CP1DP~hcp1819S22H22D44C55.jsonl
+1C-P-1H-P --hcp 18-19 --H 4-4 --C 5-5 --S 2-2 --D 2-2 -o probe/data/more/1CP1HP~hcp1819H44C55S22D22.jsonl
+1C-P-1D-P --hcp 18-21 --S 4-4 --H 4-4 --D 1-1 --C 4-4 -o probe/data/more/1CP1DP~hcp1821S44H44D11C44.jsonl
+1C-P --hcp 11-11 --S 2-3 --H 2-3 --D 2-4 --C 2-5 -o probe/data/more/1CP~hcp1111S23H23D24C25.jsonl
+1C-P --hcp 20-22 --S 3-3 --H 3-3 --D 3-3 --C 4-4 -o probe/data/more/1CP~hcp2022S33H33D33C44.jsonl
+1C-P --hcp 0-5 --C 0-0 -o probe/data/more/1CP~hcp05C00.jsonl
+1C-P --hcp 12-16 --C 5- --H 0-1 --S 2-4 -o probe/data/more/1CP~hcp1216C5H01S24.jsonl
+1C-P-2D-P --hcp 11-21 --C 3- -o probe/data/more/1CP2DP~hcp1121C3.jsonl
+P-P-1C-X --hcp 9-11 --H 5- --C 5- -o probe/data/more/PP1CX~hcp911H5C5.jsonl
+# 1NT, Stayman
+1N-P --hcp 15-21 --S 2-3 --H 2-3 --D 2-4 --C 2-4 -o probe/data/more/1NP~hcp1521S23H23D24C24.jsonl
+1N-P --S 5- --H 5- -o probe/data/more/1NP~S5H5.jsonl
+2N-P --S 5- --H 5- -o probe/data/more/2NP~S5H5.jsonl
+1N-P-2C-P-2D-P --hcp 0-7 --C 0-1 --S 3-4 --H 3-4 -o probe/data/more/1NP2CP2DP~hcp07C01S34H34.jsonl
+1N-P-2C-P-2H-P --hcp 8- --H 4- -o probe/data/more/1NP2CP2HP~hcp8H4.jsonl
+1N-P-2C-P-2S-P --hcp 8- --S 4- -o probe/data/more/1NP2CP2SP~hcp8S4.jsonl
+1N-P-2C-P-3C-P --hcp 9- --C 6- --H 0-2 -o probe/data/more/1NP2CP3CP~hcp9C6H02.jsonl
+1N-P-2C-P-3H-P --H 3- -o probe/data/more/1NP2CP3HP~H3.jsonl
+1N-P-2C-P-3S-P --S 3- -o probe/data/more/1NP2CP3SP~S3.jsonl
+P-P-1N-P --hcp 9-11 --S 0-4 --H 0-4 -o probe/data/more/PP1NP~hcp911S04H04.jsonl
+2N-P-3C-P --hcp 20-21 --S 2-5 --H 2-5 --D 2-5 --C 2-5 -o probe/data/more/2NP3CP~hcp2021S25H25D25C25.jsonl
+# Transfers
+2N-P-3D-P --hcp 19-22 --H 1-1 -o probe/data/more/2NP3DP~hcp1922H11.jsonl
+2N-P-3H-P --hcp 19-22 --S 1-1 -o probe/data/more/2NP3HP~hcp1922S11.jsonl
+2N-P-3S-P --hcp 19-22 --C 1-1 -o probe/data/more/2NP3SP~hcp1922C11.jsonl
+1N-P-2D-P-2H-P --S 5- --H 5- --hcp 0-8 -o probe/data/more/1NP2DP2HP~S5H5hcp08.jsonl
+2N-P-3D-P-3H-P --S 5- --H 5- --hcp 0-5 -o probe/data/more/2NP3DP3HP~S5H5hcp05.jsonl
+1N-P-2S-P-3C-P --C 5-5 --D 5- --hcp 10- -o probe/data/more/1NP2SP3CP~C55D5hcp10.jsonl
+1N-P-2S-P-2N-P --C 6- --S 0-4 --H 0-4 -o probe/data/more/1NP2SP2NP~C6S04H04.jsonl
+1N-P-3C-P-3D-P --D 6- --hcp 8- -o probe/data/more/1NP3CP3DP~D6hcp8.jsonl
+2N-P-3S-P-4C-P --C 6- -o probe/data/more/2NP3SP4CP~C6.jsonl
+2N-P-3S-P-3N-P --C 7- -o probe/data/more/2NP3SP3NP~C7.jsonl
+2N-P-4C-P-4D-P --D 6- -o probe/data/more/2NP4CP4DP~D6.jsonl
+# 1NT competition, defense
+1N-X-P-P --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 -o probe/data/more/1NXPP~hcp1517S25H25D25C25.jsonl
+1N-2H-X-P --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 -o probe/data/more/1N2HXP~hcp1517S25H25D25C25.jsonl
+1N-2C-P-2H-P-P --hcp 10- -o probe/data/more/1N2CP2HPP~hcp10.jsonl
+1N-2N-P-3C-P-P --hcp 8- -n 600 -o probe/data/more/1N2NP3CPP~hcp8n600.jsonl
+1N-3S --hcp 8- -o probe/data/more/1N3S~hcp8.jsonl
+1H --hcp 11- --S 5- --C 5- -o probe/data/more/1H~hcp11S5C5.jsonl
+1D --hcp 11- --S 5- --C 5- -o probe/data/more/1D~hcp11S5C5.jsonl
+1S --hcp 18- --H 5- --C 5- -o probe/data/more/1S~hcp18H5C5.jsonl
+1H --D 6- --C 5- -o probe/data/more/1H~D6C5.jsonl
+1C --D 7- --hcp 9-13 -o probe/data/more/1C~D7hcp913.jsonl
+P-P-P-1H --hcp 8-11 --D 5- --C 5- -o probe/data/more/PPP1H~hcp811D5C5.jsonl
+1H --hcp 6- --vul ns -o probe/data/more/1H~hcp6vulns.jsonl
+1H --hcp 6- --vul ew -o probe/data/more/1H~hcp6vulew.jsonl
