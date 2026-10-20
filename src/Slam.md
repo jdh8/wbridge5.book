@@ -17,6 +17,12 @@ cues **up the line**.  A cue shows the ace or king, or shortness outside
 partner's suit, and skipping a suit denies any such control.  First- and
 second-round controls are not told apart at the first cue.
 
+The 2011 writeup has the first cue show an ace or void, keeping kings and
+singletons for a second cue.  Probing Wbridge5 5.12 shows that a king or
+singleton is cued before a higher ace.  In 1♦ - 1♥ - 3♥, a spade king or
+singleton with the ♣A bid 3♠ on 15 of 15 boards, never 4♣.  A club king with
+the ♦A and no spade control bid 4♣ on 12 of 14 boards, never 4♦.
+
 Wbridge5 prefers control bids to an immediate 4NT.  In 1♠ - 2♥ - 3♥, responder
 with 14--20 HCP made a control bid on 273 of 274 boards and never bid 4♥.
 
@@ -36,7 +42,32 @@ with 14--20 HCP made a control bid on 273 of 274 boards and never bid 4♥.
 
 For example, responder holds ♠87 ♥AQ863 ♦K85 ♣KT3 in 1♦ - 1♥ - 3♥ and bids 4♣,
 skipping spades.  With ♠T52 ♥A543 ♦AK5 ♣Q43, responder bids 4♦, denying
-controls in both black suits.
+controls in both black suits.  With ♠KT9 ♥KQT2 ♦532 ♣AJ6, responder bids 3♠,
+showing the king before the club ace, and ♠2 ♥A8762 ♦A53 ♣AQ32 bids 3♠ on the
+singleton.
+
+### After partner cues back
+
+Probing Wbridge5 5.12 shows that it does not cue a suit a second time to show
+the other round of control, as the 2011 writeup has it.  After its own 3♠
+and partner's 4♣, it shows the next control or bids 4NT.  Only a spade void
+was cued again, once in 305 boards.
+
+| 1♦ - 1♥ -<br>3♥ - 3♠! -<br>4♣! - | |
+|-----|-|
+| 4♦! | ♦A or ♦K
+| 4♥  | S/O, 12 HCP
+| 4♠! | ♠ void, no ♦A or ♦K (1 of 184 boards)
+| 4NT | No ♦A or ♦K
+
+| 1♠ - 2♥ -<br>3♥ - 3♠! -<br>4♣! - | |
+|-----|-|
+| 4♦! | CTRL ♦
+| 4♥  | S/O, 14--17 HCP, no CTRL ♦
+| 4NT | No CTRL ♦
+
+Hands with both the ace and king of spades did not bid 4♠ (24 boards).  What
+4NT asks here was not probed.
 
 ### Answering partner's control bid
 
@@ -72,18 +103,27 @@ and the trump king.  4NT is RKCB once a suit is agreed, including a minor
 suit, as in 1♦ - 3♦ - 4NT.
 
 | 4NT! - | |
-|-----|-|
-| 5♣! | 0 or 3 keys
-| 5♦! | 1 or 4 keys
-| 5♥! | 2 keys, no trump Q
-| 5♠! | 2 keys, trump Q
+|------|-|
+| 5♣!  | 0 or 3 keys
+| 5♦!  | 1 or 4 keys
+| 5♥!  | 2 keys, no trump Q
+| 5♠!  | 2 keys, trump Q
+| 5NT! | 5 keys
 
 The probes found no exception across 1,065 boards in ♠, ♥, and ♦.  For
 example, responder holds ♠K42 ♥972 ♦984 ♣A652 in 1♠ - 2♠ - 4NT and bids 5♥.
 With ♠KQ7 ♥42 ♦A743 ♣T432, responder bids 5♠.
 
+Probing Wbridge5 5.12 shows 5NT with all five keys, with or without the
+queen (18 of 18 boards in 2NT - 3♥ - 3♠ - 4NT), as with ♠AK3 ♥A1062 ♦A92
+♣AQ6.  Four keys bid 5♦ there (124 of 124 boards).
+
 A void does not change the answer.  After 1♠ - 4♦! - 4NT, a Splinter with a
-diamond void and 2 keys bid 5♥ or 5♠ on all 45 boards.
+diamond void and 2 keys bid 5♥ or 5♠ on all 45 boards.  A void partner cannot
+know about is ignored as well.  Hands with 2 keys and a void bid 5♥ or 5♠ on
+all 27 boards after 3♣ - 4NT, 4♥ - 4NT, and (1♥) 1♠ (P) 4NT, as with ♠J32
+♥AKQJ1092 ♦753 ♣- bidding 5♠ over 4♥ - 4NT.  One hand with 3 keys and a void,
+♠A98743 ♥AJ106 ♦- ♣A62, bid 6♦ in (1♥) 1♠ (P) 4NT.
 
 ### Trump queen ask
 
@@ -123,7 +163,10 @@ trump queen.
 | 6♥! | 2 side K
 | 6♠! | 3 side K
 
-The 6♠ answer was seen only once.  In a spade fit, it is the trump suit too.
+In a spade fit, 6♠ is the trump suit too.  Probing Wbridge5 5.12 in
+2NT - 3♥ - 3♠ - 4NT shows 6♠ with 3 side kings after 5♦ (37 of 37 boards),
+as with ♠Q107 ♥KQ4 ♦AKQ3 ♣KJ6.  After 5♥, 27 of 29 such hands bid 7♠ instead,
+as with ♠J93 ♥KJ94 ♦AK ♣AKJ6.
 
 ### Interference
 
@@ -149,9 +192,23 @@ assumed agreed.  In 1♣ - 1♥ - 4NT and 1♠ - 2♥ - 4NT, the ♥K does not c
 
 For example, ♠AT ♥A8742 ♦AKT74 ♣4 bids 5♣ in 1♠ - 2♥ - 4NT.  The 2011
 writeup lists 0 or 4, 1, 2, 3 aces, but Wbridge5 never bid 5♠ in 534 boards.
+Four aces bid 5♦ on all 85 boards probed, as with ♠AK ♥AQ1072 ♦A754 ♣A8 in
+1♠ - 2♥ - 4NT.
 
-After a Blackwood answer, 5NT asks for kings by the same count: 6♣ for 0, 6♦
-for 1, 6♥ for 2.  Larger counts were not probed.
+After a Blackwood answer, 5NT asks for kings.
+
+| 4NT - 5x -<br>5NT! - | |
+|------|-|
+| 6♣!  | No king
+| 6♦!  | 1 king
+| 6♥!  | 2 kings
+| 6♠!  | 3 kings
+| 6NT! | 4 kings
+
+The 6♠ and 6NT rows come from 2NT - 3♠ - 3NT - 4NT - 5♥ - 5NT, where 6♠
+showed 3 kings on 120 boards and 6NT 4 kings on 6.  For example, ♠KQ9 ♥AK43
+♦AKJ10 ♣97 bids 6♠, and ♠K532 ♥AK8 ♦AKJ4 ♣K3 bids 6NT.  Two boards with 1 king
+bid 6♦.
 
 Over an overcall of 4NT, Wbridge5 doubles with 243 of 252 hands.  The others
 pass.
@@ -159,9 +216,7 @@ pass.
 ## Not probed
 
 - How the asker decides to start RKCB or make a control bid
-- A suit cued a second time, which the 2011 writeup describes as a
-  second-round control
-- The 5 keys answer, and void answers with 2 keys and a void partner does not
-  know about
+- What 4NT asks after a control bid by each partner
+- Answers with 3 keys and a void, seen once (6 of the void suit)
 - An overcall of the king ask
 - Kickback or other asks below 4NT for minor fits

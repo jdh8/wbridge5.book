@@ -1,0 +1,30 @@
+# Phase 7 `play`: card play beyond trick 1 (src/Signals.md "Not probed").
+# Tabulate with: python3 probe/phase7/play.py <file> (lead lines: probe/phase6/cards.py).
+# The contract's strain is read from the file name (3N, 4S, 6N, ...): keep it there.
+#
+# Leads against slams and doubled games.  Dealer East: East declares, South leads.
+# Same seed and --hcp on every line, so a hand kept on two lines can be paired
+# by its "hand" string (the 3N and 4S baselines are reruns of phase 6 for that).
+1N-P-3N-P-P-P --dealer East --hcp 0-9 --seed 1 -o probe/data/p7/play/lead-3N.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --seed 1 -o probe/data/p7/play/lead-4S.jsonl
+1N-P-6N-P-P-P --dealer East --hcp 0-9 --seed 1 -o probe/data/p7/play/lead-6N.jsonl
+1S-P-6S-P-P-P --dealer East --hcp 0-9 --seed 1 -o probe/data/p7/play/lead-6S.jsonl
+# North doubles: a penalty double of game, a Lightner double of the slam
+1N-P-3N-X-P-P-P --dealer East --hcp 0-9 --seed 1 -o probe/data/p7/play/lead-3N-x.jsonl
+1S-P-4S-X-P-P-P --dealer East --hcp 0-9 --seed 1 -o probe/data/p7/play/lead-4S-x.jsonl
+1S-P-6S-X-P-P-P --dealer East --hcp 0-9 --seed 1 -o probe/data/p7/play/lead-6S-x.jsonl
+#
+# Play past trick 1 (tm.py --tricks; N, E, W play tm.robot(): whoever of them
+# is on lead leads a side suit South is void in, else the top of its longest).
+# ~4 deals/min for 12 tricks (boards South bids on are dropped fast), hence -n 150-200.
+# Discards: South void in clubs, so every club lead forces a discard against
+# notrump.  12 tricks to compare tricks 1-7 with 8+ (the help's limit).
+1N-P-3N-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 12 -n 150 --seed 1 -o probe/data/p7/play/disc-3N.jsonl
+# Against 4S the club leads offer a ruff: ruff or discard, and with which card.
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 200 --seed 1 -o probe/data/p7/play/disc-4S.jsonl
+# Follows after trick 1: declarer runs its long suits (and draws trumps).
+1N-P-3N-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 150 --seed 1 -o probe/data/p7/play/sig-3N.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 150 --seed 1 -o probe/data/p7/play/sig-4S.jsonl
+# Partner leads for a ruff: dealer West, North leads a heart (South void) at
+# trick 1.  Does South ruff, and what does it return at trick 2?
+1S-P-4S-P-P-P --dealer West --hcp 0-9 --H 0-0 --tricks 3 -n 200 --seed 1 -o probe/data/p7/play/ruff-4S.jsonl

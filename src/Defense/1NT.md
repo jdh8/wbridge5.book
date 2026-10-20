@@ -210,6 +210,136 @@ also bids 2NT.  A 4-level minor is a splinter in that minor.
 - **♠AK8 ♥K1073 ♦KQ932 ♣9:** 4♣.
 - **♠AKQ1093 ♥J10 ♦Q53 ♣104:** 2♠.
 
+### After a balancing overcall
+
+Advancer of a balancing Landy, Multi or Multi-Landy has passed 1NT itself.
+It bids as over the same overcall in the direct seat, but bids game less
+often.  The probes gave advancer 0--14 HCP (247 boards per auction).
+
+| (1NT) P (P) 2♣ (P) | |
+|-------|-|
+| P     | 6+♣, 3--8 HCP, seen on 4 boards
+| 2♦!   | Equal length in the majors (rarely 1--2 apart), any strength
+| 2♥ 2♠ | S/O, the longer major, 1--10 HCP
+| 3♥ 3♠ | INV, 4+#, 3--14 HCP
+| 4♥ 4♠ | 4+#, 9--14 HCP
+
+With a 4+ card major and 12--14 HCP, advancer bid game on 16 of 34 boards,
+against 42 of 48 after a direct 2♣.  With 9--11 HCP it bid game on 4 of 51,
+against 20 of 65.  For example, ♠KQ54 ♥K2 ♦KQ876 ♣107 invites with 3♠ here
+but bids 4♠ over a direct 2♣.
+
+| (1NT) P (P) 2♦ (P) | |
+|----|-|
+| P  | 6+♦, 5--10 HCP, seen on 8 boards
+| 2♥ | P/C, 1--13 HCP
+| 3♥ | P/C, INV, 3+♥, 3+♠, 6--11 HCP
+| 4♥ | P/C, 3+♥, 3+♠, 10--14 HCP
+
+With 3+ cards in both majors and 9--11 HCP, advancer bid 4♥ on 8 of 40
+boards, against 19 of 46 after a direct 2♦.
+
+| (1NT) P (P) 2♥ (P) | |
+|------|-|
+| P    | 2+♥, 1--14 HCP
+| 2NT! | Asks for the minor; short ♥, or 3+♥ and 9+ HCP
+| 3♣♦  | NAT, 6+#
+| 4♥   | PRE, 5+♥, 5--8 HCP, seen on 5 boards
+
+Pass and 2NT split as in the direct seat.  No 4-level splinter appeared, and
+4♥ came only from weak hands with 5+ hearts, e.g. ♠AJ7 ♥J87653 ♦6 ♣Q95.
+
+| (1NT) P (P) 2♠ (P) | |
+|------|-|
+| P    | 2+♠, 1--14 HCP
+| 2NT! | Asks for the minor; short ♠, or 3+♠ and 9+ HCP
+| 3♣♦♥ | NAT, 6+#
+| 4♠   | PRE, 5+♠, 3--8 HCP, seen on 5 boards
+
+With 3+ spades, advancer bid 2NT on 36 of 53 boards with 9--11 HCP and on
+all 38 with 12--14.  A doubleton spade passed on 13 of 14 boards with 9--11
+HCP.  A direct 2♠ was not probed.
+
+- **♠10876 ♥AJ3 ♦Q1094 ♣Q5:** 2NT.
+- **♠Q3 ♥Q982 ♦A10983 ♣74:** Pass.
+- **♠K ♥K95 ♦AQJ95 ♣10865:** 2NT.
+
+## The overcaller's second call
+
+The overcaller's second call shows shape, not strength.  These probes dealt
+the overcaller the shapes of its first call with 9--17 HCP for Landy, 7--15
+HCP for Multi, and 9--15 HCP for Multi-Landy (156--345 boards per auction).
+
+### Landy
+
+Over 2♦, the overcaller bids its longer major at the 2 level and never jumps.
+With 4-4 it bids 2♥ (72 of 72 boards), and with 5-5 it chose each major
+equally often (18 boards each).  Over the 2NT game try it bids the longer
+major at the 3 level, or 3NT with 4-4.
+
+| (1NT) 2♣ (P) 2♦ (P) | |
+|----|-|
+| 2♥ | 9--17 HCP, ♥ at least as long as ♠
+| 2♠ | 9--17 HCP, 5+♠, longer ♠ or 5-5
+
+| (1NT) 2♣ (P) 2NT (P) | |
+|-----|-|
+| 3♥  | 9--17 HCP, 5+♥, longer ♥
+| 3♠  | 9--17 HCP, 5+♠, ♠ at least as long as ♥
+| 3NT | 13--17 HCP, 4♥, 4♠
+
+- **♠A954 ♥A764 ♦Q86 ♣K4:** 2♥ over 2♦, 3NT over 2NT.
+- **♠9864 ♥AQJ109 ♦A5 ♣Q8:** 2♥ over 2♦, 3♥ over 2NT.
+- **♠K8653 ♥AKJ2 ♦10 ♣874:** 2♠ over 2♦, 3♠ over 2NT.
+
+### Multi
+
+Over 2♥, the overcaller passes with hearts and bids 2♠ with spades.  The
+raise to 3♥ needs a singleton or void: all 38 raises held one, and none of
+the 54 hands without one raised.  With 6 hearts and a singleton, it raised
+on 12 of 25 boards with 12--15 HCP and 8 of 51 with less.  With 7 hearts and
+a singleton, it raised on 17 of 25.
+
+| (1NT) 2♦ (P) 2♥ (P) | |
+|----|-|
+| P  | 6+♥, 7--15 HCP
+| 2♠ | 6+♠, 7--15 HCP
+| 3♥ | 6+♥, 7--15 HCP, **0--1** in a side suit, usually 12+ HCP or 7♥
+| 3♠ | 7♠, 12--15 HCP, seen on 5 boards
+
+Over the invitational 3♥, the overcaller accepts from about 12 HCP.  With
+hearts it bid 4♥ on 86 of 97 boards with 12--15 HCP and on 11 of 103 with
+7--10.  With spades it bid 4♠ on 20 of 40 boards with 12 HCP and on 64 of 74
+with 13--15.
+
+| (1NT) 2♦ (P) 3♥ (P) | |
+|----|-|
+| P  | 6+♥, mostly 7--11 HCP
+| 3♠ | 6+♠, 7--12 HCP, rarely more
+| 4♥ | 6+♥, 11+ HCP, or less with a singleton or void
+| 4♠ | 6+♠, 12+ HCP, sometimes 8--11
+
+- **♠92 ♥AQ10864 ♦Q64 ♣108:** Pass over 2♥ and over 3♥.
+- **♠108 ♥AK9753 ♦2 ♣AQ65:** 3♥ over 2♥, 4♥ over 3♥.
+- **♠AKQ1093 ♥J10 ♦Q53 ♣104:** 2♠ over 2♥, 3♠ over 3♥.
+- **♠KQ9762 ♥10 ♦K9 ♣K843:** 2♠ over 2♥, 4♠ over 3♥.
+
+### Multi-Landy
+
+Over 2NT, the overcaller names its minor at the 3 level at every strength,
+on all 817 boards.  With 4-4 in the minors it bids 3♣ (13 boards).
+
+| (1NT) 2♥ (P) 2NT (P) | |
+|----|-|
+| 3♣ | 4+♣, or 4♦ 4♣
+| 3♦ | 4+♦, 0--3♣
+
+The same holds over (1NT) 2♠ (P) 2NT (P).
+
+- **♠8 ♥AJ973 ♦K1065 ♣J63:** 3♦.
+- **♠– ♥KQ1076 ♦A1095 ♣A1087:** 3♣.
+- **♠AKQ76 ♥9 ♦864 ♣Q1062:** 3♣ over (1NT) 2♠ (P) 2NT (P).
+
 ## Over their response
 
 Wbridge5 also acts in fourth seat once the 1NT opener's partner has used
@@ -246,8 +376,8 @@ Over the transfer, Wbridge5 passes with hearts, the suit responder showed.
 - Vulnerability: every probe was at none vulnerable.
 - Opposing 1NT ranges other than 15--17 and 12--14, and advances over a
   weak 1NT.
-- The overcaller's second call, e.g. over 2NT after Multi-Landy 2♥.
-- Advancer's 2NT after Landy and the balancing advances other than over the
-  double.
+- The overcaller's second call after a balancing overcall, after a jump or
+  a new suit by advancer, and later calls.
+- Advances of a direct (1NT) 2♠, and balancing advances with 15+ HCP.
 - (1NT) P (2♥), (2♠), (2NT) and (3♣), and Wbridge5's calls over an
   opposing 2NT opening.

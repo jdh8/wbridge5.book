@@ -1,0 +1,40 @@
+# Phase 7, item "aces": rows whose meaning depends on aces, key cards or kings.
+# Notes: probe/phase7/notes/aces.md.  Tabulate with
+#   python3 -I probe/phase4/keys.py <file> <trump S|H|D|C|->
+# --aces takes lo-hi like the length flags: a bare "--aces 2" means 2 or more,
+# so every line spells the range out (2-2, 0-0, 4-4).
+#
+# --- Strong 2D: ace-showing responses at the extremes (keep 100%) ---
+2D-P -n 100 --aces 4-4 --seed 1 -o probe/data/p7/aces/2DP~a4.jsonl
+2D-X -n 100 --aces 3-3 --seed 1 -o probe/data/p7/aces/2DX~a3.jsonl
+2D-X -n 100 --aces 4-4 --seed 1 -o probe/data/p7/aces/2DX~a4.jsonl
+2D-2S -n 100 --aces 3-3 --seed 1 -o probe/data/p7/aces/2D2S~a3.jsonl
+2D-2S -n 100 --aces 4-4 --seed 1 -o probe/data/p7/aces/2D2S~a4.jsonl
+# --- Strong 2D opening needs 2+ aces? (p4 data: 0 of 60 2D openings had 0-1 aces; smoke 0/60) ---
+- --hcp 19-26 --aces 0-1 --seed 1 -o probe/data/p7/aces/open~hcp1926a01.jsonl
+# --- 2D - 3NT (two aces): opener's rebids with a consistent 2-ace hand (keep ~45%) ---
+2D-P-3N-P --hcp 22- --aces 2-2 --seed 1 -o probe/data/p7/aces/2DP3NP~hcp22a2.jsonl
+# --- What 4NT asks after 2D (smoke: kings after a no-ace response, aces after 2S) ---
+2D-P-2S-P-3H-P-4N-P --H 5- --hcp 19- --aces 0-3 --seed 1 -o probe/data/p7/aces/2DP2SP3HP4NP.jsonl
+2D-P-2N-P-4N-P --aces 0-0 --hcp 9-12 --seed 1 -o probe/data/p7/aces/2DP2NP4NP.jsonl
+2D-P-3H-P-4N-P --aces 0-0 --H 6- --hcp 4-12 --seed 1 -o probe/data/p7/aces/2DP3HP4NP.jsonl
+2D-P-3S-P-4N-P --aces 0-0 --S 6- --hcp 4-12 --seed 1 -o probe/data/p7/aces/2DP3SP4NP.jsonl
+# --- Slam.md: 4 aces in Blackwood, 5 keys in RKCB (keep ~85%, ~50%) ---
+1S-P-2H-P-4N-P -n 100 --aces 4-4 --H 5- --seed 1 -o probe/data/p7/aces/1SP2HP4NP~a4.jsonl
+2N-P-3H-P-3S-P-4N-P --aces 4-4 --hcp 20-21 --S 3-4 --H 2-4 --D 2-4 --C 2-4 --seed 1 -o probe/data/p7/aces/2NP3HP3SP4NP~a4.jsonl
+# --- King asks with 3+ kings (RKCB keep ~5%, hence -n 400; Blackwood keep ~40%) ---
+2N-P-3H-P-3S-P-4N-P-5D-P-5N-P -n 400 --aces 1-1 --hcp 20-21 --S 3-3 --H 2-4 --D 2-4 --C 2-4 --seed 1 -o probe/data/p7/aces/2NP3HP3SP4NP5DP5NP~a1.jsonl
+2N-P-3H-P-3S-P-4N-P-5H-P-5N-P -n 400 --aces 2-2 --hcp 20-21 --S 3-3 --H 2-4 --D 2-4 --C 2-4 --seed 1 -o probe/data/p7/aces/2NP3HP3SP4NP5HP5NP~a2.jsonl
+2N-P-3S-P-3N-P-4N-P-5H-P-5N-P --aces 2-2 --hcp 20-21 --C 1-2 --S 2-4 --H 2-4 --D 2-5 --seed 1 -o probe/data/p7/aces/2NP3SP3NP4NP5HP5NP~a2.jsonl
+# --- 4NT tabled as RKCB / BW / QUANT but never answered (opener answers; keep 55-85%) ---
+1H-P-2C-P-2N-P-4N-P --H 5-5 --S 2-3 --D 2-4 --C 2-3 --hcp 11-14 --seed 1 -o probe/data/p7/aces/1HP2CP2NP4NP.jsonl
+1N-P-2C-P-2H-P-4N-P --hcp 15-17 --H 4-4 --S 2-3 --D 2-4 --C 2-4 --seed 1 -o probe/data/p7/aces/1NP2CP2HP4NP.jsonl
+2N-P-3H-P-3S-P-4N-P --hcp 20-21 --S 3-4 --H 2-4 --D 2-4 --C 2-4 --seed 1 -o probe/data/p7/aces/2NP3HP3SP4NP.jsonl
+2N-P-3S-P-3N-P-4N-P --hcp 20-21 --C 1-2 --S 2-4 --H 2-4 --D 2-5 --seed 1 -o probe/data/p7/aces/2NP3SP3NP4NP.jsonl
+2N-P-4C-P-4D-P-4N-P --hcp 20-21 --S 2-4 --H 2-4 --D 2-5 --C 2-4 --seed 1 -o probe/data/p7/aces/2NP4CP4DP4NP.jsonl
+# --- RKCB over preempts (Openings/Responses.md "Not probed"); voids the asker cannot know (keep ~45%, ~65%) ---
+4H-P-4N-P --H 7- --hcp 5-12 --seed 1 -o probe/data/p7/aces/4HP4NP.jsonl
+3C-P-4N-P --C 7- --hcp 5-10 --seed 1 -o probe/data/p7/aces/3CP4NP.jsonl
+# --- Defensive 4NT: Michaels advance (1C) 2D (P) 4NT, overcall advance (1H) 1S (P) 4NT (keep ~100%, ~80%) ---
+1C-2D-P-4N-P --S 5- --H 5- --hcp 8-16 --seed 1 -o probe/data/p7/aces/1C2DP4NP.jsonl
+1H-1S-P-4N-P --S 5- --hcp 8-16 --seed 1 -o probe/data/p7/aces/1H1SP4NP.jsonl

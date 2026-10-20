@@ -1,0 +1,12 @@
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 2 -o probe/data/p7/play/disc-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 2 -o probe/data/p7/play/sig-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 3 -o probe/data/p7/play/disc-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 3 -o probe/data/p7/play/sig-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 4 -o probe/data/p7/play/disc-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 4 -o probe/data/p7/play/sig-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 5 -o probe/data/p7/play/disc-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 5 -o probe/data/p7/play/sig-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 6 -o probe/data/p7/play/disc-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 6 -o probe/data/p7/play/sig-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 7 -o probe/data/p7/play/disc-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 7 -o probe/data/p7/play/sig-4S.jsonl

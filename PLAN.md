@@ -131,27 +131,27 @@ SAYC.  `tm.py --opp SEF|SAYC` gives E-W Wbridge5's preset for that system.
 Minor gaps left by phases 3--5.  Each chapter's "Not probed" list has the
 finer detail.
 
-- [ ] Vulnerability: phases 4--5 probed at none vulnerable, phase 3 only
+- [x] Vulnerability: phases 4--5 probed at none vulnerable, phase 3 only
       the 4M preempt and openings.  Spot-check the vul-sensitive rows
       (overcalls, preempts, jump raises, 3rd/4th-seat openings).
-- [ ] Phase 3 leftovers: garbage Stayman passes after 2♥♠, pass-then-cuebid
+- [x] Phase 3 leftovers: garbage Stayman passes after 2♥♠, pass-then-cuebid
       over 1NT interference.
-- [ ] Book example hands not yet probe rows: Openings.md, 1CD.md lines
+- [x] Book example hands not yet probe rows: Openings.md, 1CD.md lines
       54--80.  Needs a fixed-hand option in tm.py.
-- [ ] Ace-count rows (2♦ - 4♣ rebids and similar): tm.py cannot constrain
+- [x] Ace-count rows (2♦ - 4♣ rebids and similar): tm.py cannot constrain
       aces; add a constraint or filter rows with probe/phase4/keys.py.
-- [ ] Open doc questions from phase 4: the first cue showing first-round
+- [x] Open doc questions from phase 4: the first cue showing first-round
       control (Slam.md), the 7-card minor jump after 2♦ (2D.md).  Adjunct
       or program behaviour?
-- [ ] SEF/SAYC opponents beyond preempts and Michaels, notably SAYC's
+- [x] SEF/SAYC opponents beyond preempts and Michaels, notably SAYC's
       natural 2♣ over our 1NT (1NT/Interference.md assumes Landy) and the
       meaning of a SAYC (3NT) opening.
-- [ ] Second rounds the defensive chapters stop short of: overcaller's
+- [x] Second rounds the defensive chapters stop short of: overcaller's
       answer to 2NT, doubler's rebid after a responsive double, advances
       after a balancing Landy or Multi.
-- [ ] Card play beyond trick 1: discards, suit preference, signals after
+- [x] Card play beyond trick 1: discards, suit preference, signals after
       trick 1, leads against slams and doubled contracts (Signals.md).
-- [ ] Wbr5.bss gaps the book leaves open: 2♣ - 2♦ - 2NT ranges (2C.md
+- [x] Wbr5.bss gaps the book leaves open: 2♣ - 2♦ - 2NT ranges (2C.md
       probes vs 1NT.md's "2 HCP stronger"), Lebensohl cuebid INV vs FG
       (Lebensohl.md vs 1NT/Competition.md), the FD characteristic codes
       (inferred, undocumented), and a 4th-seat-only row for openings the
@@ -193,3 +193,21 @@ finer detail.
   does not change its own cards.  The 2011 lead tables match 5.12.
   Wbr5.bss regenerated (3007 keys) from the book; both repos committed,
   not pushed.
+- 2026-10-21: phase 7 batch done (`probe/data/p7/`, spec `spec.txt`, one
+  agent per item as before, brief `probe/phase7/BRIEF.md`).  Harness: `tm.py
+  --hand` and `--aces`; `--tricks N` plays past trick 1.  Two harness bugs
+  found: with any WBRIDGE5.INI present, Wbridge5 reads a missing NsNamyats
+  as off (built in on), so `tm.py` now always writes `NsNamyats=1` (phase
+  5--6 data had no N-S Namyats spots); and the one trailing read per board
+  desynced play past trick 1, now skipped to "ready for deal".  Book fixes:
+  1st-seat preempts ignore the opponents' vulnerability; 2♦ needs two aces
+  and its 2NT/3M - 4NT ask for kings; the first cue shows any control; 8-card
+  (not 7-card) minors may jump after 2♦; Garbage Stayman raises with a fit;
+  natural 2♣ over 1NT unlocks slam bids; the Lebensohl cuebid is INV.
+  Wbr5.bss: 14 malformed FD records repaired (Disposition codes), 4th-seat
+  rows split, Lebensohl and Multi 3♦ rows fixed.
+  Card play: count signals hold through trick 7 for follows, discards and
+  ruffs; no suit preference; passive leads against 6NT, aces against 6♠.
+  Wbridge5 can loop forever choosing a lead when the scripted declarer's
+  play fits no deal it can sample (4♠ boards), so those lines ran as
+  short seeded chunks (`probe/data/p7/chunks.txt`).

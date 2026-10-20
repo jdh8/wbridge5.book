@@ -1,0 +1,45 @@
+# Phase 7, second: second rounds the defensive chapters stop short of.
+# Notes: probe/phase7/notes/second.md.  No existing data covers any line.
+# South makes the overcall / double / pass inside the prefix (its own call,
+# constrained); North's calls are scripted.  Keep rates from 20-deal smokes.
+#
+# --- A. Overcaller's answer to 2NT (Advances.md) ---
+# (1S) 2H (P) 2NT: constructive raise.  Smoke: 3H min, 3D, 3S/4C/4D short.  Keep 50%.
+1S-2H-P-2N-P --H 5- --S 0-3 --hcp 11-16 -n 600 --seed 1 -o probe/data/p7/second/1S2HP2NP.jsonl
+# Weak jump overcall, 2NT feature ask as over a weak two?  Keep 60% / 70%.
+1C-2H-P-2N-P --H 6-6 --S 0-3 --hcp 5-11 -n 500 --seed 1 -o probe/data/p7/second/1C2HP2NP.jsonl
+1D-2S-P-2N-P --S 6-6 --H 0-3 --hcp 5-11 -n 400 --seed 1 -o probe/data/p7/second/1D2SP2NP.jsonl
+# Natural 2NT (14-16 HCP, stopper) over a 1-level overcall.  Keep 75%.
+1H-1S-P-2N-P --S 5- --H 0-3 --hcp 9-15 -n 400 --seed 1 -o probe/data/p7/second/1H1SP2NP.jsonl
+#
+# --- B. Doubler's rebid after a responsive double (Responsive.md) ---
+# Minimum-shape doubler, 3-4 in each unbid major / short in opener's suit.
+1C-X-2C-X-P --C 0-2 --S 3-4 --H 3-4 --hcp 12-20 --seed 1 -o probe/data/p7/second/1CX2CXP.jsonl
+1H-X-2H-X-P --H 0-2 --S 3-4 --D 3-5 --C 3-5 --hcp 12-20 -n 400 --seed 1 -o probe/data/p7/second/1HX2HXP.jsonl
+1C-X-1S-X-P --C 0-2 --S 3-4 --H 3-4 --D 3-5 --hcp 12-20 --seed 1 -o probe/data/p7/second/1CX1SXP.jsonl
+1H-X-1S-X-P --H 0-2 --S 3-4 --D 3-5 --C 3-5 --hcp 12-20 -n 400 --seed 1 -o probe/data/p7/second/1HX1SXP.jsonl
+# Strong doubler, any shape (keep 50%).
+1H-X-2H-X-P --H 0-3 --hcp 17-22 -n 400 --seed 1 -o probe/data/p7/second/1HX2HXP~hcp1722.jsonl
+#
+# --- C. Overcaller's second call after Landy / Multi / Multi-Landy (1NT.md) ---
+# Landy 2C - 2D (equal majors): smoke 2H with 4-4 or 5H, 2S with 5S.  Keep 60%.
+1N-2C-P-2D-P --S 4-6 --H 4-6 --D 0-3 --C 0-3 --hcp 9-17 -n 500 --seed 1 -o probe/data/p7/second/1N2CP2DP.jsonl
+# Landy 2C - 2NT (14-16 HCP, game interest).  Keep 60%.
+1N-2C-P-2N-P --S 4-6 --H 4-6 --D 0-3 --C 0-3 --hcp 9-17 -n 500 --seed 1 -o probe/data/p7/second/1N2CP2NP.jsonl
+# Multi 2D - 2H: smoke P with 6H min, 3H with 12-14 HCP, 2S with spades.
+1N-2D-P-2H-P --H 6- --S 0-3 --hcp 7-15 -n 200 --seed 1 -o probe/data/p7/second/1N2DP2HP~H6.jsonl
+1N-2D-P-2H-P --S 6- --H 0-3 --hcp 7-15 -n 200 --seed 1 -o probe/data/p7/second/1N2DP2HP~S6.jsonl
+# Multi 2D - 3H (P/C invite).
+1N-2D-P-3H-P --H 6- --S 0-3 --hcp 7-15 --seed 1 -o probe/data/p7/second/1N2DP3HP~H6.jsonl
+1N-2D-P-3H-P --S 6- --H 0-3 --hcp 7-15 --seed 1 -o probe/data/p7/second/1N2DP3HP~S6.jsonl
+# Multi-Landy 2M - 2NT (asks for the minor).  2S line has no minor constraint (keep 45%).
+1N-2H-P-2N-P --H 5-5 --S 0-3 --D 4- --hcp 9-15 --seed 1 -o probe/data/p7/second/1N2HP2NP~D4.jsonl
+1N-2H-P-2N-P --H 5-5 --S 0-3 --C 4- --D 0-3 --hcp 9-15 --seed 1 -o probe/data/p7/second/1N2HP2NP~C4.jsonl
+1N-2S-P-2N-P --S 5-5 --H 0-3 --hcp 9-15 -n 500 --seed 1 -o probe/data/p7/second/1N2SP2NP.jsonl
+#
+# --- D. Advances of a balancing Landy / Multi / Multi-Landy (1NT.md) ---
+# South passed 1NT itself (keep 95%); compare with p5/vs1NT/1N2CP, 1N2DP, 1N2HP.
+1N-P-P-2C-P --hcp 0-14 --seed 1 -o probe/data/p7/second/1NPP2CP.jsonl
+1N-P-P-2D-P --hcp 0-14 --seed 1 -o probe/data/p7/second/1NPP2DP.jsonl
+1N-P-P-2H-P --hcp 0-14 --seed 1 -o probe/data/p7/second/1NPP2HP.jsonl
+1N-P-P-2S-P --hcp 0-14 --seed 1 -o probe/data/p7/second/1NPP2SP.jsonl

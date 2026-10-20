@@ -1,0 +1,69 @@
+# Phase 7, key p3left: garbage Stayman passes and pass-then-cuebid over 1NT
+# interference.  Hypotheses: probe/phase7/notes/p3left.md.
+# Book: src/1NT/2C.md (P rows "Garbage Stayman"), src/1NT.md + Glossary
+# (weak 3-4S 3-4H 4-5D 0-1C, passes 2D/2H/2S), src/1NT/Competition.md
+# (Cuebids: delayed cuebid = no stopper; pass then cuebid over 2 adverse suits).
+# E-W defaults: 2C Landy (majors), 2D Multi, 2H/2S Multi-Landy (M + minor);
+# --opp SEF turns Multi-Landy off, so 2H is natural.
+#
+# G. Garbage Stayman.  Existing data: 1NP2CP2DP~hcp07C01S34H34 (P 255/259);
+# 1N-P-2C-P-2H/2S-P only at 7+/8+ HCP.  G1-G3 who bids 2C weak.
+1N-P --hcp 0-7 --S 3-4 --H 3-4 --C 0-1 --seed 1 -o probe/data/p7/p3left/G1-garb.jsonl
+1N-P --hcp 0-7 --S 3-4 --H 3-4 --C 0-1 --vul both --seed 1 -o probe/data/p7/p3left/G1-garb-vulboth.jsonl
+1N-P --hcp 0-7 --S 3-4 --H 3-4 --C 2-3 --seed 1 -o probe/data/p7/p3left/G2-garbC23.jsonl
+1N-P --hcp 0-7 --S 4-5 --H 4-5 --seed 1 -o probe/data/p7/p3left/G3-weakMM.jsonl
+# Responder's second call after each opener rebid, garbage shape (keep ~90%).
+1N-P-2C-P-2H-P --hcp 0-7 --S 3-4 --H 3-4 --C 0-1 --seed 1 -o probe/data/p7/p3left/G4-2H.jsonl
+1N-P-2C-P-2S-P --hcp 0-7 --S 3-4 --H 3-4 --C 0-1 --seed 1 -o probe/data/p7/p3left/G5-2S.jsonl
+1N-P-2C-P-2N-P --hcp 0-7 --S 3-4 --H 3-4 --C 0-1 --seed 1 -o probe/data/p7/p3left/G6-2N.jsonl
+1N-P-2C-P-3C-P --hcp 0-7 --S 3-4 --H 3-4 --C 0-1 --seed 1 -o probe/data/p7/p3left/G7-3C.jsonl
+1N-P-2C-P-3H-P --hcp 0-7 --S 3-4 --H 3-4 --C 0-1 --seed 1 -o probe/data/p7/p3left/G9-3H.jsonl
+# Weak 5-4 majors go through Stayman, then 2H/2S over 2D (smoke).  Keep ~20%.
+1N-P-2C-P-2D-P --hcp 0-7 --S 4-5 --H 4-5 -n 600 --seed 1 -o probe/data/p7/p3left/G11-2D-weak54.jsonl
+1N-P-2C-P-2D-P-2H-P-2N-P --hcp 0-9 --S 4-4 --H 5-5 -n 600 --seed 1 -o probe/data/p7/p3left/G12-2D2H2N.jsonl
+# Opener's view of 1NT - 2C - 2D - 2H: South opens 1NT, rebids 2D (keep ~85%).
+1N-P-2C-P-2D-P-2H-P --hcp 15-17 --S 2-3 --H 2-3 --D 2-5 --C 2-5 --seed 1 -o probe/data/p7/p3left/G13-op2D2H.jsonl
+# 2NT opener: book's 2NT - 3C - 3D P row was probed only at 4+ HCP.
+2N-P --hcp 0-4 --S 3-4 --H 3-4 --C 0-1 --seed 1 -o probe/data/p7/p3left/G15-2N-garb.jsonl
+2N-P-3C-P-3D-P --hcp 0-4 --S 3-4 --H 3-4 --C 0-1 --seed 1 -o probe/data/p7/p3left/G16-2N3D.jsonl
+#
+# C. Pass then cuebid.  Existing: 1N-2C P is 1-10 HCP; 1N2CP2HPP~hcp10 kept 1
+# (P).  1N-2H P reaches 14 HCP (4 spades, 3 small hearts); smoke: those
+# hands cuebid 3H after opener's reopening X and after 2NT-3D.
+# C1/C4 direct seat, keep 100%: which GF hands pass?
+1N-2C --hcp 10-17 --S 1-3 --H 1-3 --seed 1 -o probe/data/p7/p3left/C1-L.jsonl
+1N-2H --hcp 10-17 --H 0-3 --seed 1 -o probe/data/p7/p3left/C4-ML2H.jsonl
+# Landy, advancer's preference, opener passes (keep ~10%).
+1N-2C-P-2H-P-P --hcp 8-14 --S 1-3 --H 1-3 -n 1000 --seed 1 -o probe/data/p7/p3left/C2-L2H.jsonl
+1N-2C-P-2S-P-P --hcp 8-14 --S 1-3 --H 1-3 -n 1000 --seed 1 -o probe/data/p7/p3left/C3-L2S.jsonl
+# Multi-Landy 2H: opener reopens with X, or advancer asks 2NT (keep ~5-13%).
+1N-2H-P-P-X-P --hcp 9-17 --H 1-3 -n 1000 --seed 1 -o probe/data/p7/p3left/C5-ML2H-X.jsonl
+1N-2H-P-2N-P-3C --hcp 9-17 --H 1-3 -n 1000 --seed 1 -o probe/data/p7/p3left/C6-ML2H-3C.jsonl
+1N-2H-P-2N-P-3D --hcp 9-17 --H 1-3 -n 1000 --seed 1 -o probe/data/p7/p3left/C7-ML2H-3D.jsonl
+1N-2S-P-P-X-P --hcp 9-17 --S 1-3 -n 1000 --seed 1 -o probe/data/p7/p3left/C8-ML2S-X.jsonl
+# Does opener reopen at all?  South opens 1NT (smoke: X 3/19, doubleton ♥).
+1N-2H-P-P --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 --seed 1 -o probe/data/p7/p3left/C9-reopen2H.jsonl
+# Natural 2H overcall (E-W SEF): direct seat, then the delayed cuebid.
+1N-2H --hcp 10-17 --H 0-3 --opp SEF --seed 1 -o probe/data/p7/p3left/C11-nat2H.jsonl
+1N-2H-P-P-X-P --hcp 9-17 --H 1-3 --opp SEF -n 1000 --seed 1 -o probe/data/p7/p3left/C12-nat2H-X.jsonl
+#
+# H. Fixed hands (-n 1).  The book's garbage examples, then passes with values
+# found in 1N-2C / 1N-2H / smoke data, through each continuation.
+1N-P --hand Q83.T984.JT743.2 -n 1 --seed 1 -o probe/data/p7/p3left/H-ex1.jsonl
+1N-P --hand QJ52.T975.8632.4 -n 1 --seed 1 -o probe/data/p7/p3left/H-ex2.jsonl
+1N-P --hand J532.T8764.AJ7.7 -n 1 --seed 1 -o probe/data/p7/p3left/H-ex3.jsonl
+1N-P-2C-P-2H-P --hand Q83.T984.JT743.2 -n 1 --seed 1 -o probe/data/p7/p3left/H-ex1-2H.jsonl
+1N-P-2C-P-2S-P --hand Q83.T984.JT743.2 -n 1 --seed 1 -o probe/data/p7/p3left/H-ex1-2S.jsonl
+1N-P-2C-P-2H-P --hand QJ52.T975.8632.4 -n 1 --seed 1 -o probe/data/p7/p3left/H-ex2-2H.jsonl
+1N-P-2C-P-2S-P --hand QJ52.T975.8632.4 -n 1 --seed 1 -o probe/data/p7/p3left/H-ex2-2S.jsonl
+1N-2C-P-2S-P-P --hand JT4.QJ.KQ65.J982 -n 1 --seed 1 -o probe/data/p7/p3left/H-L1-2S.jsonl
+1N-2C-P-2S-P-P --hand KQ7.42.A743.T432 -n 1 --seed 1 -o probe/data/p7/p3left/H-L2-2S.jsonl
+1N-2H-P-2N-P-3C --hand AKQT.972.Q2.KT87 -n 1 --seed 1 -o probe/data/p7/p3left/H-M1-3C.jsonl
+1N-2H-P-2N-P-3D --hand AKQT.972.Q2.KT87 -n 1 --seed 1 -o probe/data/p7/p3left/H-M1-3D.jsonl
+1N-2H-P-P-X-P --hand AKQT.972.Q2.KT87 -n 1 --seed 1 -o probe/data/p7/p3left/H-M1-X.jsonl
+1N-2H-P-2N-P-3C --hand AQT2.852.KJ83.A6 -n 1 --seed 1 -o probe/data/p7/p3left/H-M2-3C.jsonl
+1N-2H-P-2N-P-3D --hand AQT2.852.KJ83.A6 -n 1 --seed 1 -o probe/data/p7/p3left/H-M2-3D.jsonl
+1N-2H-P-P-X-P --hand AQT2.852.KJ83.A6 -n 1 --seed 1 -o probe/data/p7/p3left/H-M2-X.jsonl
+1N-2H-P-2N-P-3C --hand KQ64.974.AQ75.85 -n 1 --seed 1 -o probe/data/p7/p3left/H-M3-3C.jsonl
+1N-2H-P-2N-P-3D --hand KQ64.974.AQ75.85 -n 1 --seed 1 -o probe/data/p7/p3left/H-M3-3D.jsonl
+1N-2H-P-P-X-P --hand KQ64.974.AQ75.85 -n 1 --seed 1 -o probe/data/p7/p3left/H-M3-X.jsonl

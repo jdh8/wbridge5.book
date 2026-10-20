@@ -25,16 +25,21 @@ For example, ♠82 ♥A53 ♦K943 ♣10532 bids 2♥ over (1♣) 2♦ (P), and
 ### Over (1m) 2♦
 
 | (1♣) 2♦! (P) | |
-|-----|-|
-| 2♥♠ | 4--12, 2+#
-| 3♣! | Cuebid, 15--20
-| 3♥♠ | INV, 8--13, 3+#
-| 4♥♠ | 12--19, 3+#
-| 4NT | 17+
+|------|-|
+| 2♥♠  | 4--12, 2+#
+| 3♣!  | Cuebid, 15--20
+| 3♥♠  | INV, 8--13, 3+#
+| 4♥♠  | 12--19, 3+#
+| 4NT! | [Blackwood](../Slam.md#blackwood), 17+
 
 For example, ♠10876 ♥AJ3 ♦Q1094 ♣Q5 bids 3♠, ♠KQ54 ♥K2 ♦KQ876 ♣107 bids 4♠,
 and ♠AK8 ♥K1073 ♦KQ932 ♣9 cuebids 3♣.  Natural 2NT (2 boards) and 3♦
 (1 board) are too rare to table.
+
+The overcaller answers 4NT as plain Blackwood, counting aces only, since no
+major is agreed yet.  Probing Wbridge5 5.12 shows 5♣ for 0 or 3 aces, 5♦ for
+1, and 5♥ for 2 on all 300 boards.  For example, ♠AJ862 ♥KQ942 ♦4 ♣92 bids 5♦
+over (1♣) 2♦ (P) 4NT.
 
 Over a double, advancer never passes or redoubles.  The same hands bid the
 same suit, but 34 of the 82 4♥♠ bids drop to 3♥♠.
@@ -287,6 +292,23 @@ For example, ♠K82 ♥AKJ63 ♦AK82 ♣6 doubles and ♠J53 ♥AJ532 ♦K94 ♣
 passes.  The double shows extras, not a minor: 24 of its 42 hands held no
 4-card minor.
 
+### Opponents' 1NT by a passed hand
+
+By default a passed hand's 1NT after 1♣ P 1♥ is a Sandwich two-suiter.  In
+SAYC and SEF it is natural.  Probing Wbridge5 5.12 shows that opener's call
+does not depend on which: the same 235 hands drew the same 235 calls.
+Opener held 12--17 HCP, 5+♣ and at most 3 cards in each major.
+
+| P (P) 1♣ (P)<br>1♥ (1NT) | |
+|----|-|
+| P  | 12--15 HCP, 5=♣
+| X  | 14+ HCP, or 12--13 HCP with 6+♣
+| 2♣ | 12--16 HCP, 6+♣
+| 3♣ | 14--17 HCP, 6+♣
+
+For example, ♠1032 ♥J10 ♦AK6 ♣AJ983 passes, ♠J83 ♥AJ10 ♦A6 ♣A10874
+doubles, ♠Q4 ♥K10 ♦A85 ♣KQJ732 bids 2♣ and ♠K84 ♥A ♦K92 ♣AQJ765 bids 3♣.
+
 ## Opponents' standard Michaels (SAYC)
 
 When the opponents play SAYC, a cuebid is standard Michaels: (1m) 2m shows
@@ -358,8 +380,9 @@ For example, ♠K82 ♥AKJ63 ♦AK82 ♣6 doubles.
 - Vulnerability: every auction here is none vulnerable.
 - Over (1♦) 2♦ and (1♠) 3♣, which may differ from the tabled (1♣) 2♦ and
   (1♥) 3♣.
-- The continuation after advancer's 4NT, a cuebid of opener's suit after
+- The answer to advancer's 4NT except over (1♣) 2♦, a cuebid of opener's suit after
   (1X) P (1Y), and advancer's strong hands after (1X) P (1Y) (advancer had to
   pass 1♣ first).
-- The opponents' Sandwich 1NT, and the opponents playing SEF.
+- The opponents playing SEF.  Its preset keeps Precise Michaels, as in
+  Wbridge5's own system.
 - Responder's second round after doubling a two-suiter.

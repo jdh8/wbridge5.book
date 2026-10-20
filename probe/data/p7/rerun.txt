@@ -1,0 +1,6 @@
+1N-P-3N-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 12 -n 150 --seed 1 -o probe/data/p7/play/disc-3N.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 200 --seed 1 -o probe/data/p7/play/disc-4S.jsonl
+1N-P-3N-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 150 --seed 1 -o probe/data/p7/play/sig-3N.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 150 --seed 1 -o probe/data/p7/play/sig-4S.jsonl
+1S-P-4S-P-P-P --dealer West --hcp 0-9 --H 0-0 --tricks 3 -n 200 --seed 1 -o probe/data/p7/play/ruff-4S.jsonl
+1C-2H-P-2N-P --H 6-6 --S 0-3 --hcp 5-11 -n 500 --seed 1 -o probe/data/p7/second/1C2HP2NP.jsonl

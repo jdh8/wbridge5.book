@@ -131,7 +131,7 @@ A 6-card heart suit bids 3♥ over (2♠) from about 9 HCP.
 
 Over a natural (2♦), 2NT still shows the minors, so a strong balanced hand
 doubles.  A diamond suit passes, even with 6+ cards and 15 HCP.  In a
-20-hand smoke run, 5-5 majors split evenly: 3♦ with 9--15 HCP, and a double
+20-hand probe, 5-5 majors split evenly: 3♦ with 9--15 HCP, and a double
 with 8--9 or 17+ HCP.  The main probe has one 3♦, ♠AJ862 ♥KQ942 ♦4 ♣92.
 
 ### Sandwich and balancing over (2♥)
@@ -164,6 +164,6 @@ seat.  A 5-card minor is enough at the 3 level, as with ♠K ♥K95 ♦AQJ95
   seat; (2♥) was also probed after (P) (2NT) and (P) (P).  After (2♦) P
   (2♥), 5-5 majors were not probed.
 - **Thin rows:** jumps over natural strong twos (one or two rows each), and
-  3♦ with the majors over a natural (2♦) outside the smoke run.
+  3♦ with the majors over a natural (2♦) outside that 20-hand probe.
 - **SAYC's 2♦:** it is a weak two and belongs with weak openings.
 - **Doubles of a strong 2NT:** the help file says they show both majors.

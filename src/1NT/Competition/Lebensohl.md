@@ -35,9 +35,31 @@ premature decisions before opener reacts.
 
 | 1NT (2x) 2NT -<br>3♣ - | y ≠ x |
 |-----|---|
+| P   | 6--9 HCP, ♣ the longest nonadverse suit
 | 3y  | 4+#
-| 3x! | INV to 3NT, x unstopped
-| 3NT | S/O
+| 3x! | INV, 6m, 8 HCP
+| 3NT | S/O, 8--10 HCP, mostly 5m
+
+Probing Wbridge5 5.12 shows the cuebid invitational, never game-forcing,
+and unrelated to a stopper in x.  The 2NT bid holds 6--10 HCP, even against
+natural overcalls with up to 14 HCP dealt, so nothing after it is
+game-forcing.  A game-forcing hand without a stopper doubles, or bids a
+suit or 3NT directly instead.  The cuebid shows a 6-card minor with 8 HCP,
+rarely 9: 18 of 30 such hands cuebid over (2♥) and 19 of 33 over (2♠), most
+of the rest passing 3♣.  With 7 HCP a 6-card minor passes.  With a 5-card
+minor and 8--10 HCP, responder bids 3NT whatever it holds in x: 176 of 203
+3NT bids over (2♥) held no ♥ stopper (A, Kx, Qxx, or Jxxx).
+
+- **♠J8 ♥72 ♦KQ3 ♣Q109743:** 3♥ over (2♥), 3♠ over (2♠), and 3♦ over a
+  natural (2♦).
+- **♠J5 ♥K76 ♦QJ10972 ♣J3:** 3♥ over (2♥), holding a ♥ stopper.
+- **♠843 ♥J3 ♦J107 ♣AQ1062:** 3NT over (2♥) without a ♥ stopper.
+
+Wbridge5's own (2♦) over 1NT is Multi, showing one major, so there is no
+adverse suit.  Then 3♦ after 2NT - 3♣ is natural with 4+♦, and so is a
+direct 3♦ with 5+♦ and 5--15 HCP.  Against a natural (2♦), the direct 3♦ is
+a takeout cuebid with 9--13 HCP and short ♦, and 3♦ after 2NT - 3♣ is the
+cuebid above.
 
 Probing Wbridge5 5.12 shows that with 6 cards in the adverse major, responder
 bids the other major with only 3 cards, e.g. ♠532 ♥AQJ1098 ♦Q63 ♣3 bids 3♠

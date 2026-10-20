@@ -15,7 +15,8 @@ Wbridge5 follows two principles here.
 
 The probes dealt opener 15--17 HCP with 2--5 cards in every suit at no
 vulnerability.  A spot check over 1NT - 2♣ (2♥) with both sides vulnerable
-gave the same calls.  The range "points" means HCP plus 1 point per
+gave the same calls.  So did 1NT - 2♣ (2♦) against opponents playing SAYC
+(236 of 236 hands).  The range "points" means HCP plus 1 point per
 doubleton, as in [Hand evaluation](../Evaluation.md).
 
 ## Stayman doubled

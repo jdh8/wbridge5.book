@@ -21,10 +21,21 @@ than 2NT with 2NT distribution.
 The bidding structure is identical to 2NT opening.  Responder simply takes
 opener's excessive points and then bids as if it were a 2NT opening.
 
-- **2♣ - 2x - 2NT:** 22--23 HCP with 2NT distribution, 2 HCP stronger than a
-  2NT opening.
-- **2♦ - 2x - 2NT:** 24+ HCP with 2NT distribution, forcing to game and 4 HCP
-  stronger.
+- **2♣ - 2x - 2NT:** 21--23 HCP with 2NT distribution, mostly 22--23, about 2
+  HCP stronger than a 2NT opening.
+- **2♦ - 2x - 2NT:** 23+ HCP with 2NT distribution, rarely 22, forcing to game
+  and 3--4 HCP stronger.
+
+Probing Wbridge5 5.12 shows the 2♣ route from 21 HCP and the 2♦ route from
+22 HCP.  Of 157 balanced hands with 21 HCP, 137 opened 2NT, 19 opened 2♣ to
+rebid 2NT, and 1 opened 1♣.  Of 121 with 22--23 HCP, 112 opened 2♣, 5 opened
+2NT, and 4 with 23 HCP opened 2♦.  After 2♦ - 2♥, 25 of 141 2NT rebids held
+22--23 HCP, the 22s with a 5-card minor.  After 2♣ - 2♦ - 2NT, responder's
+ranges are those over 2NT moved down by 2 HCP: pass with 1--3 HCP, 3NT with
+3--8, 4NT with 7--9.
+
+- **♠AK97 ♥52 ♦AKJ8 ♣AQ2:** 2♣ - 2♦ - 2NT with 21 HCP.
+- **♠103 ♥AK ♦AK965 ♣AKQ8:** 2♦ - 2♥ - 2NT with 23 HCP.
 
 ## Responses to 1NT
 

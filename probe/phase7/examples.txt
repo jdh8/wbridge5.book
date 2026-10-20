@@ -1,0 +1,97 @@
+# Phase 7, key examples: the book's example hands that are not yet probe rows.
+# Hypotheses and the full audit (361 hand mentions in src/, 319 already rows):
+# probe/phase7/notes/examples.md.  One --hand line per example, -n 1 (bids are
+# deterministic); outside the line budget.  Each line is preceded by the book's
+# location and the call it states.  All at none vulnerable, as the book says.
+
+# Openings.md
+# Openings.md:61 book: 1C
+- --hand T.T54.KJ52.AKJ97 -n 1 --seed 1 -o probe/data/p7/examples/Openings-61.jsonl
+# Openings.md:63 book: 1S
+- --hand J9864.A8654.A.KJ -n 1 --seed 1 -o probe/data/p7/examples/Openings-63.jsonl
+# Openings.md:64 book: 1D
+- --hand AQ73.QT87.A862.K -n 1 --seed 1 -o probe/data/p7/examples/Openings-64.jsonl
+# Openings.md:66 book: 1D
+- --hand AK74.AJ54.JT7.72 -n 1 --seed 1 -o probe/data/p7/examples/Openings-66.jsonl
+# Openings.md:85 book: 1NT
+- --hand 54.A863.AQ986.AJ -n 1 --seed 1 -o probe/data/p7/examples/Openings-85.jsonl
+# Openings.md:87 book: 1H
+- --hand K9.AKJ84.KJ92.76 -n 1 --seed 1 -o probe/data/p7/examples/Openings-87.jsonl
+# Openings.md:89 book: 2NT
+- --hand A95.KQT.AKJ6.KT2 -n 1 --seed 1 -o probe/data/p7/examples/Openings-89.jsonl
+# Openings.md:90 book: 1C
+- --hand A6.KQ3.K75.AK987 -n 1 --seed 1 -o probe/data/p7/examples/Openings-90.jsonl
+# Openings.md:127 book: 2C
+- --hand AKQT8.J.AKT64.K2 -n 1 --seed 1 -o probe/data/p7/examples/Openings-127.jsonl
+# Openings.md:127 book: 2S
+2C-P-2D-P --hand AKQT8.J.AKT64.K2 -n 1 --seed 1 -o probe/data/p7/examples/Openings-127-2CP2DP.jsonl
+# Openings.md:128 book: 2C
+- --hand K2.A8.AKT92.AQT4 -n 1 --seed 1 -o probe/data/p7/examples/Openings-128.jsonl
+# Openings.md:128 book: 2NT
+2C-P-2D-P --hand K2.A8.AKT92.AQT4 -n 1 --seed 1 -o probe/data/p7/examples/Openings-128-2CP2DP.jsonl
+# Openings.md:129 book: 2NT
+- --hand K.AQ76.AK65.KQT4 -n 1 --seed 1 -o probe/data/p7/examples/Openings-129.jsonl
+# Openings.md:131 book: 1C
+- --hand QT64.AK6.Q.AKQ52 -n 1 --seed 1 -o probe/data/p7/examples/Openings-131.jsonl
+# Openings.md:132 book: 2D
+- --hand AKJ6.A93.K.AKQJ9 -n 1 --seed 1 -o probe/data/p7/examples/Openings-132.jsonl
+# Openings.md:149 book: 3NT
+- --hand 642.K.AKQ9652.98 -n 1 --seed 1 -o probe/data/p7/examples/Openings-149.jsonl
+# Openings.md:150 book: 1D
+- --hand 642.9.AKQ9652.K8 -n 1 --seed 1 -o probe/data/p7/examples/Openings-150.jsonl
+
+# 1CD.md
+# 1CD.md:54 book: 1S
+1C-P --hand K965.65.KJ863.98 -n 1 --seed 1 -o probe/data/p7/examples/1CD-54-1CP.jsonl
+# 1CD.md:56 book: 1D
+1C-P --hand T983.9.KQJT3.J72 -n 1 --seed 1 -o probe/data/p7/examples/1CD-56-1CP.jsonl
+# 1CD.md:57 book: 1D
+1C-P --hand KQ93.72.AK73.J63 -n 1 --seed 1 -o probe/data/p7/examples/1CD-57-1CP.jsonl
+# 1CD.md:58 book: 1H
+1C-P --hand KQT5.7643.J642.T -n 1 --seed 1 -o probe/data/p7/examples/1CD-58-1CP.jsonl
+# 1CD.md:60 book: 1D
+1C-P --hand Q974.AT62.AQT8.7 -n 1 --seed 1 -o probe/data/p7/examples/1CD-60-1CP.jsonl
+# 1CD.md:73 book: 2C
+1C-P --hand 976.965.AT9.JT85 -n 1 --seed 1 -o probe/data/p7/examples/1CD-73-1CP.jsonl
+# 1CD.md:75 book: 1D
+1C-P --hand QJ6.J5.J932.J987 -n 1 --seed 1 -o probe/data/p7/examples/1CD-75-1CP.jsonl
+# 1CD.md:77 book: 1NT
+1C-P --hand 964.T4.AJ65.AT94 -n 1 --seed 1 -o probe/data/p7/examples/1CD-77-1CP.jsonl
+# 1CD.md:79 book: 1NT
+1C-P --hand 53.K84.432.KQ765 -n 1 --seed 1 -o probe/data/p7/examples/1CD-79-1CP.jsonl
+
+# 1NT/2C.md
+# 1NT/2C.md:30 book: 2C
+1N-P --hand Q83.T984.JT743.2 -n 1 --seed 1 -o probe/data/p7/examples/1NT-2C-30-1NP.jsonl
+# 1NT/2C.md:31 book: 2C
+1N-P --hand QJ52.T975.8632.4 -n 1 --seed 1 -o probe/data/p7/examples/1NT-2C-31-1NP.jsonl
+# 1NT/2C.md:32 book: 2D
+1N-P --hand J532.T8764.AJ7.7 -n 1 --seed 1 -o probe/data/p7/examples/1NT-2C-32-1NP.jsonl
+# 1NT/2C.md:30 book: P
+1N-P-2C-P-2D-P --hand Q83.T984.JT743.2 -n 1 --seed 1 -o probe/data/p7/examples/1NT-2C-30-1NP2CP2DP.jsonl
+# 1NT/2C.md:30 book: P
+1N-P-2C-P-2H-P --hand Q83.T984.JT743.2 -n 1 --seed 1 -o probe/data/p7/examples/1NT-2C-30-1NP2CP2HP.jsonl
+# 1NT/2C.md:30 book: P
+1N-P-2C-P-2S-P --hand Q83.T984.JT743.2 -n 1 --seed 1 -o probe/data/p7/examples/1NT-2C-30-1NP2CP2SP.jsonl
+# 1NT/2C.md:31 book: P
+1N-P-2C-P-2D-P --hand QJ52.T975.8632.4 -n 1 --seed 1 -o probe/data/p7/examples/1NT-2C-31-1NP2CP2DP.jsonl
+# 1NT/2C.md:31 book: P
+1N-P-2C-P-2H-P --hand QJ52.T975.8632.4 -n 1 --seed 1 -o probe/data/p7/examples/1NT-2C-31-1NP2CP2HP.jsonl
+# 1NT/2C.md:31 book: P
+1N-P-2C-P-2S-P --hand QJ52.T975.8632.4 -n 1 --seed 1 -o probe/data/p7/examples/1NT-2C-31-1NP2CP2SP.jsonl
+
+# Defense/1y.md
+# Defense/1y.md:168 book: X
+1D --hand KJ83.AQJ32.-.Q972 -n 1 --seed 1 -o probe/data/p7/examples/Defense-1y-168-1D.jsonl
+
+# Defense/Strong2.md
+# Defense/Strong2.md:53 book: P
+2D --hand Q9853.Q9865.J4.2 -n 1 --seed 1 -o probe/data/p7/examples/Defense-Strong2-53-2D.jsonl
+# Defense/Strong2.md:55 book: 3S
+2D --hand AQJ763.J.32.T852 -n 1 --seed 1 -o probe/data/p7/examples/Defense-Strong2-55-2D.jsonl
+
+# Determinism re-checks: the book's call contradicts the existing row
+# Defense/Advances.md:81 book: 4D (existing row disagrees)
+1C-1D-P --hand 54.J8.AJ986.T982 -n 1 --seed 1 -o probe/data/p7/examples/Defense-Advances-81-1C1DP.jsonl
+# Defense/Advances.md:203 book: P (existing row disagrees)
+1H-1S-2H --hand J5.AK63.KQT8.K96 -n 1 --seed 1 -o probe/data/p7/examples/Defense-Advances-203-1H1S2H.jsonl

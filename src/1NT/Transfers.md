@@ -233,6 +233,10 @@ with 5+ cards in both majors.
 After the slam force, opener chooses between 6♠ and 6NT.  Responder
 may raise to 7.
 
+Probing Wbridge5 5.12 shows that opener answers 4NT as
+[RKCB 0314](../Slam.md#rkcb-0314) in spades on all 159 boards.  With all five
+keys it bids 5NT.
+
 #### Rejection 3NT
 
 The Wbridge5 AI rejects with a singleton, or with a doubleton and 22+.
@@ -271,7 +275,8 @@ off at 4♣ with a weak hand.
 | 6♣   | S/O, 7+♣
 
 After 4NT, no fit is found, but responder may assume a fit in diamonds with 5+
-cards.
+cards.  Probing Wbridge5 5.12 shows that opener answers it as
+[Blackwood](../Slam.md#blackwood), counting aces only, on all 226 boards.
 
 ### Transfer to diamonds 4♣!
 
@@ -285,6 +290,10 @@ at 4NT.
 | 4♥♠! | CTRL
 | 4NT! | RKCB 0314
 | 5♦   | S/O
+
+Probing Wbridge5 5.12 shows that opener answers 4NT as
+[RKCB 0314](../Slam.md#rkcb-0314) in diamonds, counting the ♦K, on all 170
+boards.
 
 #### Super acceptance 5♦
 

@@ -1,0 +1,75 @@
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 2 -o probe/data/p7/play/disc-4S.jsonl	seed 2 -> probe/data/p7/play/disc-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 3 -o probe/data/p7/play/disc-4S.jsonl	seed 3 -> probe/data/p7/play/disc-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 3 -o probe/data/p7/play/sig-4S.jsonl	seed 3 -> probe/data/p7/play/sig-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 4 -o probe/data/p7/play/sig-4S.jsonl	seed 4 -> probe/data/p7/play/sig-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 4 -o probe/data/p7/play/disc-4S.jsonl	seed 4 -> probe/data/p7/play/disc-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 2 -o probe/data/p7/play/sig-4S.jsonl	seed 2 -> probe/data/p7/play/sig-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 5 -o probe/data/p7/play/sig-4S.jsonl	seed 5 -> probe/data/p7/play/sig-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 6 -o probe/data/p7/play/disc-4S.jsonl	seed 6 -> probe/data/p7/play/disc-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 7 -o probe/data/p7/play/disc-4S.jsonl	seed 7 -> probe/data/p7/play/disc-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 5 -o probe/data/p7/play/disc-4S.jsonl	seed 5 -> probe/data/p7/play/disc-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 6 -o probe/data/p7/play/sig-4S.jsonl	seed 6 -> probe/data/p7/play/sig-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 7 -o probe/data/p7/play/sig-4S.jsonl	seed 7 -> probe/data/p7/play/sig-4S.jsonl
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 6 -o probe/data/p7/play/disc-4S.jsonl	30 deals, 7 kept, 12/min
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 7 -o probe/data/p7/play/sig-4S.jsonl	Traceback (most recent call last):
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 7 -o probe/data/p7/play/sig-4S.jsonl	  File "/home/jdh8/src/wbridge5.book/probe/tm.py", line 336, in <module>
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 7 -o probe/data/p7/play/sig-4S.jsonl	    main()
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 7 -o probe/data/p7/play/sig-4S.jsonl	    ~~~~^^
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 7 -o probe/data/p7/play/sig-4S.jsonl	  File "/home/jdh8/src/wbridge5.book/probe/tm.py", line 308, in main
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 7 -o probe/data/p7/play/sig-4S.jsonl	    row["cards"], row["tricks"] = play(recv, send, hands, trump, leader, dummy, a.tricks,
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 7 -o probe/data/p7/play/sig-4S.jsonl	                                  ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 7 -o probe/data/p7/play/sig-4S.jsonl	                                       a.ak and f"A{a.ak}")
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 7 -o probe/data/p7/play/sig-4S.jsonl	                                       ^^^^^^^^^^^^^^^^^^^^
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 7 -o probe/data/p7/play/sig-4S.jsonl	  File "/home/jdh8/src/wbridge5.book/probe/tm.py", line 154, in play
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 7 -o probe/data/p7/play/sig-4S.jsonl	    line = recv()
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 7 -o probe/data/p7/play/sig-4S.jsonl	  File "/home/jdh8/src/wbridge5.book/probe/tm.py", line 254, in recv
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 7 -o probe/data/p7/play/sig-4S.jsonl	    line = f.readline().strip()
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 7 -o probe/data/p7/play/sig-4S.jsonl	           ~~~~~~~~~~^^
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 7 -o probe/data/p7/play/sig-4S.jsonl	  File "/usr/lib64/python3.14/socket.py", line 729, in readinto
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 7 -o probe/data/p7/play/sig-4S.jsonl	    return self._sock.recv_into(b)
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 7 -o probe/data/p7/play/sig-4S.jsonl	           ~~~~~~~~~~~~~~~~~~~~^^^
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 7 -o probe/data/p7/play/sig-4S.jsonl	TimeoutError: timed out
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 5 -o probe/data/p7/play/disc-4S.jsonl	Traceback (most recent call last):
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 5 -o probe/data/p7/play/disc-4S.jsonl	  File "/home/jdh8/src/wbridge5.book/probe/tm.py", line 336, in <module>
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 5 -o probe/data/p7/play/disc-4S.jsonl	    main()
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 5 -o probe/data/p7/play/disc-4S.jsonl	    ~~~~^^
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 5 -o probe/data/p7/play/disc-4S.jsonl	  File "/home/jdh8/src/wbridge5.book/probe/tm.py", line 308, in main
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 5 -o probe/data/p7/play/disc-4S.jsonl	    row["cards"], row["tricks"] = play(recv, send, hands, trump, leader, dummy, a.tricks,
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 5 -o probe/data/p7/play/disc-4S.jsonl	                                  ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 5 -o probe/data/p7/play/disc-4S.jsonl	                                       a.ak and f"A{a.ak}")
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 5 -o probe/data/p7/play/disc-4S.jsonl	                                       ^^^^^^^^^^^^^^^^^^^^
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 5 -o probe/data/p7/play/disc-4S.jsonl	  File "/home/jdh8/src/wbridge5.book/probe/tm.py", line 154, in play
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 5 -o probe/data/p7/play/disc-4S.jsonl	    line = recv()
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 5 -o probe/data/p7/play/disc-4S.jsonl	  File "/home/jdh8/src/wbridge5.book/probe/tm.py", line 254, in recv
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 5 -o probe/data/p7/play/disc-4S.jsonl	    line = f.readline().strip()
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 5 -o probe/data/p7/play/disc-4S.jsonl	           ~~~~~~~~~~^^
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 5 -o probe/data/p7/play/disc-4S.jsonl	  File "/usr/lib64/python3.14/socket.py", line 729, in readinto
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 5 -o probe/data/p7/play/disc-4S.jsonl	    return self._sock.recv_into(b)
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 5 -o probe/data/p7/play/disc-4S.jsonl	           ~~~~~~~~~~~~~~~~~~~~^^^
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 5 -o probe/data/p7/play/disc-4S.jsonl	TimeoutError: timed out
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 3 -o probe/data/p7/play/disc-4S.jsonl	30 deals, 10 kept, 9/min
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 7 -o probe/data/p7/play/disc-4S.jsonl	30 deals, 10 kept, 8/min
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 4 -o probe/data/p7/play/disc-4S.jsonl	30 deals, 10 kept, 8/min
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --C 0-0 --tricks 8 -n 30 --seed 2 -o probe/data/p7/play/disc-4S.jsonl	30 deals, 12 kept, 7/min
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 5 -o probe/data/p7/play/sig-4S.jsonl	Wbridge5 hung up
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 3 -o probe/data/p7/play/sig-4S.jsonl	30 deals, 25 kept, 5/min
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 2 -o probe/data/p7/play/sig-4S.jsonl	30 deals, 26 kept, 4/min
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 4 -o probe/data/p7/play/sig-4S.jsonl	30 deals, 25 kept, 4/min
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 6 -o probe/data/p7/play/sig-4S.jsonl	Traceback (most recent call last):
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 6 -o probe/data/p7/play/sig-4S.jsonl	  File "/home/jdh8/src/wbridge5.book/probe/tm.py", line 336, in <module>
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 6 -o probe/data/p7/play/sig-4S.jsonl	    main()
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 6 -o probe/data/p7/play/sig-4S.jsonl	    ~~~~^^
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 6 -o probe/data/p7/play/sig-4S.jsonl	  File "/home/jdh8/src/wbridge5.book/probe/tm.py", line 308, in main
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 6 -o probe/data/p7/play/sig-4S.jsonl	    row["cards"], row["tricks"] = play(recv, send, hands, trump, leader, dummy, a.tricks,
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 6 -o probe/data/p7/play/sig-4S.jsonl	                                  ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 6 -o probe/data/p7/play/sig-4S.jsonl	                                       a.ak and f"A{a.ak}")
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 6 -o probe/data/p7/play/sig-4S.jsonl	                                       ^^^^^^^^^^^^^^^^^^^^
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 6 -o probe/data/p7/play/sig-4S.jsonl	  File "/home/jdh8/src/wbridge5.book/probe/tm.py", line 154, in play
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 6 -o probe/data/p7/play/sig-4S.jsonl	    line = recv()
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 6 -o probe/data/p7/play/sig-4S.jsonl	  File "/home/jdh8/src/wbridge5.book/probe/tm.py", line 254, in recv
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 6 -o probe/data/p7/play/sig-4S.jsonl	    line = f.readline().strip()
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 6 -o probe/data/p7/play/sig-4S.jsonl	           ~~~~~~~~~~^^
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 6 -o probe/data/p7/play/sig-4S.jsonl	  File "/usr/lib64/python3.14/socket.py", line 729, in readinto
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 6 -o probe/data/p7/play/sig-4S.jsonl	    return self._sock.recv_into(b)
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 6 -o probe/data/p7/play/sig-4S.jsonl	           ~~~~~~~~~~~~~~~~~~~~^^^
+1S-P-4S-P-P-P --dealer East --hcp 0-9 --tricks 12 -n 30 --seed 6 -o probe/data/p7/play/sig-4S.jsonl	TimeoutError: timed out

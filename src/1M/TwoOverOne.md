@@ -158,13 +158,16 @@ Most second responses are the same as if opener rebid the opened suit or below
 because 2NT is minimum.  The following only describe differences.
 
 | 1M - 2x -<br>2NT - | |
-|-----|-|
-| 3NT | S/O, 11--17 HCP
-| 4NT | 18--20 HCP, BAL
+|------|-|
+| 3NT  | S/O, 11--17 HCP
+| 4NT! | [Blackwood](../Slam.md#blackwood), 18--20 HCP, BAL
 
 The 2011 doc treats this 4NT as plain Blackwood.  Probing Wbridge5 5.12 shows
 responder bidding it with balanced 18--20 HCP over 1♥ - 2♣ - 2NT and
-1♠ - 2♣♥ - 2NT, 13 boards in all.  Opener's answer was not probed.
+1♠ - 2♣♥ - 2NT, 13 boards in all.  Opener answers it as Blackwood, counting
+aces only: 5♣ for 0 or 3, 5♦ for 1, 5♥ for 2 on all 243 boards probed over
+1♥ - 2♣ - 2NT.  The ♥K does not count, and opener never passed or bid 6NT.
+For example, ♠J53 ♥AJ532 ♦K94 ♣K10 bids 5♦, and ♠A43 ♥KJ987 ♦A9 ♣Q63 bids 5♥.
 
 There are further considerations for responder to show a long suit, so they
 are described in details.

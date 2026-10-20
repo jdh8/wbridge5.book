@@ -116,11 +116,95 @@ and 2 hearts.
 Of the 34 hands with 4 spades and 4+ diamonds, 14 raised hearts with 3
 cards, 11 passed, and 2 doubled.  The probe gave advancer 0--3 hearts.
 
+## The doubler's rebid
+
+The doubler picks one of advancer's two suits.  It passed the responsive
+double once in about 1300 boards, with ♠AQJ3 ♥652 ♦AK3 ♣AQ3.  Except where
+marked, the doubler held 12--20 HCP, 0--2 cards in opener's suit and 3--4 in
+each unbid major (218--291 boards per auction).  Ranges here are in HCP.
+
+### Both majors
+
+| (1♣) X (2♣) X (P) | |
+|-----|-|
+| 2♦  | 13--19 HCP, 5+♦, 3♠ 3♥
+| 2♥  | 12--13 HCP, 4♥
+| 2♠  | 12--14 HCP, 4♠
+| 3♣! | Cuebid, 17--20 HCP, 5+♦, seen on only 2 boards
+| 3♥  | 12--17 HCP, 4♥
+| 3♠  | 12--16 HCP, 4♠, usually 15+
+| 4♥♠ | 13--20 HCP, 4#
+
+The doubler raises hearts more freely than spades.  With 4♥, 3♠ and a
+singleton club, 3♥ was bid on 10 of 13 boards with 12--13 HCP, e.g. ♠AK8
+♥K1073 ♦KQ932 ♣9.  With a doubleton club, 2♥ was bid on 19 of 26, e.g. ♠A107
+♥KJ75 ♦KJ87 ♣73.  With 4♠ and 3♥, 2♠ was bid on all 38 boards with 12--14
+HCP, e.g. ♠AQ102 ♥852 ♦KJ83 ♣A6, and 3♠ from 15 HCP.  With 4-4 in the majors
+the choice is mixed: 3♥ on 24 boards, 2♠ on 15, 3♠ on 12.
+
+### Red suits
+
+| (1♣) X (1♠) X (P) | |
+|-----|-|
+| 1NT | 12--15 HCP, usually a ♠ stopper, seen on 7 boards
+| 2♣! | Cuebid, 16--20 HCP, usually 3♥
+| 2♥  | 12--13 HCP, 4♥
+| 2NT | 14 HCP, ♠ stopper, seen on 3 boards
+| 3♦  | 12--15 HCP, 3♥, 4+♦
+| 3♥  | 12--17 HCP, 4♥
+| 4♥  | 12--20 HCP, 4♥, usually 13+
+| 5♦  | 16 HCP, 5♦, 0--1♣, seen on 3 boards
+
+As over the raise, a singleton club pushes a minimum to 3♥.  The doubler
+with 3 hearts never bid 2♦.  Of 49 such hands with 12--15 HCP, 46 jumped to
+3♦ and 3 bid 2NT, e.g. ♠J1082 ♥A32 ♦AKJ82 ♣5.
+
+### Both minors
+
+The doubler shows its longer minor.  Over a raise it has to bid at the 3
+level; over a new suit, a jump shows a 5-card minor rather than extra
+strength.
+
+| (1♥) X (2♥) X (P) | |
+|-----|-|
+| 2♠  | 17--19 HCP, 5♠
+| 2NT | 14--19 HCP, ♥ stopper, seen on 7 boards
+| 3♣♦ | 12--18 HCP, rarely more, the longer minor
+| 3♥! | Cuebid, 16+ HCP, rarely 14--15
+| 3♠  | 17--22 HCP, 6♠
+| 3NT | 17--22 HCP, ♥ stopper
+| 4♣♦ | 14--15 HCP, 1♥, 4+#, seen on 8 boards
+| 4♠  | 17--20 HCP, usually 7♠
+| 5♣♦ | 14--19 HCP, 5+#
+
+With 4-4 in the minors, 3♣ was bid on 39 boards and 3♦ on 32.  The 2♠, 3♠
+and 4♠ rows come from a second probe of 17--22 HCP hands of any shape with
+0--3 hearts (277 boards).  There the cuebid was the commonest rebid (136
+boards), with no heart stopper or with a long suit, e.g. ♠AKJ ♥975 ♦Q63
+♣AKJ9.  A heart stopper bid 3NT, e.g. ♠AK ♥AK3 ♦K76 ♣Q10432.  The doubler
+bid 2♠ with 5 spades and 17--18 HCP (28 of 31 boards), and cuebid with 19+.
+
+| (1♥) X (1♠) X (P) | |
+|-----|-|
+| 2♣♦ | 12--17 HCP, 4#
+| 2♥! | Cuebid, 16--20 HCP, rarely 14--15
+| 2NT | 15--19 HCP, ♥ stopper, seen on 4 boards
+| 3♣♦ | 12--17 HCP, 5+#
+| 3♥! | Jump cuebid, 16--20 HCP, seen on 8 boards
+| 3NT | 19--20 HCP, ♥ stopper, seen on 3 boards
+| 5♣♦ | 14--17 HCP, 5#, 0--1♥
+
+With 3 cards in the other minor, a 4-card minor bid at the 2 level (95 of
+99 boards).  A 5-card minor jumped (61 of 62).  For example, ♠K1083 ♥53
+♦A932 ♣AK10 bids 2♦ and ♠AK2 ♥Q3 ♦Q7532 ♣KJ6 bids 3♦.  With 4-4 in the
+minors the choice is mixed: 2♣ on 29 boards, 3♦ on 21, 2♦ on 16.
+
 ## Not probed
 
 - Vulnerability: every probe was at none vulnerable.
 - Advancer with 15+ HCP, and (1♦) X (2♦) or (1♠) X (2♠).
 - Responsive doubles at the 3-level, e.g. (1♥) X (3♥).
-- The doubler's rebid after a responsive double.
+- The doubler's rebid with 5 cards in an unbid major, except over
+  (1♥) X (2♥) X, and advancer's call after it.
 - Advancer's double when RHO bids a new suit over partner's overcall, and
   over (1M) overcall (2M).

@@ -133,6 +133,10 @@ For example, ♠J53 ♥AJ532 ♦K94 ♣K10 doubles (1♥) X (1NT), and
 | 3♠  | 5--12 HCP, 4+♠
 | 4♠  | 8--12 HCP, 5+♠
 
+By default the opponents' 2NT is Truscott, a raise of hearts.  Probing
+Wbridge5 5.12 shows the same table against SAYC, whose preset turns Truscott
+off: 294 of the same 300 hands drew the same call.
+
 ## Balancing double
 
 In the balancing seat, the double and 1NT need about 3 HCP less than in the
@@ -171,6 +175,8 @@ For example, ♠A42 ♥K52 ♦8654 ♣Q43 bids 1NT.
 A doubler with a minimum passes any minimum advance.  The doubler raises a
 1-level advance only with 5 trumps, i.e. a hand too strong for a simple
 overcall.  With 4 trumps, it passes up to 17--18 HCP and cuebids above that.
+The rebids after a responsive double are in
+[Responsive doubles](Responsive.md#the-doublers-rebid).
 
 ### After a 1-level advance
 
@@ -292,5 +298,5 @@ The 2♠ and 4♥ rows come from 3 and 5 boards.
 - The doubler's rebids after responder bids and advancer passes, e.g.
   (1♥) X (1♠) P (P), and after opener competes over a jump or cuebid
   advance.
-- Opponents playing SEF or SAYC.  Their natural 1♦♥ openings read the same,
-  but were not probed separately.
+- Opponents playing SEF or SAYC, beyond (1♥) X (2NT).  No preset setting
+  changes their natural 1♦♥ openings, but these were not probed separately.

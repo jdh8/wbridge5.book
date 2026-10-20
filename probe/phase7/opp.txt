@@ -1,0 +1,49 @@
+# Phase 7, key opp: SEF/SAYC opponents beyond preempts and Michaels.
+# Hypotheses: probe/phase7/notes/opp.md.  Every line mirrors a default-E-W
+# line (same flags, --seed 1, so the same South hands board by board).
+#
+# A. Our 1NT (North, scripted) - (overcall) - South.  Mirrors of probe/book.txt
+#    lines 103-106 (default data in probe/data/1N-2C.jsonl etc.).
+1N-2C --opp SAYC --seed 1 -o probe/data/p7/opp/1N2C~sayc.jsonl
+1N-2C --opp SEF --seed 1 -o probe/data/p7/opp/1N2C~sef.jsonl
+1N-2D --opp SAYC --seed 1 -o probe/data/p7/opp/1N2D~sayc.jsonl
+1N-2D --opp SEF --seed 1 -o probe/data/p7/opp/1N2D~sef.jsonl
+1N-2H --opp SAYC --seed 1 -o probe/data/p7/opp/1N2H~sayc.jsonl
+#
+# A2. Targeted pairs (no default data with these constraints yet).
+# Responder with values: X / 2NT Lebensohl / cuebid / natural FG / 4NT, 6NT.
+1N-2C --hcp 8-15 --seed 1 -o probe/data/p7/opp/1N2C~hcp815.jsonl
+1N-2C --hcp 8-15 --opp SAYC --seed 1 -o probe/data/p7/opp/1N2C~hcp815-sayc.jsonl
+# Weak hand with long hearts: 2♥ S/O over natural 2♣, but adverse over Landy.
+1N-2C --hcp 0-9 --H 5- --S 0-4 --seed 1 -o probe/data/p7/opp/1N2C~H5.jsonl
+1N-2C --hcp 0-9 --H 5- --S 0-4 --opp SAYC --seed 1 -o probe/data/p7/opp/1N2C~H5-sayc.jsonl
+# Natural (2♦) vs Multi; natural (2♥) vs 5♥+4m.
+1N-2D --hcp 8-15 --seed 1 -o probe/data/p7/opp/1N2D~hcp815.jsonl
+1N-2D --hcp 8-15 --opp SAYC --seed 1 -o probe/data/p7/opp/1N2D~hcp815-sayc.jsonl
+1N-2H --hcp 8-15 --seed 1 -o probe/data/p7/opp/1N2H~hcp815.jsonl
+1N-2H --hcp 8-15 --opp SAYC --seed 1 -o probe/data/p7/opp/1N2H~hcp815-sayc.jsonl
+#
+# B. Responses overcalled (1NT/Interference.md): mirror of p4/1NTov/2C2D.
+#    South opens 1NT itself (keep ~80%).
+1N-P-2C-2D --hcp 15-17 --S 2-5 --H 2-5 --D 2-5 --C 2-5 --opp SAYC --seed 1 -o probe/data/p7/opp/1NP2C2D~sayc.jsonl
+#
+# C. Preset controls for chapters written with --ini or default E-W.
+# SAYC weak 2♦ vs EO2Kfort=0 (p5/vsweak/2D~broad).
+2D --opp SAYC --hcp 10-22 --D 0-3 --seed 1 -o probe/data/p7/opp/2D~sayc.jsonl
+# Truscott off, "2NT & 3NT fitted" on (p5/dbl/1HX2N~broad).
+1H-X-2N --opp SAYC --hcp 0-12 --seed 1 -o probe/data/p7/opp/1HX2N~sayc.jsonl
+#
+# D. Opponents' conventional second calls that the presets switch off.
+# (1♥) P (3♣): Bergen (default) vs natural (SAYC, SEF same key).
+1H-P-3C --hcp 8-20 --seed 1 -o probe/data/p7/opp/1HP3C.jsonl
+1H-P-3C --hcp 8-20 --opp SAYC --seed 1 -o probe/data/p7/opp/1HP3C~sayc.jsonl
+# (1♥) P (2NT): special 2NT (default) vs Jacoby (SAYC) vs neither (SEF).
+1H-P-2N --hcp 8-20 --seed 1 -o probe/data/p7/opp/1HP2N.jsonl
+1H-P-2N --hcp 8-20 --opp SAYC --seed 1 -o probe/data/p7/opp/1HP2N~sayc.jsonl
+1H-P-2N --hcp 8-20 --opp SEF --seed 1 -o probe/data/p7/opp/1HP2N~sef.jsonl
+# (1♣) 1♠ (2♣): Rodrigue 5+♥ (default) vs natural club raise; South advances.
+1C-1S-2C --hcp 4-14 --seed 1 -o probe/data/p7/opp/1C1S2C.jsonl
+1C-1S-2C --hcp 4-14 --opp SAYC --seed 1 -o probe/data/p7/opp/1C1S2C~sayc.jsonl
+# Passed hand's (1NT) after South's 1♣ - P - 1♥: Sandwich vs natural (keep ~83%).
+P-P-1C-P-1H-1N --hcp 12-17 --C 5- --S 0-3 --H 0-3 --seed 1 -o probe/data/p7/opp/PP1CP1H1N.jsonl
+P-P-1C-P-1H-1N --hcp 12-17 --C 5- --S 0-3 --H 0-3 --opp SAYC --seed 1 -o probe/data/p7/opp/PP1CP1H1N~sayc.jsonl

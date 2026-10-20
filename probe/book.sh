@@ -4,6 +4,7 @@
 #   setsid probe/book.sh [probe/more.txt] > probe/data/book.log 2>&1 &
 #   cat probe/phase4/*.txt > /tmp/p4.txt; setsid probe/book.sh /tmp/p4.txt   # phase 4
 #   cat probe/phase5/{dbl,adv,ntov,mic,vs1NT,vsweak,vs2,art,compx}.txt > p5.txt   # phase 5, then *-opp.txt
+#   setsid probe/book.sh probe/data/p7/spec.txt   # phase 7 (cat of probe/phase7/*.txt)
 cd "$(dirname "$0")/.." || exit
 grep -v '^#' "${1:-probe/book.txt}" | parallel -j14 --line-buffer --tag \
     'WINEPREFIX=wbridge5/prefix{%} python3 probe/tm.py -n 300 --seed 1 {=uq()=}'

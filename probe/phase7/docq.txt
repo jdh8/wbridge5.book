@@ -1,0 +1,34 @@
+# Phase 7, docq: open doc questions from phase 4.  Notes: probe/phase7/notes/docq.md
+# (1) 2D: doc 932/938/942/950/954 say a jump shows 7+ cards.  Book 2D.md: majors jump, minors never.
+# Existing data: 2D-2S with 7 clubs bid 3C on 37/37 (p4/2D/2S~hcp1924C6); smoke: 8 clubs over 2H
+# jump to 4C on 8 of 18 boards, so length 7 vs 8+ is split into separate lines.
+# Opener's 2D is Wbridge5's own (keep ~80% in smoke).  7-card minors with 0-1 ace open 2C, not 2D.
+2D-P-2H-P --hcp 19-26 --D 7-7 -o probe/data/p7/docq/2H~D7.jsonl --seed 1
+2D-P-2H-P --hcp 19-26 --C 7-7 -o probe/data/p7/docq/2H~C7.jsonl --seed 1
+2D-P-2H-P --hcp 19-26 --D 8- -o probe/data/p7/docq/2H~D8.jsonl --seed 1
+2D-P-2H-P --hcp 19-26 --C 8- -o probe/data/p7/docq/2H~C8.jsonl --seed 1
+2D-P-2S-P --hcp 19-26 --D 7-7 -o probe/data/p7/docq/2S~D7.jsonl --seed 1
+2D-P-2S-P --hcp 19-26 --D 8- -o probe/data/p7/docq/2S~D8.jsonl --seed 1
+2D-P-2S-P --hcp 19-26 --C 8- -o probe/data/p7/docq/2S~C8.jsonl --seed 1
+# Over 2NT the doc's jump is 4m (book has 4M only).
+2D-P-2N-P --hcp 19-26 --D 7-7 -o probe/data/p7/docq/2N~D7.jsonl --seed 1
+2D-P-2N-P --hcp 19-26 --C 7-7 -o probe/data/p7/docq/2N~C7.jsonl --seed 1
+2D-P-2N-P --hcp 19-26 --D 8- -o probe/data/p7/docq/2N~D8.jsonl --seed 1
+2D-P-2N-P --hcp 19-26 --C 8- -o probe/data/p7/docq/2N~C8.jsonl --seed 1
+# Over 3NT (two aces) the doc's 7+ rebid is 5m.  Opener holds 0-2 aces.
+2D-P-3N-P --hcp 19-26 --D 7- --aces 0-2 -o probe/data/p7/docq/3N~D7.jsonl --seed 1
+2D-P-3N-P --hcp 19-26 --C 7- --aces 0-2 -o probe/data/p7/docq/3N~C7.jsonl --seed 1
+# Over 4C (three aces) the doc's jump is 5D / ?C.  Aces left free: with 0-1 ace Wbridge5
+# opens 2C instead (0 of 20 kept), so opener's aces clash with responder's three.
+2D-P-4C-P --hcp 19-26 --D 7- -o probe/data/p7/docq/4C~D7.jsonl --seed 1
+2D-P-4C-P --hcp 19-26 --C 7- -o probe/data/p7/docq/4C~C7.jsonl --seed 1
+# (2) Control bids: doc 968-969 say the first cue shows a 1st-round control (A or void) and a
+# second cue in the same suit a 2nd-round one.  Existing p4 data already refutes the first part
+# (K and singletons cued up the line, before a higher ace).  These lines look for a second cue:
+# South's 3S is its own (keep ~20% / ~55%), North cues 4C, does South ever re-cue spades?
+1D-P-1H-P-3H-P-3S-P-4C-P --hcp 12-16 --H 4-5 --S 0-3 --D 0-3 --aces 1- -n 600 -o probe/data/p7/docq/1DP1HP3HP3SP4CP.jsonl --seed 1
+1S-P-2H-P-3H-P-3S-P-4C-P --hcp 14-20 --H 5-6 --S 0-2 -o probe/data/p7/docq/1SP2HP3HP3SP4CP.jsonl --seed 1
+# Example hands from p4 rows, re-dealt fixed to confirm: K cued before a higher A, singleton cued.
+1D-P-1H-P-3H-P --hand KT9.KQT2.532.AJ6 -n 1 -o probe/data/p7/docq/hand-1DP1HP3HP-KT9.jsonl --seed 1
+1D-P-1H-P-3H-P --hand 2.A8762.A53.AQ32 -n 1 -o probe/data/p7/docq/hand-1DP1HP3HP-2.jsonl --seed 1
+1D-P-1H-P-3H-P --hand 865.KQT8.AQ8.K95 -n 1 -o probe/data/p7/docq/hand-1DP1HP3HP-865.jsonl --seed 1

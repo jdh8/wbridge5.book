@@ -48,6 +48,18 @@ and AKQxxx too.
 Adjunct: Avoid leading from Axxx; if forced to, lead 4th best.  An ace lead
 shows AKx and denies the queen or jack.
 
+### Aggressive and passive leads by level
+
+Wbridge5: Leads the same way against a partscore as against game: over a
+passed 1NT, the same hands led the same card as against 3NT 228 times
+(phase 6).  It turns passive against 6NT: from a suit without an honor
+above the 10 on 180 of 275 hands, never 4th best.  Against 6♠ it cashes an
+ace: 79 of 121 hands with an ace, against 15 of 117 against 4♠.
+
+Adjunct: Lead aggressively against games and passively against partscores.
+Against a partscore, with partner silent, no trump honor and an honor in
+the short suits, a trump lead avoids giving a trick away.
+
 ## [Glossary](../src/Glossary.md)
 
 ### Delayed raise
@@ -58,6 +70,21 @@ in the glossary).
 Adjunct: This treatment, which conforms to the fast arrival and useful space
 principles, is rather necessary for a decent bidding system.  The same
 reason applies also to cuebids and takeout doubles.
+
+## [Preemptive openings](../src/Openings/Preemptive.md)
+
+### Favorable preempts in the first seat
+
+Wbridge5: In the 1st seat only its own vulnerability counts.  Favorable
+vulnerability opens exactly as none vulnerable and both vulnerable exactly as
+unfavorable (300 random 4--11 HCP hands, every call the same).  With 6 hearts
+and 3--10 HCP it opened 2♥ on 51 of 75 hands not vulnerable and 32
+vulnerable.
+
+Adjunct: The opponents' vulnerability lowers the floor in every seat: a
+weak 2 shows 6+ points at favorable, 7+ at none vulnerable and 8+ when
+vulnerable, and a 3-level preempt 8+, 9+ and 10+ (doc.txt 828--833).  The
+1st-seat favorable weak 2 also accepts any 7-card suit.
 
 ## [Responses to preemptive openings](../src/Openings/Responses.md)
 
@@ -89,6 +116,17 @@ usually with 14+ HCP.  Over 4♣, 4♠ is natural; over 4♦, 4♥ is natural an
 Adjunct: Responder always bids the next step, 4♦ over 4♣ and 4♥ over 4♦,
 so that the strong hand declares.  With slam interest, responder bids RKCB
 after the transfer is completed.
+
+## [Balancing openings](../src/Openings/Balancing.md)
+
+### Balancing weak 2s by vulnerability
+
+Wbridge5: The 4th-seat 2♥ comes from 7 HCP up with 6 hearts at none and at
+unfavorable vulnerability alike; 12 of 300 calls changed, mostly 10--11 HCP
+hands bidding 2♥ instead of 1♥ when vulnerable.
+
+Adjunct: A balancing weak 2 needs 9+ points at favorable, 10+ at none
+vulnerable, 11+ at both vulnerable and 12+ at unfavorable.
 
 ## [Semiforcing 1NT](../src/1M/1NT.md)
 
@@ -219,6 +257,16 @@ control bidding:
 - 1NT - 2♣ - 3♥ - 3♠
 - 1NT - 2♣ - 3♠ - 4♥
 
+### Garbage Stayman passes every natural rebid
+
+Wbridge5: Garbage Stayman (0--7 HCP, 3--4♠ 3--4♥, 0--1♣) passes 2♦, but over
+2♥ or 2♠ it raises to 3♥/3♠ with 4 cards in opener's major at 6--7 HCP (over
+2♥, 48 of 54 such hands at 7 HCP), e.g. ♠J92 ♥Q986 ♦A7652 ♣8 raises 2♥ to
+3♥.  Over 3♥ it bids 4♥ at 6--7 HCP about half the time.
+
+Adjunct (doc 一.1): Garbage Stayman is 0--7.45 points, a club-short 3-suiter
+ready to pass every natural rebid by opener.
+
 ## [Transfers](../src/1NT/Transfers.md)
 
 ### 2NT - 3♥ - 3NT: rejecting with a doubleton
@@ -272,6 +320,20 @@ spades are stopped.
 Adjunct: X shows 4 hearts and a spade stopper, and 3♥ shows 4 hearts without
 one.
 
+## [Competitive bidding](../src/1NT/Competition.md)
+
+### Pass, then a new suit, over a two-suited overcall
+
+Wbridge5: Over Landy 2♣, a responder who passed with 9--13 HCP and no stopper
+in either major cuebids the other major in the next round; with 3 cards in
+advancer's major it doubles.  The probed hands had 4-4 in the minors; none bid
+a new suit.
+
+Adjunct (doc 第三節 三): Against an artificial two-suiter, pass with 0--7.45
+points and no 5-card suit, or with 9+ points and a 5+ suit, to bid that suit
+in the next round.  The cuebid of a major (9+) shows a stopper in it and
+none in the other; with neither stopped, responder escapes to the better 3m.
+
 ## [Cooperative double](../src/1NT/Competition/X.md)
 
 ### 1NT (2♥) X (P): opener's runout
@@ -294,6 +356,23 @@ If opener has no suit to bid, 2NT is also a valid runout.  It is good to sit
 with a doubleton if opponents are doubled at 3-level and there is nowhere to
 run.  Opener may also bid 3NT if this is probably optimal, e.g. with
 unfavorable vulnerability.
+
+## [Lebensohl](../src/1NT/Competition/Lebensohl.md)
+
+### Lebensohl cuebids and 3NT after 1NT (2x)
+
+Wbridge5: 2NT holds 6--10 HCP, also against natural overcalls, and is
+always invitational.  After 2NT - 3♣, the cuebid of x shows a 6-card minor
+with 8 HCP whatever it holds in x (18 of 30 such hands over (2♥)), and 3NT
+shows 8--10 HCP, mostly a 5-card minor, with or without a stopper (176 of
+203 over (2♥) had none).  The direct cuebid is a takeout of x with 4-4-4
+in the other suits, 9--13 HCP against a natural (2♦).
+
+Adjunct: Lebensohl "slow denies".  Over 1NT (2x), the direct cuebid is a
+game-forcing Stayman with a stopper in x and the direct 3NT promises one;
+2NT - 3♣ then the cuebid is a game-forcing Stayman without a stopper, and
+2NT - 3♣ - 3NT is 9+ points without one.  A new suit below x after 3♣ is a
+signoff, above x invitational with 7.5--9 points.
 
 ## [Strong 2♣](../src/2C.md)
 
@@ -326,12 +405,34 @@ HCP), so the rebid never came up.
 
 Adjunct: 3NT shows 5-5 or longer in the majors.
 
+### 2♦ - 4♣ - ?
+
+Wbridge5: unreachable, because a 2♦ opening holds at least two aces.  None of
+300 hands with 19--26 HCP and 0--1 ace opened 2♦, so three aces opposite
+cannot happen.  When the probes forced 4♣ anyway, opener bid 4NT on 680 of
+716 boards.
+
+Adjunct: Over the three-ace 4♣, a new suit shows 5+ cards, 4NT a balanced
+hand, and a jump 7+ cards.
+
+### Jump rebids with a long minor
+
+Wbridge5: a 7-card minor never jumps (488 boards over 2♥, 288 over 2♠, 488
+over 2NT), and over 3NT a 7- to 9-card minor bids 4♣♦, never 5♣♦ (446
+boards).  Some 8-card minors jump: 285 of 531 boards over 2♥, 68 of 531 over
+2♠, 194 of 531 over 2NT.
+
+Adjunct: After 2♦ - 2♥/♠, a jump shows a 7+ card suit, minors included.
+After 2♦ - 2NT, 4♣♦ shows 7+ cards; after 2♦ - 3NT, 5♣♦ shows 7+ cards.
+
 ## [Slam conventions](../src/Slam.md)
 
 ### RKCB answers with an unknown void
 
-Wbridge5: not probed.  With a void partner knows about (1♠ - 4♦! - 4NT), 2
-keys bid 5♥/5♠ on all 45 boards.
+Wbridge5: ignores the void.  With 2 keys and a void partner cannot know about,
+it bid 5♥ or 5♠ on all 27 boards after 3♣ - 4NT, 4♥ - 4NT, and
+(1♥) 1♠ (P) 4NT.  With a void partner knows about (1♠ - 4♦! - 4NT), 2 keys
+bid 5♥ or 5♠ on all 45 boards.  One hand with 3 keys and a ♦ void bid 6♦.
 
 Adjunct: With 2 keys and a void partner does not know about, bid 6 of the
 void suit if it ranks below trumps.  With a void in a higher-ranking suit,
@@ -370,6 +471,34 @@ Adjunct: Answer a queen ask over an overcall, as in this spade auction.
 | X!    | No trump Q, 3 cards in the overcalled suit
 | 5NT!  | Trump Q, no side K
 | 6♠    | Trump Q
+
+### RKCB with 5 keys
+
+Wbridge5: 5NT with all five keys, with or without the trump queen (18 of 18
+boards in 2NT - 3♥ - 3♠ - 4NT).
+
+Adjunct: 5♥ shows 2 or 5 keys without the trump queen, and 5♠ 2 or 5 keys
+with it.
+
+### Blackwood answers
+
+Wbridge5: 5♣ for 0 or 3 aces, 5♦ for 1 or 4, 5♥ for 2.  It never bid 5♠ (534
+boards), and four aces bid 5♦ on 85 of 85 boards.  Over 5NT, 6♣/6♦/6♥/6♠ show
+0/1/2/3 kings and 6NT 4 kings (6 boards).
+
+Adjunct: 5♣ shows 0 or 4 aces, 5♦ 1, 5♥ 2, 5♠ 3.  After 5NT, 6♣ shows 0 or 4
+kings, 6♦ 1, 6♥ 2, 6♠ 3.
+
+### First control bid
+
+Wbridge5: cues up the line with an ace, king, singleton or void (in partner's
+suit, ace or king only).  In 1♦ - 1♥ - 3♥, a spade king or singleton with
+the ♣A bid 3♠ on 15 of 15 boards, never 4♣.  After its own 3♠ and partner's
+4♣, it never cued spades again to show the other round (305 boards; one
+4♠ with a spade void).
+
+Adjunct: Cue first-round controls (ace or void) first.  A suit cued a second
+time shows a second-round control (king or singleton).
 
 ## [Natural (1y)](../src/Defense/1y.md)
 
@@ -629,6 +758,16 @@ the 3 level.
 - **2♥/2♠:** natural, 5+ cards.
 - **2NT:** 5-5 or longer in the minors.  Advancer bids the better minor.
 - **3♣/3♦:** preemptive, 6+ cards.
+
+### (1NT) 2♦ (P) 2♥ (P): the Multi overcaller's rebid
+
+Wbridge5: The overcaller passes with hearts and bids 2♠ with spades, but
+raises to 3♥ with 6+ hearts and a singleton or void, usually with 12+ HCP or
+7 hearts (38 of 156 heart hands, every one with a short suit).  With 7
+spades and 12--15 HCP it jumped to 3♠ on 5 of 160 boards.
+
+Adjunct: Advancer must answer 2♥.  The overcaller then bids 2♠ with 6+
+spades and otherwise passes; there is no rebid showing extra strength.
 
 ## [Opposing preempts](../src/Defense/Preempts.md)
 

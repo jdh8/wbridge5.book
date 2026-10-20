@@ -222,7 +222,8 @@ The 2♠ row comes from 4 boards.  Wbridge5 never doubled 2♣.
 Responder's double is negative.  Over 1♠ or 2♥ it shows both minors and
 exactly 2 cards in opener's major.  Over 2♣ it shows spades.  Responder
 never makes a penalty double of a suit overcall.  With length in LHO's suit,
-responder passes.  These probes gave responder 0--3 cards in opener's major.
+responder passes.  Unless marked, these probes gave responder 0--3 cards in
+opener's major.
 
 | 1♥ (1♠) | |
 |-----|-|
@@ -240,6 +241,24 @@ responder passes.  These probes gave responder 0--3 cards in opener's major.
 All 12 doubles had 2 hearts and 4-4 or longer in the minors.  Another 11
 hands of that shape passed with 5--10 HCP.  For example, ♠J104 ♥QJ ♦KQ65
 ♣J982 doubles.
+
+With 4+ hearts, responder raises by length and strength.  The raise to game
+is preemptive, and the jumps in a new suit are splinters.  These rows come
+from 300 boards with 4+♥ and 0--10 HCP, none vulnerable.
+
+| 1♥ (1♠) | 4+♥, up to 10 HCP |
+|------|---|
+| P    | 1--4 HCP, 4=♥
+| 2♥   | 2--8 HCP, 4--5♥
+| 3♥   | 6--10 HCP, mostly 4♥, 5♥ with 8+ HCP
+| 3♠!  | SPL, 6--10 HCP, 0--1♠
+| 4♣♦! | SPL, 5--10 HCP, 0--1#
+| 4♥   | PRE, 5--10 HCP with 5♥, 3--10 HCP with 6+♥
+
+At unfavorable vulnerability the 5-card raise to game needs more.  With 5 hearts,
+4♥ needed 7+ HCP, and 13 hands with 5--7 HCP raised to 2♥ or 3♥ instead, e.g.
+♠T9 ♥K10943 ♦543 ♣A96 bids 4♥ at none vulnerable and 3♥ at unfavorable.
+Of the other raises, only one 6-card 3♥ changed, to 4♥.
 
 | 1♠ (2♥) | |
 |-----|-|
@@ -456,9 +475,9 @@ with 6+ hearts and 0--1 diamond.
 ## Not probed
 
 - Vulnerability: the competitive probes in this chapter were at none
-  vulnerable.
-- Responder's calls with 4+ cards in opener's major, as the probes gave
-  responder at most 3.
+  vulnerable, except the raises over 1♥ (1♠).
+- Responder's calls with 4+ cards in opener's major over overcalls other
+  than 1♥ (1♠), and with 11+ HCP.
 - Responder's double of other 2-level overcalls (2♦, 1♥ (2♠)) and of a 2NT
   overcall.
 - Responder's second call after a negative double, and opener's rebids after

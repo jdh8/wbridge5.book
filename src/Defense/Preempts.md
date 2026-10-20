@@ -54,6 +54,12 @@ bid 4♦ over (2♥) on 244 of 300 boards, from 8 HCP up to 19.  With 11--12
 points it passed, and it never overcalled 2♠.  A 6-5 hand with 17 HCP
 doubled.
 
+At unfavorable vulnerability, the overcalls need about 12 HCP.  On the same
+400 boards over (2♥), 15 calls changed, and 13 of them were 5-card 2♠
+overcalls with 10--11 HCP that passed instead, e.g. ♠AQJ96 ♥J83 ♦J76 ♣Q4.
+The other two, both with 11 HCP, were a 3♠ that bid 2♠ and a 3♣ that passed.
+The double, 2NT and Leaping Michaels did not change.
+
 Examples over (2♥):
 
 - **♠KQ54 ♥K2 ♦KQ876 ♣107:** Double.
@@ -65,7 +71,9 @@ Examples over (2♥):
 ### Weak 2♦
 
 Wbridge5 reads a 2♦ opening as weak when it is told that the opponents play
-SAYC (or when strong 2♦ is turned off).  The cuebid then shows both majors.
+SAYC (or when strong 2♦ is turned off).  Probing Wbridge5 5.12 shows the two
+settings give the same 300 calls on the same 300 hands.  The cuebid then
+shows both majors.
 
 | (2♦) | |
 |-----|-|
@@ -318,7 +326,7 @@ seen once.
 
 ## Not probed
 
-- Vulnerability: every probe had nobody vulnerable
+- Vulnerability beyond the direct seat over (2♥) at unfavorable
 - A passed hand in the direct seat, which only meets a 4th-seat opening in
   the harness, and passed-hand balancing over anything but (2♥)
 - Balancing over 2♠ and over 3- and 4-level preempts
