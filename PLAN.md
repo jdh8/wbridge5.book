@@ -120,6 +120,30 @@ SAYC.  `tm.py --opp SEF|SAYC` gives E-W Wbridge5's preset for that system.
 - [ ] Regenerate Wbr5.bss from probe data; sync both repos.
 - [ ] Update SUMMARY.md, redirects, README.
 
+## Phase 7: loose ends
+
+Minor gaps left by phases 3--5.  Each chapter's "Not probed" list has the
+finer detail.
+
+- [ ] Vulnerability: phases 4--5 probed at none vulnerable, phase 3 only
+      the 4M preempt and openings.  Spot-check the vul-sensitive rows
+      (overcalls, preempts, jump raises, 3rd/4th-seat openings).
+- [ ] Phase 3 leftovers: garbage Stayman passes after 2♥♠, pass-then-cuebid
+      over 1NT interference.
+- [ ] Book example hands not yet probe rows: Openings.md, 1CD.md lines
+      54--80.  Needs a fixed-hand option in tm.py.
+- [ ] Ace-count rows (2♦ - 4♣ rebids and similar): tm.py cannot constrain
+      aces; add a constraint or filter rows with probe/phase4/keys.py.
+- [ ] Open doc questions from phase 4: the first cue showing first-round
+      control (Slam.md), the 7-card minor jump after 2♦ (2D.md).  Adjunct
+      or program behaviour?
+- [ ] SEF/SAYC opponents beyond preempts and Michaels, notably SAYC's
+      natural 2♣ over our 1NT (1NT/Interference.md assumes Landy) and the
+      meaning of a SAYC (3NT) opening.
+- [ ] Second rounds the defensive chapters stop short of: overcaller's
+      answer to 2NT, doubler's rebid after a responsive double, advances
+      after a balancing Landy or Multi.
+
 ## Log
 
 - 2026-10-20: plan written; sources located; nothing installed yet.
