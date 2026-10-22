@@ -237,5 +237,5 @@ usual call with a stopper.
 ## Not probed
 
 - Pass, then cuebid over Multi (2♦): responder's passes there hold only
-  1--8 HCP
-- Transfer overcalls: Wbridge5 has no option to make the opponents play them
+  1--8 HCP.
+- Transfer overcalls: Wbridge5 has no option to make the opponents play them.

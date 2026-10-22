@@ -5,32 +5,23 @@
 The 1NT response is constructive in 1♣ - 1NT or after an overcall.  Such 1NT
 requires 7<sup>+</sup>--10 HCP, balanced distribution, and a stopper in the
 adverse suit if the overcall shows one suit.  This response still denies a
-biddable major suit because major contracts are often better.
-
-The 1NT under these circumstances are constructive because there are more
-suitable calls for 6--7 HCP hands.  For a 1♣ opening, responder can always bid
-a suit with these weak hands.  After an overcall, responder can pass because
-this pass will not cause a passing out.
+biddable major suit.  See [1♣ openings](1CD.md) and [responder's calls over
+an overcall](1M/Competition.md#responders-calls).
 
 ## Delayed raise
 
 A delayed raise shows game-forcing values by intentional violation of contract
 seeking rules.  Such a raise must be at least 3-level to leave 2-level raises
 as natural suit preference.  If a delayed raise is under game in an already
-game-forcing auction, the raise starts a slam try.
-
-This mechanism saves bidding space for strong hands, in line with the fast
-arrival and useful space principles.
+game-forcing auction, the raise starts a slam try.  See [slam bidding after
+1♣♦](1CD/Slam.md).
 
 - **1♣ - 1♥ - 1NT - 3♣:** This is a **delayed raise**.  With an invitational
   hand, responder bids Roudy 2♣ instead.
 - **1♣ - 1♥ - 2♣ - 3♣:** This is a usual invitational raise because the fit may
   be newly found.
 - **1♦ - 2♣ - 2NT - 3♦:** This is a **delayed raise** showing slam interest.
-- **1♦ - 2♣ - 2♦ - 3♦:** This is a simple announcement of fit to give a chance
-  to stop at 3NT.
-- **1♦ - 2♣ - 2♦ - 4♦:** This is a **delayed raise** showing slam interest
-  because minimum is shown by 3♦ or a direct game.
+- **1♦ - 2♣ - 2♦ - 4♦:** This is a **delayed raise** showing slam interest.
 - **1♠ - 2♣ - 2♠ - 4♠:** This is a normal **delayed raise** showing real
   values, freeing 1♠ - 4♠ as a preempt.
 - **1♠ - 2♣ - 2♠ - 3♠:** This is a **delayed raise** showing slam interest
@@ -39,29 +30,26 @@ arrival and useful space principles.
 ## Dustbin 1NT
 
 The 1NT response in 1♦♥♠ - 1NT is dustbin, which shows a constructive 1NT or
-6--10 points without another suitable call.
-
-In a constructive auction, a pass to 1 of a suit can only be made from a hand
-with < 6 points to prevent a loss of game.  However, bidding on the 2 level
-shows at least invitational values.  Therefore, responder holding a suit
-lower than the opening has to bid 1NT with a minimum responding hand.
+6--10 points without another suitable call.  It may hide a suit below the
+opening.  See [1♦ openings](1CD.md) and [semiforcing 1NT](1M/1NT.md).
 
 ## Garbage Stayman
 
 A legitimized psychic Stayman with a weak 3--4♠, 3--4♥, 4--5♦, 0--1♣.
-Responder passes opener's most frequent rebids *viz* 2♦, 2♥, 2♠.
+Responder passes opener's most frequent rebids *viz* 2♦, 2♥, 2♠.  See
+[Stayman](1NT/2C.md#garbage-stayman).
 
 ## Lebensohl
 
 [Lebensohl](1NT/Competition/Lebensohl.md) is a conventional puppet bid 2NT
 after an intervened 1NT opening.  This convention is also applied after a
-takeout double over an opponent weak 2.  Usually the captain bids 3♣ relay and
-the puppet then rebids at 3-level.  This convention effectively duplicates
-3-level bidding space at the expense of the possibility to stop at 2NT.
+[takeout double over an opponent weak 2][weakx].  Usually the captain bids
+3♣ relay and the puppet then rebids at 3-level.
 
-Wbridge5 Lebensohl implementation is very different from the outside world.
-Its Lebensohl accepts 4-card suit but shows exact invitational strength over
-1NT.  There are also other deviation from the commonly used Lebensohl.
+[weakx]: Defense/Preempts.md#advancing-the-takeout-double
+
+Wbridge5's Lebensohl over 1NT shows invitational values and may be a 4-card
+suit.
 
 ## Puppet bid
 
@@ -70,23 +58,16 @@ instead of captain.  The puppet forces or semiforces the captain to bid a
 relay.
 
 If the captain has other options than the relay, the puppet bid is called a
-**marionette**.
+**marionette**.  Examples are [Lebensohl](1NT/Competition/Lebensohl.md) 2NT
+and the [puppet special 2NT][s2n].
 
 ## Relay
 
-A relay is a conventional asking bid.  The relay bidding system is based on the
-idea that one precisely describes one's hand while one's partner locates the
-final contract.
-
-The relayer, who bids the relay, becomes the **captain**.  The captain provides
-little information and makes the final decision.  The captain's partner is the
-**puppet**, who describes hand when the captain asks.
-
-Usage of 1-level relay opening is [restricted in competitions][wbf], but relays
-as responses and rebids are okay.  Stayman and Blackwood are ubiquitous relays
-in modern bidding systems.
-
-[wbf]: http://www.worldbridge.org/rules-regulations/competitions/systems/
+A relay is a conventional asking bid.  The relayer, who bids the relay,
+becomes the **captain**.  The captain provides little information and makes
+the final decision.  The captain's partner is the **puppet**, who describes
+hand when the captain asks.  Examples are [Stayman](1NT/2C.md), [RKCB](Slam.md)
+and [Roudy](#roudy).
 
 ## Roudy
 
@@ -95,10 +76,8 @@ of captain's suit.  The puppet answers artificially in
 **short-long-long-short** coding.  This convention is in place of Checkback
 Stayman.
 
-The short-long-long-short coding which not only helps find suit contracts but
-also occasionally leads to an optimal 3NT signoff.  The **short** answers
-indicate the **minimum length**, 2 cards for opener's notrump rebid, 3 cards
-for a [puppet special 2NT][s2n].
+The **short** answers indicate the **minimum length**, 2 cards for opener's
+notrump rebid, 3 cards for a [puppet special 2NT][s2n].
 
 [s2n]: 1M.md#puppet-special-2nt
 
@@ -107,13 +86,14 @@ for a [puppet special 2NT][s2n].
 | **Minimum** | ♦     | ♥    |
 | **Maximum** | NT    | ♠    |
 
-This convention is popular in France, its origin.  Originally, this convention
-is 1x - 1y - 1NT - 2♣.  Wbridge5 generalizes it to some auctions ending in
-2NT - 3♣.  The notrump bids in these auctions are somewhat natural, which sets
-reasonable minimum length of every suit.
+Originally, this convention is 1x - 1y - 1NT - 2♣.  Wbridge5 generalizes it
+to some auctions ending in 2NT - 3♣.
 
 - 1x - y - 2NT - 3♣, where y is a new suit other than clubs
 - 1M - [2NT][s2n] - 3♣
+
+See [second responses](1CD/SecondResponses.md), [constructive
+rebids](1M/Rebids.md) and [forcing 2/1](1M/TwoOverOne.md).
 
 ## Semiforcing 1NT
 
@@ -131,17 +111,13 @@ Strong jump shift.
 ## Strong jump shift
 
 Jump to a new suit over 1-of-a-suit opening in a constructive auction, showing
-17+ points and 4+ cards.  This is an important constructive slam bidding tool.
-Wbridge5 SJS is more aggressive than Soloway jump shift.
+17+ points and 4+ cards.  Wbridge5 SJS is more aggressive than Soloway jump
+shift.  See [slam bidding after 1♣♦](1CD/Slam.md#strong-jump-shifts).
 
 Side suit restriction like Soloway only applies to 3♣♦ because 2/1 better
 handles the side suit.  Bergen raise is also employed in Wbridge5, so the only
 Soloway-restricted jump shift is 1♦ - 3♣, but Soloway rebids are still never
 used.
-
-One in favor of weak jump shifts might think SJS of waste of bidding space, but
-Soloway jump shifts are actually more frequent than weak jump shifts, let alone
-Wbridge5 SJS.
 
 ## Systems on
 

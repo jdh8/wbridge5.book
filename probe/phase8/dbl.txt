@@ -1,0 +1,51 @@
+# Phase 8, key dbl: doubles of (1♣) and (1♠), balancing over a minor.
+# Hypotheses and what existing data settles: probe/phase8/notes/dbl.md.
+# Existing: probe/data/{1C,1D,1H,1S}.jsonl (same 300 random 6+ HCP hands over
+# each opening, ~35 doubles each); p5/dbl covers (1♦)/(1♥) advances and
+# (1♥) P (P) only.  No South calls in a prefix unless noted (keep ~100%).
+#
+# --- A. Direct double of (1♣) / (1♠): shape and strength ---
+# A1-A2. Short in opener's suit: floor of X vs 1-level overcall / P / 1NT.
+1C --hcp 9-16 --C 0-2 --seed 1 -o probe/data/p8/dbl/1C~C02.jsonl
+1S --hcp 9-16 --S 0-2 --seed 1 -o probe/data/p8/dbl/1S~S02.jsonl
+# A3-A4. Ideal 3-suiters (0-1 in opener's suit): how low does X go?
+1C --hcp 7-14 --C 0-1 --S 3-5 --H 3-5 --D 3-5 --seed 1 -o probe/data/p8/dbl/1C~3suit.jsonl
+1S --hcp 7-14 --S 0-1 --H 3-5 --D 3-5 --C 3-5 --seed 1 -o probe/data/p8/dbl/1S~3suit.jsonl
+# A5. Over (1♠) with a doubleton heart (book: 3-5 in each unbid major).
+1S --hcp 11-16 --S 0-2 --H 2-2 --seed 1 -o probe/data/p8/dbl/1S~H2.jsonl
+# A6. Over (1♣) with 4-4 majors: X floor, and 3 clubs allowed?
+1C --hcp 8-15 --S 4-4 --H 4-4 --C 0-3 --seed 1 -o probe/data/p8/dbl/1C~S4H4.jsonl
+# A7. Over (1♣) with a 5-card major and 3-4 in the other: X or overcall?
+1C --hcp 11-16 --H 5-5 --S 3-4 --C 0-2 --seed 1 -o probe/data/p8/dbl/1C~H5S34.jsonl
+# A8-A9. Strong hands (16+ HCP): X vs 1NT / overcall / jump.
+1C --hcp 16-22 --seed 1 -o probe/data/p8/dbl/1C~hcp1622.jsonl
+1S --hcp 16-22 --seed 1 -o probe/data/p8/dbl/1S~hcp1622.jsonl
+#
+# --- B. Balancing over a minor: (1m) P (P) ?  (South not passed) ---
+# B1-B2. Mirror p5/dbl/1HPP~hcp820: X vs P vs overcalls vs 1NT.
+1C-P-P --hcp 8-20 --seed 1 -o probe/data/p8/dbl/1CPP~hcp820.jsonl
+1D-P-P --hcp 8-20 --seed 1 -o probe/data/p8/dbl/1DPP~hcp820.jsonl
+# B3-B4. Mirror p5/ntov/1HPP~bal: balanced, the 1NT (12-14) vs X (15+) edge.
+1C-P-P --hcp 9-19 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p8/dbl/1CPP~bal.jsonl
+1D-P-P --hcp 9-19 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p8/dbl/1DPP~bal.jsonl
+# B5-B6. Short in opener's minor, light: floor of the balancing X.
+1C-P-P --hcp 5-12 --C 0-2 --seed 1 -o probe/data/p8/dbl/1CPP~C02.jsonl
+1D-P-P --hcp 5-12 --D 0-2 --seed 1 -o probe/data/p8/dbl/1DPP~D02.jsonl
+# B7. 5-5 majors: help says SEF's protective (1♣) P (P) 2♣ shows both majors.
+1C-P-P --hcp 6-16 --S 5- --H 5- --seed 1 -o probe/data/p8/dbl/1CPP~S5H5.jsonl
+# B8. Cheap extra: balancing over (1♠) (1NT-overcall.md "other openings").
+1S-P-P --hcp 8-20 --seed 1 -o probe/data/p8/dbl/1SPP~hcp820.jsonl
+#
+# --- C. Advances (cheap mirrors of p5/dbl) ---
+# C1-C2. Mirror 1DXP~broad / 1HXP~broad.
+1C-X-P --hcp 0-15 --seed 1 -o probe/data/p8/dbl/1CXP~broad.jsonl
+1S-X-P --hcp 0-15 --seed 1 -o probe/data/p8/dbl/1SXP~broad.jsonl
+# C3-C4. Mirror 1HXP~hcp915: jumps, 2NT, 3NT, cuebid.
+1C-X-P --hcp 9-15 --seed 1 -o probe/data/p8/dbl/1CXP~hcp915.jsonl
+1S-X-P --hcp 9-15 --seed 1 -o probe/data/p8/dbl/1SXP~hcp915.jsonl
+# C5. Mirror 1HXP~H5: penalty pass of (1♣) X with 5+ clubs.
+1C-X-P --hcp 0-14 --C 5- --seed 1 -o probe/data/p8/dbl/1CXP~C5.jsonl
+# C6-C7. Mirror 1HPPXP~hcp011: South passed over (1m); smoke kept 13/20
+# (light hands overcall 1♥/1♦), hence -n 450.
+1C-P-P-X-P --hcp 0-11 -n 450 --seed 1 -o probe/data/p8/dbl/1CPPXP~hcp011.jsonl
+1D-P-P-X-P --hcp 0-11 -n 450 --seed 1 -o probe/data/p8/dbl/1DPPXP~hcp011.jsonl

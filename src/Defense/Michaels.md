@@ -377,7 +377,6 @@ For example, ♠K82 ♥AKJ63 ♦AK82 ♣6 doubles.
 
 ## Not probed
 
-- Vulnerability: every auction here is none vulnerable.
 - Over (1♦) 2♦ and (1♠) 3♣, which may differ from the tabled (1♣) 2♦ and
   (1♥) 3♣.
 - The answer to advancer's 4NT except over (1♣) 2♦, a cuebid of opener's suit after

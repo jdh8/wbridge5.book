@@ -1,9 +1,8 @@
 # Competitive rebids
 
 This chapter covers opener's rebids after 1♥♠ when the opponents bid, and
-responder's calls over an overcall.  The ranges come from probing Wbridge5
-5.12 on about 250--300 boards per auction.
-Ranges are in points, except where marked HCP.
+responder's calls over an overcall.  Ranges are in points, except where marked
+HCP.
 
 ## RHO bids over the response
 
@@ -43,8 +42,8 @@ For example, ♠J53 ♥AJ532 ♦K94 ♣K10 redoubles over 1♥ - 1♠ (X), and
 ♠A43 ♥KJ987 ♦A9 ♣Q63 doubles over 1♥ - 1♠ (2♣).  With ♠87 ♥AQ863 ♦K85
 ♣K103, opener passes the double.
 
-The 2011 doc limits the support double to 14--21 points.  Wbridge5 doubles
-or redoubles with 3 spades even at 11 HCP.
+The 2011 writeup limits the support double to 14--21 points.  Wbridge5
+doubles or redoubles with 3 spades even at 11 HCP.
 
 At the 3-level the support double needs extra values.  A minimum opener with
 3 spades passes.
@@ -78,8 +77,8 @@ interest in game.
 | 4♠ | 17--20, 6+♠
 
 For example, ♠QJ985 ♥A4 ♦K108 ♣KJ4 passes and ♠KQJ83 ♥A ♦Q972 ♣A104
-redoubles.  The 2011 doc has XX as an invitation with 17--18 and 4♠ with
-19--21, but Wbridge5 redoubles with any strong hand.
+redoubles.  The 2011 writeup has XX as an invitation with 17--18 and 4♠
+with 19--21, but Wbridge5 redoubles with any strong hand.
 
 Over an overcall, opener competes to the 3-level or bids game.
 
@@ -273,7 +272,7 @@ Of the other raises, only one 6-card 3♥ changed, to 4♥.
 | 4♠  | 12--14 HCP, 3=♠
 
 The double comes from 6 boards, for example ♠73 ♥52 ♦K942 ♣AKQ82.  The
-2011 doc has the same double from 10 points.
+2011 writeup has the same double from 10 points.
 
 | 1♥ (2♣) | |
 |-----|-|
@@ -302,8 +301,8 @@ only with 6--9 HCP, and bids 2♠ with more.  For example, ♠KQ54 ♥K2 ♦KQ87
 | 4♥! | Cuebid, 12--16 HCP, 3=♠
 | 4♠  | 8--15 HCP, 3=♠
 
-The 2011 doc has this double for penalty.  Probing Wbridge5 5.12 shows a
-takeout double on 4 boards, for example ♠K10 ♥84 ♦Q8653 ♣AQ104.  The 71
+The 2011 writeup has this double for penalty.  Probing Wbridge5 5.12 shows
+a takeout double on 4 boards, for example ♠K10 ♥84 ♦Q8653 ♣AQ104.  The 71
 hands with 4+ hearts passed, up to 16 HCP.  Responder also bid 4NT on 12
 boards: 5 with both minors and 7 with 3 spades and 12--15 HCP.
 
@@ -350,8 +349,8 @@ Responder's calls over the other two-suiters, such as 1♥ (2♥), are in
 | 3NT | 16--19 HCP, ♠ stopper
 | 4♥  | 18--21, 6+♥
 
-The 2011 doc has 2NT with 18--19 HCP and 3NT with 20+.  Wbridge5 never bid
-2NT or cuebid 2♠, and it jumped to 3NT with 16--19 HCP.
+The 2011 writeup has 2NT with 18--19 HCP and 3NT with 20+.  Wbridge5 never
+bid 2NT or cuebid 2♠, and it jumped to 3NT with 16--19 HCP.
 
 | 1♠ (2♥) X (P) | |
 |-----|-|
@@ -362,8 +361,8 @@ The 2011 doc has 2NT with 18--19 HCP and 3NT with 20+.  Wbridge5 never bid
 | 3NT | 16--19 HCP, ♥ stopper
 | 4♠  | 17--21, 6+♠
 
-For example, ♠QJ985 ♥A4 ♦K108 ♣KJ4 bids 2NT.  The 2011 doc has 2NT as
-game-forcing with 14--15, but Wbridge5 bids 2NT with a minimum.
+For example, ♠QJ985 ♥A4 ♦K108 ♣KJ4 bids 2NT.  The 2011 writeup has 2NT
+as game-forcing with 14--15, but Wbridge5 bids 2NT with a minimum.
 
 | 1♥ (2♣) X (P) | |
 |------|-|
@@ -456,9 +455,9 @@ invites game.
 | 3♠ | 14--17
 | 4♠ | 16+, usually 6+♠ or shortness
 
-For example, ♠KQJ83 ♥A ♦Q972 ♣A104 doubles.  The 2011 doc has the maximal
-double at 16--17 and 4♠ at 18+.  Wbridge5 doubles with 18--20 and also bids
-4♠ with shapely hands from 16 points.
+For example, ♠KQJ83 ♥A ♦Q972 ♣A104 doubles.  The 2011 writeup has the
+maximal double at 16--17 and 4♠ at 18+.  Wbridge5 doubles with 18--20 and
+also bids 4♠ with shapely hands from 16 points.
 
 The same double works over 1♥ (2♦) 2♥ (3♦).
 
@@ -474,8 +473,6 @@ with 6+ hearts and 0--1 diamond.
 
 ## Not probed
 
-- Vulnerability: the competitive probes in this chapter were at none
-  vulnerable, except the raises over 1♥ (1♠).
 - Responder's calls with 4+ cards in opener's major over overcalls other
   than 1♥ (1♠), and with 11+ HCP.
 - Responder's double of other 2-level overcalls (2♦, 1♥ (2♠)) and of a 2NT

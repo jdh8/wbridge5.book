@@ -415,8 +415,6 @@ opponents have bid, and 3 of the major would only be competitive.
 
 ## Not probed
 
-- Vulnerability: the probes in the sections on higher overcalls, Precise
-  Michaels and support doubles were at none vulnerable.
 - Responder's calls with 5+ cards in opener's minor, and over 1♣ (2♣), 1♦
   (2♠), 1♣ (3♦) or a 3♠ overcall.
 - Opener's rebids after the 2- and 3-level negative doubles and after 1♦

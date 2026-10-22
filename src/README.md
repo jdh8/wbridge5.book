@@ -18,9 +18,24 @@ included in Wbridge5.
 
 Each chapter describes what Wbridge5 bids, verified by probing the program
 itself over the Table Manager protocol.  The probe harness and its data are
-in the [source repository][src].  Rules from older writeups that 5.12 does
-not play, mostly improvements for human players by the principle of useful
-space, are archived [outside this book][adjuncts] as optional agreements.
+in the [source repository][src].  The chapters also compare the probes with
+the 2011 writeup, the author's 2009--2011 Chinese writeup of the system:
+Wbridge5 humanized, with improvements for human players by the principle of
+useful space.  Where the two differ, the probe wins.  Rules from it and other
+older writeups that 5.12 does not play are archived [outside this
+book][adjuncts] as optional agreements.
+
+Wbridge5 sits South in every probe.  The harness plays the other three seats
+from a fixed auction and deals South random hands under constraints on shape
+and HCP.  The dealer is set so that South calls right after that auction,
+whose first call is thus in 1st seat.  South opens in 1st seat unless the
+auction starts with passes, and its direct overcalls are in 2nd seat.
+Nobody is vulnerable unless a chapter says otherwise, and the opponents play
+Wbridge5's own system unless a chapter names SEF or SAYC.  An auction usually
+gets 300 boards, up to 1000 for rare calls.  Wbridge5 makes South's earlier
+calls in the auction itself, and a board where it strays from the script is
+dropped.  A range in this book is what Wbridge5 bid on the boards kept, so a
+rare hand at its edge may bid otherwise.
 
 [adjuncts]: https://github.com/jdh8/wbridge5.book/blob/master/doc/adjuncts.md
 [allevy]: https://allevybridge.com/allevy/computerbridge/index.htm

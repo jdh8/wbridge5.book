@@ -114,3 +114,11 @@ After 1♦ - 1♥ - 1♠, 2♣ is the fourth suit.  A 2♦ preference shows 6--1
 
 - **♠KQ64 ♥974 ♦AQ75 ♣85:** Bid 1♠.
 - **♠KQ54 ♥K2 ♦KQ876 ♣107:** Bid 2♠.
+
+## Not probed
+
+- 1♦ - 1♠ - 1NT: the table after a major rests on 1♣ - 1♥, 1♣ - 1♠ and
+  1♦ - 1♥.
+- Opener's answer to Roudy after a 1♦ opening, the 3♦ answer, and
+  responder's call after any answer.
+- Fourth suits other than the three tabled, e.g. 2♥ in 1♣ - 1♦ - 1♠.

@@ -257,8 +257,15 @@ An acceptance promises 3+ cards, so a good fit is found.
 |------|-|
 | 4♦!  | CTRL or (S/T, 5+♦)
 | 4♥♠! | CTRL
-| 4NT! | RKCB 0314
+| 4NT! | RKCB 0314, no CTRL ♦, ♥ or ♠
 | 5♣   | S/O
+
+Probing Wbridge5 5.12 shows responder bidding 4NT only without a control to
+show (8 of 8 boards, 9--13 HCP).  It makes any
+[control bid](../Slam.md#control-bids) first, up the line.  When opener asks
+with 4NT over responder's 4♦, responder answers
+[RKCB 0314](../Slam.md#after-control-bids) in clubs, counting the ♣K, on all
+207 boards.
 
 #### Rejection 3NT
 
@@ -288,10 +295,11 @@ at 4NT.
 | 2NT - 4♣ -<br>4♦ - | |
 |------|-|
 | 4♥♠! | CTRL
-| 4NT! | RKCB 0314
+| 4NT! | RKCB 0314, no CTRL ♥ or ♠
 | 5♦   | S/O
 
-Probing Wbridge5 5.12 shows that opener answers 4NT as
+Responder bid 4NT only without a heart or spade control (24 of 24 boards,
+7--13 HCP).  Probing Wbridge5 5.12 shows that opener answers 4NT as
 [RKCB 0314](../Slam.md#rkcb-0314) in diamonds, counting the ♦K, on all 170
 boards.
 
@@ -299,3 +307,12 @@ boards.
 
 This bid prevents responder from passing the 4♦ relay but consumes too much
 bidding space.  Responder can only bid quantitatively now.
+
+## Not probed
+
+- Responder's call after 1NT - 2♦ - 2NT, 1NT - 2♥ - 2NT, 2NT - 3♥ - 3NT and
+  2NT - 4♣ - 5♦.
+- 2NT - 3♠ - 3NT - 4♦, 4♥ and 4♠: no board.
+- Opener's third call other than the answer to 4NT after 2NT - 3♥ - 3♠,
+  2NT - 3♠ - 3NT and 2NT - 4♣ - 4♦, e.g. the answer to 4NT after 2NT - 3♦ -
+  3♥ or 2NT - 3♠ - 4♣, or to the slam force.

@@ -203,3 +203,12 @@ The following is analysis after a minimum opening.
 <tr><th>2♠</th><td colspan="3">19.0%</td></tr>
 </tbody>
 </table>
+
+## Not probed
+
+- The flat raise with 6 HCP: 4 random boards for an unpassed responder,
+  where the flat 11 HCP raise had 300 targeted boards.
+- Responder's second call after opener's 2NT, a 3-level rebid, or the reverse
+  1♥ - 1NT - 2♠.
+- Opener's rebids after a passed responder's 1NT.
+- Either side's calls when the opponents double or bid after 1M - 1NT.

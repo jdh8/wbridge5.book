@@ -64,3 +64,11 @@ cuebid above.
 Probing Wbridge5 5.12 shows that with 6 cards in the adverse major, responder
 bids the other major with only 3 cards, e.g. ♠532 ♥AQJ1098 ♦Q63 ♣3 bids 3♠
 after (2♥).
+
+## Not probed
+
+- Opener's rebid over (2♣), (2♠) and natural overcalls: it was probed over
+  the default (2♦) and (2♥).
+- Responder's second call over (2♣), Landy or natural.
+- Responder's call after opener's 3♥ or 3♠, and opener's call after the
+  second response.

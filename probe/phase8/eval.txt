@@ -1,0 +1,195 @@
+# Phase 8, item eval: Evaluation.md refined honor points (tens, unguarded honors) and fit points.
+# Notes: probe/phase8/notes/eval.md.  Hand lines (--hand, -n 1) are deterministic and cheap;
+# the broad lines (no --hand) are the budgeted ones.
+#
+## Broad lines (7).  Balanced = 2-4 in each major, 2-5 in each minor; analysis splits by tens,
+## aces and doubleton honors at fixed HCP.
+- --hcp 14-14 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p8/eval/bal14.jsonl
+- --hcp 15-15 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p8/eval/bal15.jsonl
+- --hcp 17-17 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p8/eval/bal17.jsonl
+- --hcp 18-18 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p8/eval/bal18.jsonl
+# Rule-of-20 boundary, 5-4-3-1: does a singleton honor count in full?
+- --hcp 10-11 --S 5-5 --H 4-4 --D 3-3 --C 1-1 --seed 1 -o probe/data/p8/eval/o5431.jsonl
+# Responder to 1S without shortness (2+ in each side suit): 3, 4 or 5 spades, so the raise
+# limits move only by fit points.  Existing 1S-P.jsonl / 1HP~hcp08H4 mix in distribution points.
+1S-P --S 3-5 --H 2-4 --D 2-4 --C 2-4 --hcp 5-13 --seed 1 -o probe/data/p8/eval/r1s-flat.jsonl
+# Opener after Bergen 3C with 5 or 6 spades and exactly two doubletons (5-4-2-2 / 6-3-2-2):
+# the 10th trump (6-4 fit) against the 9th (5-4), distribution points held equal.
+1S-P-3C-P --S 5-6 --H 3-4 --D 2-2 --C 2-2 --hcp 11-17 --seed 1 -o probe/data/p8/eval/o3c-22.jsonl
+#
+## Hand lines (matched sets; each set changes only the feature named).
+## N14: the 1NT floor.  14 HCP balanced, 0-4 tens; b3 has 3 aces, b4 none, b5 is 5m332
+- --hand A84.K73.QJ62.A85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b1-t0.jsonl
+- --hand AT4.K73.QJ62.A85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b1-t1.jsonl
+- --hand AT4.KT3.QJ62.A85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b1-t2.jsonl
+- --hand AT4.KT3.QJT2.A85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b1-t3.jsonl
+- --hand AT4.KT3.QJT2.AT5 -n 1 --seed 1 -o probe/data/p8/eval/n14-b1-t4.jsonl
+- --hand KQ84.AJ73.KJ6.84 -n 1 --seed 1 -o probe/data/p8/eval/n14-b2-t0.jsonl
+- --hand KQT4.AJ73.KJ6.84 -n 1 --seed 1 -o probe/data/p8/eval/n14-b2-t1.jsonl
+- --hand KQT4.AJT3.KJ6.84 -n 1 --seed 1 -o probe/data/p8/eval/n14-b2-t2.jsonl
+- --hand KQT4.AJT3.KJT.84 -n 1 --seed 1 -o probe/data/p8/eval/n14-b2-t3.jsonl
+- --hand KQT4.AJT3.KJT.T4 -n 1 --seed 1 -o probe/data/p8/eval/n14-b2-t4.jsonl
+- --hand A84.A73.A962.Q85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b3-t0.jsonl
+- --hand AT4.A73.A962.Q85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b3-t1.jsonl
+- --hand AT4.AT3.A962.Q85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b3-t2.jsonl
+- --hand AT4.AT3.AT62.Q85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b3-t3.jsonl
+- --hand AT4.AT3.AT62.QT5 -n 1 --seed 1 -o probe/data/p8/eval/n14-b3-t4.jsonl
+- --hand KJ4.KQ3.Q962.K85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b4-t0.jsonl
+- --hand KJT.KQ3.Q962.K85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b4-t1.jsonl
+- --hand KJT.KQT.Q962.K85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b4-t2.jsonl
+- --hand KJT.KQT.QT62.K85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b4-t3.jsonl
+- --hand KJT.KQT.QT62.KT5 -n 1 --seed 1 -o probe/data/p8/eval/n14-b4-t4.jsonl
+- --hand A84.K73.62.AQJ85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b5-t0.jsonl
+- --hand AT4.K73.62.AQJ85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b5-t1.jsonl
+- --hand AT4.KT3.62.AQJ85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b5-t2.jsonl
+- --hand AT4.KT3.T2.AQJ85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b5-t3.jsonl
+- --hand AT4.KT3.T2.AQJT5 -n 1 --seed 1 -o probe/data/p8/eval/n14-b5-t4.jsonl
+# b3 with every spot a T or 9
+- --hand AT9.AT9.AT98.QT9 -n 1 --seed 1 -o probe/data/p8/eval/n14-b3-spots.jsonl
+# b3 with 9s and 8s but no tens
+- --hand A98.A97.A986.Q98 -n 1 --seed 1 -o probe/data/p8/eval/n14-b3-nines.jsonl
+# the other bases with every spot a T or 9; b5 with the ten only in its long suit, or tens outside it
+- --hand AT9.KT9.QJT9.AT9 -n 1 --seed 1 -o probe/data/p8/eval/n14-b1-spots.jsonl
+- --hand KQT9.AJT9.KJT.T9 -n 1 --seed 1 -o probe/data/p8/eval/n14-b2-spots.jsonl
+- --hand KJT.KQT.QT98.KT9 -n 1 --seed 1 -o probe/data/p8/eval/n14-b4-spots.jsonl
+- --hand A84.K73.62.AQJT5 -n 1 --seed 1 -o probe/data/p8/eval/n14-b5-tlong.jsonl
+- --hand AT4.KT3.T2.AQJ95 -n 1 --seed 1 -o probe/data/p8/eval/n14-b5-t3n.jsonl
+- --hand AT9.KT9.T9.AQJ85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b5-t3s.jsonl
+## N15: 15 HCP, guarded vs doubleton honors (downgrade below the floor?)
+- --hand KQ84.AJ73.KQ6.84 -n 1 --seed 1 -o probe/data/p8/eval/n15-g.jsonl
+- --hand KQ84.AJ73.K62.Q4 -n 1 --seed 1 -o probe/data/p8/eval/n15-qx.jsonl
+- --hand KQ84.A873.KQ6.J4 -n 1 --seed 1 -o probe/data/p8/eval/n15-jx.jsonl
+- --hand KQ84.AJ73.Q62.K4 -n 1 --seed 1 -o probe/data/p8/eval/n15-kx.jsonl
+- --hand KQ84.A873.K62.QJ -n 1 --seed 1 -o probe/data/p8/eval/n15-qj.jsonl
+- --hand KQ84.AJ73.862.KQ -n 1 --seed 1 -o probe/data/p8/eval/n15-kq.jsonl
+- --hand KQ84.QJ73.K62.A4 -n 1 --seed 1 -o probe/data/p8/eval/n15-ax.jsonl
+- --hand KQ84.QJ73.AK6.84 -n 1 --seed 1 -o probe/data/p8/eval/n15-axg.jsonl
+- --hand A84.K73.QJ62.AJ5 -n 1 --seed 1 -o probe/data/p8/eval/n15-b1.jsonl
+- --hand A84.A73.A962.K85 -n 1 --seed 1 -o probe/data/p8/eval/n15-a3.jsonl
+- --hand KQ4.KQ3.Q962.K85 -n 1 --seed 1 -o probe/data/p8/eval/n15-a0.jsonl
+## N18: 18 HCP, guarded vs doubleton honors (downgrade into 1NT?), aces
+- --hand AQ84.KQJ3.AQ6.84 -n 1 --seed 1 -o probe/data/p8/eval/n18-g.jsonl
+- --hand AQ84.KQJ3.A62.Q4 -n 1 --seed 1 -o probe/data/p8/eval/n18-qx.jsonl
+- --hand AQ84.KQ73.AQ6.J4 -n 1 --seed 1 -o probe/data/p8/eval/n18-jx.jsonl
+- --hand AQ84.QJ73.AQ6.K4 -n 1 --seed 1 -o probe/data/p8/eval/n18-kx.jsonl
+- --hand AQ84.J873.AQ6.KQ -n 1 --seed 1 -o probe/data/p8/eval/n18-kq.jsonl
+- --hand AQ84.K873.AQ6.QJ -n 1 --seed 1 -o probe/data/p8/eval/n18-qj.jsonl
+- --hand A84.A73.AQ62.A85 -n 1 --seed 1 -o probe/data/p8/eval/n18-a4.jsonl
+- --hand KQ4.KQ3.KJ62.KJ5 -n 1 --seed 1 -o probe/data/p8/eval/n18-a0.jsonl
+- --hand AQT4.KQJT.AQT.84 -n 1 --seed 1 -o probe/data/p8/eval/n18-g-t3.jsonl
+- --hand KQ84.AK3.AQ62.85 -n 1 --seed 1 -o probe/data/p8/eval/n18-h.jsonl
+- --hand 8542.AK3.AQ62.KQ -n 1 --seed 1 -o probe/data/p8/eval/n18-h-kq.jsonl
+- --hand KQ84.873.AQ62.AK -n 1 --seed 1 -o probe/data/p8/eval/n18-h-ak.jsonl
+- --hand KQ84.A73.AQ62.K5 -n 1 --seed 1 -o probe/data/p8/eval/n18-h-kx.jsonl
+## T17: 17 HCP, tens ladder (upgrade past the 1NT ceiling?); a3 has 3 aces, a0 none
+- --hand AQ4.KJ3.QJ62.A85 -n 1 --seed 1 -o probe/data/p8/eval/t17-a2-t0.jsonl
+- --hand AQT.KJ3.QJ62.A85 -n 1 --seed 1 -o probe/data/p8/eval/t17-a2-t1.jsonl
+- --hand AQT.KJT.QJ62.A85 -n 1 --seed 1 -o probe/data/p8/eval/t17-a2-t2.jsonl
+- --hand AQT.KJT.QJT2.A85 -n 1 --seed 1 -o probe/data/p8/eval/t17-a2-t3.jsonl
+- --hand AQT.KJT.QJT2.AT5 -n 1 --seed 1 -o probe/data/p8/eval/t17-a2-t4.jsonl
+- --hand A84.A73.KJ62.AJ5 -n 1 --seed 1 -o probe/data/p8/eval/t17-a3-t0.jsonl
+- --hand AT4.A73.KJ62.AJ5 -n 1 --seed 1 -o probe/data/p8/eval/t17-a3-t1.jsonl
+- --hand AT4.AT3.KJ62.AJ5 -n 1 --seed 1 -o probe/data/p8/eval/t17-a3-t2.jsonl
+- --hand AT4.AT3.KJT2.AJ5 -n 1 --seed 1 -o probe/data/p8/eval/t17-a3-t3.jsonl
+- --hand AT4.AT3.KJT2.AJT -n 1 --seed 1 -o probe/data/p8/eval/t17-a3-t4.jsonl
+- --hand KQ4.KJ3.KJ62.KJ5 -n 1 --seed 1 -o probe/data/p8/eval/t17-a0-t0.jsonl
+- --hand KQT.KJ3.KJ62.KJ5 -n 1 --seed 1 -o probe/data/p8/eval/t17-a0-t1.jsonl
+- --hand KQT.KJT.KJ62.KJ5 -n 1 --seed 1 -o probe/data/p8/eval/t17-a0-t2.jsonl
+- --hand KQT.KJT.KJT2.KJ5 -n 1 --seed 1 -o probe/data/p8/eval/t17-a0-t3.jsonl
+- --hand KQT.KJT.KJT2.KJT -n 1 --seed 1 -o probe/data/p8/eval/t17-a0-t4.jsonl
+## O11: rule-of-20 hands (11 HCP 5-4-3-1): singleton honor vs the same honor in the 3-card suit
+- --hand AQ852.Q763.984.K -n 1 --seed 1 -o probe/data/p8/eval/o11-sk-stiff.jsonl
+- --hand AQ852.Q763.K84.9 -n 1 --seed 1 -o probe/data/p8/eval/o11-sk-guard.jsonl
+- --hand AQ852.K763.984.Q -n 1 --seed 1 -o probe/data/p8/eval/o11-sq-stiff.jsonl
+- --hand AQ852.K763.Q84.9 -n 1 --seed 1 -o probe/data/p8/eval/o11-sq-guard.jsonl
+- --hand KQ852.Q763.984.A -n 1 --seed 1 -o probe/data/p8/eval/o11-sa-stiff.jsonl
+- --hand KQ852.Q763.A84.9 -n 1 --seed 1 -o probe/data/p8/eval/o11-sa-guard.jsonl
+- --hand AK852.J763.Q84.J -n 1 --seed 1 -o probe/data/p8/eval/o11-sj-stiff.jsonl
+- --hand AK852.J763.QJ4.9 -n 1 --seed 1 -o probe/data/p8/eval/o11-sj-guard.jsonl
+- --hand Q763.AQ852.984.K -n 1 --seed 1 -o probe/data/p8/eval/o11-hk-stiff.jsonl
+- --hand Q763.AQ852.K84.9 -n 1 --seed 1 -o probe/data/p8/eval/o11-hk-guard.jsonl
+- --hand 984.Q763.K.AQ852 -n 1 --seed 1 -o probe/data/p8/eval/o11-dk-stiff.jsonl
+- --hand K84.Q763.9.AQ852 -n 1 --seed 1 -o probe/data/p8/eval/o11-dk-guard.jsonl
+## R1S: South responds to 1S; spades small, honors in hearts and diamonds only, one small doubleton.
+## s3 = 3-4-4-2 (8-card fit), s4 = 4-4-3-2 (9), s5 = 5-3-3-2 (10, the 5-5 fit)
+1S-P --hand 764.K987.Q987.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s3-h05.jsonl
+1S-P --hand 7643.K987.Q98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s4-h05.jsonl
+1S-P --hand 76432.K98.Q98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s5-h05.jsonl
+1S-P --hand 764.KJ98.Q987.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s3-h06.jsonl
+1S-P --hand 7643.KJ98.Q98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s4-h06.jsonl
+1S-P --hand 76432.KJ9.Q98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s5-h06.jsonl
+1S-P --hand 764.A987.K987.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s3-h07.jsonl
+1S-P --hand 7643.A987.K98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s4-h07.jsonl
+1S-P --hand 76432.A98.K98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s5-h07.jsonl
+1S-P --hand 764.AJ98.K987.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s3-h08.jsonl
+1S-P --hand 7643.AJ98.K98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s4-h08.jsonl
+1S-P --hand 76432.AJ9.K98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s5-h08.jsonl
+1S-P --hand 764.AQ98.K987.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s3-h09.jsonl
+1S-P --hand 7643.AQ98.K98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s4-h09.jsonl
+1S-P --hand 76432.AQ9.K98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s5-h09.jsonl
+1S-P --hand 764.AQ98.KJ98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s3-h10.jsonl
+1S-P --hand 7643.AQ98.KJ9.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s4-h10.jsonl
+1S-P --hand 76432.AQ9.KJ9.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s5-h10.jsonl
+1S-P --hand 764.AK98.KJ98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s3-h11.jsonl
+1S-P --hand 7643.AK98.KJ9.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s4-h11.jsonl
+1S-P --hand 76432.AK9.KJ9.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s5-h11.jsonl
+1S-P --hand 764.AK98.KQ98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s3-h12.jsonl
+1S-P --hand 7643.AK98.KQ9.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s4-h12.jsonl
+1S-P --hand 76432.AK9.KQ9.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s5-h12.jsonl
+1S-P --hand 764.AKJ9.KQ98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s3-h13.jsonl
+1S-P --hand 7643.AKJ9.KQ9.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s4-h13.jsonl
+1S-P --hand 76432.AKJ.KQ9.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s5-h13.jsonl
+## R1Sm: as R1S, honors in diamonds and clubs, small heart doubleton: 3-2-4-4, 4-2-4-3, 5-2-3-3
+1S-P --hand 764.65.K987.Q987 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s3-h05.jsonl
+1S-P --hand 7643.65.K987.Q98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s4-h05.jsonl
+1S-P --hand 76432.65.K98.Q98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s5-h05.jsonl
+1S-P --hand 764.65.KJ98.Q987 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s3-h06.jsonl
+1S-P --hand 7643.65.KJ98.Q98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s4-h06.jsonl
+1S-P --hand 76432.65.KJ9.Q98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s5-h06.jsonl
+1S-P --hand 764.65.A987.K987 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s3-h07.jsonl
+1S-P --hand 7643.65.A987.K98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s4-h07.jsonl
+1S-P --hand 76432.65.A98.K98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s5-h07.jsonl
+1S-P --hand 764.65.AJ98.K987 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s3-h08.jsonl
+1S-P --hand 7643.65.AJ98.K98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s4-h08.jsonl
+1S-P --hand 76432.65.AJ9.K98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s5-h08.jsonl
+1S-P --hand 764.65.AQ98.K987 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s3-h09.jsonl
+1S-P --hand 7643.65.AQ98.K98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s4-h09.jsonl
+1S-P --hand 76432.65.AQ9.K98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s5-h09.jsonl
+1S-P --hand 764.65.AQ98.KJ98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s3-h10.jsonl
+1S-P --hand 7643.65.AQ98.KJ9 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s4-h10.jsonl
+1S-P --hand 76432.65.AQ9.KJ9 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s5-h10.jsonl
+1S-P --hand 764.65.AK98.KJ98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s3-h11.jsonl
+1S-P --hand 7643.65.AK98.KJ9 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s4-h11.jsonl
+1S-P --hand 76432.65.AK9.KJ9 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s5-h11.jsonl
+1S-P --hand 764.65.AK98.KQ98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s3-h12.jsonl
+1S-P --hand 7643.65.AK98.KQ9 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s4-h12.jsonl
+1S-P --hand 76432.65.AK9.KQ9 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s5-h12.jsonl
+1S-P --hand 764.65.AKJ9.KQ98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s3-h13.jsonl
+1S-P --hand 7643.65.AKJ9.KQ9 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s4-h13.jsonl
+1S-P --hand 76432.65.AKJ.KQ9 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s5-h13.jsonl
+## o3c: South opened 1S, partner raised (1S-P-3C-P); 5-4-2-2 (9-card fit after 3C, 8 after 2S) vs 6-3-2-2 (10 / 9)
+1S-P-3C-P --hand AK987.KJ98.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s5-h11.jsonl
+1S-P-3C-P --hand AK9876.KJ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s6-h11.jsonl
+1S-P-3C-P --hand AK987.KQ98.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s5-h12.jsonl
+1S-P-3C-P --hand AK9876.KQ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s6-h12.jsonl
+1S-P-3C-P --hand AKJ98.KQ98.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s5-h13.jsonl
+1S-P-3C-P --hand AKJ987.KQ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s6-h13.jsonl
+1S-P-3C-P --hand AKQ98.KQ98.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s5-h14.jsonl
+1S-P-3C-P --hand AKQ987.KQ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s6-h14.jsonl
+1S-P-3C-P --hand AKQ98.KQJ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s5-h15.jsonl
+1S-P-3C-P --hand AKQ987.KQJ.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s6-h15.jsonl
+1S-P-3C-P --hand AKQ98.AQJ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s5-h16.jsonl
+1S-P-3C-P --hand AKQ987.AQJ.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s6-h16.jsonl
+## o2s: South opened 1S, partner raised (1S-P-2S-P); 5-4-2-2 (9-card fit after 3C, 8 after 2S) vs 6-3-2-2 (10 / 9)
+1S-P-2S-P --hand AK987.KJ98.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s5-h11.jsonl
+1S-P-2S-P --hand AK9876.KJ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s6-h11.jsonl
+1S-P-2S-P --hand AK987.KQ98.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s5-h12.jsonl
+1S-P-2S-P --hand AK9876.KQ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s6-h12.jsonl
+1S-P-2S-P --hand AKJ98.KQ98.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s5-h13.jsonl
+1S-P-2S-P --hand AKJ987.KQ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s6-h13.jsonl
+1S-P-2S-P --hand AKQ98.KQ98.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s5-h14.jsonl
+1S-P-2S-P --hand AKQ987.KQ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s6-h14.jsonl
+1S-P-2S-P --hand AKQ98.KQJ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s5-h15.jsonl
+1S-P-2S-P --hand AKQ987.KQJ.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s6-h15.jsonl
+1S-P-2S-P --hand AKQ98.AQJ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s5-h16.jsonl
+1S-P-2S-P --hand AKQ987.AQJ.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s6-h16.jsonl

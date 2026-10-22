@@ -126,3 +126,8 @@ opening.
 | 2♣   | INV, 11+, 5+♣
 | 2♥♠! | fit-showing, 11+, 5+#, 4+♦
 | 3♣!  | fit-showing, 11+, 5+♣, 4+♦
+
+## Not probed
+
+- P - 1♣ - 2♦ and 2♥, and P - 1♦ - 3♣: no board.
+- Responses above 21 HCP, except 3=3=3=4 hands with 22 HCP.

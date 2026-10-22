@@ -216,4 +216,3 @@ Opener always relays 3♦, the
 - Responder's continuations, e.g. after opener passes a doubled transfer.
 - Overcalls of 2NT, 3♣, or 3♥ over Stayman, and overcalls over 1NT - 3♣.
 - An overcall in responder's artificial suit, e.g. 1NT - 2♦ (3♦).
-- Vulnerability beyond the single spot check above.

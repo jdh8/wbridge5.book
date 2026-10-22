@@ -162,8 +162,8 @@ because 2NT is minimum.  The following only describe differences.
 | 3NT  | S/O, 11--17 HCP
 | 4NT! | [Blackwood](../Slam.md#blackwood), 18--20 HCP, BAL
 
-The 2011 doc treats this 4NT as plain Blackwood.  Probing Wbridge5 5.12 shows
-responder bidding it with balanced 18--20 HCP over 1♥ - 2♣ - 2NT and
+The 2011 writeup treats this 4NT as plain Blackwood.  Probing Wbridge5 5.12
+shows responder bidding it with balanced 18--20 HCP over 1♥ - 2♣ - 2NT and
 1♠ - 2♣♥ - 2NT, 13 boards in all.  Opener answers it as Blackwood, counting
 aces only: 5♣ for 0 or 3, 5♦ for 1, 5♥ for 2 on all 243 boards probed over
 1♥ - 2♣ - 2NT.  The ♥K does not count, and opener never passed or bid 6NT.
@@ -215,3 +215,10 @@ principle of fast arrival.
 |----|-|
 | 3♥ | 17+, 6+♥
 | 4♥ | 12--16, 6+♥
+
+## Not probed
+
+- Responder's second call after opener's reverses, jumps and 3-level rebids,
+  except 1♠ - 2♥ - 3♥.
+- Opener's answer to 4NT after the other 2NT rebids: only
+  1♥ - 2♣ - 2NT - 4NT was probed.

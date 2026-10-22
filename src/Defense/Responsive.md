@@ -59,6 +59,14 @@ minors and 0--3 spades.
 - **♠J104 ♥QJ ♦KQ65 ♣J982:** Double (1♥) X (2♥).
 - **♠K ♥K95 ♦AQJ95 ♣10865:** Double (1♥) X (2♥).
 
+Neither responsive double moves with vulnerability.  Every hand that doubled
+(1♣) X (2♣) at none vulnerable doubled again at unfavorable and at both
+vulnerable, and so did every (1♥) X (2♥) doubler at unfavorable.  The few
+changes go both ways when we are vulnerable.  Over (1♣) X (2♣), 3 hands
+with 13--14 HCP bid 3NT instead of 2NT, and 3 hands with 6 HCP passed
+instead of bidding 2♥ or 2♠ (4 hands with 4--6 HCP with both vulnerable).
+Over (1♥) X (2♥), one 2NT became 3NT.
+
 ## After a new suit
 
 Over (1♣) X (1♠), the double shows the red suits.  With 5+ hearts and a weak
@@ -142,6 +150,12 @@ singleton club, 3♥ was bid on 10 of 13 boards with 12--13 HCP, e.g. ♠AK8
 HCP, e.g. ♠AQ102 ♥852 ♦KJ83 ♣A6, and 3♠ from 15 HCP.  With 4-4 in the majors
 the choice is mixed: 3♥ on 24 boards, 2♠ on 15, 3♠ on 12.
 
+At unfavorable vulnerability, 6 of the same 218 rebids differed, 4 of them a
+level higher.  For example, ♠K972 ♥K1087 ♦AKQ ♣Q6 bids 4♥ instead of 3♥.  On
+2 boards the doubler passed the responsive double, with ♠Q65 ♥A74 ♦K10852
+♣K6 and ♠J92 ♥A83 ♦J9765 ♣AK.  Neither hand doubled (1♣) at none
+vulnerable, so there is no pair to compare.
+
 ### Red suits
 
 | (1♣) X (1♠) X (P) | |
@@ -201,7 +215,10 @@ minors the choice is mixed: 2♣ on 29 boards, 3♦ on 21, 2♦ on 16.
 
 ## Not probed
 
-- Vulnerability: every probe was at none vulnerable.
+- Vulnerability for the doubles after a new suit and the other doubles by
+  advancer, for the doubler's rebids other than over (1♣) X (2♣) X (P), and
+  favorable vulnerability.  The doubler's pass of the responsive double at
+  unfavorable came from 2 boards.
 - Advancer with 15+ HCP, and (1♦) X (2♦) or (1♠) X (2♠).
 - Responsive doubles at the 3-level, e.g. (1♥) X (3♥).
 - The doubler's rebid with 5 cards in an unbid major, except over

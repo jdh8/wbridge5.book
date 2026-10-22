@@ -188,6 +188,5 @@ from Kxx or K10xx, and the queen from Q10xx or Qxxxx, now and then.
   hung computing its play after such a line.
 - Leads by a passed hand
 - Leads from AKQ against notrump, and from AK doubleton against notrump
-- Vulnerability: every probe had nobody vulnerable
 - Vinje, and how Wbridge5 reads a human partner's cards with the Signals
   option on

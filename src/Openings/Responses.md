@@ -1,10 +1,8 @@
 # Responses to preemptive openings
 
 Responder to a [preemptive opening](Preemptive.md) seldom has a game, so most
-calls continue the preemption.  The ranges below come from probing Wbridge5
-5.12 with partner's opening in 1st seat and nobody vulnerable, unless stated
-otherwise.  Raises in this chapter are counted in support points (HCP plus
-shortness, see [hand evaluation](../Evaluation.md)).
+calls continue the preemption.  Raises in this chapter are counted in support
+points (HCP plus shortness, see [hand evaluation](../Evaluation.md)).
 
 ## Weak 2♥♠
 
@@ -251,8 +249,7 @@ HCP.  With equal minors, responder chose either.
 
 - Rebids after a new suit by responder, and whether those new suits are
   forcing
-- Responses to 3rd- and 4th-seat preempts other than those above, and other
-  vulnerabilities
+- Responses to 3rd- and 4th-seat preempts other than those above
 - Interference over 3NT and the 4- and 5-level openings
 - Hands under 8 HCP after interference, so the lower ends of those ranges
   are open

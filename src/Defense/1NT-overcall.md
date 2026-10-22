@@ -14,8 +14,11 @@ these.  In the balancing seat a passed hand's 1NT is natural again.
 
 The balancing ranges come from probing Wbridge5 5.12.  Over (1♥) P (P),
 balanced hands with 12--14 HCP bid 1NT and those with 15+ HCP mostly
-double.  Only 2 of the 17 hands with 15 HCP bid 1NT.  When the balancer has passed
-before, it bids 1NT with 10--11 HCP.
+double.  Only 2 of the 17 hands with 15 HCP bid 1NT.  The range is the same
+over (1♣), (1♦) and (1♠).  Over the minors, balanced hands with 12--14 HCP
+and no 5-card major bid 1NT on 86 of 144 boards and otherwise doubled, passed
+or bid a suit, and 7 of 35 balanced hands with 15 HCP bid 1NT over the three
+openings.  When the balancer has passed before, it bids 1NT with 10--11 HCP.
 
 After every one of these overcalls, the advancer plays
 [systems on](../Glossary.md#systems-on).  Its calls are the
@@ -202,5 +205,5 @@ bidding game: ♠73 ♥AJ75 ♦J1062 ♣AJ6 bids 2NT here and 3NT there.
 - Advancer with 17+ HCP: the 4NT and 6NT ranges stop at the probe's 16 HCP cap.
 - Overcaller's answer to 2NT over (1♥) 1NT (2♥).
 - Interference other than (1♥) 1NT (2♥), e.g. a double or a new suit.
-- Balancing over openings other than (1♥).
-- Vulnerability.
+- Advancing a balancing 1NT over openings other than (1♥), and a passed
+  hand's balancing 1NT over them.

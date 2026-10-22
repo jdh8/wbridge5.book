@@ -80,8 +80,8 @@ The fourth suit 2♦ is forcing.
 | 4♣  | S/T, 14+ HCP, 5♠ 4♣
 | 4♠  | S/O, 6+♠
 
-The 4♣ row comes from 4 boards.  The 2011 doc says that only a fourth suit at
-the 2-level in a minor is forcing, so 1♥ - 1♠ - 2♦ - 3♣ would be natural.
+The 4♣ row comes from 4 boards.  The 2011 writeup says that only a fourth suit
+at the 2-level in a minor is forcing, so 1♥ - 1♠ - 2♦ - 3♣ would be natural.
 That auction was not probed.
 
 ## Simple raise
@@ -116,9 +116,8 @@ For example, ♠A72 ♥AQJ98 ♦K762 ♣8 makes a 3♦ game try over 1♥ - 2♥
 ♠K82 ♥AKJ63 ♦AK82 ♣6, opener bids 4♥.
 
 Responder accepts a game try with 9+ HCP, or with 7--8 HCP and 5+ cards in
-the asking suit.  After 1♥ - 2♥ - 3♣, ♠A42 ♥K52
-♦8654 ♣Q43 bids 4♥.  The 2011 doc's rule, 8+ points or a double fit, fits
-the data.
+the asking suit.  After 1♥ - 2♥ - 3♣, ♠A42 ♥K52 ♦8654 ♣Q43 bids 4♥.  The
+2011 writeup's rule, 8+ points or a double fit, fits the data.
 
 ## Bergen raises
 
@@ -141,12 +140,12 @@ was probed.
 | 3NT | 18--19 HCP, 5-3-3-2
 | 4♥  | S/O, 14+
 
-The 2011 doc has opener control-bid with 20--21 over 3♣ and with 19--21 over
-3♦.  Over 3♦, Wbridge5 makes a 3♠ slam try with 17+ points.
+The 2011 writeup has opener control-bid with 20--21 over 3♣ and with 19--21
+over 3♦.  Over 3♦, Wbridge5 makes a 3♠ slam try with 17+ points.
 
-After 1M - 3♣ - 3M, responder passes.  The 2011 doc says that responder bids
-game with 5 trumps, but Wbridge5 passed on 92 of 97 boards with 5 hearts and
-7--9 HCP.
+After 1M - 3♣ - 3M, responder passes.  The 2011 writeup says that responder
+bids game with 5 trumps, but Wbridge5 passed on 92 of 97 boards with 5 hearts
+and 7--9 HCP.
 
 ## Special 2NT
 
@@ -162,9 +161,9 @@ chapter](../1M.md#puppet-special-2nt).
 | Jump new suit! | SPL, 17+, **0--1#**
 
 Over 1♥, the splinters are 3♠, 4♣, and 4♦.  Over 1♠, they are 4♣, 4♦, and
-4♥.  For example, ♠K82 ♥AKJ63 ♦AK82 ♣6 bids 4♣ over 1♥ - 2NT.  The 2011 doc
-has these jumps as control bids, but every probed splinter held a singleton
-or void in the bid suit.
+4♥.  For example, ♠K82 ♥AKJ63 ♦AK82 ♣6 bids 4♣ over 1♥ - 2NT.  The 2011
+writeup has these jumps as control bids, but every probed splinter held a
+singleton or void in the bid suit.
 
 ### Passed responder
 
@@ -220,8 +219,8 @@ Opener describes the hand naturally.  2NT shows a minimum balanced hand.
 | 3NT  | 18--19 HCP, BAL
 | 4♣♦! | SPL, **0--1#**, 4=♠
 
-The 2011 doc lists two 2NT rows here, 12--17 and 18--21 HCP.  Wbridge5 bids
-3NT with the strong balanced hand.
+The 2011 writeup lists two 2NT rows here, 12--17 and 18--21 HCP.  Wbridge5
+bids 3NT with the strong balanced hand.
 
 ## Serious 3NT and splinters
 
@@ -233,3 +232,17 @@ singleton, or a void.  The two auctions probed were 1♥ - 3NT and 1♥ - 3♠.
 |------|-|
 | 4♣♦! | Control bid, 15+
 | 4♥   | S/O, 13--15
+
+## Not probed
+
+- Responder's rebids after 1♥ - 1♠ - 2♦, 2♥, 2♠ or a jump, including
+  1♥ - 1♠ - 2♦ - 3♣.
+- Opener's rebid after the fourth suit 1♥ - 1♠ - 2♣ - 2♦, and responder's
+  call after the Roudy answers.
+- Responder's call after game tries other than 1♥ - 2♥ - 3♣, and after
+  1♠ - 3♣ - 3♠.
+- Opener's rebids after the limit raise 1♠ - 3♦, the preemptive raise
+  1M - 3M, the strong jump shift 1♠ - 3♥, the serious 1♠ - 3NT, and the
+  splinters other than 1♥ - 3♠.
+- P - 1♠ - 2NT, and the fit-showing jumps other than P - 1♥ - 2♠ and
+  P - 1♠ - 3♣.

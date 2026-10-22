@@ -56,4 +56,12 @@ These two stay in the 4th seat because major games are so profitable.  They
 now stand for [4♥ and 4♠ openings][4M] with 8--13 HCP, so opening values are
 allowed.
 
+## Not probed
+
+- The balancing 2♠ with 6 spades: the targeted spade hands held 7+, and 4 of
+  600 random hands opened 2♠.
+- Vulnerability: the hands with 5--7 hearts had 300 boards at unfavorable and
+  40 each at favorable and both vulnerable.  The other 4th-seat openings were
+  probed at none vulnerable only.
+
 [4M]: Preemptive.md#preemptive-4M

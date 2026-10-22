@@ -77,10 +77,14 @@ semibalanced hands with specific strength are opened in notrump.
 
 The 1NT opening also allows pattern 5-4-2-2 or 6-3-2-2 led by a minor.  With
 12--14 or 18--19 HCP, Wbridge5 opens 1 of a suit.  Probing Wbridge5 5.12 shows
-a few exceptions where hand evaluation moves a hand across the HCP ranges: 3 of
-10 balanced 18 HCP hands opened 1NT, and 2 of 53 balanced 19 HCP hands opened
-2NT.  A simple notrump rebid stands for weak notrump; a jump notrump rebid
-shows a hand between 1NT and 2NT openings.
+that [hand evaluation](Evaluation.md#refined-honor-points) blurs the top of the
+1NT range: 189 of 258 balanced hands with 17 HCP opened 1NT, and 76 of 265 with
+18 HCP, fewer with more aces, 10s, or a doubleton.  With 5-4-2-2, 12 of 42 hands
+opened 1NT at 17 HCP and none of 35 at 18.  The bottom is firm: all 300 hands
+with 15 HCP, 2--4 cards in each major, and 2--5 in each minor opened 1NT, and 5
+of 300 such hands with 14 HCP.  Above, 2 of 53 balanced 19 HCP hands opened
+2NT.  A simple notrump rebid stands for weak notrump; a jump notrump rebid shows
+a hand between 1NT and 2NT openings.
 
 - **♠54 ♥A863 ♦AQ986 ♣AJ:** Open 1NT.  Although this hand is not balanced, it
   is acceptable.
@@ -111,6 +115,13 @@ The chance to open 2♦ is slim.  Actually 2♦ is a dustbin for hands way too
 strong, clarifying other bids for hands with 21--23 points.  With 24+ points
 or 24+ HCP, Wbridge5 opens 2♦.  Losers only break ties: 3-loser hands open 1 of
 a suit, 2♣, or 2♦ alike.
+
+Probing Wbridge5 5.12 shows that the choice does not depend on seat or
+vulnerability.  The same 300 hands with 19--26 HCP opened 2NT 65 times, 2♣
+74 times, and 2♦ 47 times, each hand making the same opening in all four seats
+and when both vulnerable.  So did 300 balanced hands with 21--24 HCP in the
+1st, 3rd, and 4th seats.  See [later seats in the 2♦
+chapter](2D.md#later-seats).
 
 The frequent rebids of 2♣ openings are 2♥ through 3♦.  The 2NT rebid describes
 a notrump hand stronger than 2NT opening.  The majors promise 5+ cards, minors
@@ -152,3 +163,11 @@ suits.
 ## Unusual 4NT
 
 Unusual 4NT shows 6+ cards in each minor.
+
+## Not probed
+
+- The 2♣ and 2NT openings in the 2nd, 3rd, and 4th seats on hands outside
+  the 19--26 HCP set (all four seats) and the balanced 21--24 HCP set (1st,
+  3rd, and 4th seats).
+- The gambling 3NT and the 4NT when vulnerable, seen on 1 and 10 boards.
+- The gambling 3NT in the 2nd and 3rd seats.

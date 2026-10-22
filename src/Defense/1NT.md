@@ -373,7 +373,6 @@ Over the transfer, Wbridge5 passes with hearts, the suit responder showed.
 
 ## Not probed
 
-- Vulnerability: every probe was at none vulnerable.
 - Opposing 1NT ranges other than 15--17 and 12--14, and advances over a
   weak 1NT.
 - The overcaller's second call after a balancing overcall, after a jump or

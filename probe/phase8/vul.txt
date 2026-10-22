@@ -1,0 +1,65 @@
+# Phase 8, key vul: vulnerability for 2♣, takeout and responsive doubles.
+# Notes: probe/phase8/notes/vul.md.  We are N-S: --vul ns = unfavorable
+# (or "we are vulnerable" for constructive auctions), ew = favorable,
+# both = both vulnerable.  Every vul line mirrors a none line already in
+# probe/data with the same flags and seed, so the same hands are dealt;
+# read each pair hand by hand: python3 -I probe/phase7/pdiff.py NONE VUL.
+# Existing data already shows 1st-seat openings depend on our own
+# vulnerability only (ns == both, none == ew), so the opening line runs at ns.
+#
+# --- A. Strong 2♣ (src/2C.md) ---
+# A1. 2♣ vs 1x / 2NT / 2♦ with 19--26 HCP; twin: more/open~hcp1926 (74 2♣).
+- --hcp 19-26 --vul ns --seed 1 -o probe/data/p8/vul/open~hcp1926vulns.jsonl
+# A2. Positive vs 2♦ waiting at the 6--12 HCP edge; twin: p4/2C/r-hcp612.
+2C-P --hcp 6-12 --vul ns --seed 1 -o probe/data/p8/vul/2C-r-hcp612vulns.jsonl
+2C-P --hcp 6-12 --vul both --seed 1 -o probe/data/p8/vul/2C-r-hcp612vulboth.jsonl
+# A3. Responder after 2♣ - 2♦ - 2♥: pass 1--5 vs 3♥ / 4♥ / 2NT (game decision);
+#     twin: p4/2C/r-2D2H.
+2C-P-2D-P-2H-P --hcp 0-9 --vul ns --seed 1 -o probe/data/p8/vul/2C-r-2D2Hvulns.jsonl
+2C-P-2D-P-2H-P --hcp 0-9 --vul both --seed 1 -o probe/data/p8/vul/2C-r-2D2Hvulboth.jsonl
+# A4. Opener after 2♣ - 2♦ - 2♥ - 2NT: pass (7 boards, 19 HCP) vs 3NT; South
+#     opens and rebids itself (keep ~45%); twin: p4/2C/o-2H2N.
+2C-P-2D-P-2H-P-2N-P --H 5- --hcp 19-23 --vul ns --seed 1 -n 500 -o probe/data/p8/vul/2C-o-2H2Nvulns.jsonl
+# A5. 2♣ (2♥) P (P): penalty pass with 5+♥ vs X / 2NT; their vulnerability
+#     should matter most here (keep ~27%); twin: p4/2C/o-2H-P-P.
+2C-2H-P-P --hcp 19-23 --vul ns --seed 1 -n 900 -o probe/data/p8/vul/2C-o-2HPPvulns.jsonl
+2C-2H-P-P --hcp 19-23 --vul ew --seed 1 -n 900 -o probe/data/p8/vul/2C-o-2HPPvulew.jsonl
+#
+# --- B. Takeout doubles (src/Defense/1y.md#takeout-double, Takeout.md) ---
+# B1. Minimum direct double vs pass / overcall with short hearts.  No
+#     targeted none line exists (more/1H~hcp6 had 37 doubles, none changed),
+#     so this is a new none line plus its twins.
+1H --hcp 9-14 --H 0-2 --S 3-4 --seed 1 -o probe/data/p8/vul/1H~minX.jsonl
+1H --hcp 9-14 --H 0-2 --S 3-4 --vul ns --seed 1 -o probe/data/p8/vul/1H~minXvulns.jsonl
+1H --hcp 9-14 --H 0-2 --S 3-4 --vul both --seed 1 -o probe/data/p8/vul/1H~minXvulboth.jsonl
+# B2. Balancing seat (1♥) P (P): X from 8 HCP, pass with 5+♥; twin:
+#     p5/dbl/1HPP~hcp820.  Favorable too: reopening risk is theirs.
+1H-P-P --hcp 8-20 --vul ns --seed 1 -o probe/data/p8/vul/1HPP~hcp820vulns.jsonl
+1H-P-P --hcp 8-20 --vul both --seed 1 -o probe/data/p8/vul/1HPP~hcp820vulboth.jsonl
+1H-P-P --hcp 8-20 --vul ew --seed 1 -o probe/data/p8/vul/1HPP~hcp820vulew.jsonl
+# B3. Advancer (1♥) X (P): jumps from 7 HCP, 1NT/2NT/3NT, cuebid, penalty
+#     pass; twin: p5/dbl/1HXP~broad.
+1H-X-P --hcp 0-15 --vul ns --seed 1 -o probe/data/p8/vul/1HXP~broadvulns.jsonl
+1H-X-P --hcp 0-15 --vul both --seed 1 -o probe/data/p8/vul/1HXP~broadvulboth.jsonl
+# B4. Strong advances (3NT 13+, 4♠, 2NT 11--12): twin p5/dbl/1HXP~hcp915.
+1H-X-P --hcp 9-15 --vul ns --seed 1 -o probe/data/p8/vul/1HXP~hcp915vulns.jsonl
+# B5. Penalty pass with 5♥ (23 of 214) vs 6+♥: favorable, opener vulnerable;
+#     twin: p5/dbl/1HXP~H5.
+1H-X-P --hcp 0-14 --H 5- --vul ew --seed 1 -o probe/data/p8/vul/1HXP~H5vulew.jsonl
+# B6. Doubler after the 2♠ jump: 4♠ vs pass with 4♠ 13--15 HCP (26 vs 12);
+#     South doubles in the prefix (keep ~44%); twin: p5/dbl/1HXP2SP.
+1H-X-P-2S-P --hcp 13-22 --H 0-2 -n 400 --vul ns --seed 1 -o probe/data/p8/vul/1HXP2SPvulns.jsonl
+1H-X-P-2S-P --hcp 13-22 --H 0-2 -n 400 --vul both --seed 1 -o probe/data/p8/vul/1HXP2SPvulboth.jsonl
+# B7. Free bids over (1♥) X (2♥): pass 0--12 vs 2♠ from 3 HCP, 3m, 3♠, X;
+#     twin: p5/dbl/1HX2H~broad.
+1H-X-2H --hcp 0-12 --vul ns --seed 1 -o probe/data/p8/vul/1HX2H~broadvulns.jsonl
+#
+# --- C. Responsive doubles (src/Defense/Responsive.md) ---
+# C1. (1♣) X (2♣): X 7--16 with both majors vs pass 4--9 / 2M; twin p5/compx/1CX2C.
+1C-X-2C --S 3- --H 3- --hcp 4-14 --vul ns --seed 1 -o probe/data/p8/vul/1CX2Cvulns.jsonl
+1C-X-2C --S 3- --H 3- --hcp 4-14 --vul both --seed 1 -o probe/data/p8/vul/1CX2Cvulboth.jsonl
+# C2. (1♥) X (2♥): X 8--16 with both minors vs pass 4--11; twin p5/compx/1HX2H.
+1H-X-2H --D 3- --C 3- --hcp 4-14 --vul ns --seed 1 -o probe/data/p8/vul/1HX2Hvulns.jsonl
+# C3. Doubler's rebid (1♣) X (2♣) X (P): 2♥/2♠ vs 3♥/3♠ vs game (keep ~73%);
+#     twin: p7/second/1CX2CXP.
+1C-X-2C-X-P --C 0-2 --S 3-4 --H 3-4 --hcp 12-20 --vul ns --seed 1 -o probe/data/p8/vul/1CX2CXPvulns.jsonl

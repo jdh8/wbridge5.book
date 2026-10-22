@@ -156,7 +156,6 @@ seat.  A 5-card minor is enough at the 3 level, as with ♠K ♥K95 ♦AQJ95
 
 ## Not probed
 
-- **Vulnerability:** every probe was at love all.
 - **Advances:** advancer's calls after any of these overcalls were not
   probed, including whether a natural 2NT over (2♥♠) is
   [systems on](../Glossary.md#systems-on).

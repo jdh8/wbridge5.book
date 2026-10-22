@@ -1,0 +1,43 @@
+# d2seat: 2D in the 2nd, 3rd and 4th seats.  Notes: probe/phase8/notes/d2seat.md
+# Every line mirrors a 1st-seat line's hand constraints, so with --seed 1 the
+# same hand is dealt on the same board: match rows on "hand".
+# --- Opening: does Wbridge5 open 2D the same in later seats? ---
+# twin: more/open~hcp1926 (2D on 47 of 300)
+P --hcp 19-26 --seed 1 -o probe/data/p8/d2seat/P-hcp1926.jsonl
+P-P --hcp 19-26 --seed 1 -o probe/data/p8/d2seat/PP-hcp1926.jsonl
+P-P-P --hcp 19-26 --seed 1 -o probe/data/p8/d2seat/PPP-hcp1926.jsonl
+# twin: p7/bss/open-bal2124 (2D on 22 of 300, 2NT/2C boundary)
+P-P --hcp 21-24 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p8/d2seat/PP-bal2124.jsonl
+P-P-P --hcp 21-24 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p8/d2seat/PPP-bal2124.jsonl
+# twin: p7/aces/open~hcp1926a01 (no 2D with 0-1 ace)
+P-P --hcp 19-26 --aces 0-1 --seed 1 -o probe/data/p8/d2seat/PP-a01.jsonl
+P-P-P --hcp 19-26 --aces 0-1 --seed 1 -o probe/data/p8/d2seat/PPP-a01.jsonl
+# twin: p7/docq/2H~D7 keep set (251 of 300 opened 2D in 1st seat)
+P-P-P --hcp 19-26 --D 7-7 --seed 1 -o probe/data/p8/d2seat/PPP-D7.jsonl
+# vulnerability, twin more/open~hcp1926
+- --hcp 19-26 --vul both --seed 1 -o probe/data/p8/d2seat/o-hcp1926vulboth.jsonl
+# --- Responses: 2nd-seat opener (South unpassed), passed responder ---
+# twins: p4/2D/resp~hcp812, resp~hcp07, resp~hcp410D6
+P-2D-P --hcp 8-12 --seed 1 -o probe/data/p8/d2seat/P2DP-hcp812.jsonl
+P-P-2D-P --hcp 0-7 --seed 1 -o probe/data/p8/d2seat/PP2DP-hcp07.jsonl
+P-P-2D-P --hcp 8-12 --seed 1 -o probe/data/p8/d2seat/PP2DP-hcp812.jsonl
+P-P-2D-P --hcp 4-10 --D 6- --seed 1 -o probe/data/p8/d2seat/PP2DP-D6.jsonl
+P-P-P-2D-P --hcp 0-7 --seed 1 -o probe/data/p8/d2seat/PPP2DP-hcp07.jsonl
+P-P-P-2D-P --hcp 8-12 --seed 1 -o probe/data/p8/d2seat/PPP2DP-hcp812.jsonl
+# 3NT (two aces) from a passed hand; compare resp~hcp812's 56 3NT rows
+P-P-2D-P --hcp 8-11 --aces 2-2 --seed 1 -o probe/data/p8/d2seat/PP2DP-a2.jsonl
+# vulnerability, twin resp~hcp812
+2D-P --hcp 8-12 --vul both --seed 1 -o probe/data/p8/d2seat/2DP-hcp812vulboth.jsonl
+# --- Opener's rebids in 3rd/4th seat, partner passed ---
+# twins: p4/2D/2H~hcp23, 2S~hcp23, 2N~hcp23, p7/aces/2DP3NP~hcp22a2
+P-P-2D-P-2H-P --hcp 23- --seed 1 -o probe/data/p8/d2seat/PP2DP2HP.jsonl
+P-P-P-2D-P-2H-P --hcp 23- --seed 1 -o probe/data/p8/d2seat/PPP2DP2HP.jsonl
+P-P-P-2D-P-2S-P --hcp 23- --seed 1 -o probe/data/p8/d2seat/PPP2DP2SP.jsonl
+P-P-P-2D-P-2N-P --hcp 23- --seed 1 -o probe/data/p8/d2seat/PPP2DP2NP.jsonl
+P-P-2D-P-3N-P --hcp 22- --aces 2-2 --seed 1 -o probe/data/p8/d2seat/PP2DP3NP.jsonl
+# --- Example hands: passed-hand suit responses (0 kept = South opened) ---
+P-P-2D-P --hand 75.KQ8642.943.72 --vul ns -n 1 --seed 1 -o probe/data/p8/d2seat/hand-PP2DP-KQ6H-vul.jsonl
+2D-P --hand 75.KQ8642.943.72 --vul ns -n 1 --seed 1 -o probe/data/p8/d2seat/hand-2DP-KQ6H-vul.jsonl
+# smoke: the chapter's 3D hand T32.5.KQT8632.74 and 3H hand Q83.KQ8763.63.64 open as dealer, so no passed-hand twin
+P-P-2D-P --hand 75.943.KQ8642.72 -n 1 --seed 1 -o probe/data/p8/d2seat/hand-PP2DP-KQ6D.jsonl
+2D-P --hand 75.943.KQ8642.72 -n 1 --seed 1 -o probe/data/p8/d2seat/hand-2DP-KQ6D.jsonl

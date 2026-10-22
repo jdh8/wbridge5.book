@@ -153,3 +153,10 @@ responses are quantitative invitations if there is **no agreed trump**.
 Quantitative invitation only applies to notrump **openings**, not **rebids**.
 To ask opener for strength, bid clubs for **Roudi**, the French variation of
 Checkback Stayman.
+
+## Not probed
+
+- Opener's answer to the quantitative 4NT and 5NT, after 1NT, 2NT or a
+  delayed 2NT.
+- Weak 5-5 and 6-6 minor two-suiters over 1NT, apart from 2 weak 5-5 hands
+  dealt at random.

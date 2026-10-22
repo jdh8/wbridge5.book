@@ -1,0 +1,40 @@
+# Phase 8, item "rkcb": when the asker starts RKCB instead of a control bid,
+# and what 4NT asks after a control bid by each partner.
+# Notes: probe/phase8/notes/rkcb.md.  Tabulate answers with
+#   python3 -I probe/phase4/keys.py <file> <trump S|H|D|C|->
+# (keys = aces + trump K; trump K vs aces tells RKCB 0314 from Blackwood).
+#
+# ===== Part 1: South chooses between 4NT and a control bid =====
+# Existing data already settles most of it (see notes): South cues the
+# cheapest controlled suit whenever one exists below 4NT, whatever its keys
+# (up to 5) or strength (to 25 HCP), and bids 4NT only with no control to cue.
+# Gaps below: very strong hands with 3-4 aces in a cue auction; a direct 4NT
+# by responder over 1M; a strong opener facing a minor raise.
+1S-P-2H-P-3H-P --H 5-6 --S 0-2 --hcp 17-24 --aces 3-4 --seed 1 -o probe/data/p8/rkcb/1SP2HP3HP~a34.jsonl
+1S-P --S 4-5 --hcp 17-24 --seed 1 -o probe/data/p8/rkcb/1SP~S45hcp1724.jsonl
+1D-P-3D-P --D 5-6 --S 0-3 --H 0-3 --C 0-4 --hcp 16-21 --seed 1 -o probe/data/p8/rkcb/1DP3DP~hcp1621.jsonl
+# Fixed hands with no control to cue (smoke: all four bid 4NT, never a cue).
+# (A 2C hand with only a diamond control could not be built: 23+ HCP with no
+# spade or club A, K or shortness needs both red aces, which opens 2D.)
+1S-P-2H-P-3H-P --hand QJ.AKQJ32.Q32.J2 -n 1 --seed 1 -o probe/data/p8/rkcb/hand-1SP2HP3HP-QJ.jsonl
+1S-P-2H-P-3H-P --hand Q2.AKQJ32.QJ2.QJ -n 1 --seed 1 -o probe/data/p8/rkcb/hand-1SP2HP3HP-Q2.jsonl
+1D-P-1H-P-3H-P --hand QJ2.AKQ2.QJ2.J32 -n 1 --seed 1 -o probe/data/p8/rkcb/hand-1DP1HP3HP-QJ2.jsonl
+1D-P-1H-P-3H-P --hand QJ2.AKQJ.QJ2.J32 -n 1 --seed 1 -o probe/data/p8/rkcb/hand-1DP1HP3HP-AKQJ.jsonl
+#
+# ===== Part 2: North bids 4NT after control bids; South answers =====
+# A. Control bid by North only (South signed off over it)
+1H-P-3S-P-4C-P-4H-P-4N-P --H 4-5 --S 0-1 --hcp 10-15 -n 600 --seed 1 -o probe/data/p8/rkcb/1HP3SP4CP4HP4NP.jsonl
+1S-P-3D-P-4C-P-4S-P-4N-P --S 4-4 --hcp 9-12 -n 600 --seed 1 -o probe/data/p8/rkcb/1SP3DP4CP4SP4NP.jsonl
+# B. Control bid by South only (North asks at once); B3 is a club fit
+1D-P-1H-P-3H-P-3S-P-4N-P --H 4-5 --S 0-3 --D 0-3 --hcp 12-16 -n 600 --seed 1 -o probe/data/p8/rkcb/1DP1HP3HP3SP4NP.jsonl
+1S-P-2H-P-3H-P-4C-P-4N-P --H 5-6 --S 0-2 --hcp 14-20 -n 600 --seed 1 -o probe/data/p8/rkcb/1SP2HP3HP4CP4NP.jsonl
+2N-P-3S-P-4C-P-4D-P-4N-P --C 6- --hcp 7- -n 600 --seed 1 -o probe/data/p8/rkcb/2NP3SP4CP4DP4NP.jsonl
+# C. Control bids by both partners
+1D-P-1H-P-3H-P-3S-P-4C-P-4D-P-4N-P --H 4-5 --S 0-3 --D 0-3 --hcp 12-16 --aces 1- -n 1000 --seed 1 -o probe/data/p8/rkcb/1DP1HP3HP3SP4CP4DP4NP.jsonl
+1S-P-3D-P-4C-P-4D-P-4N-P --S 4-4 --hcp 9-12 -n 1000 --seed 1 -o probe/data/p8/rkcb/1SP3DP4CP4DP4NP.jsonl
+1S-P-2N-P-3C-P-3H-P-4C-P-4D-P-4N-P --S 4-4 --H 2-3 --D 2-4 --C 2-4 --hcp 11-16 -n 600 --seed 1 -o probe/data/p8/rkcb/1SP2NP3CP3HP4CP4DP4NP.jsonl
+1H-P-3S-P-4C-P-4D-P-4N-P --H 4-5 --S 0-1 --hcp 10-15 -n 600 --seed 1 -o probe/data/p8/rkcb/1HP3SP4CP4DP4NP.jsonl
+# D. South's own 4NT after both cued (Slam.md "What 4NT asks here was not
+# probed"): South's call over a scripted 5D shows how it reads the answer
+# (RKCB: 2 aces without the HK sign off in 5H; Blackwood: they go on).
+1D-P-1H-P-3H-P-3S-P-4C-P-4N-P-5D-P --H 4-5 --S 0-3 --D 0-3 --hcp 12-16 --aces 1- -n 1000 --seed 1 -o probe/data/p8/rkcb/1DP1HP3HP3SP4CP4NP5DP.jsonl

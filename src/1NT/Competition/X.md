@@ -21,3 +21,8 @@ Opener often passes to convert the double to penalty.  However, opener
 sometimes runs.  Probing Wbridge5 5.12 over 2♥ shows that opener runs to a
 3-level suit only with a doubleton ♥, while 5 spades run to 2♠ with 2--3 ♥.
 Opener occasionally runs to 2NT without a 5-card suit.
+
+## Not probed
+
+- Opener's call after the double of overcalls other than (2♥), and
+  responder's next call after opener runs.

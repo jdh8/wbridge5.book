@@ -1,0 +1,435 @@
+# Phase 8, item eval: Evaluation.md refined honor points (tens, unguarded honors) and fit points.
+# Notes: probe/phase8/notes/eval.md.  Hand lines (--hand, -n 1) are deterministic and cheap;
+# the broad lines (no --hand) are the budgeted ones.
+#
+## Broad lines (7).  Balanced = 2-4 in each major, 2-5 in each minor; analysis splits by tens,
+## aces and doubleton honors at fixed HCP.
+- --hcp 14-14 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p8/eval/bal14.jsonl
+- --hcp 15-15 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p8/eval/bal15.jsonl
+- --hcp 17-17 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p8/eval/bal17.jsonl
+- --hcp 18-18 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p8/eval/bal18.jsonl
+# Rule-of-20 boundary, 5-4-3-1: does a singleton honor count in full?
+- --hcp 10-11 --S 5-5 --H 4-4 --D 3-3 --C 1-1 --seed 1 -o probe/data/p8/eval/o5431.jsonl
+# Responder to 1S without shortness (2+ in each side suit): 3, 4 or 5 spades, so the raise
+# limits move only by fit points.  Existing 1S-P.jsonl / 1HP~hcp08H4 mix in distribution points.
+1S-P --S 3-5 --H 2-4 --D 2-4 --C 2-4 --hcp 5-13 --seed 1 -o probe/data/p8/eval/r1s-flat.jsonl
+# Opener after Bergen 3C with 5 or 6 spades and exactly two doubletons (5-4-2-2 / 6-3-2-2):
+# the 10th trump (6-4 fit) against the 9th (5-4), distribution points held equal.
+1S-P-3C-P --S 5-6 --H 3-4 --D 2-2 --C 2-2 --hcp 11-17 --seed 1 -o probe/data/p8/eval/o3c-22.jsonl
+#
+## Hand lines (matched sets; each set changes only the feature named).
+## N14: the 1NT floor.  14 HCP balanced, 0-4 tens; b3 has 3 aces, b4 none, b5 is 5m332
+- --hand A84.K73.QJ62.A85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b1-t0.jsonl
+- --hand AT4.K73.QJ62.A85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b1-t1.jsonl
+- --hand AT4.KT3.QJ62.A85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b1-t2.jsonl
+- --hand AT4.KT3.QJT2.A85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b1-t3.jsonl
+- --hand AT4.KT3.QJT2.AT5 -n 1 --seed 1 -o probe/data/p8/eval/n14-b1-t4.jsonl
+- --hand KQ84.AJ73.KJ6.84 -n 1 --seed 1 -o probe/data/p8/eval/n14-b2-t0.jsonl
+- --hand KQT4.AJ73.KJ6.84 -n 1 --seed 1 -o probe/data/p8/eval/n14-b2-t1.jsonl
+- --hand KQT4.AJT3.KJ6.84 -n 1 --seed 1 -o probe/data/p8/eval/n14-b2-t2.jsonl
+- --hand KQT4.AJT3.KJT.84 -n 1 --seed 1 -o probe/data/p8/eval/n14-b2-t3.jsonl
+- --hand KQT4.AJT3.KJT.T4 -n 1 --seed 1 -o probe/data/p8/eval/n14-b2-t4.jsonl
+- --hand A84.A73.A962.Q85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b3-t0.jsonl
+- --hand AT4.A73.A962.Q85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b3-t1.jsonl
+- --hand AT4.AT3.A962.Q85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b3-t2.jsonl
+- --hand AT4.AT3.AT62.Q85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b3-t3.jsonl
+- --hand AT4.AT3.AT62.QT5 -n 1 --seed 1 -o probe/data/p8/eval/n14-b3-t4.jsonl
+- --hand KJ4.KQ3.Q962.K85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b4-t0.jsonl
+- --hand KJT.KQ3.Q962.K85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b4-t1.jsonl
+- --hand KJT.KQT.Q962.K85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b4-t2.jsonl
+- --hand KJT.KQT.QT62.K85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b4-t3.jsonl
+- --hand KJT.KQT.QT62.KT5 -n 1 --seed 1 -o probe/data/p8/eval/n14-b4-t4.jsonl
+- --hand A84.K73.62.AQJ85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b5-t0.jsonl
+- --hand AT4.K73.62.AQJ85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b5-t1.jsonl
+- --hand AT4.KT3.62.AQJ85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b5-t2.jsonl
+- --hand AT4.KT3.T2.AQJ85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b5-t3.jsonl
+- --hand AT4.KT3.T2.AQJT5 -n 1 --seed 1 -o probe/data/p8/eval/n14-b5-t4.jsonl
+# b3 with every spot a T or 9
+- --hand AT9.AT9.AT98.QT9 -n 1 --seed 1 -o probe/data/p8/eval/n14-b3-spots.jsonl
+# b3 with 9s and 8s but no tens
+- --hand A98.A97.A986.Q98 -n 1 --seed 1 -o probe/data/p8/eval/n14-b3-nines.jsonl
+# the other bases with every spot a T or 9; b5 with the ten only in its long suit, or tens outside it
+- --hand AT9.KT9.QJT9.AT9 -n 1 --seed 1 -o probe/data/p8/eval/n14-b1-spots.jsonl
+- --hand KQT9.AJT9.KJT.T9 -n 1 --seed 1 -o probe/data/p8/eval/n14-b2-spots.jsonl
+- --hand KJT.KQT.QT98.KT9 -n 1 --seed 1 -o probe/data/p8/eval/n14-b4-spots.jsonl
+- --hand A84.K73.62.AQJT5 -n 1 --seed 1 -o probe/data/p8/eval/n14-b5-tlong.jsonl
+- --hand AT4.KT3.T2.AQJ95 -n 1 --seed 1 -o probe/data/p8/eval/n14-b5-t3n.jsonl
+- --hand AT9.KT9.T9.AQJ85 -n 1 --seed 1 -o probe/data/p8/eval/n14-b5-t3s.jsonl
+## N15: 15 HCP, guarded vs doubleton honors (downgrade below the floor?)
+- --hand KQ84.AJ73.KQ6.84 -n 1 --seed 1 -o probe/data/p8/eval/n15-g.jsonl
+- --hand KQ84.AJ73.K62.Q4 -n 1 --seed 1 -o probe/data/p8/eval/n15-qx.jsonl
+- --hand KQ84.A873.KQ6.J4 -n 1 --seed 1 -o probe/data/p8/eval/n15-jx.jsonl
+- --hand KQ84.AJ73.Q62.K4 -n 1 --seed 1 -o probe/data/p8/eval/n15-kx.jsonl
+- --hand KQ84.A873.K62.QJ -n 1 --seed 1 -o probe/data/p8/eval/n15-qj.jsonl
+- --hand KQ84.AJ73.862.KQ -n 1 --seed 1 -o probe/data/p8/eval/n15-kq.jsonl
+- --hand KQ84.QJ73.K62.A4 -n 1 --seed 1 -o probe/data/p8/eval/n15-ax.jsonl
+- --hand KQ84.QJ73.AK6.84 -n 1 --seed 1 -o probe/data/p8/eval/n15-axg.jsonl
+- --hand A84.K73.QJ62.AJ5 -n 1 --seed 1 -o probe/data/p8/eval/n15-b1.jsonl
+- --hand A84.A73.A962.K85 -n 1 --seed 1 -o probe/data/p8/eval/n15-a3.jsonl
+- --hand KQ4.KQ3.Q962.K85 -n 1 --seed 1 -o probe/data/p8/eval/n15-a0.jsonl
+## N18: 18 HCP, guarded vs doubleton honors (downgrade into 1NT?), aces
+- --hand AQ84.KQJ3.AQ6.84 -n 1 --seed 1 -o probe/data/p8/eval/n18-g.jsonl
+- --hand AQ84.KQJ3.A62.Q4 -n 1 --seed 1 -o probe/data/p8/eval/n18-qx.jsonl
+- --hand AQ84.KQ73.AQ6.J4 -n 1 --seed 1 -o probe/data/p8/eval/n18-jx.jsonl
+- --hand AQ84.QJ73.AQ6.K4 -n 1 --seed 1 -o probe/data/p8/eval/n18-kx.jsonl
+- --hand AQ84.J873.AQ6.KQ -n 1 --seed 1 -o probe/data/p8/eval/n18-kq.jsonl
+- --hand AQ84.K873.AQ6.QJ -n 1 --seed 1 -o probe/data/p8/eval/n18-qj.jsonl
+- --hand A84.A73.AQ62.A85 -n 1 --seed 1 -o probe/data/p8/eval/n18-a4.jsonl
+- --hand KQ4.KQ3.KJ62.KJ5 -n 1 --seed 1 -o probe/data/p8/eval/n18-a0.jsonl
+- --hand AQT4.KQJT.AQT.84 -n 1 --seed 1 -o probe/data/p8/eval/n18-g-t3.jsonl
+- --hand KQ84.AK3.AQ62.85 -n 1 --seed 1 -o probe/data/p8/eval/n18-h.jsonl
+- --hand 8542.AK3.AQ62.KQ -n 1 --seed 1 -o probe/data/p8/eval/n18-h-kq.jsonl
+- --hand KQ84.873.AQ62.AK -n 1 --seed 1 -o probe/data/p8/eval/n18-h-ak.jsonl
+- --hand KQ84.A73.AQ62.K5 -n 1 --seed 1 -o probe/data/p8/eval/n18-h-kx.jsonl
+## T17: 17 HCP, tens ladder (upgrade past the 1NT ceiling?); a3 has 3 aces, a0 none
+- --hand AQ4.KJ3.QJ62.A85 -n 1 --seed 1 -o probe/data/p8/eval/t17-a2-t0.jsonl
+- --hand AQT.KJ3.QJ62.A85 -n 1 --seed 1 -o probe/data/p8/eval/t17-a2-t1.jsonl
+- --hand AQT.KJT.QJ62.A85 -n 1 --seed 1 -o probe/data/p8/eval/t17-a2-t2.jsonl
+- --hand AQT.KJT.QJT2.A85 -n 1 --seed 1 -o probe/data/p8/eval/t17-a2-t3.jsonl
+- --hand AQT.KJT.QJT2.AT5 -n 1 --seed 1 -o probe/data/p8/eval/t17-a2-t4.jsonl
+- --hand A84.A73.KJ62.AJ5 -n 1 --seed 1 -o probe/data/p8/eval/t17-a3-t0.jsonl
+- --hand AT4.A73.KJ62.AJ5 -n 1 --seed 1 -o probe/data/p8/eval/t17-a3-t1.jsonl
+- --hand AT4.AT3.KJ62.AJ5 -n 1 --seed 1 -o probe/data/p8/eval/t17-a3-t2.jsonl
+- --hand AT4.AT3.KJT2.AJ5 -n 1 --seed 1 -o probe/data/p8/eval/t17-a3-t3.jsonl
+- --hand AT4.AT3.KJT2.AJT -n 1 --seed 1 -o probe/data/p8/eval/t17-a3-t4.jsonl
+- --hand KQ4.KJ3.KJ62.KJ5 -n 1 --seed 1 -o probe/data/p8/eval/t17-a0-t0.jsonl
+- --hand KQT.KJ3.KJ62.KJ5 -n 1 --seed 1 -o probe/data/p8/eval/t17-a0-t1.jsonl
+- --hand KQT.KJT.KJ62.KJ5 -n 1 --seed 1 -o probe/data/p8/eval/t17-a0-t2.jsonl
+- --hand KQT.KJT.KJT2.KJ5 -n 1 --seed 1 -o probe/data/p8/eval/t17-a0-t3.jsonl
+- --hand KQT.KJT.KJT2.KJT -n 1 --seed 1 -o probe/data/p8/eval/t17-a0-t4.jsonl
+## O11: rule-of-20 hands (11 HCP 5-4-3-1): singleton honor vs the same honor in the 3-card suit
+- --hand AQ852.Q763.984.K -n 1 --seed 1 -o probe/data/p8/eval/o11-sk-stiff.jsonl
+- --hand AQ852.Q763.K84.9 -n 1 --seed 1 -o probe/data/p8/eval/o11-sk-guard.jsonl
+- --hand AQ852.K763.984.Q -n 1 --seed 1 -o probe/data/p8/eval/o11-sq-stiff.jsonl
+- --hand AQ852.K763.Q84.9 -n 1 --seed 1 -o probe/data/p8/eval/o11-sq-guard.jsonl
+- --hand KQ852.Q763.984.A -n 1 --seed 1 -o probe/data/p8/eval/o11-sa-stiff.jsonl
+- --hand KQ852.Q763.A84.9 -n 1 --seed 1 -o probe/data/p8/eval/o11-sa-guard.jsonl
+- --hand AK852.J763.Q84.J -n 1 --seed 1 -o probe/data/p8/eval/o11-sj-stiff.jsonl
+- --hand AK852.J763.QJ4.9 -n 1 --seed 1 -o probe/data/p8/eval/o11-sj-guard.jsonl
+- --hand Q763.AQ852.984.K -n 1 --seed 1 -o probe/data/p8/eval/o11-hk-stiff.jsonl
+- --hand Q763.AQ852.K84.9 -n 1 --seed 1 -o probe/data/p8/eval/o11-hk-guard.jsonl
+- --hand 984.Q763.K.AQ852 -n 1 --seed 1 -o probe/data/p8/eval/o11-dk-stiff.jsonl
+- --hand K84.Q763.9.AQ852 -n 1 --seed 1 -o probe/data/p8/eval/o11-dk-guard.jsonl
+## R1S: South responds to 1S; spades small, honors in hearts and diamonds only, one small doubleton.
+## s3 = 3-4-4-2 (8-card fit), s4 = 4-4-3-2 (9), s5 = 5-3-3-2 (10, the 5-5 fit)
+1S-P --hand 764.K987.Q987.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s3-h05.jsonl
+1S-P --hand 7643.K987.Q98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s4-h05.jsonl
+1S-P --hand 76432.K98.Q98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s5-h05.jsonl
+1S-P --hand 764.KJ98.Q987.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s3-h06.jsonl
+1S-P --hand 7643.KJ98.Q98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s4-h06.jsonl
+1S-P --hand 76432.KJ9.Q98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s5-h06.jsonl
+1S-P --hand 764.A987.K987.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s3-h07.jsonl
+1S-P --hand 7643.A987.K98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s4-h07.jsonl
+1S-P --hand 76432.A98.K98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s5-h07.jsonl
+1S-P --hand 764.AJ98.K987.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s3-h08.jsonl
+1S-P --hand 7643.AJ98.K98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s4-h08.jsonl
+1S-P --hand 76432.AJ9.K98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s5-h08.jsonl
+1S-P --hand 764.AQ98.K987.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s3-h09.jsonl
+1S-P --hand 7643.AQ98.K98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s4-h09.jsonl
+1S-P --hand 76432.AQ9.K98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s5-h09.jsonl
+1S-P --hand 764.AQ98.KJ98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s3-h10.jsonl
+1S-P --hand 7643.AQ98.KJ9.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s4-h10.jsonl
+1S-P --hand 76432.AQ9.KJ9.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s5-h10.jsonl
+1S-P --hand 764.AK98.KJ98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s3-h11.jsonl
+1S-P --hand 7643.AK98.KJ9.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s4-h11.jsonl
+1S-P --hand 76432.AK9.KJ9.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s5-h11.jsonl
+1S-P --hand 764.AK98.KQ98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s3-h12.jsonl
+1S-P --hand 7643.AK98.KQ9.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s4-h12.jsonl
+1S-P --hand 76432.AK9.KQ9.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s5-h12.jsonl
+1S-P --hand 764.AKJ9.KQ98.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s3-h13.jsonl
+1S-P --hand 7643.AKJ9.KQ9.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s4-h13.jsonl
+1S-P --hand 76432.AKJ.KQ9.65 -n 1 --seed 1 -o probe/data/p8/eval/r1s-s5-h13.jsonl
+## R1Sm: as R1S, honors in diamonds and clubs, small heart doubleton: 3-2-4-4, 4-2-4-3, 5-2-3-3
+1S-P --hand 764.65.K987.Q987 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s3-h05.jsonl
+1S-P --hand 7643.65.K987.Q98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s4-h05.jsonl
+1S-P --hand 76432.65.K98.Q98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s5-h05.jsonl
+1S-P --hand 764.65.KJ98.Q987 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s3-h06.jsonl
+1S-P --hand 7643.65.KJ98.Q98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s4-h06.jsonl
+1S-P --hand 76432.65.KJ9.Q98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s5-h06.jsonl
+1S-P --hand 764.65.A987.K987 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s3-h07.jsonl
+1S-P --hand 7643.65.A987.K98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s4-h07.jsonl
+1S-P --hand 76432.65.A98.K98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s5-h07.jsonl
+1S-P --hand 764.65.AJ98.K987 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s3-h08.jsonl
+1S-P --hand 7643.65.AJ98.K98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s4-h08.jsonl
+1S-P --hand 76432.65.AJ9.K98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s5-h08.jsonl
+1S-P --hand 764.65.AQ98.K987 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s3-h09.jsonl
+1S-P --hand 7643.65.AQ98.K98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s4-h09.jsonl
+1S-P --hand 76432.65.AQ9.K98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s5-h09.jsonl
+1S-P --hand 764.65.AQ98.KJ98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s3-h10.jsonl
+1S-P --hand 7643.65.AQ98.KJ9 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s4-h10.jsonl
+1S-P --hand 76432.65.AQ9.KJ9 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s5-h10.jsonl
+1S-P --hand 764.65.AK98.KJ98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s3-h11.jsonl
+1S-P --hand 7643.65.AK98.KJ9 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s4-h11.jsonl
+1S-P --hand 76432.65.AK9.KJ9 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s5-h11.jsonl
+1S-P --hand 764.65.AK98.KQ98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s3-h12.jsonl
+1S-P --hand 7643.65.AK98.KQ9 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s4-h12.jsonl
+1S-P --hand 76432.65.AK9.KQ9 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s5-h12.jsonl
+1S-P --hand 764.65.AKJ9.KQ98 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s3-h13.jsonl
+1S-P --hand 7643.65.AKJ9.KQ9 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s4-h13.jsonl
+1S-P --hand 76432.65.AKJ.KQ9 -n 1 --seed 1 -o probe/data/p8/eval/r1sm-s5-h13.jsonl
+## o3c: South opened 1S, partner raised (1S-P-3C-P); 5-4-2-2 (9-card fit after 3C, 8 after 2S) vs 6-3-2-2 (10 / 9)
+1S-P-3C-P --hand AK987.KJ98.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s5-h11.jsonl
+1S-P-3C-P --hand AK9876.KJ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s6-h11.jsonl
+1S-P-3C-P --hand AK987.KQ98.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s5-h12.jsonl
+1S-P-3C-P --hand AK9876.KQ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s6-h12.jsonl
+1S-P-3C-P --hand AKJ98.KQ98.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s5-h13.jsonl
+1S-P-3C-P --hand AKJ987.KQ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s6-h13.jsonl
+1S-P-3C-P --hand AKQ98.KQ98.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s5-h14.jsonl
+1S-P-3C-P --hand AKQ987.KQ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s6-h14.jsonl
+1S-P-3C-P --hand AKQ98.KQJ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s5-h15.jsonl
+1S-P-3C-P --hand AKQ987.KQJ.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s6-h15.jsonl
+1S-P-3C-P --hand AKQ98.AQJ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s5-h16.jsonl
+1S-P-3C-P --hand AKQ987.AQJ.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o3c-s6-h16.jsonl
+## o2s: South opened 1S, partner raised (1S-P-2S-P); 5-4-2-2 (9-card fit after 3C, 8 after 2S) vs 6-3-2-2 (10 / 9)
+1S-P-2S-P --hand AK987.KJ98.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s5-h11.jsonl
+1S-P-2S-P --hand AK9876.KJ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s6-h11.jsonl
+1S-P-2S-P --hand AK987.KQ98.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s5-h12.jsonl
+1S-P-2S-P --hand AK9876.KQ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s6-h12.jsonl
+1S-P-2S-P --hand AKJ98.KQ98.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s5-h13.jsonl
+1S-P-2S-P --hand AKJ987.KQ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s6-h13.jsonl
+1S-P-2S-P --hand AKQ98.KQ98.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s5-h14.jsonl
+1S-P-2S-P --hand AKQ987.KQ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s6-h14.jsonl
+1S-P-2S-P --hand AKQ98.KQJ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s5-h15.jsonl
+1S-P-2S-P --hand AKQ987.KQJ.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s6-h15.jsonl
+1S-P-2S-P --hand AKQ98.AQJ9.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s5-h16.jsonl
+1S-P-2S-P --hand AKQ987.AQJ.43.52 -n 1 --seed 1 -o probe/data/p8/eval/o2s-s6-h16.jsonl
+# Phase 8, key vul: vulnerability for 2♣, takeout and responsive doubles.
+# Notes: probe/phase8/notes/vul.md.  We are N-S: --vul ns = unfavorable
+# (or "we are vulnerable" for constructive auctions), ew = favorable,
+# both = both vulnerable.  Every vul line mirrors a none line already in
+# probe/data with the same flags and seed, so the same hands are dealt;
+# read each pair hand by hand: python3 -I probe/phase7/pdiff.py NONE VUL.
+# Existing data already shows 1st-seat openings depend on our own
+# vulnerability only (ns == both, none == ew), so the opening line runs at ns.
+#
+# --- A. Strong 2♣ (src/2C.md) ---
+# A1. 2♣ vs 1x / 2NT / 2♦ with 19--26 HCP; twin: more/open~hcp1926 (74 2♣).
+- --hcp 19-26 --vul ns --seed 1 -o probe/data/p8/vul/open~hcp1926vulns.jsonl
+# A2. Positive vs 2♦ waiting at the 6--12 HCP edge; twin: p4/2C/r-hcp612.
+2C-P --hcp 6-12 --vul ns --seed 1 -o probe/data/p8/vul/2C-r-hcp612vulns.jsonl
+2C-P --hcp 6-12 --vul both --seed 1 -o probe/data/p8/vul/2C-r-hcp612vulboth.jsonl
+# A3. Responder after 2♣ - 2♦ - 2♥: pass 1--5 vs 3♥ / 4♥ / 2NT (game decision);
+#     twin: p4/2C/r-2D2H.
+2C-P-2D-P-2H-P --hcp 0-9 --vul ns --seed 1 -o probe/data/p8/vul/2C-r-2D2Hvulns.jsonl
+2C-P-2D-P-2H-P --hcp 0-9 --vul both --seed 1 -o probe/data/p8/vul/2C-r-2D2Hvulboth.jsonl
+# A4. Opener after 2♣ - 2♦ - 2♥ - 2NT: pass (7 boards, 19 HCP) vs 3NT; South
+#     opens and rebids itself (keep ~45%); twin: p4/2C/o-2H2N.
+2C-P-2D-P-2H-P-2N-P --H 5- --hcp 19-23 --vul ns --seed 1 -n 500 -o probe/data/p8/vul/2C-o-2H2Nvulns.jsonl
+# A5. 2♣ (2♥) P (P): penalty pass with 5+♥ vs X / 2NT; their vulnerability
+#     should matter most here (keep ~27%); twin: p4/2C/o-2H-P-P.
+2C-2H-P-P --hcp 19-23 --vul ns --seed 1 -n 900 -o probe/data/p8/vul/2C-o-2HPPvulns.jsonl
+2C-2H-P-P --hcp 19-23 --vul ew --seed 1 -n 900 -o probe/data/p8/vul/2C-o-2HPPvulew.jsonl
+#
+# --- B. Takeout doubles (src/Defense/1y.md#takeout-double, Takeout.md) ---
+# B1. Minimum direct double vs pass / overcall with short hearts.  No
+#     targeted none line exists (more/1H~hcp6 had 37 doubles, none changed),
+#     so this is a new none line plus its twins.
+1H --hcp 9-14 --H 0-2 --S 3-4 --seed 1 -o probe/data/p8/vul/1H~minX.jsonl
+1H --hcp 9-14 --H 0-2 --S 3-4 --vul ns --seed 1 -o probe/data/p8/vul/1H~minXvulns.jsonl
+1H --hcp 9-14 --H 0-2 --S 3-4 --vul both --seed 1 -o probe/data/p8/vul/1H~minXvulboth.jsonl
+# B2. Balancing seat (1♥) P (P): X from 8 HCP, pass with 5+♥; twin:
+#     p5/dbl/1HPP~hcp820.  Favorable too: reopening risk is theirs.
+1H-P-P --hcp 8-20 --vul ns --seed 1 -o probe/data/p8/vul/1HPP~hcp820vulns.jsonl
+1H-P-P --hcp 8-20 --vul both --seed 1 -o probe/data/p8/vul/1HPP~hcp820vulboth.jsonl
+1H-P-P --hcp 8-20 --vul ew --seed 1 -o probe/data/p8/vul/1HPP~hcp820vulew.jsonl
+# B3. Advancer (1♥) X (P): jumps from 7 HCP, 1NT/2NT/3NT, cuebid, penalty
+#     pass; twin: p5/dbl/1HXP~broad.
+1H-X-P --hcp 0-15 --vul ns --seed 1 -o probe/data/p8/vul/1HXP~broadvulns.jsonl
+1H-X-P --hcp 0-15 --vul both --seed 1 -o probe/data/p8/vul/1HXP~broadvulboth.jsonl
+# B4. Strong advances (3NT 13+, 4♠, 2NT 11--12): twin p5/dbl/1HXP~hcp915.
+1H-X-P --hcp 9-15 --vul ns --seed 1 -o probe/data/p8/vul/1HXP~hcp915vulns.jsonl
+# B5. Penalty pass with 5♥ (23 of 214) vs 6+♥: favorable, opener vulnerable;
+#     twin: p5/dbl/1HXP~H5.
+1H-X-P --hcp 0-14 --H 5- --vul ew --seed 1 -o probe/data/p8/vul/1HXP~H5vulew.jsonl
+# B6. Doubler after the 2♠ jump: 4♠ vs pass with 4♠ 13--15 HCP (26 vs 12);
+#     South doubles in the prefix (keep ~44%); twin: p5/dbl/1HXP2SP.
+1H-X-P-2S-P --hcp 13-22 --H 0-2 -n 400 --vul ns --seed 1 -o probe/data/p8/vul/1HXP2SPvulns.jsonl
+1H-X-P-2S-P --hcp 13-22 --H 0-2 -n 400 --vul both --seed 1 -o probe/data/p8/vul/1HXP2SPvulboth.jsonl
+# B7. Free bids over (1♥) X (2♥): pass 0--12 vs 2♠ from 3 HCP, 3m, 3♠, X;
+#     twin: p5/dbl/1HX2H~broad.
+1H-X-2H --hcp 0-12 --vul ns --seed 1 -o probe/data/p8/vul/1HX2H~broadvulns.jsonl
+#
+# --- C. Responsive doubles (src/Defense/Responsive.md) ---
+# C1. (1♣) X (2♣): X 7--16 with both majors vs pass 4--9 / 2M; twin p5/compx/1CX2C.
+1C-X-2C --S 3- --H 3- --hcp 4-14 --vul ns --seed 1 -o probe/data/p8/vul/1CX2Cvulns.jsonl
+1C-X-2C --S 3- --H 3- --hcp 4-14 --vul both --seed 1 -o probe/data/p8/vul/1CX2Cvulboth.jsonl
+# C2. (1♥) X (2♥): X 8--16 with both minors vs pass 4--11; twin p5/compx/1HX2H.
+1H-X-2H --D 3- --C 3- --hcp 4-14 --vul ns --seed 1 -o probe/data/p8/vul/1HX2Hvulns.jsonl
+# C3. Doubler's rebid (1♣) X (2♣) X (P): 2♥/2♠ vs 3♥/3♠ vs game (keep ~73%);
+#     twin: p7/second/1CX2CXP.
+1C-X-2C-X-P --C 0-2 --S 3-4 --H 3-4 --hcp 12-20 --vul ns --seed 1 -o probe/data/p8/vul/1CX2CXPvulns.jsonl
+# d2seat: 2D in the 2nd, 3rd and 4th seats.  Notes: probe/phase8/notes/d2seat.md
+# Every line mirrors a 1st-seat line's hand constraints, so with --seed 1 the
+# same hand is dealt on the same board: match rows on "hand".
+# --- Opening: does Wbridge5 open 2D the same in later seats? ---
+# twin: more/open~hcp1926 (2D on 47 of 300)
+P --hcp 19-26 --seed 1 -o probe/data/p8/d2seat/P-hcp1926.jsonl
+P-P --hcp 19-26 --seed 1 -o probe/data/p8/d2seat/PP-hcp1926.jsonl
+P-P-P --hcp 19-26 --seed 1 -o probe/data/p8/d2seat/PPP-hcp1926.jsonl
+# twin: p7/bss/open-bal2124 (2D on 22 of 300, 2NT/2C boundary)
+P-P --hcp 21-24 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p8/d2seat/PP-bal2124.jsonl
+P-P-P --hcp 21-24 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p8/d2seat/PPP-bal2124.jsonl
+# twin: p7/aces/open~hcp1926a01 (no 2D with 0-1 ace)
+P-P --hcp 19-26 --aces 0-1 --seed 1 -o probe/data/p8/d2seat/PP-a01.jsonl
+P-P-P --hcp 19-26 --aces 0-1 --seed 1 -o probe/data/p8/d2seat/PPP-a01.jsonl
+# twin: p7/docq/2H~D7 keep set (251 of 300 opened 2D in 1st seat)
+P-P-P --hcp 19-26 --D 7-7 --seed 1 -o probe/data/p8/d2seat/PPP-D7.jsonl
+# vulnerability, twin more/open~hcp1926
+- --hcp 19-26 --vul both --seed 1 -o probe/data/p8/d2seat/o-hcp1926vulboth.jsonl
+# --- Responses: 2nd-seat opener (South unpassed), passed responder ---
+# twins: p4/2D/resp~hcp812, resp~hcp07, resp~hcp410D6
+P-2D-P --hcp 8-12 --seed 1 -o probe/data/p8/d2seat/P2DP-hcp812.jsonl
+P-P-2D-P --hcp 0-7 --seed 1 -o probe/data/p8/d2seat/PP2DP-hcp07.jsonl
+P-P-2D-P --hcp 8-12 --seed 1 -o probe/data/p8/d2seat/PP2DP-hcp812.jsonl
+P-P-2D-P --hcp 4-10 --D 6- --seed 1 -o probe/data/p8/d2seat/PP2DP-D6.jsonl
+P-P-P-2D-P --hcp 0-7 --seed 1 -o probe/data/p8/d2seat/PPP2DP-hcp07.jsonl
+P-P-P-2D-P --hcp 8-12 --seed 1 -o probe/data/p8/d2seat/PPP2DP-hcp812.jsonl
+# 3NT (two aces) from a passed hand; compare resp~hcp812's 56 3NT rows
+P-P-2D-P --hcp 8-11 --aces 2-2 --seed 1 -o probe/data/p8/d2seat/PP2DP-a2.jsonl
+# vulnerability, twin resp~hcp812
+2D-P --hcp 8-12 --vul both --seed 1 -o probe/data/p8/d2seat/2DP-hcp812vulboth.jsonl
+# --- Opener's rebids in 3rd/4th seat, partner passed ---
+# twins: p4/2D/2H~hcp23, 2S~hcp23, 2N~hcp23, p7/aces/2DP3NP~hcp22a2
+P-P-2D-P-2H-P --hcp 23- --seed 1 -o probe/data/p8/d2seat/PP2DP2HP.jsonl
+P-P-P-2D-P-2H-P --hcp 23- --seed 1 -o probe/data/p8/d2seat/PPP2DP2HP.jsonl
+P-P-P-2D-P-2S-P --hcp 23- --seed 1 -o probe/data/p8/d2seat/PPP2DP2SP.jsonl
+P-P-P-2D-P-2N-P --hcp 23- --seed 1 -o probe/data/p8/d2seat/PPP2DP2NP.jsonl
+P-P-2D-P-3N-P --hcp 22- --aces 2-2 --seed 1 -o probe/data/p8/d2seat/PP2DP3NP.jsonl
+# --- Example hands: passed-hand suit responses (0 kept = South opened) ---
+P-P-2D-P --hand 75.KQ8642.943.72 --vul ns -n 1 --seed 1 -o probe/data/p8/d2seat/hand-PP2DP-KQ6H-vul.jsonl
+2D-P --hand 75.KQ8642.943.72 --vul ns -n 1 --seed 1 -o probe/data/p8/d2seat/hand-2DP-KQ6H-vul.jsonl
+# smoke: the chapter's 3D hand T32.5.KQT8632.74 and 3H hand Q83.KQ8763.63.64 open as dealer, so no passed-hand twin
+P-P-2D-P --hand 75.943.KQ8642.72 -n 1 --seed 1 -o probe/data/p8/d2seat/hand-PP2DP-KQ6D.jsonl
+2D-P --hand 75.943.KQ8642.72 -n 1 --seed 1 -o probe/data/p8/d2seat/hand-2DP-KQ6D.jsonl
+# Phase 8, item c2: 2C responses at 16+ HCP; responder's second call after
+# 2C - 2S, 2NT or a 3-level positive.  Chapter: src/2C.md.  Notes: notes/c2.md.
+# South is responder.  North's rebids are the commonest Wbridge5 opener
+# rebids in probe/data/p4/2C/o-{2S,2N,3C,3D}.jsonl.
+#
+# Responses at 16+ HCP (p4 data stops at 15).  Smoke: 20/20 kept.
+2C-P --hcp 16-24 --seed 1 -o probe/data/p8/c2/r-hcp1624.jsonl
+2C-P --S 5- --H 0-4 --hcp 16-22 --seed 1 -o probe/data/p8/c2/r-S5hcp1622.jsonl
+2C-P --H 5- --S 0-4 --hcp 16-22 --seed 1 -o probe/data/p8/c2/r-H5hcp1622.jsonl
+2C-P --C 6- --hcp 16-22 --seed 1 -o probe/data/p8/c2/r-C6hcp1622.jsonl
+2C-P --D 6- --hcp 16-22 --seed 1 -o probe/data/p8/c2/r-D6hcp1622.jsonl
+#
+# After 2C - 2S (South bids 2S itself: 5+S, 9-15 HCP keeps ~65%).
+# Opener rebids in o-2S: 3S 180, 3H 27, 2NT 16, 3D 15, 3C 7.
+2C-P-2S-P-3S-P --S 5- --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-2S3S.jsonl
+2C-P-2S-P-2N-P --S 5- --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-2S2N.jsonl
+2C-P-2S-P-3H-P --S 5- --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-2S3H.jsonl
+2C-P-2S-P-3D-P --S 5- --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-2S3D.jsonl
+#
+# After 2C - 2NT (South bids 2NT: balanced 10-15, ~95% kept).
+# Opener rebids in o-2N: 3S 78, 3H 71, 3NT 61, 3D 22, 3C 13.
+2C-P-2N-P-3S-P --S 2-4 --H 2-4 --D 2-5 --C 2-5 --hcp 10-15 --seed 1 -o probe/data/p8/c2/r-2N3S.jsonl
+2C-P-2N-P-3H-P --S 2-4 --H 2-4 --D 2-5 --C 2-5 --hcp 10-15 --seed 1 -o probe/data/p8/c2/r-2N3H.jsonl
+2C-P-2N-P-3N-P --S 2-4 --H 2-4 --D 2-5 --C 2-5 --hcp 10-15 --seed 1 -o probe/data/p8/c2/r-2N3N.jsonl
+2C-P-2N-P-3D-P --S 2-4 --H 2-4 --D 2-5 --C 2-5 --hcp 10-15 --seed 1 -o probe/data/p8/c2/r-2N3D.jsonl
+2C-P-2N-P-3C-P --S 2-4 --H 2-4 --D 2-5 --C 2-5 --hcp 10-15 --seed 1 -o probe/data/p8/c2/r-2N3C.jsonl
+#
+# After 2C - 3C (South bids 3C: 6+C, no 5M, 9-15 HCP keeps ~65%).
+# Opener rebids in o-3C: 3S 78, 3H 71, 3NT 33, 5C 24, 3D 22, 4C 17.
+2C-P-3C-P-3S-P --C 6- --S 0-4 --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-3C3S.jsonl
+2C-P-3C-P-3H-P --C 6- --S 0-4 --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-3C3H.jsonl
+2C-P-3C-P-3N-P --C 6- --S 0-4 --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-3C3N.jsonl
+2C-P-3C-P-4C-P --C 6- --S 0-4 --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-3C4C.jsonl
+2C-P-3C-P-5C-P --C 6- --S 0-4 --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-3C5C.jsonl
+#
+# After 2C - 3D (South bids 3D: 6+D, no 5M, 9-15 HCP keeps ~70%).
+# Opener rebids in o-3D: 3S 78, 3H 71, 3NT 44, 4D 24, 5D 15, 4C 13.
+2C-P-3D-P-3S-P --D 6- --S 0-4 --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-3D3S.jsonl
+2C-P-3D-P-3N-P --D 6- --S 0-4 --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-3D3N.jsonl
+2C-P-3D-P-4D-P --D 6- --S 0-4 --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-3D4D.jsonl
+2C-P-3D-P-5D-P --D 6- --S 0-4 --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-3D5D.jsonl
+# Phase 8, key dbl: doubles of (1♣) and (1♠), balancing over a minor.
+# Hypotheses and what existing data settles: probe/phase8/notes/dbl.md.
+# Existing: probe/data/{1C,1D,1H,1S}.jsonl (same 300 random 6+ HCP hands over
+# each opening, ~35 doubles each); p5/dbl covers (1♦)/(1♥) advances and
+# (1♥) P (P) only.  No South calls in a prefix unless noted (keep ~100%).
+#
+# --- A. Direct double of (1♣) / (1♠): shape and strength ---
+# A1-A2. Short in opener's suit: floor of X vs 1-level overcall / P / 1NT.
+1C --hcp 9-16 --C 0-2 --seed 1 -o probe/data/p8/dbl/1C~C02.jsonl
+1S --hcp 9-16 --S 0-2 --seed 1 -o probe/data/p8/dbl/1S~S02.jsonl
+# A3-A4. Ideal 3-suiters (0-1 in opener's suit): how low does X go?
+1C --hcp 7-14 --C 0-1 --S 3-5 --H 3-5 --D 3-5 --seed 1 -o probe/data/p8/dbl/1C~3suit.jsonl
+1S --hcp 7-14 --S 0-1 --H 3-5 --D 3-5 --C 3-5 --seed 1 -o probe/data/p8/dbl/1S~3suit.jsonl
+# A5. Over (1♠) with a doubleton heart (book: 3-5 in each unbid major).
+1S --hcp 11-16 --S 0-2 --H 2-2 --seed 1 -o probe/data/p8/dbl/1S~H2.jsonl
+# A6. Over (1♣) with 4-4 majors: X floor, and 3 clubs allowed?
+1C --hcp 8-15 --S 4-4 --H 4-4 --C 0-3 --seed 1 -o probe/data/p8/dbl/1C~S4H4.jsonl
+# A7. Over (1♣) with a 5-card major and 3-4 in the other: X or overcall?
+1C --hcp 11-16 --H 5-5 --S 3-4 --C 0-2 --seed 1 -o probe/data/p8/dbl/1C~H5S34.jsonl
+# A8-A9. Strong hands (16+ HCP): X vs 1NT / overcall / jump.
+1C --hcp 16-22 --seed 1 -o probe/data/p8/dbl/1C~hcp1622.jsonl
+1S --hcp 16-22 --seed 1 -o probe/data/p8/dbl/1S~hcp1622.jsonl
+#
+# --- B. Balancing over a minor: (1m) P (P) ?  (South not passed) ---
+# B1-B2. Mirror p5/dbl/1HPP~hcp820: X vs P vs overcalls vs 1NT.
+1C-P-P --hcp 8-20 --seed 1 -o probe/data/p8/dbl/1CPP~hcp820.jsonl
+1D-P-P --hcp 8-20 --seed 1 -o probe/data/p8/dbl/1DPP~hcp820.jsonl
+# B3-B4. Mirror p5/ntov/1HPP~bal: balanced, the 1NT (12-14) vs X (15+) edge.
+1C-P-P --hcp 9-19 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p8/dbl/1CPP~bal.jsonl
+1D-P-P --hcp 9-19 --S 2-4 --H 2-4 --D 2-5 --C 2-5 --seed 1 -o probe/data/p8/dbl/1DPP~bal.jsonl
+# B5-B6. Short in opener's minor, light: floor of the balancing X.
+1C-P-P --hcp 5-12 --C 0-2 --seed 1 -o probe/data/p8/dbl/1CPP~C02.jsonl
+1D-P-P --hcp 5-12 --D 0-2 --seed 1 -o probe/data/p8/dbl/1DPP~D02.jsonl
+# B7. 5-5 majors: help says SEF's protective (1♣) P (P) 2♣ shows both majors.
+1C-P-P --hcp 6-16 --S 5- --H 5- --seed 1 -o probe/data/p8/dbl/1CPP~S5H5.jsonl
+# B8. Cheap extra: balancing over (1♠) (1NT-overcall.md "other openings").
+1S-P-P --hcp 8-20 --seed 1 -o probe/data/p8/dbl/1SPP~hcp820.jsonl
+#
+# --- C. Advances (cheap mirrors of p5/dbl) ---
+# C1-C2. Mirror 1DXP~broad / 1HXP~broad.
+1C-X-P --hcp 0-15 --seed 1 -o probe/data/p8/dbl/1CXP~broad.jsonl
+1S-X-P --hcp 0-15 --seed 1 -o probe/data/p8/dbl/1SXP~broad.jsonl
+# C3-C4. Mirror 1HXP~hcp915: jumps, 2NT, 3NT, cuebid.
+1C-X-P --hcp 9-15 --seed 1 -o probe/data/p8/dbl/1CXP~hcp915.jsonl
+1S-X-P --hcp 9-15 --seed 1 -o probe/data/p8/dbl/1SXP~hcp915.jsonl
+# C5. Mirror 1HXP~H5: penalty pass of (1♣) X with 5+ clubs.
+1C-X-P --hcp 0-14 --C 5- --seed 1 -o probe/data/p8/dbl/1CXP~C5.jsonl
+# C6-C7. Mirror 1HPPXP~hcp011: South passed over (1m); smoke kept 13/20
+# (light hands overcall 1♥/1♦), hence -n 450.
+1C-P-P-X-P --hcp 0-11 -n 450 --seed 1 -o probe/data/p8/dbl/1CPPXP~hcp011.jsonl
+1D-P-P-X-P --hcp 0-11 -n 450 --seed 1 -o probe/data/p8/dbl/1DPPXP~hcp011.jsonl
+# Phase 8, item "rkcb": when the asker starts RKCB instead of a control bid,
+# and what 4NT asks after a control bid by each partner.
+# Notes: probe/phase8/notes/rkcb.md.  Tabulate answers with
+#   python3 -I probe/phase4/keys.py <file> <trump S|H|D|C|->
+# (keys = aces + trump K; trump K vs aces tells RKCB 0314 from Blackwood).
+#
+# ===== Part 1: South chooses between 4NT and a control bid =====
+# Existing data already settles most of it (see notes): South cues the
+# cheapest controlled suit whenever one exists below 4NT, whatever its keys
+# (up to 5) or strength (to 25 HCP), and bids 4NT only with no control to cue.
+# Gaps below: very strong hands with 3-4 aces in a cue auction; a direct 4NT
+# by responder over 1M; a strong opener facing a minor raise.
+1S-P-2H-P-3H-P --H 5-6 --S 0-2 --hcp 17-24 --aces 3-4 --seed 1 -o probe/data/p8/rkcb/1SP2HP3HP~a34.jsonl
+1S-P --S 4-5 --hcp 17-24 --seed 1 -o probe/data/p8/rkcb/1SP~S45hcp1724.jsonl
+1D-P-3D-P --D 5-6 --S 0-3 --H 0-3 --C 0-4 --hcp 16-21 --seed 1 -o probe/data/p8/rkcb/1DP3DP~hcp1621.jsonl
+# Fixed hands with no control to cue (smoke: all four bid 4NT, never a cue).
+# (A 2C hand with only a diamond control could not be built: 23+ HCP with no
+# spade or club A, K or shortness needs both red aces, which opens 2D.)
+1S-P-2H-P-3H-P --hand QJ.AKQJ32.Q32.J2 -n 1 --seed 1 -o probe/data/p8/rkcb/hand-1SP2HP3HP-QJ.jsonl
+1S-P-2H-P-3H-P --hand Q2.AKQJ32.QJ2.QJ -n 1 --seed 1 -o probe/data/p8/rkcb/hand-1SP2HP3HP-Q2.jsonl
+1D-P-1H-P-3H-P --hand QJ2.AKQ2.QJ2.J32 -n 1 --seed 1 -o probe/data/p8/rkcb/hand-1DP1HP3HP-QJ2.jsonl
+1D-P-1H-P-3H-P --hand QJ2.AKQJ.QJ2.J32 -n 1 --seed 1 -o probe/data/p8/rkcb/hand-1DP1HP3HP-AKQJ.jsonl
+#
+# ===== Part 2: North bids 4NT after control bids; South answers =====
+# A. Control bid by North only (South signed off over it)
+1H-P-3S-P-4C-P-4H-P-4N-P --H 4-5 --S 0-1 --hcp 10-15 -n 600 --seed 1 -o probe/data/p8/rkcb/1HP3SP4CP4HP4NP.jsonl
+1S-P-3D-P-4C-P-4S-P-4N-P --S 4-4 --hcp 9-12 -n 600 --seed 1 -o probe/data/p8/rkcb/1SP3DP4CP4SP4NP.jsonl
+# B. Control bid by South only (North asks at once); B3 is a club fit
+1D-P-1H-P-3H-P-3S-P-4N-P --H 4-5 --S 0-3 --D 0-3 --hcp 12-16 -n 600 --seed 1 -o probe/data/p8/rkcb/1DP1HP3HP3SP4NP.jsonl
+1S-P-2H-P-3H-P-4C-P-4N-P --H 5-6 --S 0-2 --hcp 14-20 -n 600 --seed 1 -o probe/data/p8/rkcb/1SP2HP3HP4CP4NP.jsonl
+2N-P-3S-P-4C-P-4D-P-4N-P --C 6- --hcp 7- -n 600 --seed 1 -o probe/data/p8/rkcb/2NP3SP4CP4DP4NP.jsonl
+# C. Control bids by both partners
+1D-P-1H-P-3H-P-3S-P-4C-P-4D-P-4N-P --H 4-5 --S 0-3 --D 0-3 --hcp 12-16 --aces 1- -n 1000 --seed 1 -o probe/data/p8/rkcb/1DP1HP3HP3SP4CP4DP4NP.jsonl
+1S-P-3D-P-4C-P-4D-P-4N-P --S 4-4 --hcp 9-12 -n 1000 --seed 1 -o probe/data/p8/rkcb/1SP3DP4CP4DP4NP.jsonl
+1S-P-2N-P-3C-P-3H-P-4C-P-4D-P-4N-P --S 4-4 --H 2-3 --D 2-4 --C 2-4 --hcp 11-16 -n 600 --seed 1 -o probe/data/p8/rkcb/1SP2NP3CP3HP4CP4DP4NP.jsonl
+1H-P-3S-P-4C-P-4D-P-4N-P --H 4-5 --S 0-1 --hcp 10-15 -n 600 --seed 1 -o probe/data/p8/rkcb/1HP3SP4CP4DP4NP.jsonl
+# D. South's own 4NT after both cued (Slam.md "What 4NT asks here was not
+# probed"): South's call over a scripted 5D shows how it reads the answer
+# (RKCB: 2 aces without the HK sign off in 5H; Blackwood: they go on).
+1D-P-1H-P-3H-P-3S-P-4C-P-4N-P-5D-P --H 4-5 --S 0-3 --D 0-3 --hcp 12-16 --aces 1- -n 1000 --seed 1 -o probe/data/p8/rkcb/1DP1HP3HP3SP4CP4NP5DP.jsonl

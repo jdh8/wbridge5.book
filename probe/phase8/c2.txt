@@ -1,0 +1,41 @@
+# Phase 8, item c2: 2C responses at 16+ HCP; responder's second call after
+# 2C - 2S, 2NT or a 3-level positive.  Chapter: src/2C.md.  Notes: notes/c2.md.
+# South is responder.  North's rebids are the commonest Wbridge5 opener
+# rebids in probe/data/p4/2C/o-{2S,2N,3C,3D}.jsonl.
+#
+# Responses at 16+ HCP (p4 data stops at 15).  Smoke: 20/20 kept.
+2C-P --hcp 16-24 --seed 1 -o probe/data/p8/c2/r-hcp1624.jsonl
+2C-P --S 5- --H 0-4 --hcp 16-22 --seed 1 -o probe/data/p8/c2/r-S5hcp1622.jsonl
+2C-P --H 5- --S 0-4 --hcp 16-22 --seed 1 -o probe/data/p8/c2/r-H5hcp1622.jsonl
+2C-P --C 6- --hcp 16-22 --seed 1 -o probe/data/p8/c2/r-C6hcp1622.jsonl
+2C-P --D 6- --hcp 16-22 --seed 1 -o probe/data/p8/c2/r-D6hcp1622.jsonl
+#
+# After 2C - 2S (South bids 2S itself: 5+S, 9-15 HCP keeps ~65%).
+# Opener rebids in o-2S: 3S 180, 3H 27, 2NT 16, 3D 15, 3C 7.
+2C-P-2S-P-3S-P --S 5- --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-2S3S.jsonl
+2C-P-2S-P-2N-P --S 5- --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-2S2N.jsonl
+2C-P-2S-P-3H-P --S 5- --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-2S3H.jsonl
+2C-P-2S-P-3D-P --S 5- --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-2S3D.jsonl
+#
+# After 2C - 2NT (South bids 2NT: balanced 10-15, ~95% kept).
+# Opener rebids in o-2N: 3S 78, 3H 71, 3NT 61, 3D 22, 3C 13.
+2C-P-2N-P-3S-P --S 2-4 --H 2-4 --D 2-5 --C 2-5 --hcp 10-15 --seed 1 -o probe/data/p8/c2/r-2N3S.jsonl
+2C-P-2N-P-3H-P --S 2-4 --H 2-4 --D 2-5 --C 2-5 --hcp 10-15 --seed 1 -o probe/data/p8/c2/r-2N3H.jsonl
+2C-P-2N-P-3N-P --S 2-4 --H 2-4 --D 2-5 --C 2-5 --hcp 10-15 --seed 1 -o probe/data/p8/c2/r-2N3N.jsonl
+2C-P-2N-P-3D-P --S 2-4 --H 2-4 --D 2-5 --C 2-5 --hcp 10-15 --seed 1 -o probe/data/p8/c2/r-2N3D.jsonl
+2C-P-2N-P-3C-P --S 2-4 --H 2-4 --D 2-5 --C 2-5 --hcp 10-15 --seed 1 -o probe/data/p8/c2/r-2N3C.jsonl
+#
+# After 2C - 3C (South bids 3C: 6+C, no 5M, 9-15 HCP keeps ~65%).
+# Opener rebids in o-3C: 3S 78, 3H 71, 3NT 33, 5C 24, 3D 22, 4C 17.
+2C-P-3C-P-3S-P --C 6- --S 0-4 --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-3C3S.jsonl
+2C-P-3C-P-3H-P --C 6- --S 0-4 --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-3C3H.jsonl
+2C-P-3C-P-3N-P --C 6- --S 0-4 --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-3C3N.jsonl
+2C-P-3C-P-4C-P --C 6- --S 0-4 --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-3C4C.jsonl
+2C-P-3C-P-5C-P --C 6- --S 0-4 --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-3C5C.jsonl
+#
+# After 2C - 3D (South bids 3D: 6+D, no 5M, 9-15 HCP keeps ~70%).
+# Opener rebids in o-3D: 3S 78, 3H 71, 3NT 44, 4D 24, 5D 15, 4C 13.
+2C-P-3D-P-3S-P --D 6- --S 0-4 --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-3D3S.jsonl
+2C-P-3D-P-3N-P --D 6- --S 0-4 --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-3D3N.jsonl
+2C-P-3D-P-4D-P --D 6- --S 0-4 --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-3D4D.jsonl
+2C-P-3D-P-5D-P --D 6- --S 0-4 --H 0-4 --hcp 9-15 --seed 1 -o probe/data/p8/c2/r-3D5D.jsonl

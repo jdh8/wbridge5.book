@@ -164,27 +164,27 @@ the edits that need no probing, then the probes, cheapest first.
 
 - [ ] Push Wbr5.bss (7fd0a3c, 8b7c8a9, 80afc69) so the card matches the
       published book.
-- [ ] Intro: one paragraph on how the probing was done (South in 1st or
+- [x] Intro: one paragraph on how the probing was done (South in 1st or
       2nd seat, none vulnerable unless stated, typical board counts,
       strays dropped), so the per-chapter "Not probed" lists keep only
       what is specific.  Name "the 2011 writeup" there once, or drop the
       28 comparisons in src/ in favour of doc/adjuncts.md.
-- [ ] Glossary: cut the human-system rationale (delayed raise, constructive
+- [x] Glossary: cut the human-system rationale (delayed raise, constructive
       1NT) to definitions plus links to the probed chapters.
-- [ ] "Not probed" sections for the 19 phase 4 chapters that have none
+- [x] "Not probed" sections for the 19 phase 4 chapters that have none
       (1M.md, 1CD.md, 1NT.md, their subchapters, Transfers.md, the
       Lebensohl and cooperative double pages), one line each if that is
       all there is.
-- [ ] Evaluation.md: probe the 10 and unguarded-honor adjustments and the
+- [x] Evaluation.md: probe the 10 and unguarded-honor adjustments and the
       fit points with boundary hands (14 HCP plus tens against the 1NT
       floor; 5-5 and 6-4 fits against the raise limits).  Move the
       Fifths and Bum-rap material to doc/adjuncts.md or one sentence.
-- [ ] Vulnerability for 2♣, takeout and responsive doubles.
-- [ ] 2♦ in the 2nd, 3rd and 4th seats.
-- [ ] 2♣ responses at 16+ HCP and responder's second call after 2♣ - 2♠,
+- [x] Vulnerability for 2♣, takeout and responsive doubles.
+- [x] 2♦ in the 2nd, 3rd and 4th seats.
+- [x] 2♣ responses at 16+ HCP and responder's second call after 2♣ - 2♠,
       2NT or a 3-level positive.
-- [ ] Doubles of (1♣) and (1♠), and balancing over a minor.
-- [ ] When the asker starts RKCB instead of a control bid, and what 4NT
+- [x] Doubles of (1♣) and (1♠), and balancing over a minor.
+- [x] When the asker starts RKCB instead of a control bid, and what 4NT
       asks after a control bid by each partner.
 
 ## Log
@@ -254,3 +254,18 @@ the edits that need no probing, then the probes, cheapest first.
 - 2026-10-22: phase 8 planned: the no-probe edits (intro method
   paragraph, glossary voice, missing Not probed lists) then the open
   probes, Evaluation.md first.
+- 2026-10-22: phase 8 done except the Wbr5.bss push (left to the user).
+  Intro gains the probing-method paragraph and names the 2011 writeup;
+  every chapter has a Not probed list without the generic items; the
+  glossary keeps definitions and links; Fifths and Bum-rap archived.
+  Batch `probe/data/p8/` (spec `spec.txt`, brief `probe/phase8/BRIEF.md`,
+  284 lines).  Findings: aces count about 1/3 HCP over 4, tens 1/4, nines
+  1/5; a singleton K or Q loses a point; fit adds one point for the 9th
+  trump only with a doubleton or shorter, none for the 10th; 2♣, 2♦ and
+  the takeout and responsive doubles ignore vulnerability except the
+  penalty pass of (1♥) X and the balancing floor; 2♦ is the same in every
+  seat; 2♣ responders at 16+ make the same positive, and after 2♣ - 2NT -
+  3NT go by aces; the asker control-bids whenever it can and bids 4NT
+  (RKCB 0314, after control bids too) only without a control; over (1♣)
+  and (1♠) the advancer bids a major before a minor; balancing 2♦ over a
+  minor shows the majors.  1♠ - 3♥ also shows 4♠ 4♥ with 15+.

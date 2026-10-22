@@ -112,3 +112,15 @@ The only possible responses of a responder with 17+ points are as follows.
 1. Bid 3♣ if clubs is longer than each major
 2. Choose among 2♠, 2♥, 2♣ as if they were 1♠, 1♥, 2♣ respectively.
 3. Bid 2♣ since only diamonds is biddable.
+
+## Not probed
+
+- The 3♥ and 3♠ rebids after 1♣ - 2♦: only 1 board held a 5-card major.
+- The 3♣ strong jump shift over 1♦ (18+, 6+♣): no board.
+- Responders above 21 HCP, except 3=3=3=4 hands with 22 HCP.
+- Responder's second call with 17+ HCP after 1♣ - 1♦ - 1♠, 1NT, 2♣ or
+  higher, opener's answer to 4NT after 1♣ - 1♦ - 1♥ or 1♠, and opener's call
+  after a direct 5NT.
+- Responder's second call after 1♦ - 2♣, including the delayed raise
+  1♦ - 2♣ - \* - 3♦: no auction past 1♦ - 2♣ was probed.
+- Slam tries after interference.

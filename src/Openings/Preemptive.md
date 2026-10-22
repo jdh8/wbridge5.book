@@ -100,13 +100,25 @@ HCP, e.g. ♠Q2 ♥54 ♦86 ♣KQ109873 at favorable vulnerability.
 
 ## Preemptive 4♥♠ {#preemptive-4M}
 
-Opening 4♥♠ promises 7+ cards.  If there are only 7 cards in the suit, it shall
-be no weaker than KQxxxxx.
+Opening 4♥♠ promises 7+ cards.  Only Wbridge5's own vulnerability counts, and
+4♥ opens alike in the first three seats.  With 5--7 hearts and 3--11 HCP, 300
+boards per vulnerability, the 2nd seat opened 4♥ on exactly the same hands as
+the 1st, and so did the 3rd seat but for ♠6 ♥KQJ10762 ♦- ♣A8653, which opened
+Namyats 4♣ in the first two seats, and ♠5 ♥AKJ652 ♦Q94 ♣J63, a 6-card 4♥ when
+not vulnerable.  The 7-card 4♥♠ came on these hands:
 
-- **Unfavorable:** 14+
-- **Both vulnerable:** 13+
-- **None vulnerable:** 12+
-- **Favorable:** 11+
+| Suit | Not vulnerable | Vulnerable |
+|---|---|---|
+| 7♥ | 7--11 HCP | 10--11 HCP; 7--8 HCP opened 3♥ |
+| 7♠, 1st seat | 9--10 HCP | 9--10 HCP; one of three 9 HCP hands opened 3♠ |
+
+As with weak 2s, favorable and both vulnerable each opened one hand a step
+higher than none and unfavorable: ♠9 ♥AJ107653 ♦Q105 ♣93 opened 4♥ at
+favorable but 3♥ at none, and ♠- ♥AQ98765 ♦J1095 ♣86 opened 4♥ at both
+vulnerable but 3♥ at unfavorable.  At the top, 300 hands with 7--8 hearts and
+11--16 HCP opened 4♥ on 25, all 7-card hands with 11--13 HCP; spades opened
+4♠ on 31 such hands and two 8-card hands with 11 HCP.  The rest opened 1♥♠,
+2♣, Namyats or 3♥♠.  These ran at none vulnerable only.
 
 ## Preemptive 5♣♦
 
@@ -122,3 +134,21 @@ opening.
 - **Strength:** At most 5 losers
 
 Responses and later rounds are in [their own chapter](Responses.md).
+
+## Not probed
+
+- Spade and minor preempts in the 1st seat at favorable and both vulnerable,
+  beyond 300 random hands with 4--11 HCP.  Only hearts had targeted hands at
+  all four vulnerabilities.
+- Spade and diamond preempts in the 2nd seat beyond 600 random hands at none
+  vulnerable, and clubs there at favorable and both vulnerable.
+- Spade and diamond preempts in the 3rd seat at any vulnerability but none,
+  where 600 random hands were dealt.  Hearts and clubs had targeted hands at
+  all four vulnerabilities.
+- Namyats and 5♣♦ in the 2nd and 3rd seats: the 2nd seat opened 4♣ with one
+  hand and 5♣♦ with two; the 3rd seat never opened 5♣♦, and its 4♣♦
+  openings all held a long minor.  5♣♦ when vulnerable came up on 5 boards in
+  all.
+- The pass with 4+ cards in the other major: the targeted hands held 0--3,
+  and the random hands held one weak hand with a 6-card major and 4 cards in
+  the other.
