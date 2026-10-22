@@ -157,6 +157,36 @@ finer detail.
       (inferred, undocumented), and a 4th-seat-only row for openings the
       book says 4th seat never makes.
 
+## Phase 8: polish and the open probes
+
+The book builds and is pushed; Wbr5.bss has three unpushed commits.  First
+the edits that need no probing, then the probes, cheapest first.
+
+- [ ] Push Wbr5.bss (7fd0a3c, 8b7c8a9, 80afc69) so the card matches the
+      published book.
+- [ ] Intro: one paragraph on how the probing was done (South in 1st or
+      2nd seat, none vulnerable unless stated, typical board counts,
+      strays dropped), so the per-chapter "Not probed" lists keep only
+      what is specific.  Name "the 2011 writeup" there once, or drop the
+      28 comparisons in src/ in favour of doc/adjuncts.md.
+- [ ] Glossary: cut the human-system rationale (delayed raise, constructive
+      1NT) to definitions plus links to the probed chapters.
+- [ ] "Not probed" sections for the 19 phase 4 chapters that have none
+      (1M.md, 1CD.md, 1NT.md, their subchapters, Transfers.md, the
+      Lebensohl and cooperative double pages), one line each if that is
+      all there is.
+- [ ] Evaluation.md: probe the 10 and unguarded-honor adjustments and the
+      fit points with boundary hands (14 HCP plus tens against the 1NT
+      floor; 5-5 and 6-4 fits against the raise limits).  Move the
+      Fifths and Bum-rap material to doc/adjuncts.md or one sentence.
+- [ ] Vulnerability for 2♣, takeout and responsive doubles.
+- [ ] 2♦ in the 2nd, 3rd and 4th seats.
+- [ ] 2♣ responses at 16+ HCP and responder's second call after 2♣ - 2♠,
+      2NT or a 3-level positive.
+- [ ] Doubles of (1♣) and (1♠), and balancing over a minor.
+- [ ] When the asker starts RKCB instead of a control bid, and what 4NT
+      asks after a control bid by each partner.
+
 ## Log
 
 - 2026-10-20: plan written; sources located; nothing installed yet.
@@ -221,3 +251,6 @@ finer detail.
   between none and unfavorable (35 of 300 differ from none), contradicting
   the old 40-board check.  A natural (2♠) over 1NT matches the default on
   290 of 300; Garbage Stayman after 3♦/3♠ mirrors 3♣/3♥.
+- 2026-10-22: phase 8 planned: the no-probe edits (intro method
+  paragraph, glossary voice, missing Not probed lists) then the open
+  probes, Evaluation.md first.
